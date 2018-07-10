@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 18.5" name="lts_scios_mysql">
+  <DataContextMoniker Name="/lts_scios_mysqlDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cecec765-cfa7-4740-bb75-76f20ce30a9f" absoluteBounds="0.75, 0.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/ddjj_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="655022f2-6281-4fe3-ac39-78f5b9242b32" absoluteBounds="0.765, 1.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="422f7a0c-8a48-41ab-a924-84408f14e7d7" absoluteBounds="3.75, 0.75, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/ddjjt_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58d84565-eb52-4df1-8fa0-0215759acd00" absoluteBounds="3.765, 1.21, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b9a1f18-17f9-46b5-8966-0bc86dcf14ca" absoluteBounds="6.75, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/fotos_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7fab834-23ae-4ed4-ab09-a23841d44e70" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e82b843c-d170-4cb3-b16f-faf4cd3e99a3" absoluteBounds="6.75, 3.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/maeemp_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d98395a6-4d71-4355-a5e6-ba3e2d9d130b" absoluteBounds="6.765, 4.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3cbb8d1-f54f-432e-9a3a-09aa49518de9" absoluteBounds="0.75, 8.75, 2, 4.8477197265624987">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/maeflia_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="68639600-358c-48de-babe-ed3becdaac11" absoluteBounds="0.765, 9.21, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b37d39e3-e9d2-4729-b2e8-4788b05a7727" absoluteBounds="3.75, 8.75, 2, 9.4629541015625023">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/maesoc_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78120d2c-2815-44ec-bab9-c2ecd256ef97" absoluteBounds="3.765, 9.21, 1.9700000000000002, 8.9029541015625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c545d28b-cb84-4af0-ba3e-f399f9b4c9b4" absoluteBounds="6.75, 8.75, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/soccen_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c49b5835-ade9-4fec-bea8-90f41528f5fd" absoluteBounds="6.765, 9.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="65797e5c-8a65-4c7d-937c-63450c6205f6" absoluteBounds="9.75, 0.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/socemp_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50b5dc9e-b91e-44c3-8fc3-37a0980e6805" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3681697e-52f4-4da3-b56c-9133093251e8" absoluteBounds="9.75, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/lts_scios_mysqlDataContext/socflia_1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bbf3c6c7-4499-457b-9e4f-b084b6e7bdf0" absoluteBounds="9.765, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
