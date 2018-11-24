@@ -60,35 +60,18 @@
     <Reference Include="Core.Portable, Version=1.0.5586.30548, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Core.Common.0.1.4\lib\net45\Core.Portable.dll</HintPath>
     </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="DDay.iCal, Version=1.0.2.575, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DDay.iCal.1.0.2.575\lib\DDay.iCal.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Apis, Version=1.31.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.1.31.1\lib\net45\Google.Apis.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Apis.Auth, Version=1.31.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.Auth.1.31.1\lib\net45\Google.Apis.Auth.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Apis.Auth.PlatformServices, Version=1.31.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.Auth.1.31.1\lib\net45\Google.Apis.Auth.PlatformServices.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Apis.Calendar.v3, Version=1.31.1.1074, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.Calendar.v3.1.31.1.1074\lib\net45\Google.Apis.Calendar.v3.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Apis.Core, Version=1.31.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.Core.1.31.1\lib\net45\Google.Apis.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.Apis.PlatformServices, Version=1.31.1.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
-      <HintPath>..\packages\Google.Apis.1.31.1\lib\net45\Google.Apis.PlatformServices.dll</HintPath>
     </Reference>
     <Reference Include="linq2db, Version=1.10.0.0, Culture=neutral, PublicKeyToken=f19f8aed7feff67e, processorArchitecture=MSIL">
       <HintPath>..\packages\linq2db.1.10.0\lib\net45\linq2db.dll</HintPath>
     </Reference>
-    <Reference Include="LinqToExcel, Version=1.11.0.0, Culture=neutral, PublicKeyToken=9c8ea65a58f03f1f, processorArchitecture=MSIL">
-      <HintPath>..\packages\LinqToExcel.1.11.0\lib\LinqToExcel.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialSkin.Updated.0.2.2\lib\MaterialSkin.dll</HintPath>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
@@ -178,6 +161,8 @@
     <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -191,6 +176,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Func_Utiles.cs" />
+    <Compile Include="frm_edades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_edades.Designer.cs">
+      <DependentUpon>frm_edades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\Actas_Invo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Actas_Invo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="actas_involucradas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>actas_involucradas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="baserDataSet.cs">
       <DependentUpon>baserDataSet.xsd</DependentUpon>
     </Compile>
@@ -199,6 +208,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>baserDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="buscar_empresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscar_empresa.Designer.cs">
+      <DependentUpon>buscar_empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\calcular_coeficientes.cs" />
     <Compile Include="custom_control.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -212,6 +228,24 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_cupones.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="empresas_con_deuda.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>empresas_con_deuda.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frm_actas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_actas.Designer.cs">
+      <DependentUpon>frm_actas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cargar_actas_cmbt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cargar_actas_cmbt.Designer.cs">
+      <DependentUpon>frm_cargar_actas_cmbt.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_dialog.cs">
       <SubType>Form</SubType>
@@ -249,6 +283,12 @@
     <Compile Include="frm_socios.Designer.cs">
       <DependentUpon>frm_socios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Informes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes.Designer.cs">
+      <DependentUpon>Informes.cs</DependentUpon>
+    </Compile>
     <Compile Include="informes_entregas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,7 +320,64 @@
     <Compile Include="reportes.Designer.cs">
       <DependentUpon>reportes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\rpt_consulta_empresa.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_consulta_empresa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="reportes_CR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportes_CR.Designer.cs">
+      <DependentUpon>reportes_CR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\rpt_edades.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_edades.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_empleados.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_empleados.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\rpt_cobros_actas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_cobros_actas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="frm_edades.resx">
+      <DependentUpon>frm_edades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\Actas_Invo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Actas_Invo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actas_involucradas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>actas_involucradas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscar_empresa.resx">
+      <DependentUpon>buscar_empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empresas_con_deuda.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>empresas_con_deuda.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_actas.resx">
+      <DependentUpon>frm_actas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cargar_actas_cmbt.resx">
+      <DependentUpon>frm_cargar_actas_cmbt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes.resx">
+      <DependentUpon>Informes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\comprobante_entrega_mochila.rdlc" />
     <EmbeddedResource Include="Reportes\cupon.rdlc" />
     <EmbeddedResource Include="Reportes\cupon_fiesta.rdlc" />
@@ -329,7 +426,39 @@
     <EmbeddedResource Include="reportes.resx">
       <DependentUpon>reportes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_consulta_empresa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_consulta_empresa.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes_CR.resx">
+      <DependentUpon>reportes_CR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_edades.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_edades.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_empleados.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_empleados.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\rpt_cobros_actas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_cobros_actas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="simulacion_actas2.rdlc" />
+    <EmbeddedResource Include="simulacion_actas__.rdlc" />
     <EmbeddedResource Include="simulacion_actas.rdlc" />
+    <None Include="ActasDataSet.xsc">
+      <DependentUpon>ActasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ActasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ActasDataSet.xss">
+      <DependentUpon>ActasDataSet.xsd</DependentUpon>
+    </None>
     <None Include="baserDataSet.xsc">
       <DependentUpon>baserDataSet.xsd</DependentUpon>
     </None>
@@ -383,13 +512,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Bunifu\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Logo_SEC.jpg" />
@@ -427,9 +559,12 @@
     <None Include="Resources\podium %282%29.png" />
     <None Include="Resources\olympique-lyonnais %282%29.png" />
     <None Include="Resources\real-madrid %282%29.png" />
+    <None Include="Resources\searching-a-person %282%29.png" />
+    <None Include="Resources\searching-a-person %283%29.png" />
     <Content Include="Resources\social.png" />
     <None Include="Resources\trophy-with-a-star %282%29.png" />
     <None Include="Resources\triumph-soccer-ball-symbol %282%29.png" />
+    <None Include="Resources\user-searching %283%29.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

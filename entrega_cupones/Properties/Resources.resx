@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="contorno_usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contorno_usuario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="football-game-field-top-view (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\football-game-field-top-view (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="legal-hammer-symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\legal-hammer-symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="backpack (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backpack (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="molar-with-cavity" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\molar-with-cavity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,11 +136,14 @@
   <data name="podium (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\podium (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="footprints1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\footprints1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="printer-with-paper (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printer-with-paper (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="footprints1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\footprints1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="earth-paradise" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\earth-paradise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="printer-with-paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printer-with-paper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +154,8 @@
   <data name="Logo_SEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo_SEC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cancel-square-button (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cancel-square-button (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="man-lifting-weights (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-lifting-weights (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="olympique-lyonnais (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\olympique-lyonnais (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,11 +163,11 @@
   <data name="trophy-with-a-star (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trophy-with-a-star (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="triumph-soccer-ball-symbol (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\triumph-soccer-ball-symbol (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="id-card" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\id-card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="massage (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\massage (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="football (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\football (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,17 +178,20 @@
   <data name="backpack (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backpack (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="searching-a-person (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searching-a-person (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="right-arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\right-arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cottage (6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cottage (6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="earth-paradise" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\earth-paradise.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backpack (7)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backpack (7).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man-lifting-weights (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\man-lifting-weights (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="searching-a-person (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\searching-a-person (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cross-close-or-delete-circular-interface-button-symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cross-close-or-delete-circular-interface-button-symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +199,11 @@
   <data name="hairdresser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hairdresser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="massage (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\massage (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="triumph-soccer-ball-symbol (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triumph-soccer-ball-symbol (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancel-square-button (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancel-square-button (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nurse" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nurse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,7 +241,7 @@
   <data name="teacher-pointing-a-board-with-a-stick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\teacher-pointing-a-board-with-a-stick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="contorno_usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\contorno_usuario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user-searching (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user-searching (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

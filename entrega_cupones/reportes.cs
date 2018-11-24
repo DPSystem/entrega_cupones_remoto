@@ -14,6 +14,8 @@ namespace entrega_cupones
 {
     public partial class reportes : Form
     {
+        
+
         public reportes()
         {
             InitializeComponent();
@@ -25,6 +27,7 @@ namespace entrega_cupones
         {
             // TODO: esta línea de código carga datos en la tabla 'DS_cupones.impresion_comprobante' Puede moverla o quitarla según sea necesario.
             this.impresion_comprobanteTableAdapter.Fill(this.DS_cupones.impresion_comprobante);
+            //this.impresion_actasTableAdapter1.Fill(DS_cupones.impresion_actas);
             // TODO: esta línea de código carga datos en la tabla 'DS_cupones.imprimir_cupon' Puede moverla o quitarla según sea necesario.
             //this.imprimir_cuponTableAdapter.Fill(this.DS_cupones.imprimir_cupon,12);
             this.reportViewer1.RefreshReport();
@@ -60,8 +63,15 @@ namespace entrega_cupones
                 nueva_fuente_de_datos.Value = impresion_comprobanteBindingSource;
                 reportViewer1.LocalReport.DataSources.Add(nueva_fuente_de_datos);
 
-
+                //nueva_fuente_de_datos.Name = "DataSet2";
+                //nueva_fuente_de_datos.Value = impresion_actasBindingsource;
+                //reportViewer1.LocalReport.DataSources.Add(nueva_fuente_de_datos);
             }
+        }
+
+        private void reportViewer1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

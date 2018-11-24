@@ -403,6 +403,26 @@ namespace entrega_cupones.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap searching_a_person__2_ {
+            get {
+                object obj = ResourceManager.GetObject("searching-a-person (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap searching_a_person__3_ {
+            get {
+                object obj = ResourceManager.GetObject("searching-a-person (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap swimming_pool__1_ {
             get {
                 object obj = ResourceManager.GetObject("swimming-pool (1)", resourceCulture);
@@ -446,6 +466,16 @@ namespace entrega_cupones.Properties {
         internal static System.Drawing.Bitmap trophy_with_a_star__2_ {
             get {
                 object obj = ResourceManager.GetObject("trophy-with-a-star (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_searching__3_ {
+            get {
+                object obj = ResourceManager.GetObject("user-searching (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

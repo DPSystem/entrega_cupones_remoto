@@ -30,26 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.impresion_comprobanteBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.DS_cupones = new entrega_cupones.DS_cupones();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.imprimir_cuponBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.imprimir_cuponTableAdapter = new entrega_cupones.DS_cuponesTableAdapters.imprimir_cuponTableAdapter();
             this.impresion_comprobanteTableAdapter = new entrega_cupones.DS_cuponesTableAdapters.impresion_comprobanteTableAdapter();
+            this.impresion_actasTableAdapter1 = new entrega_cupones.DS_cuponesTableAdapters.impresion_actasTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.impresion_comprobanteBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DS_cupones)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imprimir_cuponBindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // impresion_comprobanteBindingSource
-            // 
-            this.impresion_comprobanteBindingSource.DataMember = "impresion_comprobante";
-            this.impresion_comprobanteBindingSource.DataSource = this.DS_cupones;
-            // 
-            // DS_cupones
-            // 
-            this.DS_cupones.DataSetName = "DS_cupones";
-            this.DS_cupones.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
@@ -64,6 +55,17 @@
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(770, 399);
             this.reportViewer1.TabIndex = 0;
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
+            // 
+            // impresion_comprobanteBindingSource
+            // 
+            this.impresion_comprobanteBindingSource.DataMember = "impresion_comprobante";
+            this.impresion_comprobanteBindingSource.DataSource = this.DS_cupones;
+            // 
+            // DS_cupones
+            // 
+            this.DS_cupones.DataSetName = "DS_cupones";
+            this.DS_cupones.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // imprimir_cuponBindingSource
             // 
@@ -77,6 +79,10 @@
             // impresion_comprobanteTableAdapter
             // 
             this.impresion_comprobanteTableAdapter.ClearBeforeFill = true;
+            // 
+            // impresion_actasTableAdapter1
+            // 
+            this.impresion_actasTableAdapter1.ClearBeforeFill = true;
             // 
             // reportes
             // 
@@ -101,5 +107,6 @@
         private System.Windows.Forms.BindingSource impresion_comprobanteBindingSource;
         private DS_cuponesTableAdapters.impresion_comprobanteTableAdapter impresion_comprobanteTableAdapter;
         public Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private DS_cuponesTableAdapters.impresion_actasTableAdapter impresion_actasTableAdapter1;
     }
 }

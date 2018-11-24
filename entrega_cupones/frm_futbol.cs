@@ -415,10 +415,10 @@ namespace entrega_cupones
             txt_domicilio.Text = domicilio; //datos_socios.MAESOC_CALLE.Trim() + " " + datos_socios.MAESOC_NROCALLE.Trim() + " " + datos_socios.MAESOC_BARRIO.Trim();
             txt_fechaNac.Text = Convert.ToString( datos_socios.MAESOC_FECHANAC.Date);
             txt_edad.Text = calcular_edad(datos_socios.MAESOC_FECHANAC).ToString();
-            var empr = db_sindicato.empresas.Where(t => t.cuit == db_sindicato.socemp.Where(x => x.SOCEMP_CUIL == cuil && x.SOCEMP_ULT_EMPRESA == 'S').Single().SOCEMP_CUITE);//.Single().razons.ToString();
+            var empr = db_sindicato.maeemp.Where(t => t.MAEEMP_CUIT == db_sindicato.socemp.Where(x => x.SOCEMP_CUIL == cuil && x.SOCEMP_ULT_EMPRESA == 'S').Single().SOCEMP_CUITE);//.Single().razons.ToString();
             if (empr.Count() > 0)
             {
-                txt_empresa.Text = empr.Single().razons;//db_sindicato.empresas.Where(t => t.cuit == db_sindicato.socemp.Where(x => x.SOCEMP_CUIL == cuil && x.SOCEMP_ULT_EMPRESA == 'S').Single().SOCEMP_CUITE).Single().razons.ToString();
+                txt_empresa.Text = empr.Single().MAEEMP_RAZSOC;//db_sindicato.empresas.Where(t => t.cuit == db_sindicato.socemp.Where(x => x.SOCEMP_CUIL == cuil && x.SOCEMP_ULT_EMPRESA == 'S').Single().SOCEMP_CUITE).Single().razons.ToString();
             }
             else
             {
@@ -569,6 +569,48 @@ namespace entrega_cupones
         private void dgv_jugadores_inscriptos_SelectionChanged(object sender, EventArgs e)
         {
             mostrar_foto(Convert.ToDouble(dgv_jugadores_inscriptos.CurrentRow.Cells[3].Value), 2);
+            mostrar_sanciones();
+        }
+
+        private void mostrar_sanciones()
+        {
+
+            while (dgv_sanciones_aplicadas.Rows.Count != 0)
+            {
+                dgv_sanciones_aplicadas.Rows.RemoveAt(0);
+            }
+
+            var sancion = from a in db_sindicato.sanciones where  a.ID_JUG == Convert.ToUInt32(dgv_jugadores_inscriptos.CurrentRow.Cells["nroafil"].Value)
+                          select new
+                          {
+                              nro_fecha = a.NRO_FECHA,
+                              de = "de",
+                              cant_fechas = a.CANTIDAD_FECHAS,
+                              fecha_partido = a.FECHA_PARTIDO.Date,
+                              id_jugador = a.ID_JUG,
+                              id_sancion = a.ID_SANCION
+                              
+                          };
+            if (sancion.Count() > 0)
+            {
+               
+               
+                int fila = 0;
+                foreach (var item in sancion.ToList())
+                {
+                    dgv_sanciones_aplicadas.Rows.Add();
+                    fila = dgv_sanciones_aplicadas.Rows.Count - 1;
+                    dgv_sanciones_aplicadas.Rows[fila].Cells["jugador"].Value = item.id_jugador;
+                    dgv_sanciones_aplicadas.Rows[fila].Cells["nro_fecha"].Value = item.nro_fecha;
+                    dgv_sanciones_aplicadas.Rows[fila].Cells["de"].Value = item.de;
+                    dgv_sanciones_aplicadas.Rows[fila].Cells["cant_fechas"].Value = item.cant_fechas;
+                    dgv_sanciones_aplicadas.Rows[fila].Cells["fecha_partido"].Value = item.fecha_partido.Date;
+                    //dgv_sanciones_aplicadas.Rows[fila].Cells["id_sancion"].Value = item.id_sancion;
+                }
+
+//                dgv_sanciones_aplicadas.DataSource = sancion.ToList();
+            }
+
         }
 
         private void btn_partidos_Click(object sender, EventArgs e)
@@ -748,7 +790,7 @@ namespace entrega_cupones
                     imp.EQUIPO = item.equipo;
                     imp.FECHA = item.fecha;
                     imp.HORA = item.hora.ToString();
-                    imp.FASE = item.fase;
+                    imp.FASE = "-"; // item.fase;
                     imp.CATEGORIA = item.categoria;
                     imp.CANCHA = item.cancha;
                     imp.PARTIDOID = Convert.ToString(item.partido);
@@ -756,7 +798,7 @@ namespace entrega_cupones
                     imp.COL1NOMBRE = item.apellido + " " + item.nombre;
                     imp.COL1DNI = item.dni;
                     imp.COL1FOTO = item.foto;
-                    imp.NROFECHA = item.nrofecha.ToString();
+                    imp.NROFECHA = "SEMIFINALES";//item.nrofecha.ToString();
                     imp.sancion_x_de = nro_sancion(item.fecha, item.nrosocio);
                     imp.sancion_cantidad = cantidad_fechas_sancion(item.fecha, item.nrosocio);
                     db_sindicato.impresion_comprobante.InsertOnSubmit(imp);
@@ -771,7 +813,7 @@ namespace entrega_cupones
                     imp.EQUIPO = item.equipo;
                     imp.FECHA = item.fecha;
                     imp.HORA = item.hora.ToString();
-                    imp.FASE = item.fase;
+                    imp.FASE = "-"; //item.fase;
                     imp.CATEGORIA = item.categoria;
                     imp.CANCHA = item.cancha;
                     imp.PARTIDOID = Convert.ToString(item.partido);
@@ -779,7 +821,7 @@ namespace entrega_cupones
                     imp.COL1NOMBRE = item.apellido + " " + item.nombre;
                     imp.COL1DNI = item.dni;
                     imp.COL1FOTO = item.foto;
-                    imp.NROFECHA = item.nrofecha.ToString();
+                    imp.NROFECHA = "SEMIFINALES"; //item.nrofecha.ToString();
                     imp.sancion_x_de = nro_sancion(item.fecha, item.nrosocio);
                     imp.sancion_cantidad = cantidad_fechas_sancion(item.fecha, item.nrosocio);
                     db_sindicato.impresion_comprobante.InsertOnSubmit(imp);
@@ -847,7 +889,7 @@ namespace entrega_cupones
                     imp.EQUIPO = item.equipo;
                     imp.FECHA = item.fecha;
                     imp.HORA = item.hora.ToString();
-                    imp.FASE = item.fase;
+                    imp.FASE = "-";//item.fase;
                     imp.CATEGORIA = item.categoria;
                     imp.CANCHA = item.cancha;
                     imp.PARTIDOID = Convert.ToString(item.partido);
@@ -855,7 +897,7 @@ namespace entrega_cupones
                     imp.COL1NOMBRE = item.apellido + " " + item.nombre;
                     imp.COL1DNI = item.dni;
                     imp.COL1FOTO = item.foto;
-                    imp.NROFECHA = item.nrofecha.ToString();
+                    imp.NROFECHA = "SEMIFINALES";//item.nrofecha.ToString();
                     imp.sancion_x_de = nro_sancion(item.fecha, item.nrosocio);
                     imp.sancion_cantidad = cantidad_fechas_sancion(item.fecha, item.nrosocio);
                     db_sindicato.impresion_comprobante.InsertOnSubmit(imp);
@@ -870,7 +912,7 @@ namespace entrega_cupones
                     imp.EQUIPO = item.equipo;
                     imp.FECHA = item.fecha;
                     imp.HORA = item.hora.ToString();
-                    imp.FASE = item.fase;
+                    imp.FASE = "-";//item.fase;
                     imp.CATEGORIA = item.categoria;
                     imp.CANCHA = item.cancha;
                     imp.PARTIDOID = Convert.ToString(item.partido);
@@ -878,7 +920,7 @@ namespace entrega_cupones
                     imp.COL1NOMBRE = item.apellido + " " + item.nombre;
                     imp.COL1DNI = item.dni;
                     imp.COL1FOTO = item.foto;
-                    imp.NROFECHA = item.nrofecha.ToString();
+                    imp.NROFECHA = "SEMIFINALES"; // item.nrofecha.ToString();
                     imp.sancion_x_de = nro_sancion(item.fecha, item.nrosocio);
                     imp.sancion_cantidad = cantidad_fechas_sancion(item.fecha, item.nrosocio);
                     db_sindicato.impresion_comprobante.InsertOnSubmit(imp);

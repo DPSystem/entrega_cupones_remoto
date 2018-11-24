@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entrega_cupones", "entrega_cupones\entrega_cupones.csproj", "{0E875C5A-2382-48FD-B65E-66F92E2B7672}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Entregas Mochilas 2018", "Entregas Mochilas 2018\Entregas Mochilas 2018.vdproj", "{8C4A577D-DA9A-4894-B7E8-44C7F44CAC2D}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SEC_Gestion", "SEC_Gestion\SEC_Gestion.vdproj", "{15892BA3-6F6F-491D-B204-A0DE6746D37F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{0E875C5A-2382-48FD-B65E-66F92E2B7672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E875C5A-2382-48FD-B65E-66F92E2B7672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E875C5A-2382-48FD-B65E-66F92E2B7672}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C4A577D-DA9A-4894-B7E8-44C7F44CAC2D}.Debug|Any CPU.ActiveCfg = Debug
-		{8C4A577D-DA9A-4894-B7E8-44C7F44CAC2D}.Release|Any CPU.ActiveCfg = Release
+		{15892BA3-6F6F-491D-B204-A0DE6746D37F}.Debug|Any CPU.ActiveCfg = Debug
+		{15892BA3-6F6F-491D-B204-A0DE6746D37F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

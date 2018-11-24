@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using LinqToExcel;
+//using LinqToExcel;
 using System.Data.OleDb;
 using System.Data.SqlClient;
 using MySql.Data.MySqlClient;
@@ -78,12 +78,7 @@ namespace entrega_cupones
 
         private void btn_quinchos_Click(object sender, EventArgs e)
         {
-            //OpenFileDialog ofd = new OpenFileDialog();
-            //ofd.ShowDialog();
-            //if (ofd.FileName.Equals("") == false)
-            //{
-            //    picbox_socio.Load(ofd.FileName);
-            //}
+
             frm_quinchos f_quinchos = new frm_quinchos();
             f_quinchos.lbl_cuil.Text = lbl_cuil.Text;
             f_quinchos.lbl_socio.Text = lbl_nombre.Text;
@@ -106,12 +101,16 @@ namespace entrega_cupones
         private void btn_pedicuro_Click(object sender, EventArgs e)
         {
             //System.IO.MemoryStream ms = new System.IO.MemoryStream();
-           
+
             //picbox_socio.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
             //fotos1 fts = new fotos1();
             //fts.foto = ms.GetBuffer();
             //db_socios.fotos1.InsertOnSubmit(fts);
             //db_socios.SubmitChanges();
+            frm_inspecciones f_inspecciones = new frm_inspecciones();
+            f_inspecciones.Show();
+
+
         }
 
         private void btn_masajista_Click(object sender, EventArgs e)
@@ -165,26 +164,26 @@ namespace entrega_cupones
 
         private void btn_asesoria_Click(object sender, EventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.ShowDialog();
-            if (ofd.FileName.Equals("") == false)
-            {
+        //    OpenFileDialog ofd = new OpenFileDialog();
+        //    ofd.ShowDialog();
+        //    if (ofd.FileName.Equals("") == false)
+        //    {
 
-                //ruta del archivo
-                //string ruta_excel = "E:\\SEC\\Diego\\Socios.xlsx";// Application.StartupPath + "\\Socios.xlsx";
-                                                                  // creamos libro a partir de la ruta
-                var libro = new ExcelQueryFactory(ofd.FileName);
-                // Consulta con linq
-                var res = from row in libro.Worksheet("inicio")
-                          select new
-                          {
-                              cuil = row[0].Value,
-                              apenom = row[1].Value,
-                              nro_afil = row[2].Value
-                              //provincia = row[4].Value
-                          };
-                dgv_excell.DataSource = res.ToList();
-            }
+        //        //ruta del archivo
+        //        //string ruta_excel = "E:\\SEC\\Diego\\Socios.xlsx";// Application.StartupPath + "\\Socios.xlsx";
+        //                                                          // creamos libro a partir de la ruta
+        //        var libro = new ExcelQueryFactory(ofd.FileName);
+        //        // Consulta con linq
+        //        var res = from row in libro.Worksheet("inicio")
+        //                  select new
+        //                  {
+        //                      cuil = row[0].Value,
+        //                      apenom = row[1].Value,
+        //                      nro_afil = row[2].Value
+        //                      //provincia = row[4].Value
+        //                  };
+        //        dgv_excell.DataSource = res.ToList();
+        //    }
         }
 
         private void btn_colonia_Click(object sender, EventArgs e)
@@ -314,14 +313,14 @@ namespace entrega_cupones
                 var socio = (from a in db_socios.soccen 
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL where sc.MAESOC_NRODOC == dato
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons,
-                                 empresa_cuit = empr.cuit,
+                                 empresa = empr.MAEEMP_RAZSOC,
+                                 empresa_cuit = empr.MAEEMP_CUIT,
                                  //sexo= sc.MAESOC_SEXO,
                                  //domi = sc.MAESOC_BARRIO,
                                  //localidad = sc.MAESOC_CODLOC,
@@ -340,13 +339,13 @@ namespace entrega_cupones
                 var socio = (from a in db_socios.soccen where a.SOCCEN_ESTADO == Convert.ToByte(estado)
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL where sc.MAESOC_NRODOC == dato
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_RAZSOC
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -363,13 +362,13 @@ namespace entrega_cupones
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL
                              where sc.MAESOC_APELLIDO.Contains(dato) || sc.MAESOC_NOMBRE.Contains(dato) 
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_CUIT
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -381,13 +380,13 @@ namespace entrega_cupones
                              where sc.MAESOC_APELLIDO.Contains(dato)
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL
                              where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_RAZSOC
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -404,14 +403,14 @@ namespace entrega_cupones
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL
                              where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
-                             where empr.razons.Contains(dato)
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
+                             where empr.MAEEMP_RAZSOC .Contains(dato)
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_RAZSOC
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -424,14 +423,14 @@ namespace entrega_cupones
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL
                              where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
-                             where empr.razons.Contains(dato)
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
+                             where empr.MAEEMP_RAZSOC.Contains(dato)
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_RAZSOC
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -447,13 +446,13 @@ namespace entrega_cupones
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL
                              where se.SOCEMP_ULT_EMPRESA == 'S' 
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_RAZSOC
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -464,14 +463,14 @@ namespace entrega_cupones
                              where a.SOCCEN_ESTADO == Convert.ToInt32(estado)
                              join sc in db_socios.maesoc on a.SOCCEN_CUIL equals sc.MAESOC_CUIL
                              join se in db_socios.socemp on a.SOCCEN_CUIL equals se.SOCEMP_CUIL where se.SOCEMP_ULT_EMPRESA == 'S'
-                             join empr in db_socios.empresas on se.SOCEMP_CUITE equals empr.cuit
+                             join empr in db_socios.maeemp on se.SOCEMP_CUITE equals empr.MAEEMP_CUIT
                              
                              select new
                              {
                                  numero_socio = sc.MAESOC_NROAFIL.Trim(),
                                  dni_socio = sc.MAESOC_NRODOC.Trim(),
                                  apeynom = sc.MAESOC_APELLIDO.Trim() + " " + sc.MAESOC_NOMBRE.Trim(),
-                                 empresa = empr.razons
+                                 empresa = empr.MAEEMP_RAZSOC
                              }).OrderBy(x => x.apeynom);
                 dgv_mostrar_socios.DataSource = socio.ToList();
                 lbl_total_socios.Text = "Cantidad de Socios: " + Convert.ToString(socio.Count());
@@ -670,8 +669,10 @@ namespace entrega_cupones
 
         private void btn_inspectores_Click(object sender, EventArgs e)
         {
-            frm_inspecciones f_inspecciones = new frm_inspecciones();
-            f_inspecciones.ShowDialog();
+            //frm_inspecciones f_inspecciones = new frm_inspecciones();
+            //f_inspecciones.ShowDialog();
+            frm_actas f_actas_asig = new frm_actas();
+            f_actas_asig.Show();
         }
 
         private void mysql_conex()
@@ -804,6 +805,17 @@ namespace entrega_cupones
         {
             frm_futbol f_futbol = new frm_futbol();
             f_futbol.Show();
+        }
+
+        private void bunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_edades_Click(object sender, EventArgs e)
+        {
+            frm_edades f_edades = new frm_edades();
+            f_edades.Show();
         }
     }
 }

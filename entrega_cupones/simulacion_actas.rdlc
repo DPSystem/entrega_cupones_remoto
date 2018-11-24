@@ -52,14 +52,14 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Cdate(Fields!periodo.Value).ToString("dd/MM/yyyy")</Value>
+                              <Value>=Mid(Fields!periodo.Value,4,7)</Value>
                               <Style>
                                 <FontSize>8pt</FontSize>
                               </Style>
                             </TextRun>
                           </TextRuns>
                           <Style>
-                            <TextAlign>Right</TextAlign>
+                            <TextAlign>Center</TextAlign>
                           </Style>
                         </Paragraph>
                       </Paragraphs>
@@ -75,6 +75,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -917,14 +918,14 @@
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox20">
+                    <Textbox Name="Textbox85">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Total DDJJ:</Value>
+                              <Value />
                               <Style>
                                 <FontSize>9pt</FontSize>
                               </Style>
@@ -933,7 +934,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox20</rd:DefaultName>
+                      <rd:DefaultName>Textbox85</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -960,18 +961,17 @@
                 <TablixCell />
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox23">
+                    <Textbox Name="Textbox86">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Sum(Fields!aporte_ley.Value) + Sum(Fields!aporte_socio.Value)</Value>
+                              <Value />
                               <Style>
                                 <FontSize>8pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
-                                <Format>#,0.00;- #,0.00</Format>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -980,7 +980,7 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox23</rd:DefaultName>
+                      <rd:DefaultName>Textbox86</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -1001,7 +1001,6 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
-                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -1413,7 +1412,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!empresa.Value</Value>
+                  <Value>=First(Fields!empresa.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1423,10 +1422,10 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>empresa</rd:DefaultName>
-          <Top>1.30556cm</Top>
-          <Left>2.16413cm</Left>
+          <Top>1.3232cm</Top>
+          <Left>2.16414cm</Left>
           <Height>0.6cm</Height>
-          <Width>6.4536cm</Width>
+          <Width>6.13558cm</Width>
           <Style>
             <Border>
               <Color>LightGrey</Color>
@@ -1513,7 +1512,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!desde.Value</Value>
+                  <Value>=First(Fields!desde.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1580,7 +1579,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!hasta.Value</Value>
+                  <Value>=First(Fields!hasta.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1647,7 +1646,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!cuit.Value</Value>
+                  <Value>=First(Fields!cuit.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1657,7 +1656,7 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>cuit</rd:DefaultName>
-          <Top>2.03743cm</Top>
+          <Top>2.06078cm</Top>
           <Left>2.16413cm</Left>
           <Height>0.6cm</Height>
           <Width>2.55292cm</Width>
@@ -1680,7 +1679,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!localidad.Value</Value>
+                  <Value>=First(Fields!localidad.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1690,7 +1689,7 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>localidad</rd:DefaultName>
-          <Top>1.30556cm</Top>
+          <Top>1.27028cm</Top>
           <Left>10.81788cm</Left>
           <Height>0.6cm</Height>
           <Width>7.8892cm</Width>
@@ -1781,7 +1780,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!domicilio.Value</Value>
+                  <Value>=First(Fields!domicilio.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1814,7 +1813,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>=Fields!estudio.Value</Value>
+                  <Value>=First(Fields!estudio.Value, "DataSet1")</Value>
                   <Style>
                     <FontSize>9pt</FontSize>
                   </Style>
@@ -1824,7 +1823,7 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>estudio</rd:DefaultName>
-          <Top>2.03743cm</Top>
+          <Top>2.01139cm</Top>
           <Left>10.81788cm</Left>
           <Height>0.6cm</Height>
           <Width>7.8892cm</Width>
@@ -2710,17 +2709,25 @@
           <DataField>COL2FOTO</DataField>
           <rd:TypeName>System.Byte[]</rd:TypeName>
         </Field>
+        <Field Name="sancion_x_de">
+          <DataField>sancion_x_de</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="sancion_cantidad">
+          <DataField>sancion_cantidad</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="empresa">
           <DataField>empresa</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="desde">
           <DataField>desde</DataField>
-          <rd:TypeName>System.DateTime</rd:TypeName>
+          <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="hasta">
           <DataField>hasta</DataField>
-          <rd:TypeName>System.DateTime</rd:TypeName>
+          <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="periodo">
           <DataField>periodo</DataField>

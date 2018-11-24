@@ -38,31 +38,31 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -76,13 +76,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -97,13 +96,36 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle86 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_per_NO_declarados = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.dgv_Per_NO_declarados = new System.Windows.Forms.DataGridView();
+            this.dni = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.periodos = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuSeparator19 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.bunifuCustomLabel66 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.btn_asignar_inspector = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.btn_simular_acta = new Bunifu.Framework.UI.BunifuImageButton();
@@ -216,21 +238,17 @@
             this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lbl_cant_empresas = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_generar_ranking = new Bunifu.Framework.UI.BunifuFlatButton();
             this.dgv_ranking = new System.Windows.Forms.DataGridView();
-            this.cuit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.empresa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.deuda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuSeparator9 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.cbx_localidad = new System.Windows.Forms.ComboBox();
             this.bunifuSeparator11 = new Bunifu.Framework.UI.BunifuSeparator();
             this.chk_filtro_localidad = new System.Windows.Forms.CheckBox();
+            this.btn_generar_ranking = new Bunifu.Framework.UI.BunifuFlatButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.bunifuSeparator12 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel32 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_imprimir_simulacion_acta = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel30 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txt_hasta = new Bunifu.Framework.UI.BunifuMetroTextbox();
@@ -249,9 +267,7 @@
             this.lbl_simular_acta_total_deuda = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel20 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_quitar_periodo_simulacion = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel19 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_generar_periodos = new Bunifu.Framework.UI.BunifuImageButton();
             this.dgv_simular_acta = new System.Windows.Forms.DataGridView();
             this.simulacion_periodo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.simulacion_rectificacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -271,11 +287,67 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.btn_imprimir_simulacion_acta = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_quitar_periodo_simulacion = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_generar_periodos = new Bunifu.Framework.UI.BunifuImageButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.dtp_fecha_gen_acta = new System.Windows.Forms.DateTimePicker();
-            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.gbx_asig_actas = new System.Windows.Forms.GroupBox();
+            this.cbx_per_desde = new System.Windows.Forms.ComboBox();
+            this.cbx_per_hasta = new System.Windows.Forms.ComboBox();
+            this.bunifuCustomLabel64 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel65 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuMetroTextbox7 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel63 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel62 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.bunifuMetroTextbox6 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel61 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuMetroTextbox5 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel60 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuMetroTextbox3 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel59 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel58 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.txt_total_acta = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.txt_total = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txt_inteereses_financiacion = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel57 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txt_intereses = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel56 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dtp_fecha_venc_acta = new System.Windows.Forms.DateTimePicker();
+            this.bunifuCustomLabel55 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txt_acta_generada = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel41 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dtp_fecha_gen_acta = new System.Windows.Forms.DateTimePicker();
+            this.bunifuCustomLabel43 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txt_deuda_determinada = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel44 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.chk_Cargar_Acta = new System.Windows.Forms.CheckBox();
+            this.bunifuCustomLabel54 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuSeparator18 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.bunifuCustomLabel53 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel52 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel51 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.cbx_tipo_pago = new System.Windows.Forms.ComboBox();
+            this.txt_cpbte_monto = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel50 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txt_cpbte = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel49 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel48 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txt_cpbte_acta = new Bunifu.Framework.UI.BunifuMetroTextbox();
+            this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Acta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FormaPago = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel45 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.cbx_estado_acta = new System.Windows.Forms.ComboBox();
             this.bunifuCustomLabel37 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lbl_seguimiento_total_deuda = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lbl_seguimiento_total_empresas = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -286,7 +358,6 @@
             this.bunifuCustomLabel39 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator16 = new Bunifu.Framework.UI.BunifuSeparator();
             this.cbx_seguimiento_estado = new System.Windows.Forms.ComboBox();
-            this.btn_aplicar_filtro = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator15 = new Bunifu.Framework.UI.BunifuSeparator();
             this.cbx_seguimiento_inspector = new System.Windows.Forms.ComboBox();
@@ -303,7 +374,17 @@
             this.asignacion_acta_generada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.asignacion_estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.asignacion_dias = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDasig = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuSeparator14 = new Bunifu.Framework.UI.BunifuSeparator();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_guardar_acta_generada = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_aplicar_filtro = new Bunifu.Framework.UI.BunifuImageButton();
+            this.cuit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.empresa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.domicilio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.deuda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Per_NO_declarados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_asignar_inspector)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_simular_acta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_actualizar)).BeginInit();
@@ -319,20 +400,28 @@
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ranking)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_simular_acta)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_imprimir_simulacion_acta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_quitar_periodo_simulacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_generar_periodos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_simular_acta)).BeginInit();
-            this.contextMenuStrip1.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_aplicar_filtro)).BeginInit();
+            this.gbx_asig_actas.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_seguimiento)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_guardar_acta_generada)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_aplicar_filtro)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.btn_per_NO_declarados);
+            this.panel1.Controls.Add(this.dgv_Per_NO_declarados);
+            this.panel1.Controls.Add(this.bunifuSeparator19);
+            this.panel1.Controls.Add(this.bunifuCustomLabel66);
             this.panel1.Controls.Add(this.btn_asignar_inspector);
             this.panel1.Controls.Add(this.bunifuCustomLabel17);
             this.panel1.Controls.Add(this.btn_simular_acta);
@@ -399,8 +488,124 @@
             this.panel1.Controls.Add(this.bunifuSeparator7);
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1309, 588);
+            this.panel1.Size = new System.Drawing.Size(1298, 588);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_per_NO_declarados
+            // 
+            this.btn_per_NO_declarados.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(174)))), ((int)(((byte)(70)))));
+            this.btn_per_NO_declarados.BackColor = System.Drawing.Color.Tomato;
+            this.btn_per_NO_declarados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_per_NO_declarados.BorderRadius = 5;
+            this.btn_per_NO_declarados.ButtonText = "Consultar";
+            this.btn_per_NO_declarados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_per_NO_declarados.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_per_NO_declarados.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_per_NO_declarados.Iconimage = ((System.Drawing.Image)(resources.GetObject("btn_per_NO_declarados.Iconimage")));
+            this.btn_per_NO_declarados.Iconimage_right = null;
+            this.btn_per_NO_declarados.Iconimage_right_Selected = null;
+            this.btn_per_NO_declarados.Iconimage_Selected = null;
+            this.btn_per_NO_declarados.IconMarginLeft = 0;
+            this.btn_per_NO_declarados.IconMarginRight = 0;
+            this.btn_per_NO_declarados.IconRightVisible = false;
+            this.btn_per_NO_declarados.IconRightZoom = 0D;
+            this.btn_per_NO_declarados.IconVisible = false;
+            this.btn_per_NO_declarados.IconZoom = 50D;
+            this.btn_per_NO_declarados.IsTab = false;
+            this.btn_per_NO_declarados.Location = new System.Drawing.Point(1185, 33);
+            this.btn_per_NO_declarados.Name = "btn_per_NO_declarados";
+            this.btn_per_NO_declarados.Normalcolor = System.Drawing.Color.Tomato;
+            this.btn_per_NO_declarados.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(174)))), ((int)(((byte)(70)))));
+            this.btn_per_NO_declarados.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_per_NO_declarados.selected = false;
+            this.btn_per_NO_declarados.Size = new System.Drawing.Size(100, 31);
+            this.btn_per_NO_declarados.TabIndex = 216;
+            this.btn_per_NO_declarados.Text = "Consultar";
+            this.btn_per_NO_declarados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_per_NO_declarados.Textcolor = System.Drawing.Color.White;
+            this.btn_per_NO_declarados.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_per_NO_declarados.Click += new System.EventHandler(this.btn_per_NO_declarados_Click);
+            // 
+            // dgv_Per_NO_declarados
+            // 
+            this.dgv_Per_NO_declarados.AllowUserToAddRows = false;
+            this.dgv_Per_NO_declarados.AllowUserToDeleteRows = false;
+            this.dgv_Per_NO_declarados.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgv_Per_NO_declarados.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgv_Per_NO_declarados.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_Per_NO_declarados.CausesValidation = false;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_Per_NO_declarados.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgv_Per_NO_declarados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Per_NO_declarados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dni,
+            this.nombre,
+            this.periodos});
+            this.dgv_Per_NO_declarados.Location = new System.Drawing.Point(881, 121);
+            this.dgv_Per_NO_declarados.Name = "dgv_Per_NO_declarados";
+            this.dgv_Per_NO_declarados.ReadOnly = true;
+            this.dgv_Per_NO_declarados.RowHeadersVisible = false;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Silver;
+            this.dgv_Per_NO_declarados.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.dgv_Per_NO_declarados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgv_Per_NO_declarados.Size = new System.Drawing.Size(408, 451);
+            this.dgv_Per_NO_declarados.TabIndex = 209;
+            // 
+            // dni
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.dni.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dni.HeaderText = "DNI";
+            this.dni.Name = "dni";
+            this.dni.ReadOnly = true;
+            // 
+            // nombre
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            this.nombre.DefaultCellStyle = dataGridViewCellStyle4;
+            this.nombre.HeaderText = "Nombre";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            // 
+            // periodos
+            // 
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle5.Format = "C2";
+            dataGridViewCellStyle5.NullValue = "0";
+            this.periodos.DefaultCellStyle = dataGridViewCellStyle5;
+            this.periodos.HeaderText = "Periodos";
+            this.periodos.Name = "periodos";
+            this.periodos.ReadOnly = true;
+            // 
+            // bunifuSeparator19
+            // 
+            this.bunifuSeparator19.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator19.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuSeparator19.LineThickness = 3;
+            this.bunifuSeparator19.Location = new System.Drawing.Point(881, 452);
+            this.bunifuSeparator19.Name = "bunifuSeparator19";
+            this.bunifuSeparator19.Size = new System.Drawing.Size(408, 10);
+            this.bunifuSeparator19.TabIndex = 211;
+            this.bunifuSeparator19.Transparency = 255;
+            this.bunifuSeparator19.Vertical = false;
+            // 
+            // bunifuCustomLabel66
+            // 
+            this.bunifuCustomLabel66.AutoSize = true;
+            this.bunifuCustomLabel66.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel66.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel66.Location = new System.Drawing.Point(881, 435);
+            this.bunifuCustomLabel66.Name = "bunifuCustomLabel66";
+            this.bunifuCustomLabel66.Size = new System.Drawing.Size(171, 19);
+            this.bunifuCustomLabel66.TabIndex = 210;
+            this.bunifuCustomLabel66.Text = "Periodos no declarados";
             // 
             // btn_asignar_inspector
             // 
@@ -707,18 +912,18 @@
             this.dgv_cobros.AllowUserToAddRows = false;
             this.dgv_cobros.AllowUserToDeleteRows = false;
             this.dgv_cobros.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.dgv_cobros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            this.dgv_cobros.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dgv_cobros.BackgroundColor = System.Drawing.Color.White;
             this.dgv_cobros.CausesValidation = false;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_cobros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_cobros.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dgv_cobros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_cobros.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.f_pago,
@@ -728,8 +933,8 @@
             this.dgv_cobros.Name = "dgv_cobros";
             this.dgv_cobros.ReadOnly = true;
             this.dgv_cobros.RowHeadersVisible = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Silver;
-            this.dgv_cobros.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.Silver;
+            this.dgv_cobros.RowsDefaultCellStyle = dataGridViewCellStyle12;
             this.dgv_cobros.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_cobros.Size = new System.Drawing.Size(408, 111);
             this.dgv_cobros.TabIndex = 75;
@@ -737,8 +942,8 @@
             // f_pago
             // 
             this.f_pago.DataPropertyName = "fecha";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            this.f_pago.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.f_pago.DefaultCellStyle = dataGridViewCellStyle9;
             this.f_pago.HeaderText = "Fecha Cobro";
             this.f_pago.Name = "f_pago";
             this.f_pago.ReadOnly = true;
@@ -746,8 +951,8 @@
             // comprobante
             // 
             this.comprobante.DataPropertyName = "comprobante";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            this.comprobante.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            this.comprobante.DefaultCellStyle = dataGridViewCellStyle10;
             this.comprobante.HeaderText = "Comprobante";
             this.comprobante.Name = "comprobante";
             this.comprobante.ReadOnly = true;
@@ -755,10 +960,10 @@
             // monto_pago
             // 
             this.monto_pago.DataPropertyName = "total";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle5.Format = "C2";
-            dataGridViewCellStyle5.NullValue = "0";
-            this.monto_pago.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle11.Format = "C2";
+            dataGridViewCellStyle11.NullValue = "0";
+            this.monto_pago.DefaultCellStyle = dataGridViewCellStyle11;
             this.monto_pago.HeaderText = "Monto";
             this.monto_pago.Name = "monto_pago";
             this.monto_pago.ReadOnly = true;
@@ -768,18 +973,18 @@
             this.dgv_actas.AllowUserToAddRows = false;
             this.dgv_actas.AllowUserToDeleteRows = false;
             this.dgv_actas.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.dgv_actas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.dgv_actas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.dgv_actas.BackgroundColor = System.Drawing.Color.White;
             this.dgv_actas.CausesValidation = false;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_actas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_actas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dgv_actas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_actas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.num_acta,
@@ -793,8 +998,8 @@
             this.dgv_actas.Name = "dgv_actas";
             this.dgv_actas.ReadOnly = true;
             this.dgv_actas.RowHeadersVisible = false;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.Silver;
-            this.dgv_actas.RowsDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.Silver;
+            this.dgv_actas.RowsDefaultCellStyle = dataGridViewCellStyle20;
             this.dgv_actas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_actas.Size = new System.Drawing.Size(408, 138);
             this.dgv_actas.TabIndex = 76;
@@ -803,8 +1008,8 @@
             // num_acta
             // 
             this.num_acta.DataPropertyName = "acta";
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.num_acta.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.num_acta.DefaultCellStyle = dataGridViewCellStyle15;
             this.num_acta.HeaderText = "Acta";
             this.num_acta.Name = "num_acta";
             this.num_acta.ReadOnly = true;
@@ -813,8 +1018,8 @@
             // acta_desde
             // 
             this.acta_desde.DataPropertyName = "desde";
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            this.acta_desde.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.acta_desde.DefaultCellStyle = dataGridViewCellStyle16;
             this.acta_desde.HeaderText = "Desde";
             this.acta_desde.Name = "acta_desde";
             this.acta_desde.ReadOnly = true;
@@ -823,8 +1028,8 @@
             // acta_hasta
             // 
             this.acta_hasta.DataPropertyName = "hasta";
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            this.acta_hasta.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.acta_hasta.DefaultCellStyle = dataGridViewCellStyle17;
             this.acta_hasta.HeaderText = "Hasta";
             this.acta_hasta.Name = "acta_hasta";
             this.acta_hasta.ReadOnly = true;
@@ -833,8 +1038,8 @@
             // acta_estado
             // 
             this.acta_estado.DataPropertyName = "estado";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            this.acta_estado.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            this.acta_estado.DefaultCellStyle = dataGridViewCellStyle18;
             this.acta_estado.HeaderText = "Cobrado";
             this.acta_estado.Name = "acta_estado";
             this.acta_estado.ReadOnly = true;
@@ -851,10 +1056,10 @@
             // importe_acta
             // 
             this.importe_acta.DataPropertyName = "importe_acta";
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle13.Format = "N2";
-            dataGridViewCellStyle13.NullValue = "0";
-            this.importe_acta.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle19.Format = "N2";
+            dataGridViewCellStyle19.NullValue = "0";
+            this.importe_acta.DefaultCellStyle = dataGridViewCellStyle19;
             this.importe_acta.HeaderText = "Importe";
             this.importe_acta.Name = "importe_acta";
             this.importe_acta.ReadOnly = true;
@@ -1060,18 +1265,18 @@
             this.dgv_empleados_periodo.AllowUserToAddRows = false;
             this.dgv_empleados_periodo.AllowUserToDeleteRows = false;
             this.dgv_empleados_periodo.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
-            this.dgv_empleados_periodo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
+            this.dgv_empleados_periodo.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
             this.dgv_empleados_periodo.BackgroundColor = System.Drawing.Color.White;
             this.dgv_empleados_periodo.CausesValidation = false;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_empleados_periodo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_empleados_periodo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dgv_empleados_periodo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_empleados_periodo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -1088,8 +1293,8 @@
             this.dgv_empleados_periodo.Name = "dgv_empleados_periodo";
             this.dgv_empleados_periodo.ReadOnly = true;
             this.dgv_empleados_periodo.RowHeadersVisible = false;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.Silver;
-            this.dgv_empleados_periodo.RowsDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.Silver;
+            this.dgv_empleados_periodo.RowsDefaultCellStyle = dataGridViewCellStyle33;
             this.dgv_empleados_periodo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_empleados_periodo.Size = new System.Drawing.Size(873, 190);
             this.dgv_empleados_periodo.TabIndex = 60;
@@ -1097,12 +1302,12 @@
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "cuil";
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle17.NullValue = null;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle23.NullValue = null;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle23;
             this.dataGridViewTextBoxColumn1.HeaderText = "CUIL";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
@@ -1111,11 +1316,11 @@
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "nombre";
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomLeft;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridViewTextBoxColumn2.HeaderText = "Nombre";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
@@ -1124,13 +1329,13 @@
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "sueldo";
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle19.Format = "N2";
-            dataGridViewCellStyle19.NullValue = null;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle25.Format = "N2";
+            dataGridViewCellStyle25.NullValue = null;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewTextBoxColumn3.DefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridViewTextBoxColumn3.HeaderText = "Sueldo";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             this.dataGridViewTextBoxColumn3.ReadOnly = true;
@@ -1139,13 +1344,13 @@
             // aporte_empleado_ley
             // 
             this.aporte_empleado_ley.DataPropertyName = "aporte_empleado_ley";
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle20.Format = "N2";
-            dataGridViewCellStyle20.NullValue = null;
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.Black;
-            this.aporte_empleado_ley.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle26.Format = "N2";
+            dataGridViewCellStyle26.NullValue = null;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
+            this.aporte_empleado_ley.DefaultCellStyle = dataGridViewCellStyle26;
             this.aporte_empleado_ley.HeaderText = "Ley";
             this.aporte_empleado_ley.Name = "aporte_empleado_ley";
             this.aporte_empleado_ley.ReadOnly = true;
@@ -1154,13 +1359,13 @@
             // aporte_empleado_socio
             // 
             this.aporte_empleado_socio.DataPropertyName = "aporte_empleado_socio";
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle21.Format = "N2";
-            dataGridViewCellStyle21.NullValue = null;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
-            this.aporte_empleado_socio.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle27.Format = "N2";
+            dataGridViewCellStyle27.NullValue = null;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
+            this.aporte_empleado_socio.DefaultCellStyle = dataGridViewCellStyle27;
             this.aporte_empleado_socio.HeaderText = "Socio";
             this.aporte_empleado_socio.Name = "aporte_empleado_socio";
             this.aporte_empleado_socio.ReadOnly = true;
@@ -1169,11 +1374,11 @@
             // licencia
             // 
             this.licencia.DataPropertyName = "licencia";
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.Black;
-            this.licencia.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            this.licencia.DefaultCellStyle = dataGridViewCellStyle28;
             this.licencia.HeaderText = "Licencia";
             this.licencia.Name = "licencia";
             this.licencia.ReadOnly = true;
@@ -1182,12 +1387,12 @@
             // fecha_alta
             // 
             this.fecha_alta.DataPropertyName = "alta";
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
-            this.fecha_alta.DefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.Black;
+            this.fecha_alta.DefaultCellStyle = dataGridViewCellStyle29;
             this.fecha_alta.HeaderText = "Alta";
             this.fecha_alta.Name = "fecha_alta";
             this.fecha_alta.ReadOnly = true;
@@ -1196,11 +1401,11 @@
             // fecha_baja
             // 
             this.fecha_baja.DataPropertyName = "baja";
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black;
-            this.fecha_baja.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.Black;
+            this.fecha_baja.DefaultCellStyle = dataGridViewCellStyle30;
             this.fecha_baja.HeaderText = "Baja";
             this.fecha_baja.Name = "fecha_baja";
             this.fecha_baja.ReadOnly = true;
@@ -1209,12 +1414,12 @@
             // acuerdo
             // 
             this.acuerdo.DataPropertyName = "acuerdo";
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle25.Format = "N2";
-            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.Color.Black;
-            this.acuerdo.DefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle31.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle31.Format = "N2";
+            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.Black;
+            this.acuerdo.DefaultCellStyle = dataGridViewCellStyle31;
             this.acuerdo.HeaderText = "Acuerdo";
             this.acuerdo.Name = "acuerdo";
             this.acuerdo.ReadOnly = true;
@@ -1223,11 +1428,11 @@
             // categoria
             // 
             this.categoria.DataPropertyName = "categ";
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Century Gothic", 9F);
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
-            this.categoria.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Century Gothic", 9F);
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.Color.Black;
+            this.categoria.DefaultCellStyle = dataGridViewCellStyle32;
             this.categoria.HeaderText = "Categoria";
             this.categoria.Name = "categoria";
             this.categoria.ReadOnly = true;
@@ -1555,7 +1760,7 @@
             this.cbx_desde.Name = "cbx_desde";
             this.cbx_desde.Size = new System.Drawing.Size(95, 25);
             this.cbx_desde.TabIndex = 49;
-            this.cbx_desde.Text = "06/2013";
+            this.cbx_desde.Text = "01/2017";
             // 
             // cbx_hasta
             // 
@@ -1787,7 +1992,7 @@
             this.cbx_hasta.Name = "cbx_hasta";
             this.cbx_hasta.Size = new System.Drawing.Size(91, 25);
             this.cbx_hasta.TabIndex = 48;
-            this.cbx_hasta.Text = "05/2018";
+            this.cbx_hasta.Text = "08/2018";
             // 
             // lbl_total_periodo
             // 
@@ -1840,17 +2045,17 @@
             // 
             this.dgv_dj_empresa.AllowUserToAddRows = false;
             this.dgv_dj_empresa.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
-            this.dgv_dj_empresa.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
+            this.dgv_dj_empresa.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
             this.dgv_dj_empresa.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_dj_empresa.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_dj_empresa.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
             this.dgv_dj_empresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_dj_empresa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.periodo,
@@ -1881,12 +2086,12 @@
             // periodo
             // 
             this.periodo.DataPropertyName = "periodo";
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle30.NullValue = null;
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.Black;
-            this.periodo.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle36.NullValue = null;
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.Black;
+            this.periodo.DefaultCellStyle = dataGridViewCellStyle36;
             this.periodo.HeaderText = "Periodo";
             this.periodo.Name = "periodo";
             this.periodo.ReadOnly = true;
@@ -1895,11 +2100,11 @@
             // rectificacion
             // 
             this.rectificacion.DataPropertyName = "rectificacion";
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.Black;
-            this.rectificacion.DefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.Color.Black;
+            this.rectificacion.DefaultCellStyle = dataGridViewCellStyle37;
             this.rectificacion.HeaderText = "Rectif.";
             this.rectificacion.Name = "rectificacion";
             this.rectificacion.ReadOnly = true;
@@ -1908,11 +2113,11 @@
             // fecha_presentacion
             // 
             this.fecha_presentacion.DataPropertyName = "presentacion";
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.Color.Black;
-            this.fecha_presentacion.DefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
+            this.fecha_presentacion.DefaultCellStyle = dataGridViewCellStyle38;
             this.fecha_presentacion.HeaderText = "Presentacion";
             this.fecha_presentacion.Name = "fecha_presentacion";
             this.fecha_presentacion.ReadOnly = true;
@@ -1922,11 +2127,11 @@
             // fecha_modificacion
             // 
             this.fecha_modificacion.DataPropertyName = "modificacion";
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.Black;
-            this.fecha_modificacion.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.Black;
+            this.fecha_modificacion.DefaultCellStyle = dataGridViewCellStyle39;
             this.fecha_modificacion.HeaderText = "Modificacion";
             this.fecha_modificacion.Name = "fecha_modificacion";
             this.fecha_modificacion.ReadOnly = true;
@@ -1936,13 +2141,13 @@
             // aporte_ley
             // 
             this.aporte_ley.DataPropertyName = "aporte_2";
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle34.Format = "N2";
-            dataGridViewCellStyle34.NullValue = null;
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.Black;
-            this.aporte_ley.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle40.Format = "N2";
+            dataGridViewCellStyle40.NullValue = null;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.Color.Black;
+            this.aporte_ley.DefaultCellStyle = dataGridViewCellStyle40;
             this.aporte_ley.HeaderText = "Aporte 2%";
             this.aporte_ley.Name = "aporte_ley";
             this.aporte_ley.ReadOnly = true;
@@ -1951,13 +2156,13 @@
             // aporte_socio
             // 
             this.aporte_socio.DataPropertyName = "aporte_socio";
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle35.Format = "N2";
-            dataGridViewCellStyle35.NullValue = null;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.Color.Black;
-            this.aporte_socio.DefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle41.Format = "N2";
+            dataGridViewCellStyle41.NullValue = null;
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.Color.Black;
+            this.aporte_socio.DefaultCellStyle = dataGridViewCellStyle41;
             this.aporte_socio.HeaderText = "Socio 2%";
             this.aporte_socio.Name = "aporte_socio";
             this.aporte_socio.ReadOnly = true;
@@ -1966,11 +2171,11 @@
             // fecha_pago
             // 
             this.fecha_pago.DataPropertyName = "pago";
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.Black;
-            this.fecha_pago.DefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.Color.Black;
+            this.fecha_pago.DefaultCellStyle = dataGridViewCellStyle42;
             this.fecha_pago.HeaderText = "Fecha Pago";
             this.fecha_pago.Name = "fecha_pago";
             this.fecha_pago.ReadOnly = true;
@@ -1979,11 +2184,11 @@
             // fecha_procesamiento
             // 
             this.fecha_procesamiento.DataPropertyName = "procesado";
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.Color.Black;
-            this.fecha_procesamiento.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.Black;
+            this.fecha_procesamiento.DefaultCellStyle = dataGridViewCellStyle43;
             this.fecha_procesamiento.HeaderText = "Procesado";
             this.fecha_procesamiento.Name = "fecha_procesamiento";
             this.fecha_procesamiento.ReadOnly = true;
@@ -1993,13 +2198,13 @@
             // importe_ps
             // 
             this.importe_ps.DataPropertyName = "importeps";
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle38.Format = "N2";
-            dataGridViewCellStyle38.NullValue = null;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.Black;
-            this.importe_ps.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle44.Format = "N2";
+            dataGridViewCellStyle44.NullValue = null;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.Color.Black;
+            this.importe_ps.DefaultCellStyle = dataGridViewCellStyle44;
             this.importe_ps.HeaderText = "Importe Depositado";
             this.importe_ps.Name = "importe_ps";
             this.importe_ps.ReadOnly = true;
@@ -2008,11 +2213,11 @@
             // num_transferencia
             // 
             this.num_transferencia.DataPropertyName = "transferencia";
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.Black;
-            this.num_transferencia.DefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.Color.Black;
+            this.num_transferencia.DefaultCellStyle = dataGridViewCellStyle45;
             this.num_transferencia.HeaderText = "Transf.";
             this.num_transferencia.Name = "num_transferencia";
             this.num_transferencia.ReadOnly = true;
@@ -2022,11 +2227,11 @@
             // empleados
             // 
             this.empleados.DataPropertyName = "cant_emple";
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.Color.Black;
-            this.empleados.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.Color.Black;
+            this.empleados.DefaultCellStyle = dataGridViewCellStyle46;
             this.empleados.HeaderText = "Empleados";
             this.empleados.Name = "empleados";
             this.empleados.ReadOnly = true;
@@ -2035,11 +2240,11 @@
             // socios
             // 
             this.socios.DataPropertyName = "cant_socios";
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.Color.Black;
-            this.socios.DefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.Color.Black;
+            this.socios.DefaultCellStyle = dataGridViewCellStyle47;
             this.socios.HeaderText = "Socios";
             this.socios.Name = "socios";
             this.socios.ReadOnly = true;
@@ -2048,14 +2253,14 @@
             // capital
             // 
             this.capital.DataPropertyName = "capital";
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle42.Format = "N2";
-            dataGridViewCellStyle42.NullValue = null;
-            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.Color.Black;
-            this.capital.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle48.Format = "N2";
+            dataGridViewCellStyle48.NullValue = null;
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.Black;
+            this.capital.DefaultCellStyle = dataGridViewCellStyle48;
             this.capital.HeaderText = "Capital";
             this.capital.Name = "capital";
             this.capital.ReadOnly = true;
@@ -2064,14 +2269,14 @@
             // interes
             // 
             this.interes.DataPropertyName = "interes";
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle43.Format = "N2";
-            dataGridViewCellStyle43.NullValue = "0";
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.Black;
-            this.interes.DefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle49.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle49.Format = "N2";
+            dataGridViewCellStyle49.NullValue = "0";
+            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.Color.Black;
+            this.interes.DefaultCellStyle = dataGridViewCellStyle49;
             this.interes.HeaderText = "Interes";
             this.interes.Name = "interes";
             this.interes.ReadOnly = true;
@@ -2080,14 +2285,14 @@
             // total
             // 
             this.total.DataPropertyName = "total_periodo";
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle44.Format = "N2";
-            dataGridViewCellStyle44.NullValue = "0";
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.Color.Black;
-            this.total.DefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle50.Format = "N2";
+            dataGridViewCellStyle50.NullValue = "0";
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.Black;
+            this.total.DefaultCellStyle = dataGridViewCellStyle50;
             this.total.HeaderText = "Total";
             this.total.Name = "total";
             this.total.ReadOnly = true;
@@ -2252,6 +2457,7 @@
             this.btn_estado_empresa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_estado_empresa.Textcolor = System.Drawing.Color.White;
             this.btn_estado_empresa.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_estado_empresa.Click += new System.EventHandler(this.btn_estado_empresa_Click);
             // 
             // tabControl1
             // 
@@ -2262,7 +2468,7 @@
             this.tabControl1.Location = new System.Drawing.Point(3, 86);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1329, 629);
+            this.tabControl1.Size = new System.Drawing.Size(1305, 629);
             this.tabControl1.TabIndex = 3;
             // 
             // tabPage1
@@ -2271,7 +2477,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1321, 603);
+            this.tabPage1.Size = new System.Drawing.Size(1297, 603);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Consulta";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -2283,17 +2489,17 @@
             this.tabPage2.Controls.Add(this.bunifuCustomLabel15);
             this.tabPage2.Controls.Add(this.lbl_cant_empresas);
             this.tabPage2.Controls.Add(this.bunifuCustomLabel14);
-            this.tabPage2.Controls.Add(this.btn_generar_ranking);
             this.tabPage2.Controls.Add(this.dgv_ranking);
             this.tabPage2.Controls.Add(this.bunifuSeparator9);
             this.tabPage2.Controls.Add(this.bunifuCustomLabel6);
             this.tabPage2.Controls.Add(this.cbx_localidad);
             this.tabPage2.Controls.Add(this.bunifuSeparator11);
             this.tabPage2.Controls.Add(this.chk_filtro_localidad);
+            this.tabPage2.Controls.Add(this.btn_generar_ranking);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1321, 603);
+            this.tabPage2.Size = new System.Drawing.Size(1297, 603);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ranking";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -2354,96 +2560,38 @@
             this.bunifuCustomLabel14.TabIndex = 95;
             this.bunifuCustomLabel14.Text = "Cantidad de Empresas:";
             // 
-            // btn_generar_ranking
-            // 
-            this.btn_generar_ranking.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(228)))), ((int)(((byte)(0)))));
-            this.btn_generar_ranking.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(228)))), ((int)(((byte)(0)))));
-            this.btn_generar_ranking.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_generar_ranking.BorderRadius = 0;
-            this.btn_generar_ranking.ButtonText = "bunifuFlatButton1";
-            this.btn_generar_ranking.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_generar_ranking.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_generar_ranking.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_generar_ranking.Iconimage = ((System.Drawing.Image)(resources.GetObject("btn_generar_ranking.Iconimage")));
-            this.btn_generar_ranking.Iconimage_right = null;
-            this.btn_generar_ranking.Iconimage_right_Selected = null;
-            this.btn_generar_ranking.Iconimage_Selected = null;
-            this.btn_generar_ranking.IconMarginLeft = 0;
-            this.btn_generar_ranking.IconMarginRight = 0;
-            this.btn_generar_ranking.IconRightVisible = false;
-            this.btn_generar_ranking.IconRightZoom = 0D;
-            this.btn_generar_ranking.IconVisible = false;
-            this.btn_generar_ranking.IconZoom = 90D;
-            this.btn_generar_ranking.IsTab = false;
-            this.btn_generar_ranking.Location = new System.Drawing.Point(751, 29);
-            this.btn_generar_ranking.Name = "btn_generar_ranking";
-            this.btn_generar_ranking.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(228)))), ((int)(((byte)(0)))));
-            this.btn_generar_ranking.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.btn_generar_ranking.OnHoverTextColor = System.Drawing.Color.Black;
-            this.btn_generar_ranking.selected = false;
-            this.btn_generar_ranking.Size = new System.Drawing.Size(161, 41);
-            this.btn_generar_ranking.TabIndex = 94;
-            this.btn_generar_ranking.Text = "bunifuFlatButton1";
-            this.btn_generar_ranking.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_generar_ranking.Textcolor = System.Drawing.Color.White;
-            this.btn_generar_ranking.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_generar_ranking.Click += new System.EventHandler(this.btn_generar_ranking_Click);
-            // 
             // dgv_ranking
             // 
             this.dgv_ranking.AllowUserToAddRows = false;
             this.dgv_ranking.AllowUserToDeleteRows = false;
             this.dgv_ranking.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle45.BackColor = System.Drawing.Color.White;
-            this.dgv_ranking.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
+            this.dgv_ranking.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle51;
             this.dgv_ranking.BackgroundColor = System.Drawing.Color.White;
             this.dgv_ranking.CausesValidation = false;
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_ranking.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle52.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle52.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_ranking.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
             this.dgv_ranking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_ranking.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cuit,
             this.empresa,
+            this.domicilio,
             this.deuda});
             this.dgv_ranking.Location = new System.Drawing.Point(6, 145);
             this.dgv_ranking.Name = "dgv_ranking";
             this.dgv_ranking.ReadOnly = true;
             this.dgv_ranking.RowHeadersVisible = false;
-            dataGridViewCellStyle48.BackColor = System.Drawing.Color.Silver;
-            this.dgv_ranking.RowsDefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle54.BackColor = System.Drawing.Color.Silver;
+            this.dgv_ranking.RowsDefaultCellStyle = dataGridViewCellStyle54;
             this.dgv_ranking.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_ranking.Size = new System.Drawing.Size(709, 451);
             this.dgv_ranking.TabIndex = 91;
-            // 
-            // cuit
-            // 
-            this.cuit.HeaderText = "C.U.I.T.";
-            this.cuit.Name = "cuit";
-            this.cuit.ReadOnly = true;
-            // 
-            // empresa
-            // 
-            this.empresa.HeaderText = "Empresa";
-            this.empresa.Name = "empresa";
-            this.empresa.ReadOnly = true;
-            this.empresa.Width = 300;
-            // 
-            // deuda
-            // 
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle47.Format = "C2";
-            dataGridViewCellStyle47.NullValue = "0";
-            this.deuda.DefaultCellStyle = dataGridViewCellStyle47;
-            this.deuda.HeaderText = "Deuda";
-            this.deuda.Name = "deuda";
-            this.deuda.ReadOnly = true;
-            this.deuda.Width = 120;
             // 
             // bunifuSeparator9
             // 
@@ -2507,12 +2655,46 @@
             this.chk_filtro_localidad.UseVisualStyleBackColor = true;
             this.chk_filtro_localidad.CheckedChanged += new System.EventHandler(this.chk_filtro_localidad_CheckedChanged);
             // 
+            // btn_generar_ranking
+            // 
+            this.btn_generar_ranking.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(228)))), ((int)(((byte)(0)))));
+            this.btn_generar_ranking.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(228)))), ((int)(((byte)(0)))));
+            this.btn_generar_ranking.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_generar_ranking.BorderRadius = 0;
+            this.btn_generar_ranking.ButtonText = "bunifuFlatButton1";
+            this.btn_generar_ranking.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_generar_ranking.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_generar_ranking.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_generar_ranking.Iconimage = ((System.Drawing.Image)(resources.GetObject("btn_generar_ranking.Iconimage")));
+            this.btn_generar_ranking.Iconimage_right = null;
+            this.btn_generar_ranking.Iconimage_right_Selected = null;
+            this.btn_generar_ranking.Iconimage_Selected = null;
+            this.btn_generar_ranking.IconMarginLeft = 0;
+            this.btn_generar_ranking.IconMarginRight = 0;
+            this.btn_generar_ranking.IconRightVisible = false;
+            this.btn_generar_ranking.IconRightZoom = 0D;
+            this.btn_generar_ranking.IconVisible = false;
+            this.btn_generar_ranking.IconZoom = 90D;
+            this.btn_generar_ranking.IsTab = false;
+            this.btn_generar_ranking.Location = new System.Drawing.Point(751, 29);
+            this.btn_generar_ranking.Name = "btn_generar_ranking";
+            this.btn_generar_ranking.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(228)))), ((int)(((byte)(0)))));
+            this.btn_generar_ranking.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.btn_generar_ranking.OnHoverTextColor = System.Drawing.Color.Black;
+            this.btn_generar_ranking.selected = false;
+            this.btn_generar_ranking.Size = new System.Drawing.Size(161, 41);
+            this.btn_generar_ranking.TabIndex = 94;
+            this.btn_generar_ranking.Text = "bunifuFlatButton1";
+            this.btn_generar_ranking.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_generar_ranking.Textcolor = System.Drawing.Color.White;
+            this.btn_generar_ranking.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_generar_ranking.Click += new System.EventHandler(this.btn_generar_ranking_Click);
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.bunifuSeparator12);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel33);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel32);
-            this.tabPage3.Controls.Add(this.btn_imprimir_simulacion_acta);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel30);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel31);
             this.tabPage3.Controls.Add(this.txt_hasta);
@@ -2531,14 +2713,15 @@
             this.tabPage3.Controls.Add(this.lbl_simular_acta_total_deuda);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel22);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel20);
-            this.tabPage3.Controls.Add(this.btn_quitar_periodo_simulacion);
             this.tabPage3.Controls.Add(this.bunifuCustomLabel19);
-            this.tabPage3.Controls.Add(this.btn_generar_periodos);
             this.tabPage3.Controls.Add(this.dgv_simular_acta);
+            this.tabPage3.Controls.Add(this.btn_imprimir_simulacion_acta);
+            this.tabPage3.Controls.Add(this.btn_quitar_periodo_simulacion);
+            this.tabPage3.Controls.Add(this.btn_generar_periodos);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1321, 603);
+            this.tabPage3.Size = new System.Drawing.Size(1297, 603);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Simulacion Acta";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -2576,21 +2759,6 @@
             this.bunifuCustomLabel32.Size = new System.Drawing.Size(49, 16);
             this.bunifuCustomLabel32.TabIndex = 202;
             this.bunifuCustomLabel32.Text = "Imprimir";
-            // 
-            // btn_imprimir_simulacion_acta
-            // 
-            this.btn_imprimir_simulacion_acta.BackColor = System.Drawing.Color.White;
-            this.btn_imprimir_simulacion_acta.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_imprimir_simulacion_acta.Image = global::entrega_cupones.Properties.Resources.cancel_square_button__2_;
-            this.btn_imprimir_simulacion_acta.ImageActive = null;
-            this.btn_imprimir_simulacion_acta.Location = new System.Drawing.Point(1032, 416);
-            this.btn_imprimir_simulacion_acta.Name = "btn_imprimir_simulacion_acta";
-            this.btn_imprimir_simulacion_acta.Size = new System.Drawing.Size(56, 38);
-            this.btn_imprimir_simulacion_acta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_imprimir_simulacion_acta.TabIndex = 201;
-            this.btn_imprimir_simulacion_acta.TabStop = false;
-            this.btn_imprimir_simulacion_acta.Zoom = 10;
-            this.btn_imprimir_simulacion_acta.Click += new System.EventHandler(this.btn_imprimir_simulacion_acta_Click);
             // 
             // bunifuCustomLabel30
             // 
@@ -2835,21 +3003,6 @@
             this.bunifuCustomLabel20.TabIndex = 180;
             this.bunifuCustomLabel20.Text = "Quitar Periodo";
             // 
-            // btn_quitar_periodo_simulacion
-            // 
-            this.btn_quitar_periodo_simulacion.BackColor = System.Drawing.Color.White;
-            this.btn_quitar_periodo_simulacion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_quitar_periodo_simulacion.Image = global::entrega_cupones.Properties.Resources.cancel_square_button__2_;
-            this.btn_quitar_periodo_simulacion.ImageActive = null;
-            this.btn_quitar_periodo_simulacion.Location = new System.Drawing.Point(1032, 352);
-            this.btn_quitar_periodo_simulacion.Name = "btn_quitar_periodo_simulacion";
-            this.btn_quitar_periodo_simulacion.Size = new System.Drawing.Size(56, 38);
-            this.btn_quitar_periodo_simulacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_quitar_periodo_simulacion.TabIndex = 179;
-            this.btn_quitar_periodo_simulacion.TabStop = false;
-            this.btn_quitar_periodo_simulacion.Zoom = 10;
-            this.btn_quitar_periodo_simulacion.Click += new System.EventHandler(this.btn_quitar_periodo_simulacion_Click);
-            // 
             // bunifuCustomLabel19
             // 
             this.bunifuCustomLabel19.AutoSize = true;
@@ -2861,36 +3014,21 @@
             this.bunifuCustomLabel19.TabIndex = 178;
             this.bunifuCustomLabel19.Text = "Generar Periodos Faltantes";
             // 
-            // btn_generar_periodos
-            // 
-            this.btn_generar_periodos.BackColor = System.Drawing.Color.White;
-            this.btn_generar_periodos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_generar_periodos.Image = global::entrega_cupones.Properties.Resources.cancel_square_button__2_;
-            this.btn_generar_periodos.ImageActive = null;
-            this.btn_generar_periodos.Location = new System.Drawing.Point(1032, 281);
-            this.btn_generar_periodos.Name = "btn_generar_periodos";
-            this.btn_generar_periodos.Size = new System.Drawing.Size(56, 38);
-            this.btn_generar_periodos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_generar_periodos.TabIndex = 177;
-            this.btn_generar_periodos.TabStop = false;
-            this.btn_generar_periodos.Zoom = 10;
-            this.btn_generar_periodos.Click += new System.EventHandler(this.btn_generar_periodos_Click);
-            // 
             // dgv_simular_acta
             // 
             this.dgv_simular_acta.AllowUserToAddRows = false;
             this.dgv_simular_acta.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.White;
-            this.dgv_simular_acta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle55.BackColor = System.Drawing.Color.White;
+            this.dgv_simular_acta.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle55;
             this.dgv_simular_acta.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle50.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_simular_acta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle56.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_simular_acta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle56;
             this.dgv_simular_acta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_simular_acta.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.simulacion_periodo,
@@ -2921,13 +3059,13 @@
             // simulacion_periodo
             // 
             this.simulacion_periodo.DataPropertyName = "periodo";
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle51.Format = "d";
-            dataGridViewCellStyle51.NullValue = null;
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_periodo.DefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle57.Format = "d";
+            dataGridViewCellStyle57.NullValue = null;
+            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_periodo.DefaultCellStyle = dataGridViewCellStyle57;
             this.simulacion_periodo.HeaderText = "Periodo";
             this.simulacion_periodo.Name = "simulacion_periodo";
             this.simulacion_periodo.Width = 80;
@@ -2935,11 +3073,11 @@
             // simulacion_rectificacion
             // 
             this.simulacion_rectificacion.DataPropertyName = "rectificacion";
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_rectificacion.DefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_rectificacion.DefaultCellStyle = dataGridViewCellStyle58;
             this.simulacion_rectificacion.HeaderText = "Rectif.";
             this.simulacion_rectificacion.Name = "simulacion_rectificacion";
             this.simulacion_rectificacion.Width = 50;
@@ -2947,11 +3085,11 @@
             // simulacion_presentacion
             // 
             this.simulacion_presentacion.DataPropertyName = "presentacion";
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_presentacion.DefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_presentacion.DefaultCellStyle = dataGridViewCellStyle59;
             this.simulacion_presentacion.HeaderText = "Presentacion";
             this.simulacion_presentacion.Name = "simulacion_presentacion";
             this.simulacion_presentacion.Visible = false;
@@ -2960,11 +3098,11 @@
             // simulacion_modificacion
             // 
             this.simulacion_modificacion.DataPropertyName = "modificacion";
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_modificacion.DefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_modificacion.DefaultCellStyle = dataGridViewCellStyle60;
             this.simulacion_modificacion.HeaderText = "Modificacion";
             this.simulacion_modificacion.Name = "simulacion_modificacion";
             this.simulacion_modificacion.Visible = false;
@@ -2973,13 +3111,13 @@
             // simulacion_aporte_ley
             // 
             this.simulacion_aporte_ley.DataPropertyName = "aporte_2";
-            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle55.Format = "N2";
-            dataGridViewCellStyle55.NullValue = null;
-            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_aporte_ley.DefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle61.Format = "N2";
+            dataGridViewCellStyle61.NullValue = null;
+            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_aporte_ley.DefaultCellStyle = dataGridViewCellStyle61;
             this.simulacion_aporte_ley.HeaderText = "Aporte 2%";
             this.simulacion_aporte_ley.Name = "simulacion_aporte_ley";
             this.simulacion_aporte_ley.Width = 75;
@@ -2987,13 +3125,13 @@
             // simulacion_aporte_socio
             // 
             this.simulacion_aporte_socio.DataPropertyName = "aporte_socio";
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle56.Format = "N2";
-            dataGridViewCellStyle56.NullValue = null;
-            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_aporte_socio.DefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle62.Format = "N2";
+            dataGridViewCellStyle62.NullValue = null;
+            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_aporte_socio.DefaultCellStyle = dataGridViewCellStyle62;
             this.simulacion_aporte_socio.HeaderText = "Socio 2%";
             this.simulacion_aporte_socio.Name = "simulacion_aporte_socio";
             this.simulacion_aporte_socio.Width = 75;
@@ -3001,13 +3139,13 @@
             // simulacion_fecha_pago
             // 
             this.simulacion_fecha_pago.DataPropertyName = "pago";
-            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle57.Format = "d";
-            dataGridViewCellStyle57.NullValue = null;
-            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_fecha_pago.DefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle63.Format = "d";
+            dataGridViewCellStyle63.NullValue = null;
+            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_fecha_pago.DefaultCellStyle = dataGridViewCellStyle63;
             this.simulacion_fecha_pago.HeaderText = "Fecha Pago";
             this.simulacion_fecha_pago.Name = "simulacion_fecha_pago";
             this.simulacion_fecha_pago.Width = 85;
@@ -3015,11 +3153,11 @@
             // dataGridViewTextBoxColumn11
             // 
             this.dataGridViewTextBoxColumn11.DataPropertyName = "procesado";
-            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle64;
             this.dataGridViewTextBoxColumn11.HeaderText = "Procesado";
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             this.dataGridViewTextBoxColumn11.Visible = false;
@@ -3028,13 +3166,13 @@
             // simulacion_importe_ps
             // 
             this.simulacion_importe_ps.DataPropertyName = "importeps";
-            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle59.Format = "N2";
-            dataGridViewCellStyle59.NullValue = null;
-            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_importe_ps.DefaultCellStyle = dataGridViewCellStyle59;
+            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle65.Format = "N2";
+            dataGridViewCellStyle65.NullValue = null;
+            dataGridViewCellStyle65.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle65.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_importe_ps.DefaultCellStyle = dataGridViewCellStyle65;
             this.simulacion_importe_ps.HeaderText = "Importe Depositado";
             this.simulacion_importe_ps.Name = "simulacion_importe_ps";
             this.simulacion_importe_ps.Width = 75;
@@ -3042,11 +3180,11 @@
             // dataGridViewTextBoxColumn13
             // 
             this.dataGridViewTextBoxColumn13.DataPropertyName = "transferencia";
-            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridViewTextBoxColumn13.DefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridViewTextBoxColumn13.DefaultCellStyle = dataGridViewCellStyle66;
             this.dataGridViewTextBoxColumn13.HeaderText = "Transf.";
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
             this.dataGridViewTextBoxColumn13.Visible = false;
@@ -3055,11 +3193,11 @@
             // simulacion_empleados
             // 
             this.simulacion_empleados.DataPropertyName = "cant_emple";
-            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_empleados.DefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle67.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle67.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_empleados.DefaultCellStyle = dataGridViewCellStyle67;
             this.simulacion_empleados.HeaderText = "Empleados";
             this.simulacion_empleados.Name = "simulacion_empleados";
             this.simulacion_empleados.Width = 70;
@@ -3067,11 +3205,11 @@
             // simulacion_socios
             // 
             this.simulacion_socios.DataPropertyName = "cant_socios";
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_socios.DefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            dataGridViewCellStyle68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_socios.DefaultCellStyle = dataGridViewCellStyle68;
             this.simulacion_socios.HeaderText = "Socios";
             this.simulacion_socios.Name = "simulacion_socios";
             this.simulacion_socios.Width = 70;
@@ -3079,14 +3217,14 @@
             // simulacion_capital
             // 
             this.simulacion_capital.DataPropertyName = "capital";
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle63.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle63.Format = "N2";
-            dataGridViewCellStyle63.NullValue = null;
-            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_capital.DefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle69.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle69.Format = "N2";
+            dataGridViewCellStyle69.NullValue = null;
+            dataGridViewCellStyle69.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle69.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_capital.DefaultCellStyle = dataGridViewCellStyle69;
             this.simulacion_capital.HeaderText = "Capital";
             this.simulacion_capital.Name = "simulacion_capital";
             this.simulacion_capital.Width = 120;
@@ -3094,14 +3232,14 @@
             // simulacion_interes
             // 
             this.simulacion_interes.DataPropertyName = "interes";
-            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle64.Format = "N2";
-            dataGridViewCellStyle64.NullValue = "0";
-            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_interes.DefaultCellStyle = dataGridViewCellStyle64;
+            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle70.Format = "N2";
+            dataGridViewCellStyle70.NullValue = "0";
+            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_interes.DefaultCellStyle = dataGridViewCellStyle70;
             this.simulacion_interes.HeaderText = "Interes";
             this.simulacion_interes.Name = "simulacion_interes";
             this.simulacion_interes.Width = 120;
@@ -3109,14 +3247,14 @@
             // simulacion_total
             // 
             this.simulacion_total.DataPropertyName = "total_periodo";
-            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle65.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle65.Format = "N2";
-            dataGridViewCellStyle65.NullValue = "0";
-            dataGridViewCellStyle65.SelectionBackColor = System.Drawing.Color.Coral;
-            dataGridViewCellStyle65.SelectionForeColor = System.Drawing.Color.Black;
-            this.simulacion_total.DefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle71.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle71.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle71.Format = "N2";
+            dataGridViewCellStyle71.NullValue = "0";
+            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.Color.Coral;
+            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.Color.Black;
+            this.simulacion_total.DefaultCellStyle = dataGridViewCellStyle71;
             this.simulacion_total.HeaderText = "Total";
             this.simulacion_total.Name = "simulacion_total";
             this.simulacion_total.Width = 120;
@@ -3143,12 +3281,74 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem2.Text = "toolStripMenuItem2";
             // 
+            // btn_imprimir_simulacion_acta
+            // 
+            this.btn_imprimir_simulacion_acta.BackColor = System.Drawing.Color.White;
+            this.btn_imprimir_simulacion_acta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_imprimir_simulacion_acta.Image = global::entrega_cupones.Properties.Resources.cancel_square_button__2_;
+            this.btn_imprimir_simulacion_acta.ImageActive = null;
+            this.btn_imprimir_simulacion_acta.Location = new System.Drawing.Point(1032, 416);
+            this.btn_imprimir_simulacion_acta.Name = "btn_imprimir_simulacion_acta";
+            this.btn_imprimir_simulacion_acta.Size = new System.Drawing.Size(56, 38);
+            this.btn_imprimir_simulacion_acta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_imprimir_simulacion_acta.TabIndex = 201;
+            this.btn_imprimir_simulacion_acta.TabStop = false;
+            this.btn_imprimir_simulacion_acta.Zoom = 10;
+            this.btn_imprimir_simulacion_acta.Click += new System.EventHandler(this.btn_imprimir_simulacion_acta_Click);
+            // 
+            // btn_quitar_periodo_simulacion
+            // 
+            this.btn_quitar_periodo_simulacion.BackColor = System.Drawing.Color.White;
+            this.btn_quitar_periodo_simulacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_quitar_periodo_simulacion.Image = global::entrega_cupones.Properties.Resources.cancel_square_button__2_;
+            this.btn_quitar_periodo_simulacion.ImageActive = null;
+            this.btn_quitar_periodo_simulacion.Location = new System.Drawing.Point(1032, 352);
+            this.btn_quitar_periodo_simulacion.Name = "btn_quitar_periodo_simulacion";
+            this.btn_quitar_periodo_simulacion.Size = new System.Drawing.Size(56, 38);
+            this.btn_quitar_periodo_simulacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_quitar_periodo_simulacion.TabIndex = 179;
+            this.btn_quitar_periodo_simulacion.TabStop = false;
+            this.btn_quitar_periodo_simulacion.Zoom = 10;
+            this.btn_quitar_periodo_simulacion.Click += new System.EventHandler(this.btn_quitar_periodo_simulacion_Click);
+            // 
+            // btn_generar_periodos
+            // 
+            this.btn_generar_periodos.BackColor = System.Drawing.Color.White;
+            this.btn_generar_periodos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_generar_periodos.Image = global::entrega_cupones.Properties.Resources.cancel_square_button__2_;
+            this.btn_generar_periodos.ImageActive = null;
+            this.btn_generar_periodos.Location = new System.Drawing.Point(1032, 281);
+            this.btn_generar_periodos.Name = "btn_generar_periodos";
+            this.btn_generar_periodos.Size = new System.Drawing.Size(56, 38);
+            this.btn_generar_periodos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_generar_periodos.TabIndex = 177;
+            this.btn_generar_periodos.TabStop = false;
+            this.btn_generar_periodos.Zoom = 10;
+            this.btn_generar_periodos.Click += new System.EventHandler(this.btn_generar_periodos_Click);
+            // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.dtp_fecha_gen_acta);
-            this.tabPage4.Controls.Add(this.bunifuCustomLabel43);
-            this.tabPage4.Controls.Add(this.txt_acta_generada);
-            this.tabPage4.Controls.Add(this.bunifuCustomLabel41);
+            this.tabPage4.Controls.Add(this.gbx_asig_actas);
+            this.tabPage4.Controls.Add(this.chk_Cargar_Acta);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel54);
+            this.tabPage4.Controls.Add(this.bunifuSeparator18);
+            this.tabPage4.Controls.Add(this.textBox1);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel53);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel52);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel51);
+            this.tabPage4.Controls.Add(this.cbx_tipo_pago);
+            this.tabPage4.Controls.Add(this.txt_cpbte_monto);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel50);
+            this.tabPage4.Controls.Add(this.txt_cpbte);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel49);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel48);
+            this.tabPage4.Controls.Add(this.dateTimePicker1);
+            this.tabPage4.Controls.Add(this.txt_cpbte_acta);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel47);
+            this.tabPage4.Controls.Add(this.dataGridView1);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel46);
+            this.tabPage4.Controls.Add(this.bunifuCustomLabel45);
+            this.tabPage4.Controls.Add(this.cbx_estado_acta);
             this.tabPage4.Controls.Add(this.bunifuCustomLabel37);
             this.tabPage4.Controls.Add(this.lbl_seguimiento_total_deuda);
             this.tabPage4.Controls.Add(this.lbl_seguimiento_total_empresas);
@@ -3159,38 +3359,851 @@
             this.tabPage4.Controls.Add(this.bunifuCustomLabel39);
             this.tabPage4.Controls.Add(this.bunifuSeparator16);
             this.tabPage4.Controls.Add(this.cbx_seguimiento_estado);
-            this.tabPage4.Controls.Add(this.btn_aplicar_filtro);
             this.tabPage4.Controls.Add(this.bunifuCustomLabel38);
             this.tabPage4.Controls.Add(this.bunifuSeparator15);
             this.tabPage4.Controls.Add(this.cbx_seguimiento_inspector);
             this.tabPage4.Controls.Add(this.dgv_seguimiento);
+            this.tabPage4.Controls.Add(this.bunifuSeparator14);
+            this.tabPage4.Controls.Add(this.bunifuImageButton1);
+            this.tabPage4.Controls.Add(this.btn_guardar_acta_generada);
+            this.tabPage4.Controls.Add(this.btn_aplicar_filtro);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1321, 603);
+            this.tabPage4.Size = new System.Drawing.Size(1297, 603);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Seguimiento";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // dtp_fecha_gen_acta
+            // gbx_asig_actas
             // 
-            this.dtp_fecha_gen_acta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_fecha_gen_acta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp_fecha_gen_acta.Location = new System.Drawing.Point(795, 60);
-            this.dtp_fecha_gen_acta.Name = "dtp_fecha_gen_acta";
-            this.dtp_fecha_gen_acta.Size = new System.Drawing.Size(128, 21);
-            this.dtp_fecha_gen_acta.TabIndex = 229;
+            this.gbx_asig_actas.BackColor = System.Drawing.Color.Gainsboro;
+            this.gbx_asig_actas.Controls.Add(this.cbx_per_desde);
+            this.gbx_asig_actas.Controls.Add(this.cbx_per_hasta);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel64);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel65);
+            this.gbx_asig_actas.Controls.Add(this.bunifuMetroTextbox7);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel63);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel62);
+            this.gbx_asig_actas.Controls.Add(this.comboBox1);
+            this.gbx_asig_actas.Controls.Add(this.bunifuMetroTextbox6);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel61);
+            this.gbx_asig_actas.Controls.Add(this.bunifuMetroTextbox5);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel60);
+            this.gbx_asig_actas.Controls.Add(this.bunifuMetroTextbox3);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel59);
+            this.gbx_asig_actas.Controls.Add(this.bunifuMetroTextbox1);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel58);
+            this.gbx_asig_actas.Controls.Add(this.checkBox1);
+            this.gbx_asig_actas.Controls.Add(this.txt_total_acta);
+            this.gbx_asig_actas.Controls.Add(this.txt_total);
+            this.gbx_asig_actas.Controls.Add(this.txt_inteereses_financiacion);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel57);
+            this.gbx_asig_actas.Controls.Add(this.txt_intereses);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel56);
+            this.gbx_asig_actas.Controls.Add(this.dtp_fecha_venc_acta);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel55);
+            this.gbx_asig_actas.Controls.Add(this.txt_acta_generada);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel41);
+            this.gbx_asig_actas.Controls.Add(this.dtp_fecha_gen_acta);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel43);
+            this.gbx_asig_actas.Controls.Add(this.txt_deuda_determinada);
+            this.gbx_asig_actas.Controls.Add(this.bunifuCustomLabel44);
+            this.gbx_asig_actas.Enabled = false;
+            this.gbx_asig_actas.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.gbx_asig_actas.Location = new System.Drawing.Point(918, 79);
+            this.gbx_asig_actas.Name = "gbx_asig_actas";
+            this.gbx_asig_actas.Size = new System.Drawing.Size(373, 262);
+            this.gbx_asig_actas.TabIndex = 255;
+            this.gbx_asig_actas.TabStop = false;
             // 
-            // bunifuCustomLabel43
+            // cbx_per_desde
             // 
-            this.bunifuCustomLabel43.AutoSize = true;
-            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel43.Location = new System.Drawing.Point(792, 41);
-            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
-            this.bunifuCustomLabel43.Size = new System.Drawing.Size(53, 19);
-            this.bunifuCustomLabel43.TabIndex = 227;
-            this.bunifuCustomLabel43.Text = "Fecha";
+            this.cbx_per_desde.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbx_per_desde.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbx_per_desde.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cbx_per_desde.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbx_per_desde.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.cbx_per_desde.ForeColor = System.Drawing.Color.Black;
+            this.cbx_per_desde.FormattingEnabled = true;
+            this.cbx_per_desde.Items.AddRange(new object[] {
+            "01/2001",
+            "02/2001",
+            "03/2001",
+            "04/2001",
+            "05/2001",
+            "06/2001",
+            "07/2001",
+            "08/2001",
+            "09/2001",
+            "10/2001",
+            "11/2001",
+            "12/2001",
+            "01/2002",
+            "02/2002",
+            "03/2002",
+            "04/2002",
+            "05/2002",
+            "06/2002",
+            "07/2002",
+            "08/2002",
+            "09/2002",
+            "10/2002",
+            "11/2002",
+            "12/2002",
+            "01/2003",
+            "02/2003",
+            "03/2003",
+            "04/2003",
+            "05/2003",
+            "06/2003",
+            "07/2003",
+            "08/2003",
+            "09/2003",
+            "10/2003",
+            "11/2003",
+            "12/2003",
+            "01/2004",
+            "02/2004",
+            "03/2004",
+            "04/2004",
+            "05/2004",
+            "06/2004",
+            "07/2004",
+            "08/2004",
+            "09/2004",
+            "10/2004",
+            "11/2004",
+            "12/2004",
+            "01/2005",
+            "02/2005",
+            "03/2005",
+            "04/2005",
+            "05/2005",
+            "06/2005",
+            "07/2005",
+            "08/2005",
+            "09/2005",
+            "10/2005",
+            "11/2005",
+            "12/2005",
+            "01/2006",
+            "02/2006",
+            "03/2006",
+            "04/2006",
+            "05/2006",
+            "06/2006",
+            "07/2006",
+            "08/2006",
+            "09/2006",
+            "10/2006",
+            "11/2006",
+            "12/2006",
+            "01/2007",
+            "02/2007",
+            "03/2007",
+            "04/2007",
+            "05/2007",
+            "06/2007",
+            "07/2007",
+            "08/2007",
+            "09/2007",
+            "10/2007",
+            "11/2007",
+            "12/2007",
+            "01/2008",
+            "02/2008",
+            "03/2008",
+            "04/2008",
+            "05/2008",
+            "06/2008",
+            "07/2008",
+            "08/2008",
+            "09/2008",
+            "10/2008",
+            "11/2008",
+            "12/2008",
+            "01/2009",
+            "02/2009",
+            "03/2009",
+            "04/2009",
+            "05/2009",
+            "06/2009",
+            "07/2009",
+            "08/2009",
+            "09/2009",
+            "10/2009",
+            "11/2009",
+            "12/2009",
+            "01/2010",
+            "02/2010",
+            "03/2010",
+            "04/2010",
+            "05/2010",
+            "06/2010",
+            "07/2010",
+            "08/2010",
+            "09/2010",
+            "10/2010",
+            "11/2010",
+            "12/2010",
+            "01/2011",
+            "02/2011",
+            "03/2011",
+            "04/2011",
+            "05/2011",
+            "06/2011",
+            "07/2011",
+            "08/2011",
+            "09/2011",
+            "10/2011",
+            "11/2011",
+            "12/2011",
+            "01/2012",
+            "02/2012",
+            "03/2012",
+            "04/2012",
+            "05/2012",
+            "06/2012",
+            "07/2012",
+            "08/2012",
+            "09/2012",
+            "10/2012",
+            "11/2012",
+            "12/2012",
+            "01/2013",
+            "02/2013",
+            "03/2013",
+            "04/2013",
+            "05/2013",
+            "06/2013",
+            "07/2013",
+            "08/2013",
+            "09/2013",
+            "10/2013",
+            "11/2013",
+            "12/2013",
+            "01/2014",
+            "02/2014",
+            "03/2014",
+            "04/2014",
+            "05/2014",
+            "06/2014",
+            "07/2014",
+            "08/2014",
+            "09/2014",
+            "10/2014",
+            "11/2014",
+            "12/2014",
+            "01/2015",
+            "02/2015",
+            "03/2015",
+            "04/2015",
+            "05/2015",
+            "06/2015",
+            "07/2015",
+            "08/2015",
+            "09/2015",
+            "10/2015",
+            "11/2015",
+            "12/2015",
+            "01/2016",
+            "02/2016",
+            "03/2016",
+            "04/2016",
+            "05/2016",
+            "06/2016",
+            "07/2016",
+            "08/2016",
+            "09/2016",
+            "10/2016",
+            "11/2016",
+            "12/2016",
+            "01/2017",
+            "02/2017",
+            "03/2017",
+            "04/2017",
+            "05/2017",
+            "06/2017",
+            "07/2017",
+            "08/2017",
+            "09/2017",
+            "10/2017",
+            "11/2017",
+            "12/2017",
+            "01/2018",
+            "02/2018",
+            "03/2018",
+            "04/2018",
+            "05/2018",
+            "06/2018",
+            "07/2018",
+            "08/2018",
+            "09/2018",
+            "10/2018",
+            "11/2018",
+            "12/2018"});
+            this.cbx_per_desde.Location = new System.Drawing.Point(83, 93);
+            this.cbx_per_desde.Name = "cbx_per_desde";
+            this.cbx_per_desde.Size = new System.Drawing.Size(102, 25);
+            this.cbx_per_desde.TabIndex = 274;
+            this.cbx_per_desde.Text = "07/2013";
+            // 
+            // cbx_per_hasta
+            // 
+            this.cbx_per_hasta.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbx_per_hasta.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbx_per_hasta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cbx_per_hasta.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbx_per_hasta.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.cbx_per_hasta.ForeColor = System.Drawing.Color.Black;
+            this.cbx_per_hasta.FormattingEnabled = true;
+            this.cbx_per_hasta.Items.AddRange(new object[] {
+            "01/2001",
+            "02/2001",
+            "03/2001",
+            "04/2001",
+            "05/2001",
+            "06/2001",
+            "07/2001",
+            "08/2001",
+            "09/2001",
+            "10/2001",
+            "11/2001",
+            "12/2001",
+            "01/2002",
+            "02/2002",
+            "03/2002",
+            "04/2002",
+            "05/2002",
+            "06/2002",
+            "07/2002",
+            "08/2002",
+            "09/2002",
+            "10/2002",
+            "11/2002",
+            "12/2002",
+            "01/2003",
+            "02/2003",
+            "03/2003",
+            "04/2003",
+            "05/2003",
+            "06/2003",
+            "07/2003",
+            "08/2003",
+            "09/2003",
+            "10/2003",
+            "11/2003",
+            "12/2003",
+            "01/2004",
+            "02/2004",
+            "03/2004",
+            "04/2004",
+            "05/2004",
+            "06/2004",
+            "07/2004",
+            "08/2004",
+            "09/2004",
+            "10/2004",
+            "11/2004",
+            "12/2004",
+            "01/2005",
+            "02/2005",
+            "03/2005",
+            "04/2005",
+            "05/2005",
+            "06/2005",
+            "07/2005",
+            "08/2005",
+            "09/2005",
+            "10/2005",
+            "11/2005",
+            "12/2005",
+            "01/2006",
+            "02/2006",
+            "03/2006",
+            "04/2006",
+            "05/2006",
+            "06/2006",
+            "07/2006",
+            "08/2006",
+            "09/2006",
+            "10/2006",
+            "11/2006",
+            "12/2006",
+            "01/2007",
+            "02/2007",
+            "03/2007",
+            "04/2007",
+            "05/2007",
+            "06/2007",
+            "07/2007",
+            "08/2007",
+            "09/2007",
+            "10/2007",
+            "11/2007",
+            "12/2007",
+            "01/2008",
+            "02/2008",
+            "03/2008",
+            "04/2008",
+            "05/2008",
+            "06/2008",
+            "07/2008",
+            "08/2008",
+            "09/2008",
+            "10/2008",
+            "11/2008",
+            "12/2008",
+            "01/2009",
+            "02/2009",
+            "03/2009",
+            "04/2009",
+            "05/2009",
+            "06/2009",
+            "07/2009",
+            "08/2009",
+            "09/2009",
+            "10/2009",
+            "11/2009",
+            "12/2009",
+            "01/2010",
+            "02/2010",
+            "03/2010",
+            "04/2010",
+            "05/2010",
+            "06/2010",
+            "07/2010",
+            "08/2010",
+            "09/2010",
+            "10/2010",
+            "11/2010",
+            "12/2010",
+            "01/2011",
+            "02/2011",
+            "03/2011",
+            "04/2011",
+            "05/2011",
+            "06/2011",
+            "07/2011",
+            "08/2011",
+            "09/2011",
+            "10/2011",
+            "11/2011",
+            "12/2011",
+            "01/2012",
+            "02/2012",
+            "03/2012",
+            "04/2012",
+            "05/2012",
+            "06/2012",
+            "07/2012",
+            "08/2012",
+            "09/2012",
+            "10/2012",
+            "11/2012",
+            "12/2012",
+            "01/2013",
+            "02/2013",
+            "03/2013",
+            "04/2013",
+            "05/2013",
+            "06/2013",
+            "07/2013",
+            "08/2013",
+            "09/2013",
+            "10/2013",
+            "11/2013",
+            "12/2013",
+            "01/2014",
+            "02/2014",
+            "03/2014",
+            "04/2014",
+            "05/2014",
+            "06/2014",
+            "07/2014",
+            "08/2014",
+            "09/2014",
+            "10/2014",
+            "11/2014",
+            "12/2014",
+            "01/2015",
+            "02/2015",
+            "03/2015",
+            "04/2015",
+            "05/2015",
+            "06/2015",
+            "07/2015",
+            "08/2015",
+            "09/2015",
+            "10/2015",
+            "11/2015",
+            "12/2015",
+            "01/2016",
+            "02/2016",
+            "03/2016",
+            "04/2016",
+            "05/2016",
+            "06/2016",
+            "07/2016",
+            "08/2016",
+            "09/2016",
+            "10/2016",
+            "11/2016",
+            "12/2016",
+            "01/2017",
+            "02/2017",
+            "03/2017",
+            "04/2017",
+            "05/2017",
+            "06/2017",
+            "07/2017",
+            "08/2017",
+            "09/2017",
+            "10/2017",
+            "11/2017",
+            "12/2017",
+            "01/2018",
+            "02/2018",
+            "03/2018",
+            "04/2018",
+            "05/2018",
+            "06/2018",
+            "07/2018",
+            "08/2018",
+            "09/2018",
+            "10/2018",
+            "11/2018",
+            "12/2018"});
+            this.cbx_per_hasta.Location = new System.Drawing.Point(83, 121);
+            this.cbx_per_hasta.Name = "cbx_per_hasta";
+            this.cbx_per_hasta.Size = new System.Drawing.Size(102, 25);
+            this.cbx_per_hasta.TabIndex = 273;
+            this.cbx_per_hasta.Text = "06/2018";
+            // 
+            // bunifuCustomLabel64
+            // 
+            this.bunifuCustomLabel64.AutoSize = true;
+            this.bunifuCustomLabel64.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel64.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel64.Location = new System.Drawing.Point(6, 124);
+            this.bunifuCustomLabel64.Name = "bunifuCustomLabel64";
+            this.bunifuCustomLabel64.Size = new System.Drawing.Size(53, 19);
+            this.bunifuCustomLabel64.TabIndex = 272;
+            this.bunifuCustomLabel64.Text = "Hasta:";
+            // 
+            // bunifuCustomLabel65
+            // 
+            this.bunifuCustomLabel65.AutoSize = true;
+            this.bunifuCustomLabel65.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel65.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel65.Location = new System.Drawing.Point(6, 96);
+            this.bunifuCustomLabel65.Name = "bunifuCustomLabel65";
+            this.bunifuCustomLabel65.Size = new System.Drawing.Size(56, 19);
+            this.bunifuCustomLabel65.TabIndex = 270;
+            this.bunifuCustomLabel65.Text = "Desde:";
+            // 
+            // bunifuMetroTextbox7
+            // 
+            this.bunifuMetroTextbox7.BackColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox7.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox7.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox7.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox7.BorderThickness = 2;
+            this.bunifuMetroTextbox7.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuMetroTextbox7.ForeColor = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox7.isPassword = false;
+            this.bunifuMetroTextbox7.Location = new System.Drawing.Point(277, 183);
+            this.bunifuMetroTextbox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bunifuMetroTextbox7.Name = "bunifuMetroTextbox7";
+            this.bunifuMetroTextbox7.Size = new System.Drawing.Size(89, 23);
+            this.bunifuMetroTextbox7.TabIndex = 269;
+            this.bunifuMetroTextbox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel63
+            // 
+            this.bunifuCustomLabel63.AutoSize = true;
+            this.bunifuCustomLabel63.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel63.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel63.Location = new System.Drawing.Point(201, 185);
+            this.bunifuCustomLabel63.Name = "bunifuCustomLabel63";
+            this.bunifuCustomLabel63.Size = new System.Drawing.Size(77, 19);
+            this.bunifuCustomLabel63.TabIndex = 268;
+            this.bunifuCustomLabel63.Text = "Imp. Cta.:";
+            // 
+            // bunifuCustomLabel62
+            // 
+            this.bunifuCustomLabel62.AutoSize = true;
+            this.bunifuCustomLabel62.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel62.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel62.Location = new System.Drawing.Point(201, 155);
+            this.bunifuCustomLabel62.Name = "bunifuCustomLabel62";
+            this.bunifuCustomLabel62.Size = new System.Drawing.Size(62, 19);
+            this.bunifuCustomLabel62.TabIndex = 267;
+            this.bunifuCustomLabel62.Text = "Cuotas:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.comboBox1.ForeColor = System.Drawing.Color.Black;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
+            this.comboBox1.Location = new System.Drawing.Point(277, 152);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(89, 25);
+            this.comboBox1.TabIndex = 266;
+            // 
+            // bunifuMetroTextbox6
+            // 
+            this.bunifuMetroTextbox6.BackColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox6.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox6.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox6.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox6.BorderThickness = 2;
+            this.bunifuMetroTextbox6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuMetroTextbox6.ForeColor = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox6.isPassword = false;
+            this.bunifuMetroTextbox6.Location = new System.Drawing.Point(83, 206);
+            this.bunifuMetroTextbox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bunifuMetroTextbox6.Name = "bunifuMetroTextbox6";
+            this.bunifuMetroTextbox6.Size = new System.Drawing.Size(102, 23);
+            this.bunifuMetroTextbox6.TabIndex = 265;
+            this.bunifuMetroTextbox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel61
+            // 
+            this.bunifuCustomLabel61.AutoSize = true;
+            this.bunifuCustomLabel61.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel61.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel61.Location = new System.Drawing.Point(6, 236);
+            this.bunifuCustomLabel61.Name = "bunifuCustomLabel61";
+            this.bunifuCustomLabel61.Size = new System.Drawing.Size(45, 19);
+            this.bunifuCustomLabel61.TabIndex = 264;
+            this.bunifuCustomLabel61.Text = "Total:";
+            // 
+            // bunifuMetroTextbox5
+            // 
+            this.bunifuMetroTextbox5.BackColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox5.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox5.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox5.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox5.BorderThickness = 2;
+            this.bunifuMetroTextbox5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuMetroTextbox5.ForeColor = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox5.isPassword = false;
+            this.bunifuMetroTextbox5.Location = new System.Drawing.Point(277, 124);
+            this.bunifuMetroTextbox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bunifuMetroTextbox5.Name = "bunifuMetroTextbox5";
+            this.bunifuMetroTextbox5.Size = new System.Drawing.Size(89, 23);
+            this.bunifuMetroTextbox5.TabIndex = 263;
+            this.bunifuMetroTextbox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel60
+            // 
+            this.bunifuCustomLabel60.AutoSize = true;
+            this.bunifuCustomLabel60.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel60.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel60.Location = new System.Drawing.Point(201, 126);
+            this.bunifuCustomLabel60.Name = "bunifuCustomLabel60";
+            this.bunifuCustomLabel60.Size = new System.Drawing.Size(62, 19);
+            this.bunifuCustomLabel60.TabIndex = 262;
+            this.bunifuCustomLabel60.Text = "Coefic.:";
+            // 
+            // bunifuMetroTextbox3
+            // 
+            this.bunifuMetroTextbox3.BackColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox3.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox3.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox3.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox3.BorderThickness = 2;
+            this.bunifuMetroTextbox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuMetroTextbox3.ForeColor = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox3.isPassword = false;
+            this.bunifuMetroTextbox3.Location = new System.Drawing.Point(277, 67);
+            this.bunifuMetroTextbox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bunifuMetroTextbox3.Name = "bunifuMetroTextbox3";
+            this.bunifuMetroTextbox3.Size = new System.Drawing.Size(89, 23);
+            this.bunifuMetroTextbox3.TabIndex = 261;
+            this.bunifuMetroTextbox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel59
+            // 
+            this.bunifuCustomLabel59.AutoSize = true;
+            this.bunifuCustomLabel59.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel59.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel59.Location = new System.Drawing.Point(201, 69);
+            this.bunifuCustomLabel59.Name = "bunifuCustomLabel59";
+            this.bunifuCustomLabel59.Size = new System.Drawing.Size(43, 19);
+            this.bunifuCustomLabel59.TabIndex = 260;
+            this.bunifuCustomLabel59.Text = "Tasa:";
+            // 
+            // bunifuMetroTextbox1
+            // 
+            this.bunifuMetroTextbox1.BackColor = System.Drawing.Color.White;
+            this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuMetroTextbox1.BorderThickness = 2;
+            this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.Black;
+            this.bunifuMetroTextbox1.isPassword = false;
+            this.bunifuMetroTextbox1.Location = new System.Drawing.Point(277, 39);
+            this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
+            this.bunifuMetroTextbox1.Size = new System.Drawing.Size(89, 23);
+            this.bunifuMetroTextbox1.TabIndex = 259;
+            this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel58
+            // 
+            this.bunifuCustomLabel58.AutoSize = true;
+            this.bunifuCustomLabel58.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel58.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel58.Location = new System.Drawing.Point(201, 41);
+            this.bunifuCustomLabel58.Name = "bunifuCustomLabel58";
+            this.bunifuCustomLabel58.Size = new System.Drawing.Size(70, 19);
+            this.bunifuCustomLabel58.TabIndex = 258;
+            this.bunifuCustomLabel58.Text = "Anticipo:";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.checkBox1.Location = new System.Drawing.Point(201, 11);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(118, 23);
+            this.checkBox1.TabIndex = 257;
+            this.checkBox1.Text = "Financiacion";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // txt_total_acta
+            // 
+            this.txt_total_acta.BackColor = System.Drawing.Color.White;
+            this.txt_total_acta.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_total_acta.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_total_acta.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_total_acta.BorderThickness = 2;
+            this.txt_total_acta.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_total_acta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_total_acta.ForeColor = System.Drawing.Color.Black;
+            this.txt_total_acta.isPassword = false;
+            this.txt_total_acta.Location = new System.Drawing.Point(83, 234);
+            this.txt_total_acta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_total_acta.Name = "txt_total_acta";
+            this.txt_total_acta.Size = new System.Drawing.Size(102, 23);
+            this.txt_total_acta.TabIndex = 237;
+            this.txt_total_acta.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txt_total
+            // 
+            this.txt_total.AutoSize = true;
+            this.txt_total.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.txt_total.ForeColor = System.Drawing.Color.Black;
+            this.txt_total.Location = new System.Drawing.Point(6, 208);
+            this.txt_total.Name = "txt_total";
+            this.txt_total.Size = new System.Drawing.Size(75, 19);
+            this.txt_total.TabIndex = 236;
+            this.txt_total.Text = "Sub Total:";
+            // 
+            // txt_inteereses_financiacion
+            // 
+            this.txt_inteereses_financiacion.BackColor = System.Drawing.Color.White;
+            this.txt_inteereses_financiacion.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_inteereses_financiacion.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_inteereses_financiacion.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_inteereses_financiacion.BorderThickness = 2;
+            this.txt_inteereses_financiacion.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_inteereses_financiacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_inteereses_financiacion.ForeColor = System.Drawing.Color.Black;
+            this.txt_inteereses_financiacion.isPassword = false;
+            this.txt_inteereses_financiacion.Location = new System.Drawing.Point(277, 95);
+            this.txt_inteereses_financiacion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_inteereses_financiacion.Name = "txt_inteereses_financiacion";
+            this.txt_inteereses_financiacion.Size = new System.Drawing.Size(89, 23);
+            this.txt_inteereses_financiacion.TabIndex = 235;
+            this.txt_inteereses_financiacion.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel57
+            // 
+            this.bunifuCustomLabel57.AutoSize = true;
+            this.bunifuCustomLabel57.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel57.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel57.Location = new System.Drawing.Point(201, 97);
+            this.bunifuCustomLabel57.Name = "bunifuCustomLabel57";
+            this.bunifuCustomLabel57.Size = new System.Drawing.Size(80, 19);
+            this.bunifuCustomLabel57.TabIndex = 234;
+            this.bunifuCustomLabel57.Text = "Int. Finan.:";
+            // 
+            // txt_intereses
+            // 
+            this.txt_intereses.BackColor = System.Drawing.Color.White;
+            this.txt_intereses.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_intereses.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_intereses.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_intereses.BorderThickness = 2;
+            this.txt_intereses.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_intereses.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_intereses.ForeColor = System.Drawing.Color.Black;
+            this.txt_intereses.isPassword = false;
+            this.txt_intereses.Location = new System.Drawing.Point(83, 178);
+            this.txt_intereses.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_intereses.Name = "txt_intereses";
+            this.txt_intereses.Size = new System.Drawing.Size(102, 23);
+            this.txt_intereses.TabIndex = 233;
+            this.txt_intereses.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel56
+            // 
+            this.bunifuCustomLabel56.AutoSize = true;
+            this.bunifuCustomLabel56.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel56.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel56.Location = new System.Drawing.Point(6, 180);
+            this.bunifuCustomLabel56.Name = "bunifuCustomLabel56";
+            this.bunifuCustomLabel56.Size = new System.Drawing.Size(79, 19);
+            this.bunifuCustomLabel56.TabIndex = 232;
+            this.bunifuCustomLabel56.Text = "Int. resarc.";
+            // 
+            // dtp_fecha_venc_acta
+            // 
+            this.dtp_fecha_venc_acta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_venc_acta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp_fecha_venc_acta.Location = new System.Drawing.Point(83, 68);
+            this.dtp_fecha_venc_acta.Name = "dtp_fecha_venc_acta";
+            this.dtp_fecha_venc_acta.Size = new System.Drawing.Size(102, 21);
+            this.dtp_fecha_venc_acta.TabIndex = 231;
+            // 
+            // bunifuCustomLabel55
+            // 
+            this.bunifuCustomLabel55.AutoSize = true;
+            this.bunifuCustomLabel55.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel55.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel55.Location = new System.Drawing.Point(6, 69);
+            this.bunifuCustomLabel55.Name = "bunifuCustomLabel55";
+            this.bunifuCustomLabel55.Size = new System.Drawing.Size(53, 19);
+            this.bunifuCustomLabel55.TabIndex = 230;
+            this.bunifuCustomLabel55.Text = "Venc.:";
             // 
             // txt_acta_generada
             // 
@@ -3203,30 +4216,402 @@
             this.txt_acta_generada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_acta_generada.ForeColor = System.Drawing.Color.Black;
             this.txt_acta_generada.isPassword = false;
-            this.txt_acta_generada.Location = new System.Drawing.Point(648, 59);
+            this.txt_acta_generada.Location = new System.Drawing.Point(83, 11);
             this.txt_acta_generada.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt_acta_generada.Name = "txt_acta_generada";
-            this.txt_acta_generada.Size = new System.Drawing.Size(119, 23);
+            this.txt_acta_generada.Size = new System.Drawing.Size(102, 23);
             this.txt_acta_generada.TabIndex = 225;
-            this.txt_acta_generada.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txt_acta_generada.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txt_acta_generada.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_acta_generada_KeyDown);
             // 
             // bunifuCustomLabel41
             // 
             this.bunifuCustomLabel41.AutoSize = true;
             this.bunifuCustomLabel41.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.bunifuCustomLabel41.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel41.Location = new System.Drawing.Point(646, 41);
+            this.bunifuCustomLabel41.Location = new System.Drawing.Point(6, 11);
             this.bunifuCustomLabel41.Name = "bunifuCustomLabel41";
-            this.bunifuCustomLabel41.Size = new System.Drawing.Size(119, 19);
+            this.bunifuCustomLabel41.Size = new System.Drawing.Size(65, 19);
             this.bunifuCustomLabel41.TabIndex = 223;
-            this.bunifuCustomLabel41.Text = "Acta Generada";
+            this.bunifuCustomLabel41.Text = "Nº Acta:";
+            // 
+            // dtp_fecha_gen_acta
+            // 
+            this.dtp_fecha_gen_acta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_gen_acta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtp_fecha_gen_acta.Location = new System.Drawing.Point(83, 40);
+            this.dtp_fecha_gen_acta.Name = "dtp_fecha_gen_acta";
+            this.dtp_fecha_gen_acta.Size = new System.Drawing.Size(102, 21);
+            this.dtp_fecha_gen_acta.TabIndex = 229;
+            // 
+            // bunifuCustomLabel43
+            // 
+            this.bunifuCustomLabel43.AutoSize = true;
+            this.bunifuCustomLabel43.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel43.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel43.Location = new System.Drawing.Point(6, 41);
+            this.bunifuCustomLabel43.Name = "bunifuCustomLabel43";
+            this.bunifuCustomLabel43.Size = new System.Drawing.Size(63, 19);
+            this.bunifuCustomLabel43.TabIndex = 227;
+            this.bunifuCustomLabel43.Text = "Emision:";
+            // 
+            // txt_deuda_determinada
+            // 
+            this.txt_deuda_determinada.BackColor = System.Drawing.Color.White;
+            this.txt_deuda_determinada.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_deuda_determinada.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_deuda_determinada.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_deuda_determinada.BorderThickness = 2;
+            this.txt_deuda_determinada.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_deuda_determinada.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_deuda_determinada.ForeColor = System.Drawing.Color.Black;
+            this.txt_deuda_determinada.isPassword = false;
+            this.txt_deuda_determinada.Location = new System.Drawing.Point(83, 149);
+            this.txt_deuda_determinada.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_deuda_determinada.Name = "txt_deuda_determinada";
+            this.txt_deuda_determinada.Size = new System.Drawing.Size(102, 23);
+            this.txt_deuda_determinada.TabIndex = 231;
+            this.txt_deuda_determinada.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel44
+            // 
+            this.bunifuCustomLabel44.AutoSize = true;
+            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel44.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel44.Location = new System.Drawing.Point(6, 151);
+            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
+            this.bunifuCustomLabel44.Size = new System.Drawing.Size(65, 19);
+            this.bunifuCustomLabel44.TabIndex = 230;
+            this.bunifuCustomLabel44.Text = "Capital:";
+            // 
+            // chk_Cargar_Acta
+            // 
+            this.chk_Cargar_Acta.AutoSize = true;
+            this.chk_Cargar_Acta.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.chk_Cargar_Acta.Location = new System.Drawing.Point(918, 60);
+            this.chk_Cargar_Acta.Name = "chk_Cargar_Acta";
+            this.chk_Cargar_Acta.Size = new System.Drawing.Size(114, 23);
+            this.chk_Cargar_Acta.TabIndex = 256;
+            this.chk_Cargar_Acta.Text = "Asignar Acta";
+            this.chk_Cargar_Acta.UseVisualStyleBackColor = true;
+            this.chk_Cargar_Acta.CheckedChanged += new System.EventHandler(this.chk_Cargar_Acta_CheckedChanged);
+            // 
+            // bunifuCustomLabel54
+            // 
+            this.bunifuCustomLabel54.AutoSize = true;
+            this.bunifuCustomLabel54.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel54.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel54.Location = new System.Drawing.Point(540, 386);
+            this.bunifuCustomLabel54.Name = "bunifuCustomLabel54";
+            this.bunifuCustomLabel54.Size = new System.Drawing.Size(250, 19);
+            this.bunifuCustomLabel54.TabIndex = 253;
+            this.bunifuCustomLabel54.Text = "Ingrese los datos del Comprobante";
+            // 
+            // bunifuSeparator18
+            // 
+            this.bunifuSeparator18.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator18.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuSeparator18.LineThickness = 3;
+            this.bunifuSeparator18.Location = new System.Drawing.Point(544, 401);
+            this.bunifuSeparator18.Name = "bunifuSeparator18";
+            this.bunifuSeparator18.Size = new System.Drawing.Size(504, 11);
+            this.bunifuSeparator18.TabIndex = 254;
+            this.bunifuSeparator18.Transparency = 255;
+            this.bunifuSeparator18.Vertical = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(752, 434);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(219, 120);
+            this.textBox1.TabIndex = 252;
+            // 
+            // bunifuCustomLabel53
+            // 
+            this.bunifuCustomLabel53.AutoSize = true;
+            this.bunifuCustomLabel53.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel53.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel53.Location = new System.Drawing.Point(753, 413);
+            this.bunifuCustomLabel53.Name = "bunifuCustomLabel53";
+            this.bunifuCustomLabel53.Size = new System.Drawing.Size(95, 19);
+            this.bunifuCustomLabel53.TabIndex = 251;
+            this.bunifuCustomLabel53.Text = "Comentario:";
+            // 
+            // bunifuCustomLabel52
+            // 
+            this.bunifuCustomLabel52.AutoSize = true;
+            this.bunifuCustomLabel52.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel52.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel52.Location = new System.Drawing.Point(995, 536);
+            this.bunifuCustomLabel52.Name = "bunifuCustomLabel52";
+            this.bunifuCustomLabel52.Size = new System.Drawing.Size(57, 19);
+            this.bunifuCustomLabel52.TabIndex = 249;
+            this.bunifuCustomLabel52.Text = "Cargar";
+            // 
+            // bunifuCustomLabel51
+            // 
+            this.bunifuCustomLabel51.AutoSize = true;
+            this.bunifuCustomLabel51.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel51.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel51.Location = new System.Drawing.Point(541, 532);
+            this.bunifuCustomLabel51.Name = "bunifuCustomLabel51";
+            this.bunifuCustomLabel51.Size = new System.Drawing.Size(62, 19);
+            this.bunifuCustomLabel51.TabIndex = 247;
+            this.bunifuCustomLabel51.Text = "T. Pago:";
+            // 
+            // cbx_tipo_pago
+            // 
+            this.cbx_tipo_pago.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbx_tipo_pago.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbx_tipo_pago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cbx_tipo_pago.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_tipo_pago.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbx_tipo_pago.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.cbx_tipo_pago.ForeColor = System.Drawing.Color.Black;
+            this.cbx_tipo_pago.FormattingEnabled = true;
+            this.cbx_tipo_pago.Items.AddRange(new object[] {
+            "Contado",
+            "Cheque",
+            "Canje"});
+            this.cbx_tipo_pago.Location = new System.Drawing.Point(608, 529);
+            this.cbx_tipo_pago.Name = "cbx_tipo_pago";
+            this.cbx_tipo_pago.Size = new System.Drawing.Size(136, 25);
+            this.cbx_tipo_pago.TabIndex = 246;
+            // 
+            // txt_cpbte_monto
+            // 
+            this.txt_cpbte_monto.BackColor = System.Drawing.Color.White;
+            this.txt_cpbte_monto.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte_monto.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte_monto.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte_monto.BorderThickness = 2;
+            this.txt_cpbte_monto.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_cpbte_monto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cpbte_monto.ForeColor = System.Drawing.Color.Black;
+            this.txt_cpbte_monto.isPassword = false;
+            this.txt_cpbte_monto.Location = new System.Drawing.Point(608, 500);
+            this.txt_cpbte_monto.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_cpbte_monto.Name = "txt_cpbte_monto";
+            this.txt_cpbte_monto.Size = new System.Drawing.Size(136, 23);
+            this.txt_cpbte_monto.TabIndex = 245;
+            this.txt_cpbte_monto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel50
+            // 
+            this.bunifuCustomLabel50.AutoSize = true;
+            this.bunifuCustomLabel50.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel50.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel50.Location = new System.Drawing.Point(541, 502);
+            this.bunifuCustomLabel50.Name = "bunifuCustomLabel50";
+            this.bunifuCustomLabel50.Size = new System.Drawing.Size(58, 19);
+            this.bunifuCustomLabel50.TabIndex = 244;
+            this.bunifuCustomLabel50.Text = "Monto:";
+            // 
+            // txt_cpbte
+            // 
+            this.txt_cpbte.BackColor = System.Drawing.Color.White;
+            this.txt_cpbte.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte.BorderThickness = 2;
+            this.txt_cpbte.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_cpbte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cpbte.ForeColor = System.Drawing.Color.Black;
+            this.txt_cpbte.isPassword = false;
+            this.txt_cpbte.Location = new System.Drawing.Point(608, 471);
+            this.txt_cpbte.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_cpbte.Name = "txt_cpbte";
+            this.txt_cpbte.Size = new System.Drawing.Size(136, 23);
+            this.txt_cpbte.TabIndex = 243;
+            this.txt_cpbte.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel49
+            // 
+            this.bunifuCustomLabel49.AutoSize = true;
+            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel49.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel49.Location = new System.Drawing.Point(541, 473);
+            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
+            this.bunifuCustomLabel49.Size = new System.Drawing.Size(58, 19);
+            this.bunifuCustomLabel49.TabIndex = 242;
+            this.bunifuCustomLabel49.Text = "Cpbte:";
+            // 
+            // bunifuCustomLabel48
+            // 
+            this.bunifuCustomLabel48.AutoSize = true;
+            this.bunifuCustomLabel48.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel48.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel48.Location = new System.Drawing.Point(542, 415);
+            this.bunifuCustomLabel48.Name = "bunifuCustomLabel48";
+            this.bunifuCustomLabel48.Size = new System.Drawing.Size(57, 19);
+            this.bunifuCustomLabel48.TabIndex = 241;
+            this.bunifuCustomLabel48.Text = "Fecha:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(608, 413);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(135, 21);
+            this.dateTimePicker1.TabIndex = 240;
+            // 
+            // txt_cpbte_acta
+            // 
+            this.txt_cpbte_acta.BackColor = System.Drawing.Color.White;
+            this.txt_cpbte_acta.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte_acta.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte_acta.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.txt_cpbte_acta.BorderThickness = 2;
+            this.txt_cpbte_acta.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_cpbte_acta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_cpbte_acta.ForeColor = System.Drawing.Color.Black;
+            this.txt_cpbte_acta.isPassword = false;
+            this.txt_cpbte_acta.Location = new System.Drawing.Point(608, 442);
+            this.txt_cpbte_acta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt_cpbte_acta.Name = "txt_cpbte_acta";
+            this.txt_cpbte_acta.Size = new System.Drawing.Size(136, 23);
+            this.txt_cpbte_acta.TabIndex = 239;
+            this.txt_cpbte_acta.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // bunifuCustomLabel47
+            // 
+            this.bunifuCustomLabel47.AutoSize = true;
+            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel47.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel47.Location = new System.Drawing.Point(542, 444);
+            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
+            this.bunifuCustomLabel47.Size = new System.Drawing.Size(46, 19);
+            this.bunifuCustomLabel47.TabIndex = 238;
+            this.bunifuCustomLabel47.Text = "Acta:";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle72.BackColor = System.Drawing.Color.White;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle72;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridView1.CausesValidation = false;
+            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle73.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle73.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle73;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn4,
+            this.Acta,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.FormaPago});
+            this.dataGridView1.Location = new System.Drawing.Point(10, 411);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
+            dataGridViewCellStyle77.BackColor = System.Drawing.Color.Silver;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle77;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(525, 186);
+            this.dataGridView1.TabIndex = 235;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "fecha";
+            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle74;
+            this.dataGridViewTextBoxColumn4.HeaderText = "Fecha Cobro";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn4.Width = 110;
+            // 
+            // Acta
+            // 
+            this.Acta.HeaderText = "Acta";
+            this.Acta.Name = "Acta";
+            this.Acta.ReadOnly = true;
+            this.Acta.Width = 80;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "comprobante";
+            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle75;
+            this.dataGridViewTextBoxColumn5.HeaderText = "Comprobante";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "total";
+            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle76.Format = "C2";
+            dataGridViewCellStyle76.NullValue = "0";
+            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle76;
+            this.dataGridViewTextBoxColumn6.HeaderText = "Monto";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Width = 90;
+            // 
+            // FormaPago
+            // 
+            this.FormaPago.HeaderText = "Forma de Pago";
+            this.FormaPago.Name = "FormaPago";
+            this.FormaPago.ReadOnly = true;
+            this.FormaPago.Width = 120;
+            // 
+            // bunifuCustomLabel46
+            // 
+            this.bunifuCustomLabel46.AutoSize = true;
+            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel46.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel46.Location = new System.Drawing.Point(7, 385);
+            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
+            this.bunifuCustomLabel46.Size = new System.Drawing.Size(183, 19);
+            this.bunifuCustomLabel46.TabIndex = 236;
+            this.bunifuCustomLabel46.Text = "Comprobantes de Cobro";
+            // 
+            // bunifuCustomLabel45
+            // 
+            this.bunifuCustomLabel45.AutoSize = true;
+            this.bunifuCustomLabel45.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuCustomLabel45.ForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomLabel45.Location = new System.Drawing.Point(1042, 3);
+            this.bunifuCustomLabel45.Name = "bunifuCustomLabel45";
+            this.bunifuCustomLabel45.Size = new System.Drawing.Size(56, 19);
+            this.bunifuCustomLabel45.TabIndex = 234;
+            this.bunifuCustomLabel45.Text = "Estado";
+            // 
+            // cbx_estado_acta
+            // 
+            this.cbx_estado_acta.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbx_estado_acta.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbx_estado_acta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cbx_estado_acta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbx_estado_acta.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.cbx_estado_acta.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.cbx_estado_acta.ForeColor = System.Drawing.Color.Black;
+            this.cbx_estado_acta.FormattingEnabled = true;
+            this.cbx_estado_acta.Items.AddRange(new object[] {
+            "Cancelada",
+            "A Cobrar",
+            "Plan de Pago"});
+            this.cbx_estado_acta.Location = new System.Drawing.Point(1045, 23);
+            this.cbx_estado_acta.Name = "cbx_estado_acta";
+            this.cbx_estado_acta.Size = new System.Drawing.Size(111, 25);
+            this.cbx_estado_acta.TabIndex = 233;
             // 
             // bunifuCustomLabel37
             // 
             this.bunifuCustomLabel37.AutoSize = true;
             this.bunifuCustomLabel37.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.bunifuCustomLabel37.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel37.Location = new System.Drawing.Point(725, 518);
+            this.bunifuCustomLabel37.Location = new System.Drawing.Point(678, 343);
             this.bunifuCustomLabel37.Name = "bunifuCustomLabel37";
             this.bunifuCustomLabel37.Size = new System.Drawing.Size(120, 17);
             this.bunifuCustomLabel37.TabIndex = 222;
@@ -3237,7 +4622,7 @@
             this.lbl_seguimiento_total_deuda.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_seguimiento_total_deuda.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_seguimiento_total_deuda.ForeColor = System.Drawing.Color.Black;
-            this.lbl_seguimiento_total_deuda.Location = new System.Drawing.Point(580, 519);
+            this.lbl_seguimiento_total_deuda.Location = new System.Drawing.Point(533, 344);
             this.lbl_seguimiento_total_deuda.Name = "lbl_seguimiento_total_deuda";
             this.lbl_seguimiento_total_deuda.Size = new System.Drawing.Size(121, 19);
             this.lbl_seguimiento_total_deuda.TabIndex = 221;
@@ -3249,7 +4634,7 @@
             this.lbl_seguimiento_total_empresas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_seguimiento_total_empresas.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_seguimiento_total_empresas.ForeColor = System.Drawing.Color.Black;
-            this.lbl_seguimiento_total_empresas.Location = new System.Drawing.Point(848, 518);
+            this.lbl_seguimiento_total_empresas.Location = new System.Drawing.Point(801, 343);
             this.lbl_seguimiento_total_empresas.Name = "lbl_seguimiento_total_empresas";
             this.lbl_seguimiento_total_empresas.Size = new System.Drawing.Size(111, 19);
             this.lbl_seguimiento_total_empresas.TabIndex = 220;
@@ -3261,7 +4646,7 @@
             this.bunifuCustomLabel42.AutoSize = true;
             this.bunifuCustomLabel42.Font = new System.Drawing.Font("Century Gothic", 9F);
             this.bunifuCustomLabel42.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel42.Location = new System.Drawing.Point(466, 518);
+            this.bunifuCustomLabel42.Location = new System.Drawing.Point(419, 343);
             this.bunifuCustomLabel42.Name = "bunifuCustomLabel42";
             this.bunifuCustomLabel42.Size = new System.Drawing.Size(108, 17);
             this.bunifuCustomLabel42.TabIndex = 219;
@@ -3272,7 +4657,7 @@
             this.bunifuCustomLabel40.AutoSize = true;
             this.bunifuCustomLabel40.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.bunifuCustomLabel40.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel40.Location = new System.Drawing.Point(373, 33);
+            this.bunifuCustomLabel40.Location = new System.Drawing.Point(350, 5);
             this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
             this.bunifuCustomLabel40.Size = new System.Drawing.Size(42, 19);
             this.bunifuCustomLabel40.TabIndex = 217;
@@ -3283,7 +4668,7 @@
             this.bunifuSeparator17.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator17.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuSeparator17.LineThickness = 3;
-            this.bunifuSeparator17.Location = new System.Drawing.Point(376, 50);
+            this.bunifuSeparator17.Location = new System.Drawing.Point(353, 22);
             this.bunifuSeparator17.Name = "bunifuSeparator17";
             this.bunifuSeparator17.Size = new System.Drawing.Size(89, 10);
             this.bunifuSeparator17.TabIndex = 218;
@@ -3304,7 +4689,7 @@
             "SI",
             "NO",
             "TODAS"});
-            this.cbx_seguimiento_acta.Location = new System.Drawing.Point(376, 60);
+            this.cbx_seguimiento_acta.Location = new System.Drawing.Point(353, 32);
             this.cbx_seguimiento_acta.Name = "cbx_seguimiento_acta";
             this.cbx_seguimiento_acta.Size = new System.Drawing.Size(89, 25);
             this.cbx_seguimiento_acta.TabIndex = 216;
@@ -3314,7 +4699,7 @@
             this.bunifuCustomLabel39.AutoSize = true;
             this.bunifuCustomLabel39.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.bunifuCustomLabel39.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel39.Location = new System.Drawing.Point(189, 33);
+            this.bunifuCustomLabel39.Location = new System.Drawing.Point(178, 5);
             this.bunifuCustomLabel39.Name = "bunifuCustomLabel39";
             this.bunifuCustomLabel39.Size = new System.Drawing.Size(56, 19);
             this.bunifuCustomLabel39.TabIndex = 214;
@@ -3325,9 +4710,9 @@
             this.bunifuSeparator16.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator16.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuSeparator16.LineThickness = 3;
-            this.bunifuSeparator16.Location = new System.Drawing.Point(193, 50);
+            this.bunifuSeparator16.Location = new System.Drawing.Point(182, 22);
             this.bunifuSeparator16.Name = "bunifuSeparator16";
-            this.bunifuSeparator16.Size = new System.Drawing.Size(173, 10);
+            this.bunifuSeparator16.Size = new System.Drawing.Size(159, 10);
             this.bunifuSeparator16.TabIndex = 215;
             this.bunifuSeparator16.Transparency = 255;
             this.bunifuSeparator16.Vertical = false;
@@ -3342,32 +4727,17 @@
             this.cbx_seguimiento_estado.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.cbx_seguimiento_estado.ForeColor = System.Drawing.Color.Black;
             this.cbx_seguimiento_estado.FormattingEnabled = true;
-            this.cbx_seguimiento_estado.Location = new System.Drawing.Point(193, 60);
+            this.cbx_seguimiento_estado.Location = new System.Drawing.Point(182, 32);
             this.cbx_seguimiento_estado.Name = "cbx_seguimiento_estado";
-            this.cbx_seguimiento_estado.Size = new System.Drawing.Size(173, 25);
+            this.cbx_seguimiento_estado.Size = new System.Drawing.Size(159, 25);
             this.cbx_seguimiento_estado.TabIndex = 213;
-            // 
-            // btn_aplicar_filtro
-            // 
-            this.btn_aplicar_filtro.BackColor = System.Drawing.Color.Transparent;
-            this.btn_aplicar_filtro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_aplicar_filtro.Image = ((System.Drawing.Image)(resources.GetObject("btn_aplicar_filtro.Image")));
-            this.btn_aplicar_filtro.ImageActive = null;
-            this.btn_aplicar_filtro.Location = new System.Drawing.Point(489, 50);
-            this.btn_aplicar_filtro.Name = "btn_aplicar_filtro";
-            this.btn_aplicar_filtro.Size = new System.Drawing.Size(39, 36);
-            this.btn_aplicar_filtro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_aplicar_filtro.TabIndex = 212;
-            this.btn_aplicar_filtro.TabStop = false;
-            this.btn_aplicar_filtro.Zoom = 10;
-            this.btn_aplicar_filtro.Click += new System.EventHandler(this.btn_aplicar_filtro_Click);
             // 
             // bunifuCustomLabel38
             // 
             this.bunifuCustomLabel38.AutoSize = true;
             this.bunifuCustomLabel38.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.bunifuCustomLabel38.ForeColor = System.Drawing.Color.Black;
-            this.bunifuCustomLabel38.Location = new System.Drawing.Point(6, 33);
+            this.bunifuCustomLabel38.Location = new System.Drawing.Point(6, 5);
             this.bunifuCustomLabel38.Name = "bunifuCustomLabel38";
             this.bunifuCustomLabel38.Size = new System.Drawing.Size(72, 19);
             this.bunifuCustomLabel38.TabIndex = 210;
@@ -3378,9 +4748,9 @@
             this.bunifuSeparator15.BackColor = System.Drawing.Color.Transparent;
             this.bunifuSeparator15.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.bunifuSeparator15.LineThickness = 3;
-            this.bunifuSeparator15.Location = new System.Drawing.Point(10, 50);
+            this.bunifuSeparator15.Location = new System.Drawing.Point(10, 22);
             this.bunifuSeparator15.Name = "bunifuSeparator15";
-            this.bunifuSeparator15.Size = new System.Drawing.Size(173, 10);
+            this.bunifuSeparator15.Size = new System.Drawing.Size(159, 10);
             this.bunifuSeparator15.TabIndex = 211;
             this.bunifuSeparator15.Transparency = 255;
             this.bunifuSeparator15.Vertical = false;
@@ -3395,9 +4765,9 @@
             this.cbx_seguimiento_inspector.Font = new System.Drawing.Font("Century Gothic", 9.75F);
             this.cbx_seguimiento_inspector.ForeColor = System.Drawing.Color.Black;
             this.cbx_seguimiento_inspector.FormattingEnabled = true;
-            this.cbx_seguimiento_inspector.Location = new System.Drawing.Point(10, 60);
+            this.cbx_seguimiento_inspector.Location = new System.Drawing.Point(10, 32);
             this.cbx_seguimiento_inspector.Name = "cbx_seguimiento_inspector";
-            this.cbx_seguimiento_inspector.Size = new System.Drawing.Size(173, 25);
+            this.cbx_seguimiento_inspector.Size = new System.Drawing.Size(159, 25);
             this.cbx_seguimiento_inspector.TabIndex = 209;
             this.cbx_seguimiento_inspector.SelectedIndexChanged += new System.EventHandler(this.cbx_seguimiento_inspector_SelectedIndexChanged);
             // 
@@ -3406,18 +4776,18 @@
             this.dgv_seguimiento.AllowUserToAddRows = false;
             this.dgv_seguimiento.AllowUserToDeleteRows = false;
             this.dgv_seguimiento.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle66.BackColor = System.Drawing.Color.White;
-            this.dgv_seguimiento.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle78.BackColor = System.Drawing.Color.White;
+            this.dgv_seguimiento.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle78;
             this.dgv_seguimiento.BackgroundColor = System.Drawing.Color.White;
             this.dgv_seguimiento.CausesValidation = false;
-            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle67.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle67.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle67.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle67.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle67.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv_seguimiento.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle67;
+            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle79.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle79.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle79.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle79.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv_seguimiento.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle79;
             this.dgv_seguimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_seguimiento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.asignacion_fecha,
@@ -3431,26 +4801,28 @@
             this.asignacion_nro_aviso,
             this.asignacion_acta_generada,
             this.asignacion_estado,
-            this.asignacion_dias});
+            this.asignacion_dias,
+            this.IDasig});
             this.dgv_seguimiento.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dgv_seguimiento.Location = new System.Drawing.Point(6, 95);
+            this.dgv_seguimiento.Location = new System.Drawing.Point(6, 67);
             this.dgv_seguimiento.Name = "dgv_seguimiento";
             this.dgv_seguimiento.ReadOnly = true;
             this.dgv_seguimiento.RowHeadersVisible = false;
-            dataGridViewCellStyle73.BackColor = System.Drawing.Color.Silver;
-            this.dgv_seguimiento.RowsDefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle88.BackColor = System.Drawing.Color.Silver;
+            this.dgv_seguimiento.RowsDefaultCellStyle = dataGridViewCellStyle88;
             this.dgv_seguimiento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_seguimiento.Size = new System.Drawing.Size(1272, 411);
+            this.dgv_seguimiento.Size = new System.Drawing.Size(906, 273);
             this.dgv_seguimiento.TabIndex = 79;
             // 
             // asignacion_fecha
             // 
             this.asignacion_fecha.DataPropertyName = "asig_fecha";
-            dataGridViewCellStyle68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.asignacion_fecha.DefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.asignacion_fecha.DefaultCellStyle = dataGridViewCellStyle80;
             this.asignacion_fecha.HeaderText = "Fecha";
             this.asignacion_fecha.Name = "asignacion_fecha";
             this.asignacion_fecha.ReadOnly = true;
+            this.asignacion_fecha.Width = 80;
             // 
             // asignacion_empresa
             // 
@@ -3458,13 +4830,13 @@
             this.asignacion_empresa.HeaderText = "Empresa";
             this.asignacion_empresa.Name = "asignacion_empresa";
             this.asignacion_empresa.ReadOnly = true;
-            this.asignacion_empresa.Width = 300;
+            this.asignacion_empresa.Width = 250;
             // 
             // asignacion_desde
             // 
             this.asignacion_desde.DataPropertyName = "asig_desde";
-            dataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            this.asignacion_desde.DefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.asignacion_desde.DefaultCellStyle = dataGridViewCellStyle81;
             this.asignacion_desde.HeaderText = "Desde";
             this.asignacion_desde.Name = "asignacion_desde";
             this.asignacion_desde.ReadOnly = true;
@@ -3473,8 +4845,8 @@
             // asignacion_hasta
             // 
             this.asignacion_hasta.DataPropertyName = "asig_hasta";
-            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            this.asignacion_hasta.DefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            this.asignacion_hasta.DefaultCellStyle = dataGridViewCellStyle82;
             this.asignacion_hasta.HeaderText = "Hasta";
             this.asignacion_hasta.Name = "asignacion_hasta";
             this.asignacion_hasta.ReadOnly = true;
@@ -3483,10 +4855,10 @@
             // asignacion_importe
             // 
             this.asignacion_importe.DataPropertyName = "asig_deuda";
-            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
-            dataGridViewCellStyle71.Format = "N2";
-            dataGridViewCellStyle71.NullValue = "0";
-            this.asignacion_importe.DefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle83.Format = "N2";
+            dataGridViewCellStyle83.NullValue = "0";
+            this.asignacion_importe.DefaultCellStyle = dataGridViewCellStyle83;
             this.asignacion_importe.HeaderText = "Deuda Aprox.";
             this.asignacion_importe.Name = "asignacion_importe";
             this.asignacion_importe.ReadOnly = true;
@@ -3495,10 +4867,12 @@
             // asignacion_inspector
             // 
             this.asignacion_inspector.DataPropertyName = "asig_inspector";
+            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.asignacion_inspector.DefaultCellStyle = dataGridViewCellStyle84;
             this.asignacion_inspector.HeaderText = "Inspector";
             this.asignacion_inspector.Name = "asignacion_inspector";
             this.asignacion_inspector.ReadOnly = true;
-            this.asignacion_inspector.Width = 115;
+            this.asignacion_inspector.Width = 90;
             // 
             // asignacion_fecha_gen_aviso
             // 
@@ -3506,6 +4880,7 @@
             this.asignacion_fecha_gen_aviso.HeaderText = "Generacion de Aviso";
             this.asignacion_fecha_gen_aviso.Name = "asignacion_fecha_gen_aviso";
             this.asignacion_fecha_gen_aviso.ReadOnly = true;
+            this.asignacion_fecha_gen_aviso.Visible = false;
             this.asignacion_fecha_gen_aviso.Width = 80;
             // 
             // asignacion_fecha_ent_aviso
@@ -3514,6 +4889,7 @@
             this.asignacion_fecha_ent_aviso.HeaderText = "Entrega de Aviso";
             this.asignacion_fecha_ent_aviso.Name = "asignacion_fecha_ent_aviso";
             this.asignacion_fecha_ent_aviso.ReadOnly = true;
+            this.asignacion_fecha_ent_aviso.Visible = false;
             this.asignacion_fecha_ent_aviso.Width = 80;
             // 
             // asignacion_nro_aviso
@@ -3522,21 +4898,24 @@
             this.asignacion_nro_aviso.HeaderText = "Numero de Aviso";
             this.asignacion_nro_aviso.Name = "asignacion_nro_aviso";
             this.asignacion_nro_aviso.ReadOnly = true;
+            this.asignacion_nro_aviso.Visible = false;
             this.asignacion_nro_aviso.Width = 80;
             // 
             // asignacion_acta_generada
             // 
             this.asignacion_acta_generada.DataPropertyName = "asig_acta";
-            this.asignacion_acta_generada.HeaderText = "Acta Generada";
+            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.asignacion_acta_generada.DefaultCellStyle = dataGridViewCellStyle85;
+            this.asignacion_acta_generada.HeaderText = "Acta";
             this.asignacion_acta_generada.Name = "asignacion_acta_generada";
             this.asignacion_acta_generada.ReadOnly = true;
-            this.asignacion_acta_generada.Width = 80;
+            this.asignacion_acta_generada.Width = 60;
             // 
             // asignacion_estado
             // 
             this.asignacion_estado.DataPropertyName = "asig_estado";
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
-            this.asignacion_estado.DefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomCenter;
+            this.asignacion_estado.DefaultCellStyle = dataGridViewCellStyle86;
             this.asignacion_estado.HeaderText = "Estado";
             this.asignacion_estado.Name = "asignacion_estado";
             this.asignacion_estado.ReadOnly = true;
@@ -3545,16 +4924,113 @@
             // asignacion_dias
             // 
             this.asignacion_dias.DataPropertyName = "asig_dias";
+            dataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.asignacion_dias.DefaultCellStyle = dataGridViewCellStyle87;
             this.asignacion_dias.HeaderText = "Dias";
             this.asignacion_dias.Name = "asignacion_dias";
             this.asignacion_dias.ReadOnly = true;
-            this.asignacion_dias.Width = 65;
+            this.asignacion_dias.Width = 50;
+            // 
+            // IDasig
+            // 
+            this.IDasig.DataPropertyName = "asig_id";
+            this.IDasig.HeaderText = "id";
+            this.IDasig.Name = "IDasig";
+            this.IDasig.ReadOnly = true;
+            this.IDasig.Visible = false;
+            // 
+            // bunifuSeparator14
+            // 
+            this.bunifuSeparator14.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuSeparator14.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuSeparator14.LineThickness = 3;
+            this.bunifuSeparator14.Location = new System.Drawing.Point(11, 401);
+            this.bunifuSeparator14.Name = "bunifuSeparator14";
+            this.bunifuSeparator14.Size = new System.Drawing.Size(523, 10);
+            this.bunifuSeparator14.TabIndex = 237;
+            this.bunifuSeparator14.Transparency = 255;
+            this.bunifuSeparator14.Vertical = false;
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(999, 483);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(49, 50);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 248;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 10;
+            // 
+            // btn_guardar_acta_generada
+            // 
+            this.btn_guardar_acta_generada.BackColor = System.Drawing.Color.Transparent;
+            this.btn_guardar_acta_generada.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_guardar_acta_generada.Image = ((System.Drawing.Image)(resources.GetObject("btn_guardar_acta_generada.Image")));
+            this.btn_guardar_acta_generada.ImageActive = null;
+            this.btn_guardar_acta_generada.Location = new System.Drawing.Point(1174, 22);
+            this.btn_guardar_acta_generada.Name = "btn_guardar_acta_generada";
+            this.btn_guardar_acta_generada.Size = new System.Drawing.Size(26, 26);
+            this.btn_guardar_acta_generada.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_guardar_acta_generada.TabIndex = 232;
+            this.btn_guardar_acta_generada.TabStop = false;
+            this.btn_guardar_acta_generada.Zoom = 10;
+            this.btn_guardar_acta_generada.Click += new System.EventHandler(this.btn_guardar_acta_generada_Click);
+            // 
+            // btn_aplicar_filtro
+            // 
+            this.btn_aplicar_filtro.BackColor = System.Drawing.Color.Transparent;
+            this.btn_aplicar_filtro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_aplicar_filtro.Image = ((System.Drawing.Image)(resources.GetObject("btn_aplicar_filtro.Image")));
+            this.btn_aplicar_filtro.ImageActive = null;
+            this.btn_aplicar_filtro.Location = new System.Drawing.Point(458, 21);
+            this.btn_aplicar_filtro.Name = "btn_aplicar_filtro";
+            this.btn_aplicar_filtro.Size = new System.Drawing.Size(39, 36);
+            this.btn_aplicar_filtro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_aplicar_filtro.TabIndex = 212;
+            this.btn_aplicar_filtro.TabStop = false;
+            this.btn_aplicar_filtro.Zoom = 10;
+            this.btn_aplicar_filtro.Click += new System.EventHandler(this.btn_aplicar_filtro_Click);
+            // 
+            // cuit
+            // 
+            this.cuit.HeaderText = "C.U.I.T.";
+            this.cuit.Name = "cuit";
+            this.cuit.ReadOnly = true;
+            // 
+            // empresa
+            // 
+            this.empresa.HeaderText = "Empresa";
+            this.empresa.Name = "empresa";
+            this.empresa.ReadOnly = true;
+            this.empresa.Width = 300;
+            // 
+            // domicilio
+            // 
+            this.domicilio.DataPropertyName = "domicilio";
+            this.domicilio.HeaderText = "Domicilio";
+            this.domicilio.Name = "domicilio";
+            this.domicilio.ReadOnly = true;
+            // 
+            // deuda
+            // 
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.BottomRight;
+            dataGridViewCellStyle53.Format = "C2";
+            dataGridViewCellStyle53.NullValue = "0";
+            this.deuda.DefaultCellStyle = dataGridViewCellStyle53;
+            this.deuda.HeaderText = "Deuda";
+            this.deuda.Name = "deuda";
+            this.deuda.ReadOnly = true;
+            this.deuda.Width = 120;
             // 
             // frm_inspecciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1332, 716);
+            this.ClientSize = new System.Drawing.Size(1332, 742);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -3565,6 +5041,7 @@
             this.Load += new System.EventHandler(this.frm_inspecciones_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Per_NO_declarados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_asignar_inspector)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_simular_acta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_actualizar)).EndInit();
@@ -3582,15 +5059,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ranking)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_simular_acta)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn_imprimir_simulacion_acta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_quitar_periodo_simulacion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_generar_periodos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_simular_acta)).EndInit();
-            this.contextMenuStrip1.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_aplicar_filtro)).EndInit();
+            this.gbx_asig_actas.ResumeLayout(false);
+            this.gbx_asig_actas.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_seguimiento)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_guardar_acta_generada)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_aplicar_filtro)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3678,9 +5160,6 @@
         private Bunifu.Framework.UI.BunifuFlatButton btn_generar_ranking;
         private Bunifu.Framework.UI.BunifuCustomLabel lbl_cant_empresas;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cuit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn empresa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn deuda;
         private Bunifu.Framework.UI.BunifuCustomLabel lbl_total_a_cobrar;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel15;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel16;
@@ -3767,18 +5246,6 @@
         private Bunifu.Framework.UI.BunifuImageButton btn_asignar_inspector;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.DataGridView dgv_seguimiento;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_fecha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_empresa;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_desde;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_hasta;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_importe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_inspector;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_fecha_gen_aviso;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_fecha_ent_aviso;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_nro_aviso;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_acta_generada;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_estado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_dias;
         private Bunifu.Framework.UI.BunifuImageButton btn_aplicar_filtro;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel38;
         private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator15;
@@ -3797,5 +5264,85 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel41;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel43;
         private System.Windows.Forms.DateTimePicker dtp_fecha_gen_acta;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_deuda_determinada;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel44;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel45;
+        private System.Windows.Forms.ComboBox cbx_estado_acta;
+        private Bunifu.Framework.UI.BunifuImageButton btn_guardar_acta_generada;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator14;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel46;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel51;
+        private System.Windows.Forms.ComboBox cbx_tipo_pago;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_cpbte_monto;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel50;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_cpbte;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel49;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel48;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_cpbte_acta;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel47;
+        private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel52;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel53;
+        private System.Windows.Forms.TextBox textBox1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel54;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Acta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FormaPago;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_fecha;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_empresa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_desde;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_hasta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_importe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_inspector;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_fecha_gen_aviso;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_fecha_ent_aviso;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_nro_aviso;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_acta_generada;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_estado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn asignacion_dias;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDasig;
+        private System.Windows.Forms.CheckBox chk_Cargar_Acta;
+        private System.Windows.Forms.GroupBox gbx_asig_actas;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_venc_acta;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel55;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_total_acta;
+        private Bunifu.Framework.UI.BunifuCustomLabel txt_total;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_intereses;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel56;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox6;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel61;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel64;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel65;
+        private System.Windows.Forms.ComboBox cbx_per_desde;
+        private System.Windows.Forms.ComboBox cbx_per_hasta;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox7;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel63;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel62;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox5;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel60;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox3;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel59;
+        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel58;
+        private Bunifu.Framework.UI.BunifuMetroTextbox txt_inteereses_financiacion;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel57;
+        private System.Windows.Forms.DataGridView dgv_Per_NO_declarados;
+        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator19;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel66;
+        private Bunifu.Framework.UI.BunifuFlatButton btn_per_NO_declarados;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dni;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn periodos;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cuit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn empresa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn domicilio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn deuda;
     }
 }

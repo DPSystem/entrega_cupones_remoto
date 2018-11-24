@@ -53,26 +53,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_principal));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_menu = new System.Windows.Forms.Panel();
-            this.btn_futbol = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_inspectores = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_actualizar = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_colonia = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_capacitacion = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_asesoria = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_enfermeria = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_peluqueria = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_odontologo = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_gimnasio = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_masajista = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_pedicuro = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_quinchos = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btn_mochila = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Btn_menu = new Bunifu.Framework.UI.BunifuImageButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_close = new Bunifu.Framework.UI.BunifuFlatButton();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dgv_excell = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -93,7 +75,6 @@
             this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator9 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuSeparator8 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.btn_imprimir_ficha = new Bunifu.Framework.UI.BunifuImageButton();
             this.dgv_familiar_a_cargo = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.foto_beneficiario = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -120,8 +101,6 @@
             this.lbl_estudia = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txt_benef_ape = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.bunifuCustomLabel34 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.swt_benef_estudia = new Bunifu.Framework.UI.BunifuiOSSwitch();
-            this.swt_benef_activo = new Bunifu.Framework.UI.BunifuiOSSwitch();
             this.lbl_total_benef = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel27 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel29 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -136,12 +115,9 @@
             this.apeynom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parentesco = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codigo_fliar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_sin_imagen_benef = new Bunifu.Framework.UI.BunifuImageButton();
             this.lbl_discapa = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.picbox_beneficiario = new System.Windows.Forms.PictureBox();
             this.bunifuCustomLabel22 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel23 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.swt_benef_discapa = new Bunifu.Framework.UI.BunifuiOSSwitch();
             this.bunifuSeparator4 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuSeparator5 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -150,7 +126,6 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lbl_cuil = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel38 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_sin_imagen = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuSeparator12 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuCustomLabel31 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lbl_estado_civil = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -180,7 +155,6 @@
             this.lbl_nro_socio = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuSeparator3 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.picbox_socio = new System.Windows.Forms.PictureBox();
             this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -190,7 +164,6 @@
             this.ayn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.socio_empresa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuCustomLabel33 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_update = new Bunifu.Framework.UI.BunifuImageButton();
             this.cbx_filtrar = new System.Windows.Forms.ComboBox();
             this.cbx_buscar_por = new System.Windows.Forms.ComboBox();
             this.bunifuSeparator13 = new Bunifu.Framework.UI.BunifuSeparator();
@@ -200,31 +173,60 @@
             this.separador_1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.Txt_dni = new Bunifu.Framework.UI.BunifuMetroTextbox();
             this.lbl_1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pnl_menu_transition = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
+            this.btn_edades = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btn_imprimir_ficha = new Bunifu.Framework.UI.BunifuImageButton();
+            this.swt_benef_estudia = new Bunifu.Framework.UI.BunifuiOSSwitch();
+            this.swt_benef_activo = new Bunifu.Framework.UI.BunifuiOSSwitch();
+            this.btn_sin_imagen_benef = new Bunifu.Framework.UI.BunifuImageButton();
+            this.picbox_beneficiario = new System.Windows.Forms.PictureBox();
+            this.swt_benef_discapa = new Bunifu.Framework.UI.BunifuiOSSwitch();
+            this.btn_sin_imagen = new Bunifu.Framework.UI.BunifuImageButton();
+            this.picbox_socio = new System.Windows.Forms.PictureBox();
+            this.btn_update = new Bunifu.Framework.UI.BunifuImageButton();
             this.btn_entrega_cupones = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Btn_mochilas = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Btn_mostrar_cupones = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.pnl_menu_transition = new BunifuAnimatorNS.BunifuTransition(this.components);
+            this.btn_futbol = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_inspectores = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_actualizar = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_colonia = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_capacitacion = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_asesoria = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_enfermeria = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_peluqueria = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_odontologo = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_gimnasio = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_masajista = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_pedicuro = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_quinchos = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.btn_mochila = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Btn_menu = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_close = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pnl_menu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_menu)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_excell)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_mostrar_aportes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_imprimir_ficha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_familiar_a_cargo)).BeginInit();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_historial_servicios)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_mostrar_beneficiario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen_benef)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_beneficiario)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_socio)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_mostrar_socios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_imprimir_ficha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen_benef)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_beneficiario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_socio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_update)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Btn_menu)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -260,457 +262,6 @@
             this.pnl_menu.Size = new System.Drawing.Size(138, 682);
             this.pnl_menu.TabIndex = 15;
             // 
-            // btn_futbol
-            // 
-            this.btn_futbol.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_futbol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_futbol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_futbol.BorderRadius = 0;
-            this.btn_futbol.ButtonText = "   Futbol";
-            this.btn_futbol.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_futbol, BunifuAnimatorNS.DecorationType.None);
-            this.btn_futbol.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_futbol.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_futbol.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_futbol.Iconimage = global::entrega_cupones.Properties.Resources.football__3_;
-            this.btn_futbol.Iconimage_right = null;
-            this.btn_futbol.Iconimage_right_Selected = null;
-            this.btn_futbol.Iconimage_Selected = null;
-            this.btn_futbol.IconMarginLeft = 0;
-            this.btn_futbol.IconMarginRight = 0;
-            this.btn_futbol.IconRightVisible = true;
-            this.btn_futbol.IconRightZoom = 0D;
-            this.btn_futbol.IconVisible = true;
-            this.btn_futbol.IconZoom = 55D;
-            this.btn_futbol.IsTab = true;
-            this.btn_futbol.Location = new System.Drawing.Point(1, 116);
-            this.btn_futbol.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_futbol.Name = "btn_futbol";
-            this.btn_futbol.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_futbol.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_futbol.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_futbol.selected = false;
-            this.btn_futbol.Size = new System.Drawing.Size(137, 40);
-            this.btn_futbol.TabIndex = 34;
-            this.btn_futbol.Text = "   Futbol";
-            this.btn_futbol.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_futbol.Textcolor = System.Drawing.Color.White;
-            this.btn_futbol.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_futbol.Click += new System.EventHandler(this.btn_futbol_Click);
-            // 
-            // btn_inspectores
-            // 
-            this.btn_inspectores.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_inspectores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_inspectores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_inspectores.BorderRadius = 0;
-            this.btn_inspectores.ButtonText = "   Inspectores";
-            this.btn_inspectores.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_inspectores, BunifuAnimatorNS.DecorationType.None);
-            this.btn_inspectores.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_inspectores.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_inspectores.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_inspectores.Iconimage = global::entrega_cupones.Properties.Resources.policeman__2_;
-            this.btn_inspectores.Iconimage_right = null;
-            this.btn_inspectores.Iconimage_right_Selected = null;
-            this.btn_inspectores.Iconimage_Selected = null;
-            this.btn_inspectores.IconMarginLeft = 0;
-            this.btn_inspectores.IconMarginRight = 0;
-            this.btn_inspectores.IconRightVisible = true;
-            this.btn_inspectores.IconRightZoom = 0D;
-            this.btn_inspectores.IconVisible = true;
-            this.btn_inspectores.IconZoom = 55D;
-            this.btn_inspectores.IsTab = true;
-            this.btn_inspectores.Location = new System.Drawing.Point(2, 584);
-            this.btn_inspectores.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_inspectores.Name = "btn_inspectores";
-            this.btn_inspectores.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_inspectores.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_inspectores.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_inspectores.selected = false;
-            this.btn_inspectores.Size = new System.Drawing.Size(137, 37);
-            this.btn_inspectores.TabIndex = 33;
-            this.btn_inspectores.Text = "   Inspectores";
-            this.btn_inspectores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_inspectores.Textcolor = System.Drawing.Color.White;
-            this.btn_inspectores.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_inspectores.Click += new System.EventHandler(this.btn_inspectores_Click);
-            // 
-            // btn_actualizar
-            // 
-            this.btn_actualizar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_actualizar.BorderRadius = 0;
-            this.btn_actualizar.ButtonText = "   Actualizar";
-            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_actualizar, BunifuAnimatorNS.DecorationType.None);
-            this.btn_actualizar.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_actualizar.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_actualizar.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_actualizar.Iconimage = global::entrega_cupones.Properties.Resources.id_card;
-            this.btn_actualizar.Iconimage_right = null;
-            this.btn_actualizar.Iconimage_right_Selected = null;
-            this.btn_actualizar.Iconimage_Selected = null;
-            this.btn_actualizar.IconMarginLeft = 0;
-            this.btn_actualizar.IconMarginRight = 0;
-            this.btn_actualizar.IconRightVisible = true;
-            this.btn_actualizar.IconRightZoom = 0D;
-            this.btn_actualizar.IconVisible = true;
-            this.btn_actualizar.IconZoom = 55D;
-            this.btn_actualizar.IsTab = true;
-            this.btn_actualizar.Location = new System.Drawing.Point(2, 545);
-            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_actualizar.Name = "btn_actualizar";
-            this.btn_actualizar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_actualizar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_actualizar.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_actualizar.selected = false;
-            this.btn_actualizar.Size = new System.Drawing.Size(137, 37);
-            this.btn_actualizar.TabIndex = 32;
-            this.btn_actualizar.Text = "   Actualizar";
-            this.btn_actualizar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_actualizar.Textcolor = System.Drawing.Color.White;
-            this.btn_actualizar.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
-            // 
-            // bunifuFlatButton2
-            // 
-            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton2.BorderRadius = 0;
-            this.bunifuFlatButton2.ButtonText = "   Carnet";
-            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton2.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton2.Iconimage = global::entrega_cupones.Properties.Resources.id_card;
-            this.bunifuFlatButton2.Iconimage_right = null;
-            this.bunifuFlatButton2.Iconimage_right_Selected = null;
-            this.bunifuFlatButton2.Iconimage_Selected = null;
-            this.bunifuFlatButton2.IconMarginLeft = 0;
-            this.bunifuFlatButton2.IconMarginRight = 0;
-            this.bunifuFlatButton2.IconRightVisible = true;
-            this.bunifuFlatButton2.IconRightZoom = 0D;
-            this.bunifuFlatButton2.IconVisible = true;
-            this.bunifuFlatButton2.IconZoom = 55D;
-            this.bunifuFlatButton2.IsTab = true;
-            this.bunifuFlatButton2.Location = new System.Drawing.Point(2, 506);
-            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
-            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuFlatButton2.selected = false;
-            this.bunifuFlatButton2.Size = new System.Drawing.Size(137, 37);
-            this.bunifuFlatButton2.TabIndex = 31;
-            this.bunifuFlatButton2.Text = "   Carnet";
-            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            // 
-            // bunifuFlatButton1
-            // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "   Turismo";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = global::entrega_cupones.Properties.Resources.earth_paradise;
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = true;
-            this.bunifuFlatButton1.IconZoom = 55D;
-            this.bunifuFlatButton1.IsTab = true;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(1, 350);
-            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(137, 37);
-            this.bunifuFlatButton1.TabIndex = 30;
-            this.bunifuFlatButton1.Text = "   Turismo";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            // 
-            // btn_colonia
-            // 
-            this.btn_colonia.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_colonia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_colonia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_colonia.BorderRadius = 0;
-            this.btn_colonia.ButtonText = "   Colonia";
-            this.btn_colonia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_colonia, BunifuAnimatorNS.DecorationType.None);
-            this.btn_colonia.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_colonia.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_colonia.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_colonia.Iconimage = global::entrega_cupones.Properties.Resources.swimming_pool__1_;
-            this.btn_colonia.Iconimage_right = null;
-            this.btn_colonia.Iconimage_right_Selected = null;
-            this.btn_colonia.Iconimage_Selected = null;
-            this.btn_colonia.IconMarginLeft = 0;
-            this.btn_colonia.IconMarginRight = 0;
-            this.btn_colonia.IconRightVisible = true;
-            this.btn_colonia.IconRightZoom = 0D;
-            this.btn_colonia.IconVisible = true;
-            this.btn_colonia.IconZoom = 55D;
-            this.btn_colonia.IsTab = true;
-            this.btn_colonia.Location = new System.Drawing.Point(2, 467);
-            this.btn_colonia.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_colonia.Name = "btn_colonia";
-            this.btn_colonia.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_colonia.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_colonia.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_colonia.selected = false;
-            this.btn_colonia.Size = new System.Drawing.Size(137, 37);
-            this.btn_colonia.TabIndex = 28;
-            this.btn_colonia.Text = "   Colonia";
-            this.btn_colonia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_colonia.Textcolor = System.Drawing.Color.White;
-            this.btn_colonia.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_colonia.Click += new System.EventHandler(this.btn_colonia_Click);
-            // 
-            // btn_capacitacion
-            // 
-            this.btn_capacitacion.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_capacitacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_capacitacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_capacitacion.BorderRadius = 0;
-            this.btn_capacitacion.ButtonText = "  Capacitac.";
-            this.btn_capacitacion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_capacitacion, BunifuAnimatorNS.DecorationType.None);
-            this.btn_capacitacion.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_capacitacion.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_capacitacion.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_capacitacion.Iconimage = global::entrega_cupones.Properties.Resources.teacher_pointing_a_board_with_a_stick;
-            this.btn_capacitacion.Iconimage_right = null;
-            this.btn_capacitacion.Iconimage_right_Selected = null;
-            this.btn_capacitacion.Iconimage_Selected = null;
-            this.btn_capacitacion.IconMarginLeft = 0;
-            this.btn_capacitacion.IconMarginRight = 0;
-            this.btn_capacitacion.IconRightVisible = true;
-            this.btn_capacitacion.IconRightZoom = 0D;
-            this.btn_capacitacion.IconVisible = true;
-            this.btn_capacitacion.IconZoom = 55D;
-            this.btn_capacitacion.IsTab = true;
-            this.btn_capacitacion.Location = new System.Drawing.Point(2, 428);
-            this.btn_capacitacion.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_capacitacion.Name = "btn_capacitacion";
-            this.btn_capacitacion.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_capacitacion.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_capacitacion.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_capacitacion.selected = false;
-            this.btn_capacitacion.Size = new System.Drawing.Size(137, 37);
-            this.btn_capacitacion.TabIndex = 27;
-            this.btn_capacitacion.Text = "  Capacitac.";
-            this.btn_capacitacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_capacitacion.Textcolor = System.Drawing.Color.White;
-            this.btn_capacitacion.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            // 
-            // btn_asesoria
-            // 
-            this.btn_asesoria.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_asesoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_asesoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_asesoria.BorderRadius = 0;
-            this.btn_asesoria.ButtonText = "   Asesoria          Legal ";
-            this.btn_asesoria.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.pnl_menu_transition.SetDecoration(this.btn_asesoria, BunifuAnimatorNS.DecorationType.None);
-            this.btn_asesoria.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_asesoria.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_asesoria.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_asesoria.Iconimage = global::entrega_cupones.Properties.Resources.legal_hammer_symbol;
-            this.btn_asesoria.Iconimage_right = null;
-            this.btn_asesoria.Iconimage_right_Selected = null;
-            this.btn_asesoria.Iconimage_Selected = null;
-            this.btn_asesoria.IconMarginLeft = 0;
-            this.btn_asesoria.IconMarginRight = 0;
-            this.btn_asesoria.IconRightVisible = true;
-            this.btn_asesoria.IconRightZoom = 0D;
-            this.btn_asesoria.IconVisible = true;
-            this.btn_asesoria.IconZoom = 55D;
-            this.btn_asesoria.IsTab = true;
-            this.btn_asesoria.Location = new System.Drawing.Point(1, 389);
-            this.btn_asesoria.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_asesoria.Name = "btn_asesoria";
-            this.btn_asesoria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_asesoria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_asesoria.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_asesoria.selected = false;
-            this.btn_asesoria.Size = new System.Drawing.Size(137, 37);
-            this.btn_asesoria.TabIndex = 26;
-            this.btn_asesoria.Text = "   Asesoria          Legal ";
-            this.btn_asesoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_asesoria.Textcolor = System.Drawing.Color.White;
-            this.btn_asesoria.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_asesoria.UseWaitCursor = true;
-            this.btn_asesoria.Click += new System.EventHandler(this.btn_asesoria_Click);
-            // 
-            // btn_enfermeria
-            // 
-            this.btn_enfermeria.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.btn_enfermeria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_enfermeria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_enfermeria.BorderRadius = 0;
-            this.btn_enfermeria.ButtonText = "      Enfermeria";
-            this.btn_enfermeria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_enfermeria, BunifuAnimatorNS.DecorationType.None);
-            this.btn_enfermeria.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_enfermeria.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_enfermeria.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_enfermeria.Iconimage = global::entrega_cupones.Properties.Resources.nurse;
-            this.btn_enfermeria.Iconimage_right = null;
-            this.btn_enfermeria.Iconimage_right_Selected = null;
-            this.btn_enfermeria.Iconimage_Selected = null;
-            this.btn_enfermeria.IconMarginLeft = 0;
-            this.btn_enfermeria.IconMarginRight = 0;
-            this.btn_enfermeria.IconRightVisible = true;
-            this.btn_enfermeria.IconRightZoom = 0D;
-            this.btn_enfermeria.IconVisible = true;
-            this.btn_enfermeria.IconZoom = 55D;
-            this.btn_enfermeria.IsTab = true;
-            this.btn_enfermeria.Location = new System.Drawing.Point(1, 311);
-            this.btn_enfermeria.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_enfermeria.Name = "btn_enfermeria";
-            this.btn_enfermeria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_enfermeria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_enfermeria.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
-            this.btn_enfermeria.selected = false;
-            this.btn_enfermeria.Size = new System.Drawing.Size(137, 37);
-            this.btn_enfermeria.TabIndex = 25;
-            this.btn_enfermeria.Text = "      Enfermeria";
-            this.btn_enfermeria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_enfermeria.Textcolor = System.Drawing.Color.White;
-            this.btn_enfermeria.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            // 
-            // btn_peluqueria
-            // 
-            this.btn_peluqueria.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_peluqueria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_peluqueria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_peluqueria.BorderRadius = 0;
-            this.btn_peluqueria.ButtonText = "         Peluqueria";
-            this.btn_peluqueria.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_peluqueria, BunifuAnimatorNS.DecorationType.None);
-            this.btn_peluqueria.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_peluqueria.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_peluqueria.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_peluqueria.Iconimage = global::entrega_cupones.Properties.Resources.hairdresser;
-            this.btn_peluqueria.Iconimage_right = null;
-            this.btn_peluqueria.Iconimage_right_Selected = null;
-            this.btn_peluqueria.Iconimage_Selected = null;
-            this.btn_peluqueria.IconMarginLeft = 0;
-            this.btn_peluqueria.IconMarginRight = 0;
-            this.btn_peluqueria.IconRightVisible = true;
-            this.btn_peluqueria.IconRightZoom = 0D;
-            this.btn_peluqueria.IconVisible = true;
-            this.btn_peluqueria.IconZoom = 55D;
-            this.btn_peluqueria.IsTab = true;
-            this.btn_peluqueria.Location = new System.Drawing.Point(1, 272);
-            this.btn_peluqueria.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_peluqueria.Name = "btn_peluqueria";
-            this.btn_peluqueria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_peluqueria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_peluqueria.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_peluqueria.selected = false;
-            this.btn_peluqueria.Size = new System.Drawing.Size(137, 37);
-            this.btn_peluqueria.TabIndex = 24;
-            this.btn_peluqueria.Text = "         Peluqueria";
-            this.btn_peluqueria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_peluqueria.Textcolor = System.Drawing.Color.White;
-            this.btn_peluqueria.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            // 
-            // btn_odontologo
-            // 
-            this.btn_odontologo.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_odontologo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_odontologo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_odontologo.BorderRadius = 0;
-            this.btn_odontologo.ButtonText = "   Odontologo";
-            this.btn_odontologo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_odontologo, BunifuAnimatorNS.DecorationType.None);
-            this.btn_odontologo.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_odontologo.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_odontologo.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_odontologo.Iconimage = global::entrega_cupones.Properties.Resources.molar_with_cavity;
-            this.btn_odontologo.Iconimage_right = null;
-            this.btn_odontologo.Iconimage_right_Selected = null;
-            this.btn_odontologo.Iconimage_Selected = null;
-            this.btn_odontologo.IconMarginLeft = 0;
-            this.btn_odontologo.IconMarginRight = 0;
-            this.btn_odontologo.IconRightVisible = true;
-            this.btn_odontologo.IconRightZoom = 0D;
-            this.btn_odontologo.IconVisible = true;
-            this.btn_odontologo.IconZoom = 55D;
-            this.btn_odontologo.IsTab = true;
-            this.btn_odontologo.Location = new System.Drawing.Point(1, 233);
-            this.btn_odontologo.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_odontologo.Name = "btn_odontologo";
-            this.btn_odontologo.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_odontologo.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_odontologo.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_odontologo.selected = false;
-            this.btn_odontologo.Size = new System.Drawing.Size(137, 37);
-            this.btn_odontologo.TabIndex = 23;
-            this.btn_odontologo.Text = "   Odontologo";
-            this.btn_odontologo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_odontologo.Textcolor = System.Drawing.Color.White;
-            this.btn_odontologo.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_odontologo.Click += new System.EventHandler(this.btn_odontologo_Click);
-            // 
-            // btn_gimnasio
-            // 
-            this.btn_gimnasio.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_gimnasio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_gimnasio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_gimnasio.BorderRadius = 0;
-            this.btn_gimnasio.ButtonText = "   Gimnasio";
-            this.btn_gimnasio.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_gimnasio, BunifuAnimatorNS.DecorationType.None);
-            this.btn_gimnasio.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_gimnasio.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_gimnasio.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_gimnasio.Iconimage = global::entrega_cupones.Properties.Resources.man_lifting_weights__4_;
-            this.btn_gimnasio.Iconimage_right = null;
-            this.btn_gimnasio.Iconimage_right_Selected = null;
-            this.btn_gimnasio.Iconimage_Selected = null;
-            this.btn_gimnasio.IconMarginLeft = 0;
-            this.btn_gimnasio.IconMarginRight = 0;
-            this.btn_gimnasio.IconRightVisible = true;
-            this.btn_gimnasio.IconRightZoom = 0D;
-            this.btn_gimnasio.IconVisible = true;
-            this.btn_gimnasio.IconZoom = 55D;
-            this.btn_gimnasio.IsTab = true;
-            this.btn_gimnasio.Location = new System.Drawing.Point(1, 194);
-            this.btn_gimnasio.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_gimnasio.Name = "btn_gimnasio";
-            this.btn_gimnasio.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_gimnasio.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_gimnasio.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_gimnasio.selected = false;
-            this.btn_gimnasio.Size = new System.Drawing.Size(137, 37);
-            this.btn_gimnasio.TabIndex = 22;
-            this.btn_gimnasio.Text = "   Gimnasio";
-            this.btn_gimnasio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_gimnasio.Textcolor = System.Drawing.Color.White;
-            this.btn_gimnasio.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            // 
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
@@ -723,174 +274,6 @@
             this.bunifuCustomLabel1.TabIndex = 21;
             this.bunifuCustomLabel1.Text = "Menu";
             // 
-            // btn_masajista
-            // 
-            this.btn_masajista.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_masajista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_masajista.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_masajista.BorderRadius = 0;
-            this.btn_masajista.ButtonText = "   Masajista";
-            this.btn_masajista.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_masajista, BunifuAnimatorNS.DecorationType.None);
-            this.btn_masajista.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_masajista.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_masajista.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_masajista.Iconimage = global::entrega_cupones.Properties.Resources.massage__2_;
-            this.btn_masajista.Iconimage_right = null;
-            this.btn_masajista.Iconimage_right_Selected = null;
-            this.btn_masajista.Iconimage_Selected = null;
-            this.btn_masajista.IconMarginLeft = 0;
-            this.btn_masajista.IconMarginRight = 0;
-            this.btn_masajista.IconRightVisible = true;
-            this.btn_masajista.IconRightZoom = 0D;
-            this.btn_masajista.IconVisible = true;
-            this.btn_masajista.IconZoom = 55D;
-            this.btn_masajista.IsTab = true;
-            this.btn_masajista.Location = new System.Drawing.Point(0, 155);
-            this.btn_masajista.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_masajista.Name = "btn_masajista";
-            this.btn_masajista.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_masajista.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_masajista.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_masajista.selected = false;
-            this.btn_masajista.Size = new System.Drawing.Size(137, 37);
-            this.btn_masajista.TabIndex = 20;
-            this.btn_masajista.Text = "   Masajista";
-            this.btn_masajista.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_masajista.Textcolor = System.Drawing.Color.White;
-            this.btn_masajista.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_masajista.Click += new System.EventHandler(this.btn_masajista_Click);
-            // 
-            // btn_pedicuro
-            // 
-            this.btn_pedicuro.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_pedicuro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_pedicuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_pedicuro.BorderRadius = 0;
-            this.btn_pedicuro.ButtonText = "   Pedicuro";
-            this.btn_pedicuro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_pedicuro, BunifuAnimatorNS.DecorationType.None);
-            this.btn_pedicuro.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_pedicuro.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_pedicuro.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_pedicuro.Iconimage = global::entrega_cupones.Properties.Resources.footprints1;
-            this.btn_pedicuro.Iconimage_right = null;
-            this.btn_pedicuro.Iconimage_right_Selected = null;
-            this.btn_pedicuro.Iconimage_Selected = null;
-            this.btn_pedicuro.IconMarginLeft = 0;
-            this.btn_pedicuro.IconMarginRight = 0;
-            this.btn_pedicuro.IconRightVisible = true;
-            this.btn_pedicuro.IconRightZoom = 0D;
-            this.btn_pedicuro.IconVisible = true;
-            this.btn_pedicuro.IconZoom = 55D;
-            this.btn_pedicuro.IsTab = true;
-            this.btn_pedicuro.Location = new System.Drawing.Point(2, 631);
-            this.btn_pedicuro.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_pedicuro.Name = "btn_pedicuro";
-            this.btn_pedicuro.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_pedicuro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_pedicuro.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_pedicuro.selected = false;
-            this.btn_pedicuro.Size = new System.Drawing.Size(137, 37);
-            this.btn_pedicuro.TabIndex = 19;
-            this.btn_pedicuro.Text = "   Pedicuro";
-            this.btn_pedicuro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_pedicuro.Textcolor = System.Drawing.Color.White;
-            this.btn_pedicuro.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_pedicuro.Click += new System.EventHandler(this.btn_pedicuro_Click);
-            // 
-            // btn_quinchos
-            // 
-            this.btn_quinchos.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_quinchos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_quinchos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_quinchos.BorderRadius = 0;
-            this.btn_quinchos.ButtonText = "   Quinchos";
-            this.btn_quinchos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_quinchos, BunifuAnimatorNS.DecorationType.None);
-            this.btn_quinchos.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_quinchos.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_quinchos.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_quinchos.Iconimage = global::entrega_cupones.Properties.Resources.cottage__6_;
-            this.btn_quinchos.Iconimage_right = null;
-            this.btn_quinchos.Iconimage_right_Selected = null;
-            this.btn_quinchos.Iconimage_Selected = null;
-            this.btn_quinchos.IconMarginLeft = 0;
-            this.btn_quinchos.IconMarginRight = 0;
-            this.btn_quinchos.IconRightVisible = true;
-            this.btn_quinchos.IconRightZoom = 0D;
-            this.btn_quinchos.IconVisible = true;
-            this.btn_quinchos.IconZoom = 55D;
-            this.btn_quinchos.IsTab = true;
-            this.btn_quinchos.Location = new System.Drawing.Point(0, 77);
-            this.btn_quinchos.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_quinchos.Name = "btn_quinchos";
-            this.btn_quinchos.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_quinchos.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_quinchos.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_quinchos.selected = false;
-            this.btn_quinchos.Size = new System.Drawing.Size(137, 37);
-            this.btn_quinchos.TabIndex = 18;
-            this.btn_quinchos.Text = "   Quinchos";
-            this.btn_quinchos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_quinchos.Textcolor = System.Drawing.Color.White;
-            this.btn_quinchos.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_quinchos.Click += new System.EventHandler(this.btn_quinchos_Click);
-            // 
-            // btn_mochila
-            // 
-            this.btn_mochila.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_mochila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_mochila.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_mochila.BorderRadius = 0;
-            this.btn_mochila.ButtonText = "   Mochilas";
-            this.btn_mochila.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_mochila, BunifuAnimatorNS.DecorationType.None);
-            this.btn_mochila.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_mochila.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_mochila.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_mochila.Iconimage = global::entrega_cupones.Properties.Resources.backpack__7_;
-            this.btn_mochila.Iconimage_right = null;
-            this.btn_mochila.Iconimage_right_Selected = null;
-            this.btn_mochila.Iconimage_Selected = null;
-            this.btn_mochila.IconMarginLeft = 0;
-            this.btn_mochila.IconMarginRight = 0;
-            this.btn_mochila.IconRightVisible = true;
-            this.btn_mochila.IconRightZoom = 0D;
-            this.btn_mochila.IconVisible = true;
-            this.btn_mochila.IconZoom = 55D;
-            this.btn_mochila.IsTab = true;
-            this.btn_mochila.Location = new System.Drawing.Point(0, 38);
-            this.btn_mochila.Margin = new System.Windows.Forms.Padding(5);
-            this.btn_mochila.Name = "btn_mochila";
-            this.btn_mochila.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_mochila.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.btn_mochila.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_mochila.selected = true;
-            this.btn_mochila.Size = new System.Drawing.Size(137, 37);
-            this.btn_mochila.TabIndex = 17;
-            this.btn_mochila.Text = "   Mochilas";
-            this.btn_mochila.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_mochila.Textcolor = System.Drawing.Color.White;
-            this.btn_mochila.TextFont = new System.Drawing.Font("Century Gothic", 10F);
-            this.btn_mochila.Click += new System.EventHandler(this.btn_mochila_Click);
-            // 
-            // Btn_menu
-            // 
-            this.Btn_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.Btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.Btn_menu, BunifuAnimatorNS.DecorationType.None);
-            this.Btn_menu.Image = ((System.Drawing.Image)(resources.GetObject("Btn_menu.Image")));
-            this.Btn_menu.ImageActive = null;
-            this.Btn_menu.Location = new System.Drawing.Point(106, 3);
-            this.Btn_menu.Name = "Btn_menu";
-            this.Btn_menu.Size = new System.Drawing.Size(26, 31);
-            this.Btn_menu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Btn_menu.TabIndex = 0;
-            this.Btn_menu.TabStop = false;
-            this.Btn_menu.Zoom = 10;
-            this.Btn_menu.Click += new System.EventHandler(this.Btn_menu_Click);
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -902,43 +285,9 @@
             this.panel2.Size = new System.Drawing.Size(1335, 34);
             this.panel2.TabIndex = 16;
             // 
-            // btn_close
-            // 
-            this.btn_close.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_close.BorderRadius = 0;
-            this.btn_close.ButtonText = "";
-            this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_close, BunifuAnimatorNS.DecorationType.None);
-            this.btn_close.DisabledColor = System.Drawing.Color.Gray;
-            this.btn_close.Iconcolor = System.Drawing.Color.Transparent;
-            this.btn_close.Iconimage = global::entrega_cupones.Properties.Resources.cross_close_or_delete_circular_interface_button_symbol;
-            this.btn_close.Iconimage_right = null;
-            this.btn_close.Iconimage_right_Selected = null;
-            this.btn_close.Iconimage_Selected = null;
-            this.btn_close.IconMarginLeft = 0;
-            this.btn_close.IconMarginRight = 0;
-            this.btn_close.IconRightVisible = true;
-            this.btn_close.IconRightZoom = 0D;
-            this.btn_close.IconVisible = true;
-            this.btn_close.IconZoom = 50D;
-            this.btn_close.IsTab = false;
-            this.btn_close.Location = new System.Drawing.Point(1301, 5);
-            this.btn_close.Name = "btn_close";
-            this.btn_close.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_close.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.btn_close.OnHoverTextColor = System.Drawing.Color.White;
-            this.btn_close.selected = false;
-            this.btn_close.Size = new System.Drawing.Size(27, 26);
-            this.btn_close.TabIndex = 15;
-            this.btn_close.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_close.Textcolor = System.Drawing.Color.White;
-            this.btn_close.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_close.Click += new System.EventHandler(this.Btn_close_Click);
-            // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btn_edades);
             this.panel3.Controls.Add(this.dgv_excell);
             this.panel3.Controls.Add(this.panel7);
             this.panel3.Controls.Add(this.btn_imprimir_ficha);
@@ -1221,22 +570,6 @@
             this.bunifuSeparator8.TabIndex = 23;
             this.bunifuSeparator8.Transparency = 255;
             this.bunifuSeparator8.Vertical = false;
-            // 
-            // btn_imprimir_ficha
-            // 
-            this.btn_imprimir_ficha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.btn_imprimir_ficha.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_imprimir_ficha, BunifuAnimatorNS.DecorationType.None);
-            this.btn_imprimir_ficha.Image = global::entrega_cupones.Properties.Resources.printer_with_paper__1_;
-            this.btn_imprimir_ficha.ImageActive = null;
-            this.btn_imprimir_ficha.Location = new System.Drawing.Point(959, 584);
-            this.btn_imprimir_ficha.Name = "btn_imprimir_ficha";
-            this.btn_imprimir_ficha.Size = new System.Drawing.Size(106, 54);
-            this.btn_imprimir_ficha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_imprimir_ficha.TabIndex = 44;
-            this.btn_imprimir_ficha.TabStop = false;
-            this.btn_imprimir_ficha.Visible = false;
-            this.btn_imprimir_ficha.Zoom = 10;
             // 
             // dgv_familiar_a_cargo
             // 
@@ -1662,38 +995,6 @@
             this.bunifuCustomLabel34.TabIndex = 109;
             this.bunifuCustomLabel34.Text = "Apellido:";
             // 
-            // swt_benef_estudia
-            // 
-            this.swt_benef_estudia.BackColor = System.Drawing.Color.Transparent;
-            this.swt_benef_estudia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swt_benef_estudia.BackgroundImage")));
-            this.swt_benef_estudia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.swt_benef_estudia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.swt_benef_estudia, BunifuAnimatorNS.DecorationType.None);
-            this.swt_benef_estudia.Location = new System.Drawing.Point(351, 234);
-            this.swt_benef_estudia.Name = "swt_benef_estudia";
-            this.swt_benef_estudia.OffColor = System.Drawing.Color.Gray;
-            this.swt_benef_estudia.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.swt_benef_estudia.Size = new System.Drawing.Size(35, 20);
-            this.swt_benef_estudia.TabIndex = 100;
-            this.swt_benef_estudia.Value = true;
-            this.swt_benef_estudia.OnValueChange += new System.EventHandler(this.swt_estudia_OnValueChange_1);
-            // 
-            // swt_benef_activo
-            // 
-            this.swt_benef_activo.BackColor = System.Drawing.Color.Transparent;
-            this.swt_benef_activo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swt_benef_activo.BackgroundImage")));
-            this.swt_benef_activo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.swt_benef_activo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.swt_benef_activo, BunifuAnimatorNS.DecorationType.None);
-            this.swt_benef_activo.Location = new System.Drawing.Point(351, 210);
-            this.swt_benef_activo.Name = "swt_benef_activo";
-            this.swt_benef_activo.OffColor = System.Drawing.Color.Gray;
-            this.swt_benef_activo.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.swt_benef_activo.Size = new System.Drawing.Size(35, 20);
-            this.swt_benef_activo.TabIndex = 106;
-            this.swt_benef_activo.Value = true;
-            this.swt_benef_activo.OnValueChange += new System.EventHandler(this.swt_activo_OnValueChange);
-            // 
             // lbl_total_benef
             // 
             this.lbl_total_benef.AutoSize = true;
@@ -1876,21 +1177,6 @@
             this.codigo_fliar.ReadOnly = true;
             this.codigo_fliar.Visible = false;
             // 
-            // btn_sin_imagen_benef
-            // 
-            this.btn_sin_imagen_benef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.btn_sin_imagen_benef.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_sin_imagen_benef, BunifuAnimatorNS.DecorationType.None);
-            this.btn_sin_imagen_benef.Image = ((System.Drawing.Image)(resources.GetObject("btn_sin_imagen_benef.Image")));
-            this.btn_sin_imagen_benef.ImageActive = null;
-            this.btn_sin_imagen_benef.Location = new System.Drawing.Point(447, 41);
-            this.btn_sin_imagen_benef.Name = "btn_sin_imagen_benef";
-            this.btn_sin_imagen_benef.Size = new System.Drawing.Size(85, 79);
-            this.btn_sin_imagen_benef.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_sin_imagen_benef.TabIndex = 77;
-            this.btn_sin_imagen_benef.TabStop = false;
-            this.btn_sin_imagen_benef.Zoom = 10;
-            // 
             // lbl_discapa
             // 
             this.lbl_discapa.AutoSize = true;
@@ -1903,17 +1189,6 @@
             this.lbl_discapa.Size = new System.Drawing.Size(19, 16);
             this.lbl_discapa.TabIndex = 98;
             this.lbl_discapa.Text = "SI";
-            // 
-            // picbox_beneficiario
-            // 
-            this.picbox_beneficiario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_menu_transition.SetDecoration(this.picbox_beneficiario, BunifuAnimatorNS.DecorationType.None);
-            this.picbox_beneficiario.Location = new System.Drawing.Point(444, 35);
-            this.picbox_beneficiario.Name = "picbox_beneficiario";
-            this.picbox_beneficiario.Size = new System.Drawing.Size(91, 91);
-            this.picbox_beneficiario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picbox_beneficiario.TabIndex = 76;
-            this.picbox_beneficiario.TabStop = false;
             // 
             // bunifuCustomLabel22
             // 
@@ -1939,22 +1214,6 @@
             this.bunifuCustomLabel23.Size = new System.Drawing.Size(94, 19);
             this.bunifuCustomLabel23.TabIndex = 22;
             this.bunifuCustomLabel23.Text = "Beneficiarios";
-            // 
-            // swt_benef_discapa
-            // 
-            this.swt_benef_discapa.BackColor = System.Drawing.Color.Transparent;
-            this.swt_benef_discapa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swt_benef_discapa.BackgroundImage")));
-            this.swt_benef_discapa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.swt_benef_discapa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.swt_benef_discapa, BunifuAnimatorNS.DecorationType.None);
-            this.swt_benef_discapa.Location = new System.Drawing.Point(482, 210);
-            this.swt_benef_discapa.Name = "swt_benef_discapa";
-            this.swt_benef_discapa.OffColor = System.Drawing.Color.Gray;
-            this.swt_benef_discapa.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.swt_benef_discapa.Size = new System.Drawing.Size(35, 20);
-            this.swt_benef_discapa.TabIndex = 97;
-            this.swt_benef_discapa.Value = true;
-            this.swt_benef_discapa.OnValueChange += new System.EventHandler(this.swt_discapa_OnValueChange);
             // 
             // bunifuSeparator4
             // 
@@ -2087,21 +1346,6 @@
             this.bunifuCustomLabel38.Size = new System.Drawing.Size(37, 17);
             this.bunifuCustomLabel38.TabIndex = 76;
             this.bunifuCustomLabel38.Text = "CUIL:";
-            // 
-            // btn_sin_imagen
-            // 
-            this.btn_sin_imagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.btn_sin_imagen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pnl_menu_transition.SetDecoration(this.btn_sin_imagen, BunifuAnimatorNS.DecorationType.None);
-            this.btn_sin_imagen.Image = ((System.Drawing.Image)(resources.GetObject("btn_sin_imagen.Image")));
-            this.btn_sin_imagen.ImageActive = null;
-            this.btn_sin_imagen.Location = new System.Drawing.Point(12, 52);
-            this.btn_sin_imagen.Name = "btn_sin_imagen";
-            this.btn_sin_imagen.Size = new System.Drawing.Size(100, 100);
-            this.btn_sin_imagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_sin_imagen.TabIndex = 75;
-            this.btn_sin_imagen.TabStop = false;
-            this.btn_sin_imagen.Zoom = 10;
             // 
             // bunifuSeparator12
             // 
@@ -2457,17 +1701,6 @@
             this.bunifuSeparator3.Transparency = 255;
             this.bunifuSeparator3.Vertical = false;
             // 
-            // picbox_socio
-            // 
-            this.picbox_socio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_menu_transition.SetDecoration(this.picbox_socio, BunifuAnimatorNS.DecorationType.None);
-            this.picbox_socio.Location = new System.Drawing.Point(7, 48);
-            this.picbox_socio.Name = "picbox_socio";
-            this.picbox_socio.Size = new System.Drawing.Size(110, 110);
-            this.picbox_socio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picbox_socio.TabIndex = 17;
-            this.picbox_socio.TabStop = false;
-            // 
             // bunifuSeparator2
             // 
             this.bunifuSeparator2.BackColor = System.Drawing.Color.Transparent;
@@ -2582,22 +1815,6 @@
             this.bunifuCustomLabel33.Size = new System.Drawing.Size(72, 17);
             this.bunifuCustomLabel33.TabIndex = 47;
             this.bunifuCustomLabel33.Text = "Actualizar";
-            // 
-            // btn_update
-            // 
-            this.btn_update.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
-            this.btn_update.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_menu_transition.SetDecoration(this.btn_update, BunifuAnimatorNS.DecorationType.None);
-            this.btn_update.Image = ((System.Drawing.Image)(resources.GetObject("btn_update.Image")));
-            this.btn_update.ImageActive = null;
-            this.btn_update.Location = new System.Drawing.Point(497, 6);
-            this.btn_update.Name = "btn_update";
-            this.btn_update.Size = new System.Drawing.Size(68, 36);
-            this.btn_update.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btn_update.TabIndex = 29;
-            this.btn_update.TabStop = false;
-            this.btn_update.Zoom = 10;
-            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
             // 
             // cbx_filtrar
             // 
@@ -2732,6 +1949,193 @@
             this.lbl_1.Text = "Tipo de busqueda";
             this.lbl_1.Click += new System.EventHandler(this.lbl_1_Click);
             // 
+            // pnl_menu_transition
+            // 
+            this.pnl_menu_transition.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
+            this.pnl_menu_transition.Cursor = null;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.pnl_menu_transition.DefaultAnimation = animation1;
+            // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this.panel2;
+            this.bunifuDragControl1.Vertical = true;
+            // 
+            // btn_edades
+            // 
+            this.btn_edades.ActiveBorderThickness = 1;
+            this.btn_edades.ActiveCornerRadius = 1;
+            this.btn_edades.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_edades.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_edades.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_edades.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.btn_edades.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_edades.BackgroundImage")));
+            this.btn_edades.ButtonText = "Edades Beneficiarios";
+            this.btn_edades.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_edades, BunifuAnimatorNS.DecorationType.None);
+            this.btn_edades.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_edades.ForeColor = System.Drawing.Color.SeaGreen;
+            this.btn_edades.IdleBorderThickness = 1;
+            this.btn_edades.IdleCornerRadius = 1;
+            this.btn_edades.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_edades.IdleForecolor = System.Drawing.Color.White;
+            this.btn_edades.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_edades.Location = new System.Drawing.Point(6, 555);
+            this.btn_edades.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_edades.Name = "btn_edades";
+            this.btn_edades.Size = new System.Drawing.Size(173, 41);
+            this.btn_edades.TabIndex = 47;
+            this.btn_edades.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_edades.Click += new System.EventHandler(this.btn_edades_Click);
+            // 
+            // btn_imprimir_ficha
+            // 
+            this.btn_imprimir_ficha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.btn_imprimir_ficha.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_imprimir_ficha, BunifuAnimatorNS.DecorationType.None);
+            this.btn_imprimir_ficha.Image = global::entrega_cupones.Properties.Resources.printer_with_paper__1_;
+            this.btn_imprimir_ficha.ImageActive = null;
+            this.btn_imprimir_ficha.Location = new System.Drawing.Point(959, 584);
+            this.btn_imprimir_ficha.Name = "btn_imprimir_ficha";
+            this.btn_imprimir_ficha.Size = new System.Drawing.Size(106, 54);
+            this.btn_imprimir_ficha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_imprimir_ficha.TabIndex = 44;
+            this.btn_imprimir_ficha.TabStop = false;
+            this.btn_imprimir_ficha.Visible = false;
+            this.btn_imprimir_ficha.Zoom = 10;
+            // 
+            // swt_benef_estudia
+            // 
+            this.swt_benef_estudia.BackColor = System.Drawing.Color.Transparent;
+            this.swt_benef_estudia.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swt_benef_estudia.BackgroundImage")));
+            this.swt_benef_estudia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.swt_benef_estudia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.swt_benef_estudia, BunifuAnimatorNS.DecorationType.None);
+            this.swt_benef_estudia.Location = new System.Drawing.Point(351, 234);
+            this.swt_benef_estudia.Name = "swt_benef_estudia";
+            this.swt_benef_estudia.OffColor = System.Drawing.Color.Gray;
+            this.swt_benef_estudia.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.swt_benef_estudia.Size = new System.Drawing.Size(35, 20);
+            this.swt_benef_estudia.TabIndex = 100;
+            this.swt_benef_estudia.Value = true;
+            this.swt_benef_estudia.OnValueChange += new System.EventHandler(this.swt_estudia_OnValueChange_1);
+            // 
+            // swt_benef_activo
+            // 
+            this.swt_benef_activo.BackColor = System.Drawing.Color.Transparent;
+            this.swt_benef_activo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swt_benef_activo.BackgroundImage")));
+            this.swt_benef_activo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.swt_benef_activo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.swt_benef_activo, BunifuAnimatorNS.DecorationType.None);
+            this.swt_benef_activo.Location = new System.Drawing.Point(351, 210);
+            this.swt_benef_activo.Name = "swt_benef_activo";
+            this.swt_benef_activo.OffColor = System.Drawing.Color.Gray;
+            this.swt_benef_activo.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.swt_benef_activo.Size = new System.Drawing.Size(35, 20);
+            this.swt_benef_activo.TabIndex = 106;
+            this.swt_benef_activo.Value = true;
+            this.swt_benef_activo.OnValueChange += new System.EventHandler(this.swt_activo_OnValueChange);
+            // 
+            // btn_sin_imagen_benef
+            // 
+            this.btn_sin_imagen_benef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.btn_sin_imagen_benef.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_sin_imagen_benef, BunifuAnimatorNS.DecorationType.None);
+            this.btn_sin_imagen_benef.Image = ((System.Drawing.Image)(resources.GetObject("btn_sin_imagen_benef.Image")));
+            this.btn_sin_imagen_benef.ImageActive = null;
+            this.btn_sin_imagen_benef.Location = new System.Drawing.Point(447, 41);
+            this.btn_sin_imagen_benef.Name = "btn_sin_imagen_benef";
+            this.btn_sin_imagen_benef.Size = new System.Drawing.Size(85, 79);
+            this.btn_sin_imagen_benef.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_sin_imagen_benef.TabIndex = 77;
+            this.btn_sin_imagen_benef.TabStop = false;
+            this.btn_sin_imagen_benef.Zoom = 10;
+            // 
+            // picbox_beneficiario
+            // 
+            this.picbox_beneficiario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_menu_transition.SetDecoration(this.picbox_beneficiario, BunifuAnimatorNS.DecorationType.None);
+            this.picbox_beneficiario.Location = new System.Drawing.Point(444, 35);
+            this.picbox_beneficiario.Name = "picbox_beneficiario";
+            this.picbox_beneficiario.Size = new System.Drawing.Size(91, 91);
+            this.picbox_beneficiario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbox_beneficiario.TabIndex = 76;
+            this.picbox_beneficiario.TabStop = false;
+            // 
+            // swt_benef_discapa
+            // 
+            this.swt_benef_discapa.BackColor = System.Drawing.Color.Transparent;
+            this.swt_benef_discapa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("swt_benef_discapa.BackgroundImage")));
+            this.swt_benef_discapa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.swt_benef_discapa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.swt_benef_discapa, BunifuAnimatorNS.DecorationType.None);
+            this.swt_benef_discapa.Location = new System.Drawing.Point(482, 210);
+            this.swt_benef_discapa.Name = "swt_benef_discapa";
+            this.swt_benef_discapa.OffColor = System.Drawing.Color.Gray;
+            this.swt_benef_discapa.OnColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.swt_benef_discapa.Size = new System.Drawing.Size(35, 20);
+            this.swt_benef_discapa.TabIndex = 97;
+            this.swt_benef_discapa.Value = true;
+            this.swt_benef_discapa.OnValueChange += new System.EventHandler(this.swt_discapa_OnValueChange);
+            // 
+            // btn_sin_imagen
+            // 
+            this.btn_sin_imagen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.btn_sin_imagen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_sin_imagen, BunifuAnimatorNS.DecorationType.None);
+            this.btn_sin_imagen.Image = ((System.Drawing.Image)(resources.GetObject("btn_sin_imagen.Image")));
+            this.btn_sin_imagen.ImageActive = null;
+            this.btn_sin_imagen.Location = new System.Drawing.Point(12, 52);
+            this.btn_sin_imagen.Name = "btn_sin_imagen";
+            this.btn_sin_imagen.Size = new System.Drawing.Size(100, 100);
+            this.btn_sin_imagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_sin_imagen.TabIndex = 75;
+            this.btn_sin_imagen.TabStop = false;
+            this.btn_sin_imagen.Zoom = 10;
+            // 
+            // picbox_socio
+            // 
+            this.picbox_socio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_menu_transition.SetDecoration(this.picbox_socio, BunifuAnimatorNS.DecorationType.None);
+            this.picbox_socio.Location = new System.Drawing.Point(7, 48);
+            this.picbox_socio.Name = "picbox_socio";
+            this.picbox_socio.Size = new System.Drawing.Size(110, 110);
+            this.picbox_socio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picbox_socio.TabIndex = 17;
+            this.picbox_socio.TabStop = false;
+            // 
+            // btn_update
+            // 
+            this.btn_update.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(49)))), ((int)(((byte)(60)))));
+            this.btn_update.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_menu_transition.SetDecoration(this.btn_update, BunifuAnimatorNS.DecorationType.None);
+            this.btn_update.Image = ((System.Drawing.Image)(resources.GetObject("btn_update.Image")));
+            this.btn_update.ImageActive = null;
+            this.btn_update.Location = new System.Drawing.Point(497, 6);
+            this.btn_update.Name = "btn_update";
+            this.btn_update.Size = new System.Drawing.Size(68, 36);
+            this.btn_update.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_update.TabIndex = 29;
+            this.btn_update.TabStop = false;
+            this.btn_update.Zoom = 10;
+            this.btn_update.Click += new System.EventHandler(this.btn_update_Click);
+            // 
             // btn_entrega_cupones
             // 
             this.btn_entrega_cupones.ActiveBorderThickness = 1;
@@ -2816,26 +2220,660 @@
             this.Btn_mostrar_cupones.Visible = false;
             this.Btn_mostrar_cupones.Click += new System.EventHandler(this.Btn_mostrar_cupones_Click);
             // 
-            // pnl_menu_transition
+            // btn_futbol
             // 
-            this.pnl_menu_transition.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
-            this.pnl_menu_transition.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.pnl_menu_transition.DefaultAnimation = animation1;
+            this.btn_futbol.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_futbol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_futbol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_futbol.BorderRadius = 0;
+            this.btn_futbol.ButtonText = "   Futbol";
+            this.btn_futbol.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_futbol, BunifuAnimatorNS.DecorationType.None);
+            this.btn_futbol.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_futbol.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_futbol.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_futbol.Iconimage = global::entrega_cupones.Properties.Resources.football__3_;
+            this.btn_futbol.Iconimage_right = null;
+            this.btn_futbol.Iconimage_right_Selected = null;
+            this.btn_futbol.Iconimage_Selected = null;
+            this.btn_futbol.IconMarginLeft = 0;
+            this.btn_futbol.IconMarginRight = 0;
+            this.btn_futbol.IconRightVisible = true;
+            this.btn_futbol.IconRightZoom = 0D;
+            this.btn_futbol.IconVisible = true;
+            this.btn_futbol.IconZoom = 55D;
+            this.btn_futbol.IsTab = true;
+            this.btn_futbol.Location = new System.Drawing.Point(1, 116);
+            this.btn_futbol.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_futbol.Name = "btn_futbol";
+            this.btn_futbol.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_futbol.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_futbol.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_futbol.selected = false;
+            this.btn_futbol.Size = new System.Drawing.Size(137, 40);
+            this.btn_futbol.TabIndex = 34;
+            this.btn_futbol.Text = "   Futbol";
+            this.btn_futbol.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_futbol.Textcolor = System.Drawing.Color.White;
+            this.btn_futbol.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_futbol.Click += new System.EventHandler(this.btn_futbol_Click);
+            // 
+            // btn_inspectores
+            // 
+            this.btn_inspectores.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_inspectores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_inspectores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_inspectores.BorderRadius = 0;
+            this.btn_inspectores.ButtonText = "   Inspectores";
+            this.btn_inspectores.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_inspectores, BunifuAnimatorNS.DecorationType.None);
+            this.btn_inspectores.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_inspectores.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_inspectores.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_inspectores.Iconimage = global::entrega_cupones.Properties.Resources.policeman__2_;
+            this.btn_inspectores.Iconimage_right = null;
+            this.btn_inspectores.Iconimage_right_Selected = null;
+            this.btn_inspectores.Iconimage_Selected = null;
+            this.btn_inspectores.IconMarginLeft = 0;
+            this.btn_inspectores.IconMarginRight = 0;
+            this.btn_inspectores.IconRightVisible = true;
+            this.btn_inspectores.IconRightZoom = 0D;
+            this.btn_inspectores.IconVisible = true;
+            this.btn_inspectores.IconZoom = 55D;
+            this.btn_inspectores.IsTab = true;
+            this.btn_inspectores.Location = new System.Drawing.Point(2, 584);
+            this.btn_inspectores.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_inspectores.Name = "btn_inspectores";
+            this.btn_inspectores.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_inspectores.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_inspectores.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_inspectores.selected = false;
+            this.btn_inspectores.Size = new System.Drawing.Size(137, 37);
+            this.btn_inspectores.TabIndex = 33;
+            this.btn_inspectores.Text = "   Inspectores";
+            this.btn_inspectores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_inspectores.Textcolor = System.Drawing.Color.White;
+            this.btn_inspectores.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_inspectores.Click += new System.EventHandler(this.btn_inspectores_Click);
+            // 
+            // btn_actualizar
+            // 
+            this.btn_actualizar.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_actualizar.BorderRadius = 0;
+            this.btn_actualizar.ButtonText = "   Actualizar";
+            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_actualizar, BunifuAnimatorNS.DecorationType.None);
+            this.btn_actualizar.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_actualizar.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_actualizar.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_actualizar.Iconimage = global::entrega_cupones.Properties.Resources.id_card;
+            this.btn_actualizar.Iconimage_right = null;
+            this.btn_actualizar.Iconimage_right_Selected = null;
+            this.btn_actualizar.Iconimage_Selected = null;
+            this.btn_actualizar.IconMarginLeft = 0;
+            this.btn_actualizar.IconMarginRight = 0;
+            this.btn_actualizar.IconRightVisible = true;
+            this.btn_actualizar.IconRightZoom = 0D;
+            this.btn_actualizar.IconVisible = true;
+            this.btn_actualizar.IconZoom = 55D;
+            this.btn_actualizar.IsTab = true;
+            this.btn_actualizar.Location = new System.Drawing.Point(2, 545);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_actualizar.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_actualizar.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_actualizar.selected = false;
+            this.btn_actualizar.Size = new System.Drawing.Size(137, 37);
+            this.btn_actualizar.TabIndex = 32;
+            this.btn_actualizar.Text = "   Actualizar";
+            this.btn_actualizar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_actualizar.Textcolor = System.Drawing.Color.White;
+            this.btn_actualizar.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
+            // 
+            // bunifuFlatButton2
+            // 
+            this.bunifuFlatButton2.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuFlatButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuFlatButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton2.BorderRadius = 0;
+            this.bunifuFlatButton2.ButtonText = "   Carnet";
+            this.bunifuFlatButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.bunifuFlatButton2, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton2.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton2.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuFlatButton2.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton2.Iconimage = global::entrega_cupones.Properties.Resources.id_card;
+            this.bunifuFlatButton2.Iconimage_right = null;
+            this.bunifuFlatButton2.Iconimage_right_Selected = null;
+            this.bunifuFlatButton2.Iconimage_Selected = null;
+            this.bunifuFlatButton2.IconMarginLeft = 0;
+            this.bunifuFlatButton2.IconMarginRight = 0;
+            this.bunifuFlatButton2.IconRightVisible = true;
+            this.bunifuFlatButton2.IconRightZoom = 0D;
+            this.bunifuFlatButton2.IconVisible = true;
+            this.bunifuFlatButton2.IconZoom = 55D;
+            this.bunifuFlatButton2.IsTab = true;
+            this.bunifuFlatButton2.Location = new System.Drawing.Point(2, 506);
+            this.bunifuFlatButton2.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuFlatButton2.Name = "bunifuFlatButton2";
+            this.bunifuFlatButton2.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuFlatButton2.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuFlatButton2.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuFlatButton2.selected = false;
+            this.bunifuFlatButton2.Size = new System.Drawing.Size(137, 37);
+            this.bunifuFlatButton2.TabIndex = 31;
+            this.bunifuFlatButton2.Text = "   Carnet";
+            this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton2.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton2_Click);
+            // 
+            // bunifuFlatButton1
+            // 
+            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton1.BorderRadius = 0;
+            this.bunifuFlatButton1.ButtonText = "   Turismo";
+            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.bunifuFlatButton1, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton1.Iconimage = global::entrega_cupones.Properties.Resources.earth_paradise;
+            this.bunifuFlatButton1.Iconimage_right = null;
+            this.bunifuFlatButton1.Iconimage_right_Selected = null;
+            this.bunifuFlatButton1.Iconimage_Selected = null;
+            this.bunifuFlatButton1.IconMarginLeft = 0;
+            this.bunifuFlatButton1.IconMarginRight = 0;
+            this.bunifuFlatButton1.IconRightVisible = true;
+            this.bunifuFlatButton1.IconRightZoom = 0D;
+            this.bunifuFlatButton1.IconVisible = true;
+            this.bunifuFlatButton1.IconZoom = 55D;
+            this.bunifuFlatButton1.IsTab = true;
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(1, 350);
+            this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
+            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.bunifuFlatButton1.selected = false;
+            this.bunifuFlatButton1.Size = new System.Drawing.Size(137, 37);
+            this.bunifuFlatButton1.TabIndex = 30;
+            this.bunifuFlatButton1.Text = "   Turismo";
+            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            // 
+            // btn_colonia
+            // 
+            this.btn_colonia.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_colonia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_colonia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_colonia.BorderRadius = 0;
+            this.btn_colonia.ButtonText = "   Colonia";
+            this.btn_colonia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_colonia, BunifuAnimatorNS.DecorationType.None);
+            this.btn_colonia.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_colonia.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_colonia.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_colonia.Iconimage = global::entrega_cupones.Properties.Resources.swimming_pool__1_;
+            this.btn_colonia.Iconimage_right = null;
+            this.btn_colonia.Iconimage_right_Selected = null;
+            this.btn_colonia.Iconimage_Selected = null;
+            this.btn_colonia.IconMarginLeft = 0;
+            this.btn_colonia.IconMarginRight = 0;
+            this.btn_colonia.IconRightVisible = true;
+            this.btn_colonia.IconRightZoom = 0D;
+            this.btn_colonia.IconVisible = true;
+            this.btn_colonia.IconZoom = 55D;
+            this.btn_colonia.IsTab = true;
+            this.btn_colonia.Location = new System.Drawing.Point(2, 467);
+            this.btn_colonia.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_colonia.Name = "btn_colonia";
+            this.btn_colonia.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_colonia.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_colonia.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_colonia.selected = false;
+            this.btn_colonia.Size = new System.Drawing.Size(137, 37);
+            this.btn_colonia.TabIndex = 28;
+            this.btn_colonia.Text = "   Colonia";
+            this.btn_colonia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_colonia.Textcolor = System.Drawing.Color.White;
+            this.btn_colonia.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_colonia.Click += new System.EventHandler(this.btn_colonia_Click);
+            // 
+            // btn_capacitacion
+            // 
+            this.btn_capacitacion.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_capacitacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_capacitacion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_capacitacion.BorderRadius = 0;
+            this.btn_capacitacion.ButtonText = "  Capacitac.";
+            this.btn_capacitacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_capacitacion, BunifuAnimatorNS.DecorationType.None);
+            this.btn_capacitacion.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_capacitacion.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_capacitacion.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_capacitacion.Iconimage = global::entrega_cupones.Properties.Resources.teacher_pointing_a_board_with_a_stick;
+            this.btn_capacitacion.Iconimage_right = null;
+            this.btn_capacitacion.Iconimage_right_Selected = null;
+            this.btn_capacitacion.Iconimage_Selected = null;
+            this.btn_capacitacion.IconMarginLeft = 0;
+            this.btn_capacitacion.IconMarginRight = 0;
+            this.btn_capacitacion.IconRightVisible = true;
+            this.btn_capacitacion.IconRightZoom = 0D;
+            this.btn_capacitacion.IconVisible = true;
+            this.btn_capacitacion.IconZoom = 55D;
+            this.btn_capacitacion.IsTab = true;
+            this.btn_capacitacion.Location = new System.Drawing.Point(2, 428);
+            this.btn_capacitacion.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_capacitacion.Name = "btn_capacitacion";
+            this.btn_capacitacion.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_capacitacion.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_capacitacion.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_capacitacion.selected = false;
+            this.btn_capacitacion.Size = new System.Drawing.Size(137, 37);
+            this.btn_capacitacion.TabIndex = 27;
+            this.btn_capacitacion.Text = "  Capacitac.";
+            this.btn_capacitacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_capacitacion.Textcolor = System.Drawing.Color.White;
+            this.btn_capacitacion.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            // 
+            // btn_asesoria
+            // 
+            this.btn_asesoria.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_asesoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_asesoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_asesoria.BorderRadius = 0;
+            this.btn_asesoria.ButtonText = "   Asesoria          Legal ";
+            this.btn_asesoria.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.pnl_menu_transition.SetDecoration(this.btn_asesoria, BunifuAnimatorNS.DecorationType.None);
+            this.btn_asesoria.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_asesoria.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_asesoria.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_asesoria.Iconimage = global::entrega_cupones.Properties.Resources.legal_hammer_symbol;
+            this.btn_asesoria.Iconimage_right = null;
+            this.btn_asesoria.Iconimage_right_Selected = null;
+            this.btn_asesoria.Iconimage_Selected = null;
+            this.btn_asesoria.IconMarginLeft = 0;
+            this.btn_asesoria.IconMarginRight = 0;
+            this.btn_asesoria.IconRightVisible = true;
+            this.btn_asesoria.IconRightZoom = 0D;
+            this.btn_asesoria.IconVisible = true;
+            this.btn_asesoria.IconZoom = 55D;
+            this.btn_asesoria.IsTab = true;
+            this.btn_asesoria.Location = new System.Drawing.Point(1, 389);
+            this.btn_asesoria.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_asesoria.Name = "btn_asesoria";
+            this.btn_asesoria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_asesoria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_asesoria.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_asesoria.selected = false;
+            this.btn_asesoria.Size = new System.Drawing.Size(137, 37);
+            this.btn_asesoria.TabIndex = 26;
+            this.btn_asesoria.Text = "   Asesoria          Legal ";
+            this.btn_asesoria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_asesoria.Textcolor = System.Drawing.Color.White;
+            this.btn_asesoria.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_asesoria.UseWaitCursor = true;
+            this.btn_asesoria.Click += new System.EventHandler(this.btn_asesoria_Click);
+            // 
+            // btn_enfermeria
+            // 
+            this.btn_enfermeria.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btn_enfermeria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_enfermeria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_enfermeria.BorderRadius = 0;
+            this.btn_enfermeria.ButtonText = "      Enfermeria";
+            this.btn_enfermeria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_enfermeria, BunifuAnimatorNS.DecorationType.None);
+            this.btn_enfermeria.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_enfermeria.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_enfermeria.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_enfermeria.Iconimage = global::entrega_cupones.Properties.Resources.nurse;
+            this.btn_enfermeria.Iconimage_right = null;
+            this.btn_enfermeria.Iconimage_right_Selected = null;
+            this.btn_enfermeria.Iconimage_Selected = null;
+            this.btn_enfermeria.IconMarginLeft = 0;
+            this.btn_enfermeria.IconMarginRight = 0;
+            this.btn_enfermeria.IconRightVisible = true;
+            this.btn_enfermeria.IconRightZoom = 0D;
+            this.btn_enfermeria.IconVisible = true;
+            this.btn_enfermeria.IconZoom = 55D;
+            this.btn_enfermeria.IsTab = true;
+            this.btn_enfermeria.Location = new System.Drawing.Point(1, 311);
+            this.btn_enfermeria.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_enfermeria.Name = "btn_enfermeria";
+            this.btn_enfermeria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_enfermeria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_enfermeria.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(177)))), ((int)(((byte)(136)))));
+            this.btn_enfermeria.selected = false;
+            this.btn_enfermeria.Size = new System.Drawing.Size(137, 37);
+            this.btn_enfermeria.TabIndex = 25;
+            this.btn_enfermeria.Text = "      Enfermeria";
+            this.btn_enfermeria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_enfermeria.Textcolor = System.Drawing.Color.White;
+            this.btn_enfermeria.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // btn_peluqueria
+            // 
+            this.btn_peluqueria.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_peluqueria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_peluqueria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_peluqueria.BorderRadius = 0;
+            this.btn_peluqueria.ButtonText = "         Peluqueria";
+            this.btn_peluqueria.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_peluqueria, BunifuAnimatorNS.DecorationType.None);
+            this.btn_peluqueria.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_peluqueria.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_peluqueria.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_peluqueria.Iconimage = global::entrega_cupones.Properties.Resources.hairdresser;
+            this.btn_peluqueria.Iconimage_right = null;
+            this.btn_peluqueria.Iconimage_right_Selected = null;
+            this.btn_peluqueria.Iconimage_Selected = null;
+            this.btn_peluqueria.IconMarginLeft = 0;
+            this.btn_peluqueria.IconMarginRight = 0;
+            this.btn_peluqueria.IconRightVisible = true;
+            this.btn_peluqueria.IconRightZoom = 0D;
+            this.btn_peluqueria.IconVisible = true;
+            this.btn_peluqueria.IconZoom = 55D;
+            this.btn_peluqueria.IsTab = true;
+            this.btn_peluqueria.Location = new System.Drawing.Point(1, 272);
+            this.btn_peluqueria.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_peluqueria.Name = "btn_peluqueria";
+            this.btn_peluqueria.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_peluqueria.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_peluqueria.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_peluqueria.selected = false;
+            this.btn_peluqueria.Size = new System.Drawing.Size(137, 37);
+            this.btn_peluqueria.TabIndex = 24;
+            this.btn_peluqueria.Text = "         Peluqueria";
+            this.btn_peluqueria.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_peluqueria.Textcolor = System.Drawing.Color.White;
+            this.btn_peluqueria.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            // 
+            // btn_odontologo
+            // 
+            this.btn_odontologo.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_odontologo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_odontologo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_odontologo.BorderRadius = 0;
+            this.btn_odontologo.ButtonText = "   Odontologo";
+            this.btn_odontologo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_odontologo, BunifuAnimatorNS.DecorationType.None);
+            this.btn_odontologo.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_odontologo.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_odontologo.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_odontologo.Iconimage = global::entrega_cupones.Properties.Resources.molar_with_cavity;
+            this.btn_odontologo.Iconimage_right = null;
+            this.btn_odontologo.Iconimage_right_Selected = null;
+            this.btn_odontologo.Iconimage_Selected = null;
+            this.btn_odontologo.IconMarginLeft = 0;
+            this.btn_odontologo.IconMarginRight = 0;
+            this.btn_odontologo.IconRightVisible = true;
+            this.btn_odontologo.IconRightZoom = 0D;
+            this.btn_odontologo.IconVisible = true;
+            this.btn_odontologo.IconZoom = 55D;
+            this.btn_odontologo.IsTab = true;
+            this.btn_odontologo.Location = new System.Drawing.Point(1, 233);
+            this.btn_odontologo.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_odontologo.Name = "btn_odontologo";
+            this.btn_odontologo.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_odontologo.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_odontologo.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_odontologo.selected = false;
+            this.btn_odontologo.Size = new System.Drawing.Size(137, 37);
+            this.btn_odontologo.TabIndex = 23;
+            this.btn_odontologo.Text = "   Odontologo";
+            this.btn_odontologo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_odontologo.Textcolor = System.Drawing.Color.White;
+            this.btn_odontologo.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_odontologo.Click += new System.EventHandler(this.btn_odontologo_Click);
+            // 
+            // btn_gimnasio
+            // 
+            this.btn_gimnasio.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_gimnasio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_gimnasio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_gimnasio.BorderRadius = 0;
+            this.btn_gimnasio.ButtonText = "   Gimnasio";
+            this.btn_gimnasio.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_gimnasio, BunifuAnimatorNS.DecorationType.None);
+            this.btn_gimnasio.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_gimnasio.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_gimnasio.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_gimnasio.Iconimage = global::entrega_cupones.Properties.Resources.man_lifting_weights__4_;
+            this.btn_gimnasio.Iconimage_right = null;
+            this.btn_gimnasio.Iconimage_right_Selected = null;
+            this.btn_gimnasio.Iconimage_Selected = null;
+            this.btn_gimnasio.IconMarginLeft = 0;
+            this.btn_gimnasio.IconMarginRight = 0;
+            this.btn_gimnasio.IconRightVisible = true;
+            this.btn_gimnasio.IconRightZoom = 0D;
+            this.btn_gimnasio.IconVisible = true;
+            this.btn_gimnasio.IconZoom = 55D;
+            this.btn_gimnasio.IsTab = true;
+            this.btn_gimnasio.Location = new System.Drawing.Point(1, 194);
+            this.btn_gimnasio.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_gimnasio.Name = "btn_gimnasio";
+            this.btn_gimnasio.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_gimnasio.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_gimnasio.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_gimnasio.selected = false;
+            this.btn_gimnasio.Size = new System.Drawing.Size(137, 37);
+            this.btn_gimnasio.TabIndex = 22;
+            this.btn_gimnasio.Text = "   Gimnasio";
+            this.btn_gimnasio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_gimnasio.Textcolor = System.Drawing.Color.White;
+            this.btn_gimnasio.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            // 
+            // btn_masajista
+            // 
+            this.btn_masajista.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_masajista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_masajista.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_masajista.BorderRadius = 0;
+            this.btn_masajista.ButtonText = "   Masajista";
+            this.btn_masajista.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_masajista, BunifuAnimatorNS.DecorationType.None);
+            this.btn_masajista.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_masajista.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_masajista.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_masajista.Iconimage = global::entrega_cupones.Properties.Resources.massage__2_;
+            this.btn_masajista.Iconimage_right = null;
+            this.btn_masajista.Iconimage_right_Selected = null;
+            this.btn_masajista.Iconimage_Selected = null;
+            this.btn_masajista.IconMarginLeft = 0;
+            this.btn_masajista.IconMarginRight = 0;
+            this.btn_masajista.IconRightVisible = true;
+            this.btn_masajista.IconRightZoom = 0D;
+            this.btn_masajista.IconVisible = true;
+            this.btn_masajista.IconZoom = 55D;
+            this.btn_masajista.IsTab = true;
+            this.btn_masajista.Location = new System.Drawing.Point(0, 155);
+            this.btn_masajista.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_masajista.Name = "btn_masajista";
+            this.btn_masajista.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_masajista.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_masajista.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_masajista.selected = false;
+            this.btn_masajista.Size = new System.Drawing.Size(137, 37);
+            this.btn_masajista.TabIndex = 20;
+            this.btn_masajista.Text = "   Masajista";
+            this.btn_masajista.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_masajista.Textcolor = System.Drawing.Color.White;
+            this.btn_masajista.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_masajista.Click += new System.EventHandler(this.btn_masajista_Click);
+            // 
+            // btn_pedicuro
+            // 
+            this.btn_pedicuro.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_pedicuro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_pedicuro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_pedicuro.BorderRadius = 0;
+            this.btn_pedicuro.ButtonText = "   Pedicuro";
+            this.btn_pedicuro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_pedicuro, BunifuAnimatorNS.DecorationType.None);
+            this.btn_pedicuro.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_pedicuro.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_pedicuro.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_pedicuro.Iconimage = global::entrega_cupones.Properties.Resources.footprints1;
+            this.btn_pedicuro.Iconimage_right = null;
+            this.btn_pedicuro.Iconimage_right_Selected = null;
+            this.btn_pedicuro.Iconimage_Selected = null;
+            this.btn_pedicuro.IconMarginLeft = 0;
+            this.btn_pedicuro.IconMarginRight = 0;
+            this.btn_pedicuro.IconRightVisible = true;
+            this.btn_pedicuro.IconRightZoom = 0D;
+            this.btn_pedicuro.IconVisible = true;
+            this.btn_pedicuro.IconZoom = 55D;
+            this.btn_pedicuro.IsTab = true;
+            this.btn_pedicuro.Location = new System.Drawing.Point(2, 631);
+            this.btn_pedicuro.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_pedicuro.Name = "btn_pedicuro";
+            this.btn_pedicuro.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_pedicuro.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_pedicuro.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_pedicuro.selected = false;
+            this.btn_pedicuro.Size = new System.Drawing.Size(137, 37);
+            this.btn_pedicuro.TabIndex = 19;
+            this.btn_pedicuro.Text = "   Pedicuro";
+            this.btn_pedicuro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_pedicuro.Textcolor = System.Drawing.Color.White;
+            this.btn_pedicuro.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_pedicuro.Click += new System.EventHandler(this.btn_pedicuro_Click);
+            // 
+            // btn_quinchos
+            // 
+            this.btn_quinchos.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_quinchos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_quinchos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_quinchos.BorderRadius = 0;
+            this.btn_quinchos.ButtonText = "   Quinchos";
+            this.btn_quinchos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_quinchos, BunifuAnimatorNS.DecorationType.None);
+            this.btn_quinchos.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_quinchos.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_quinchos.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_quinchos.Iconimage = global::entrega_cupones.Properties.Resources.cottage__6_;
+            this.btn_quinchos.Iconimage_right = null;
+            this.btn_quinchos.Iconimage_right_Selected = null;
+            this.btn_quinchos.Iconimage_Selected = null;
+            this.btn_quinchos.IconMarginLeft = 0;
+            this.btn_quinchos.IconMarginRight = 0;
+            this.btn_quinchos.IconRightVisible = true;
+            this.btn_quinchos.IconRightZoom = 0D;
+            this.btn_quinchos.IconVisible = true;
+            this.btn_quinchos.IconZoom = 55D;
+            this.btn_quinchos.IsTab = true;
+            this.btn_quinchos.Location = new System.Drawing.Point(0, 77);
+            this.btn_quinchos.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_quinchos.Name = "btn_quinchos";
+            this.btn_quinchos.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_quinchos.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_quinchos.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_quinchos.selected = false;
+            this.btn_quinchos.Size = new System.Drawing.Size(137, 37);
+            this.btn_quinchos.TabIndex = 18;
+            this.btn_quinchos.Text = "   Quinchos";
+            this.btn_quinchos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_quinchos.Textcolor = System.Drawing.Color.White;
+            this.btn_quinchos.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_quinchos.Click += new System.EventHandler(this.btn_quinchos_Click);
+            // 
+            // btn_mochila
+            // 
+            this.btn_mochila.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_mochila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_mochila.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_mochila.BorderRadius = 0;
+            this.btn_mochila.ButtonText = "   Mochilas";
+            this.btn_mochila.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_mochila, BunifuAnimatorNS.DecorationType.None);
+            this.btn_mochila.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_mochila.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_mochila.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_mochila.Iconimage = global::entrega_cupones.Properties.Resources.backpack__7_;
+            this.btn_mochila.Iconimage_right = null;
+            this.btn_mochila.Iconimage_right_Selected = null;
+            this.btn_mochila.Iconimage_Selected = null;
+            this.btn_mochila.IconMarginLeft = 0;
+            this.btn_mochila.IconMarginRight = 0;
+            this.btn_mochila.IconRightVisible = true;
+            this.btn_mochila.IconRightZoom = 0D;
+            this.btn_mochila.IconVisible = true;
+            this.btn_mochila.IconZoom = 55D;
+            this.btn_mochila.IsTab = true;
+            this.btn_mochila.Location = new System.Drawing.Point(0, 38);
+            this.btn_mochila.Margin = new System.Windows.Forms.Padding(5);
+            this.btn_mochila.Name = "btn_mochila";
+            this.btn_mochila.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_mochila.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btn_mochila.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_mochila.selected = true;
+            this.btn_mochila.Size = new System.Drawing.Size(137, 37);
+            this.btn_mochila.TabIndex = 17;
+            this.btn_mochila.Text = "   Mochilas";
+            this.btn_mochila.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_mochila.Textcolor = System.Drawing.Color.White;
+            this.btn_mochila.TextFont = new System.Drawing.Font("Century Gothic", 10F);
+            this.btn_mochila.Click += new System.EventHandler(this.btn_mochila_Click);
+            // 
+            // Btn_menu
+            // 
+            this.Btn_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.Btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.Btn_menu, BunifuAnimatorNS.DecorationType.None);
+            this.Btn_menu.Image = ((System.Drawing.Image)(resources.GetObject("Btn_menu.Image")));
+            this.Btn_menu.ImageActive = null;
+            this.Btn_menu.Location = new System.Drawing.Point(106, 3);
+            this.Btn_menu.Name = "Btn_menu";
+            this.Btn_menu.Size = new System.Drawing.Size(26, 31);
+            this.Btn_menu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Btn_menu.TabIndex = 0;
+            this.Btn_menu.TabStop = false;
+            this.Btn_menu.Zoom = 10;
+            this.Btn_menu.Click += new System.EventHandler(this.Btn_menu_Click);
+            // 
+            // btn_close
+            // 
+            this.btn_close.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_close.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_close.BorderRadius = 0;
+            this.btn_close.ButtonText = "";
+            this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pnl_menu_transition.SetDecoration(this.btn_close, BunifuAnimatorNS.DecorationType.None);
+            this.btn_close.DisabledColor = System.Drawing.Color.Gray;
+            this.btn_close.Iconcolor = System.Drawing.Color.Transparent;
+            this.btn_close.Iconimage = global::entrega_cupones.Properties.Resources.cross_close_or_delete_circular_interface_button_symbol;
+            this.btn_close.Iconimage_right = null;
+            this.btn_close.Iconimage_right_Selected = null;
+            this.btn_close.Iconimage_Selected = null;
+            this.btn_close.IconMarginLeft = 0;
+            this.btn_close.IconMarginRight = 0;
+            this.btn_close.IconRightVisible = true;
+            this.btn_close.IconRightZoom = 0D;
+            this.btn_close.IconVisible = true;
+            this.btn_close.IconZoom = 50D;
+            this.btn_close.IsTab = false;
+            this.btn_close.Location = new System.Drawing.Point(1301, 5);
+            this.btn_close.Name = "btn_close";
+            this.btn_close.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_close.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.btn_close.OnHoverTextColor = System.Drawing.Color.White;
+            this.btn_close.selected = false;
+            this.btn_close.Size = new System.Drawing.Size(27, 26);
+            this.btn_close.TabIndex = 15;
+            this.btn_close.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_close.Textcolor = System.Drawing.Color.White;
+            this.btn_close.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_close.Click += new System.EventHandler(this.Btn_close_Click);
             // 
             // Frm_principal
             // 
@@ -2854,7 +2892,6 @@
             this.Load += new System.EventHandler(this.Frm_principal_Load);
             this.pnl_menu.ResumeLayout(false);
             this.pnl_menu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Btn_menu)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -2862,7 +2899,6 @@
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_mostrar_aportes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_imprimir_ficha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_familiar_a_cargo)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -2870,16 +2906,18 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_mostrar_beneficiario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen_benef)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_beneficiario)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picbox_socio)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_mostrar_socios)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_imprimir_ficha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen_benef)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_beneficiario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_sin_imagen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_socio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_update)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Btn_menu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3040,6 +3078,8 @@
         private Bunifu.Framework.UI.BunifuCustomLabel lbl_cuil;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel38;
         private Bunifu.Framework.UI.BunifuFlatButton btn_futbol;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_edades;
     }
 }
 

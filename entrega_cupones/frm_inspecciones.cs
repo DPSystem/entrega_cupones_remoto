@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using entrega_cupones.Clases;
 
 namespace entrega_cupones
 {
@@ -56,8 +57,6 @@ namespace entrega_cupones
             cbx_seguimiento_inspector.ValueMember = "id_inspector";
             cbx_seguimiento_inspector.DataSource = inspector.ToList();
             
-
-
             generar_seguimiento();
             
         }
@@ -449,19 +448,22 @@ namespace entrega_cupones
             {
                 dgv_simular_acta.Rows.RemoveAt(0);
             }
-            // genero la lista de empresas segun la localidad seleccionada
-            var empresa = from emp in db_socios.maeemp
-                          where emp.MAEEMP_CODPOS == cbx_localidad.SelectedValue.ToString()
-                          select new
-                          {
-                              cuit = emp.MAEEMP_CUIT,
-                              Nombre = emp.MAEEMP_RAZSOC
-                          };
+            //genero la lista de empresas segun la localidad seleccionada
+           var empresa = from emp in db_socios.maeemp
+                         where emp.MAEEMP_CODPOS == cbx_localidad.SelectedValue.ToString()
+                         select new
+                         {
+                             cuit = emp.MAEEMP_CUIT,
+                             Nombre = emp.MAEEMP_RAZSOC,
+                             domicilio = emp.MAEEMP_CALLE.Trim() + " Nº: " + emp.MAEEMP_NRO.Trim() + " Tel: " + emp.MAEEMP_TEL.Trim()
+                         };
 
             
-            // traigo todas las deudas de todas la empresas
+
+            //// traigo todas las deudas de todas la empresas
+            calcular_coeficientes cf = new calcular_coeficientes();
             var ddjj_empresa = from djt in db_socios.ddjjt
-                               where (djt.periodo >= Convert.ToDateTime("01/06/2013") && djt.periodo <= DateTime.Now) 
+                               where (djt.periodo >= Convert.ToDateTime("01/08/2013") && djt.periodo <= DateTime.Now)
                                select new
                                {
                                    cuit = djt.cuit,
@@ -476,15 +478,17 @@ namespace entrega_cupones
                                    procesado = djt.fproc,
                                    importeps = djt.impban1,
                                    transferencia = djt.trans1,
-                                   total_periodo = (djt.fpago != null) ? calcular_coeficiente_A(Convert.ToDateTime(djt.periodo.ToString()), Convert.ToDateTime(djt.fpago.ToString()), Convert.ToDouble(djt.titem1 + djt.titem2), Convert.ToDouble(djt.impban1))
-                                                             : calcular_coeficiente_B(Convert.ToDateTime(djt.periodo.ToString()), Convert.ToDouble(djt.titem1 + djt.titem2), Convert.ToDouble(djt.impban1))
+                                   total_periodo = (djt.fpago != null) ? cf.calcular_coeficiente_A(Convert.ToDateTime(djt.periodo.ToString()), Convert.ToDateTime(djt.fpago.ToString()), Convert.ToDouble(djt.titem1 + djt.titem2), Convert.ToDouble(djt.impban1), dtp_fecha_venc_acta.Value)
+                                                             : cf.calcular_coeficiente_B(Convert.ToDateTime(djt.periodo.ToString()), Convert.ToDouble(djt.titem1 + djt.titem2), Convert.ToDouble(djt.impban1), dtp_fecha_venc_acta.Value)
+                                   //total_periodo = (djt.fpago != null) ? calcular_coeficiente_A(Convert.ToDateTime(djt.periodo.ToString()), Convert.ToDateTime(djt.fpago.ToString()), Convert.ToDouble(djt.titem1 + djt.titem2), Convert.ToDouble(djt.impban1))
+                                   //                          : calcular_coeficiente_B(Convert.ToDateTime(djt.periodo.ToString()), Convert.ToDouble(djt.titem1 + djt.titem2), Convert.ToDouble(djt.impban1))
 
                                };
 
             double total_a_cobrar = 0;
-            foreach (var em in empresa)
+            foreach (var em in empresa.ToList())
             {
-               
+
                 double deuda_empresa = 0;
                 double cuit = Convert.ToDouble(em.cuit);
                 //obtengo las actas involucradas y tomo el ultimo periodo para calcular la deuda.
@@ -506,29 +510,26 @@ namespace entrega_cupones
                     //quiere decir que si hay actas involucradas
                     var deuda = ddjj_empresa.Where(x => x.cuit == cuit && x.periodo > actas_involucradas.Max(y => y.hasta));
 
-                    foreach (var d in deuda)
-                    {
-                        deuda_empresa += d.total_periodo;
-                    }
+
+                    deuda_empresa = deuda.ToList().Sum(x => x.total_periodo);
+                    
                 }
                 else //viene por aqui por que no hay actas involucradas
                 {
                     var deuda = ddjj_empresa.Where(x => x.cuit == cuit);
 
-                    foreach (var d in deuda)
-                    {
-                        deuda_empresa += d.total_periodo;
-                    }
-                    //deuda_empresa = deuda_empresa; // - Convert.ToDouble(actas_involucradas.Sum(x => x.importe_acta));
+                    deuda_empresa = deuda.ToList().Sum(x => x.total_periodo);
+                    
                 }
 
                 dgv_ranking.Rows.Add();
                 dgv_ranking.Rows[dgv_ranking.Rows.Count - 1].Cells["cuit"].Value = em.cuit;
                 dgv_ranking.Rows[dgv_ranking.Rows.Count - 1].Cells["empresa"].Value = em.Nombre;
+                dgv_ranking.Rows[dgv_ranking.Rows.Count - 1].Cells["domicilio"].Value = em.domicilio;
                 dgv_ranking.Rows[dgv_ranking.Rows.Count - 1].Cells["deuda"].Value = deuda_empresa;
                 total_a_cobrar += deuda_empresa;
             }
-            dgv_ranking.Sort(this.dgv_ranking.Columns["deuda"],ListSortDirection.Descending);
+            dgv_ranking.Sort(this.dgv_ranking.Columns["deuda"], ListSortDirection.Descending);
             lbl_total_a_cobrar.Text = total_a_cobrar.ToString("C2");
             lbl_cant_empresas.Text = dgv_ranking.Rows.Count.ToString();
         }
@@ -570,8 +571,6 @@ namespace entrega_cupones
             {
                 dgv_simular_acta.Rows.RemoveAt(0);  
             }
-
-           
 
             int f = 0;
             string tot = "";
@@ -731,7 +730,30 @@ namespace entrega_cupones
                 db_socios.impresion_comprobante.DeleteOnSubmit(item);
                 db_socios.SubmitChanges();
             }
-            
+
+            var imprimir_actas = from a in db_socios.impresion_actas select a;
+
+            foreach (var item in imprimir_actas)
+            {
+                db_socios.impresion_actas.DeleteOnSubmit(item);
+                db_socios.SubmitChanges();
+            }
+
+            for (int f = 0; f < dgv_actas.RowCount; f++)
+            {
+                impresion_actas imp_Actas = new impresion_actas();
+                imp_Actas.acta = dgv_actas.Rows[f].Cells["num_acta"].Value.ToString();
+                imp_Actas.desde = Convert.ToDateTime(dgv_actas.Rows[f].Cells["acta_desde"].Value).Date.ToString();
+                imp_Actas.hasta = Convert.ToDateTime(dgv_actas.Rows[f].Cells["acta_hasta"].Value).Date.ToString();
+                imp_Actas.importe = Convert.ToDecimal(dgv_actas.Rows[f].Cells["importe_acta"].Value);
+                imp_Actas.cobrado = dgv_actas.Rows[f].Cells["acta_estado"].Value.ToString();
+                imp_Actas.inspector = dgv_actas.Rows[f].Cells["acta_inspector"].Value.ToString();
+                db_socios.impresion_actas.InsertOnSubmit(imp_Actas);
+                db_socios.SubmitChanges();
+
+            }
+
+
             for (int f = 0; f < dgv_simular_acta.Rows.Count; f++)
             {
                 impresion_comprobante imp = new impresion_comprobante();
@@ -812,13 +834,14 @@ namespace entrega_cupones
                                 asig_hasta = s.HASTA,
                                 asig_deuda = s.DEUDA_APROXIMADA,
                                 asig_inspector = db_socios.inspectores.Where(x => x.ID_INSPECTOR == s.ID_INSPECTOR).Single().APELLIDO,
-                                asig_fecha_generacion_aviso = s.FECHA_GENERACION_AVISO,
+                                asig_fecha_generacion_aviso = (s.FECHA_GENERACION_ACTA.Value != null) ? s.FECHA_GENERACION_ACTA.Value.Date.ToString() : "",
                                 asig_fecha_entrega_aviso = s.FECHA_ENTREGA_AVISO,
                                 asig_nro_aviso = s.NRO_AVISO,
                                 asig_acta = s.ACTA_GENERADA,
                                 asig_estado = s.ESTADO,
                                 asig_dias = (DateTime.Today - s.FECHA_ASIGNACION.Date).Days,
-                            }).OrderByDescending(x => x.asig_deuda);
+                                asig_id = s.ID_ASIGNACION
+                            }).OrderByDescending(x => x.asig_dias);
                 dgv_seguimiento.DataSource = segui.ToList();
             }
             else
@@ -834,7 +857,7 @@ namespace entrega_cupones
                                asig_hasta = s.HASTA,
                                asig_deuda = s.DEUDA_APROXIMADA,
                                asig_inspector = db_socios.inspectores.Where(x => x.ID_INSPECTOR == s.ID_INSPECTOR).Single().APELLIDO,
-                               asig_fecha_generacion_aviso = s.FECHA_GENERACION_AVISO,
+                               asig_fecha_generacion_aviso = (s.FECHA_GENERACION_ACTA.Value != null) ? s.FECHA_GENERACION_ACTA.Value.Date.ToString() : "",
                                asig_fecha_entrega_aviso = s.FECHA_ENTREGA_AVISO,
                                asig_nro_aviso = s.NRO_AVISO,
                                asig_acta = s.ACTA_GENERADA,
@@ -859,6 +882,146 @@ namespace entrega_cupones
 
         private void cbx_seguimiento_inspector_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void btn_guardar_acta_generada_Click(object sender, EventArgs e)
+        {
+            var emp_seguimi = db_socios.inspectores_asignacion_empresa.Where(x => x.ID_ASIGNACION == Convert.ToInt32(dgv_seguimiento.CurrentRow.Cells["IDasig"].Value)).Single();
+            emp_seguimi.ACTA_GENERADA = Convert.ToInt32( txt_acta_generada.Text);
+            emp_seguimi.FECHA_GENERACION_ACTA = dtp_fecha_gen_acta.Value;
+            emp_seguimi.DEUDA_DETERMINADA = Convert.ToDecimal(txt_deuda_determinada.Text);
+            emp_seguimi.ESTADO = 1;
+            db_socios.SubmitChanges();
+        }
+
+        private void chk_Cargar_Acta_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk_Cargar_Acta.Checked == true)
+            {
+                gbx_asig_actas.Enabled = true;
+            }
+            else
+            {
+                gbx_asig_actas.Enabled = false;
+            }
+        }
+
+        private void txt_acta_generada_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void btn_estado_empresa_Click(object sender, EventArgs e)
+        {
+            frm_buscar_empresa f_buscar_empresa = new frm_buscar_empresa();
+            f_buscar_empresa.Show();
+        }
+
+        private void btn_per_NO_declarados_Click(object sender, EventArgs e)
+        {
+            Int64 num_cuit = Convert.ToInt64(cbx_nombre_empresa.SelectedValue.ToString());
+            DateTime desde = Convert.ToDateTime("01/" + cbx_desde.SelectedItem.ToString());
+            DateTime hasta = Convert.ToDateTime("01/" + cbx_hasta.SelectedItem.ToString());
+            //txt_cuit.Text = num_cuit.ToString("##-########-#");
+
+            // DateTime periodo = Convert.ToDateTime(dgv_dj_empresa.CurrentRow.Cells["periodo"].Value);
+
+            List<DateTime> lst_pd = new List<DateTime>();
+            List<DateTime> lst_serie = new List<DateTime>();
+            List<DateTime> lst_pnd = new List<DateTime>();
+
+            var periodo_declarado = (from a in db_socios.ddjj where (a.periodo >= desde && a.periodo <= hasta) && ( a.cuite == num_cuit)// && (a.cuil == 27311202761))
+                                     select a).OrderBy(z=>z.cuil).ThenBy(y=>y.periodo).ToList().GroupBy(x=>x.cuil);
+
+            //var periodo_declarado = (from a in db_socios.ddjj
+            //                         where a.cuite == num_cuit && (a.periodo >= desde && a.periodo <= hasta)
+            //                         select a.periodo);
+
+
+            string nombre = string.Empty;
+            string dni = string.Empty;
+            double CUIL = 0;
+            foreach (var item in periodo_declarado)
+            {
+
+                CUIL = Convert.ToDouble(item.Key.Value.ToString());
+                var xxx = (from a in db_socios.maesoc
+                           //where Convert.ToDouble(a.MAESOC_CUIL) == Convert.ToDouble(item.Key.Value)
+                           where Convert.ToDouble(a.MAESOC_CUIL) ==  CUIL
+                           select new { dni = a.MAESOC_NRODOC, nombre = a.MAESOC_APELLIDO.Trim() + " " + a.MAESOC_NOMBRE.Trim() }).FirstOrDefault();
+                if (xxx != null)
+                {
+
+                    nombre = xxx.nombre;
+                    dni = xxx.dni.ToString();
+
+                    var pd_ = (from a in db_socios.ddjj
+                               where a.cuite == num_cuit && (a.periodo >= desde && a.periodo <= hasta) && a.cuil == item.Key
+                               select a.periodo).ToList();
+
+                    foreach (var item_ in pd_)
+                    {
+                        lst_pd.Add(item_.Value);
+                    }
+
+                    var serie_ = (from a in db_socios.secuencia_periodos.Where(x => x.periodo >= desde && x.periodo <= hasta) select a.periodo).ToList();
+
+                    foreach (var item__ in serie_)
+                    {
+                        lst_serie.Add(item__.Date);
+                    }
+
+                    var pnd = from p in lst_serie.Except(lst_pd) select p;
+
+                    foreach (var item3 in pnd.ToList())
+                    {
+                        dgv_Per_NO_declarados.Rows.Add();
+                        int fila = dgv_Per_NO_declarados.Rows.Count - 1;
+                        dgv_Per_NO_declarados.Rows[fila].Cells["dni"].Value = dni;
+                        dgv_Per_NO_declarados.Rows[fila].Cells["nombre"].Value = nombre;
+                        dgv_Per_NO_declarados.Rows[fila].Cells["periodos"].Value = item3.Date.ToString();
+                        //dgv_Per_NO_declarados.DataSource = pnd.ToList();
+                    }
+                    lst_serie.Clear();
+                    lst_pd.Clear();
+                }
+                
+                //from p in lista2.Except(lista1) select new { periodo = p.Date };
+            }
+
+            //var periodo_declarado = from a in db_socios.ddjj
+            //where a.cuite == num_cuit && (a.periodo >= desde && a.periodo <= hasta)
+            ////group a.periodo by a.cuil into g
+            //group a by a.cuil into g
+            //select new { cuil = g.Key, periodos = g.Select(m=>m.periodo) };
+
+            // var periodos_declarados = db_socios.ddjj.ToLookup(p => p.cuil, p => p.periodo);
+
+            // var serie = (from a in db_socios.secuencia_periodos.Where(x => x.periodo >= desde && x.periodo <= hasta) select a).ToList();
+
+            //dgv_Per_NO_declarados.DataSource = ;
+
+
+                //foreach (var item in )
+            //{
+
+            //}
+
+            //foreach (DataGridViewRow fila in dgv_actas_dj_empresa.Rows)
+            //{
+            //    lista1.Add(Convert.ToDateTime(fila.Cells["periodo"].Value));
+            //}
+
+            //// Se genera una lista y se llena  con los periodos  de la tabla de periodos
+            //List<DateTime> lista2 = new List<DateTime>();
+
+            //foreach (var fila in db_sindicato.secuencia_periodos.Where(x => x.periodo >= Convert.ToDateTime("01/" + txt_actas_desde.Text) && x.periodo <= Convert.ToDateTime("01/" + txt_actas_hasta.Text)))
+            //{
+            //    lista2.Add(Convert.ToDateTime(fila.periodo));
+            //}
+            //// Se genera una variable con los periodos de la lista2 que no esten en la lista1 y obtengo los periodos faltantes
+            //var periodo_faltante = from p in lista2.Except(lista1) select new { periodo = p.Date };
 
         }
     }

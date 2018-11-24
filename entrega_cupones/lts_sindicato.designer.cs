@@ -30,9 +30,18 @@ namespace entrega_cupones
 		
     #region Definiciones de métodos de extensibilidad
     partial void OnCreated();
+    partial void Insertacta_inspector(acta_inspector instance);
+    partial void Updateacta_inspector(acta_inspector instance);
+    partial void Deleteacta_inspector(acta_inspector instance);
+    partial void InsertACTAS(ACTAS instance);
+    partial void UpdateACTAS(ACTAS instance);
+    partial void DeleteACTAS(ACTAS instance);
     partial void Insertavisos(avisos instance);
     partial void Updateavisos(avisos instance);
     partial void Deleteavisos(avisos instance);
+    partial void Insertbancos(bancos instance);
+    partial void Updatebancos(bancos instance);
+    partial void Deletebancos(bancos instance);
     partial void Insertcampeonatos(campeonatos instance);
     partial void Updatecampeonatos(campeonatos instance);
     partial void Deletecampeonatos(campeonatos instance);
@@ -42,12 +51,24 @@ namespace entrega_cupones
     partial void Insertcanchas(canchas instance);
     partial void Updatecanchas(canchas instance);
     partial void Deletecanchas(canchas instance);
-    partial void Insertempresas(empresas instance);
-    partial void Updateempresas(empresas instance);
-    partial void Deleteempresas(empresas instance);
-    partial void Insertentregas_mochilas(entregas_mochilas instance);
-    partial void Updateentregas_mochilas(entregas_mochilas instance);
-    partial void Deleteentregas_mochilas(entregas_mochilas instance);
+    partial void Insertcanjes(canjes instance);
+    partial void Updatecanjes(canjes instance);
+    partial void Deletecanjes(canjes instance);
+    partial void Insertcategorias(categorias instance);
+    partial void Updatecategorias(categorias instance);
+    partial void Deletecategorias(categorias instance);
+    partial void Insertcheques(cheques instance);
+    partial void Updatecheques(cheques instance);
+    partial void Deletecheques(cheques instance);
+    partial void Insertcomentarios(comentarios instance);
+    partial void Updatecomentarios(comentarios instance);
+    partial void Deletecomentarios(comentarios instance);
+    partial void Insertdetalle_canje(detalle_canje instance);
+    partial void Updatedetalle_canje(detalle_canje instance);
+    partial void Deletedetalle_canje(detalle_canje instance);
+    partial void Insertempresas_(empresas_ instance);
+    partial void Updateempresas_(empresas_ instance);
+    partial void Deleteempresas_(empresas_ instance);
     partial void Insertequipos(equipos instance);
     partial void Updateequipos(equipos instance);
     partial void Deleteequipos(equipos instance);
@@ -66,9 +87,6 @@ namespace entrega_cupones
     partial void Insertjueces(jueces instance);
     partial void Updatejueces(jueces instance);
     partial void Deletejueces(jueces instance);
-    partial void Insertjuez_tipo(juez_tipo instance);
-    partial void Updatejuez_tipo(juez_tipo instance);
-    partial void Deletejuez_tipo(juez_tipo instance);
     partial void Insertjugadores(jugadores instance);
     partial void Updatejugadores(jugadores instance);
     partial void Deletejugadores(jugadores instance);
@@ -87,27 +105,27 @@ namespace entrega_cupones
     partial void Insertpartidos_cambios(partidos_cambios instance);
     partial void Updatepartidos_cambios(partidos_cambios instance);
     partial void Deletepartidos_cambios(partidos_cambios instance);
-    partial void Insertpartidos_goles(partidos_goles instance);
-    partial void Updatepartidos_goles(partidos_goles instance);
-    partial void Deletepartidos_goles(partidos_goles instance);
     partial void Insertpartidos_jueces(partidos_jueces instance);
     partial void Updatepartidos_jueces(partidos_jueces instance);
     partial void Deletepartidos_jueces(partidos_jueces instance);
     partial void Insertpartidos_tarjetas(partidos_tarjetas instance);
     partial void Updatepartidos_tarjetas(partidos_tarjetas instance);
     partial void Deletepartidos_tarjetas(partidos_tarjetas instance);
-    partial void Insertprovincias(provincias instance);
-    partial void Updateprovincias(provincias instance);
-    partial void Deleteprovincias(provincias instance);
+    partial void Insertprovincias_(provincias_ instance);
+    partial void Updateprovincias_(provincias_ instance);
+    partial void Deleteprovincias_(provincias_ instance);
     partial void Insertquinchos(quinchos instance);
     partial void Updatequinchos(quinchos instance);
     partial void Deletequinchos(quinchos instance);
-    partial void Insertreservas(reservas instance);
-    partial void Updatereservas(reservas instance);
-    partial void Deletereservas(reservas instance);
+    partial void Insertrecibos(recibos instance);
+    partial void Updaterecibos(recibos instance);
+    partial void Deleterecibos(recibos instance);
     partial void Insertreservas_quinchos(reservas_quinchos instance);
     partial void Updatereservas_quinchos(reservas_quinchos instance);
     partial void Deletereservas_quinchos(reservas_quinchos instance);
+    partial void Insertrubros(rubros instance);
+    partial void Updaterubros(rubros instance);
+    partial void Deleterubros(rubros instance);
     partial void Insertsanciones(sanciones instance);
     partial void Updatesanciones(sanciones instance);
     partial void Deletesanciones(sanciones instance);
@@ -117,24 +135,39 @@ namespace entrega_cupones
     partial void Insertservicios(servicios instance);
     partial void Updateservicios(servicios instance);
     partial void Deleteservicios(servicios instance);
-    partial void Insertsocios_servicios(socios_servicios instance);
-    partial void Updatesocios_servicios(socios_servicios instance);
-    partial void Deletesocios_servicios(socios_servicios instance);
-    partial void Insertsorteo(sorteo instance);
-    partial void Updatesorteo(sorteo instance);
-    partial void Deletesorteo(sorteo instance);
     partial void Inserttarjetas(tarjetas instance);
     partial void Updatetarjetas(tarjetas instance);
     partial void Deletetarjetas(tarjetas instance);
-    partial void Inserttitular_benef(titular_benef instance);
-    partial void Updatetitular_benef(titular_benef instance);
-    partial void Deletetitular_benef(titular_benef instance);
     partial void Insertusuarios(usuarios instance);
     partial void Updateusuarios(usuarios instance);
     partial void Deleteusuarios(usuarios instance);
+    partial void Insertfotos(fotos instance);
+    partial void Updatefotos(fotos instance);
+    partial void Deletefotos(fotos instance);
+    partial void Insertmaeflia(maeflia instance);
+    partial void Updatemaeflia(maeflia instance);
+    partial void Deletemaeflia(maeflia instance);
+    partial void Insertmaesoc(maesoc instance);
+    partial void Updatemaesoc(maesoc instance);
+    partial void Deletemaesoc(maesoc instance);
+    partial void Insertsoccen(soccen instance);
+    partial void Updatesoccen(soccen instance);
+    partial void Deletesoccen(soccen instance);
+    partial void Insertsocemp(socemp instance);
+    partial void Updatesocemp(socemp instance);
+    partial void Deletesocemp(socemp instance);
+    partial void Insertsocflia(socflia instance);
+    partial void Updatesocflia(socflia instance);
+    partial void Deletesocflia(socflia instance);
+    partial void Insertmaeemp(maeemp instance);
+    partial void Updatemaeemp(maeemp instance);
+    partial void Deletemaeemp(maeemp instance);
     partial void Insertimpresion_comprobante(impresion_comprobante instance);
     partial void Updateimpresion_comprobante(impresion_comprobante instance);
     partial void Deleteimpresion_comprobante(impresion_comprobante instance);
+    partial void Insertimpresion_actas(impresion_actas instance);
+    partial void Updateimpresion_actas(impresion_actas instance);
+    partial void Deleteimpresion_actas(impresion_actas instance);
     #endregion
 		
 		public lts_sindicatoDataContext() : 
@@ -191,11 +224,27 @@ namespace entrega_cupones
 			}
 		}
 		
+		public System.Data.Linq.Table<actividad> actividad
+		{
+			get
+			{
+				return this.GetTable<actividad>();
+			}
+		}
+		
 		public System.Data.Linq.Table<avisos> avisos
 		{
 			get
 			{
 				return this.GetTable<avisos>();
+			}
+		}
+		
+		public System.Data.Linq.Table<bancos> bancos
+		{
+			get
+			{
+				return this.GetTable<bancos>();
 			}
 		}
 		
@@ -223,6 +272,14 @@ namespace entrega_cupones
 			}
 		}
 		
+		public System.Data.Linq.Table<canjes> canjes
+		{
+			get
+			{
+				return this.GetTable<canjes>();
+			}
+		}
+		
 		public System.Data.Linq.Table<categorias> categorias
 		{
 			get
@@ -231,11 +288,35 @@ namespace entrega_cupones
 			}
 		}
 		
+		public System.Data.Linq.Table<categorias_empleado> categorias_empleado
+		{
+			get
+			{
+				return this.GetTable<categorias_empleado>();
+			}
+		}
+		
+		public System.Data.Linq.Table<cheques> cheques
+		{
+			get
+			{
+				return this.GetTable<cheques>();
+			}
+		}
+		
 		public System.Data.Linq.Table<COBROS> COBROS
 		{
 			get
 			{
 				return this.GetTable<COBROS>();
+			}
+		}
+		
+		public System.Data.Linq.Table<comentarios> comentarios
+		{
+			get
+			{
+				return this.GetTable<comentarios>();
 			}
 		}
 		
@@ -255,11 +336,19 @@ namespace entrega_cupones
 			}
 		}
 		
-		public System.Data.Linq.Table<empresas> empresas
+		public System.Data.Linq.Table<detalle_canje> detalle_canje
 		{
 			get
 			{
-				return this.GetTable<empresas>();
+				return this.GetTable<detalle_canje>();
+			}
+		}
+		
+		public System.Data.Linq.Table<empresas_> empresas_
+		{
+			get
+			{
+				return this.GetTable<empresas_>();
 			}
 		}
 		
@@ -319,14 +408,6 @@ namespace entrega_cupones
 			}
 		}
 		
-		public System.Data.Linq.Table<juez_tipo> juez_tipo
-		{
-			get
-			{
-				return this.GetTable<juez_tipo>();
-			}
-		}
-		
 		public System.Data.Linq.Table<jugadores> jugadores
 		{
 			get
@@ -343,11 +424,27 @@ namespace entrega_cupones
 			}
 		}
 		
+		public System.Data.Linq.Table<localidad> localidad
+		{
+			get
+			{
+				return this.GetTable<localidad>();
+			}
+		}
+		
 		public System.Data.Linq.Table<localidades> localidades
 		{
 			get
 			{
 				return this.GetTable<localidades>();
+			}
+		}
+		
+		public System.Data.Linq.Table<obrasocial> obrasocial
+		{
+			get
+			{
+				return this.GetTable<obrasocial>();
 			}
 		}
 		
@@ -375,14 +472,6 @@ namespace entrega_cupones
 			}
 		}
 		
-		public System.Data.Linq.Table<partidos_goles> partidos_goles
-		{
-			get
-			{
-				return this.GetTable<partidos_goles>();
-			}
-		}
-		
 		public System.Data.Linq.Table<partidos_jueces> partidos_jueces
 		{
 			get
@@ -407,6 +496,14 @@ namespace entrega_cupones
 			}
 		}
 		
+		public System.Data.Linq.Table<provincias_> provincias_
+		{
+			get
+			{
+				return this.GetTable<provincias_>();
+			}
+		}
+		
 		public System.Data.Linq.Table<quinchos> quinchos
 		{
 			get
@@ -420,14 +517,6 @@ namespace entrega_cupones
 			get
 			{
 				return this.GetTable<recibos>();
-			}
-		}
-		
-		public System.Data.Linq.Table<reservas> reservas
-		{
-			get
-			{
-				return this.GetTable<reservas>();
 			}
 		}
 		
@@ -471,43 +560,11 @@ namespace entrega_cupones
 			}
 		}
 		
-		public System.Data.Linq.Table<socios_servicios> socios_servicios
-		{
-			get
-			{
-				return this.GetTable<socios_servicios>();
-			}
-		}
-		
-		public System.Data.Linq.Table<sorteo> sorteo
-		{
-			get
-			{
-				return this.GetTable<sorteo>();
-			}
-		}
-		
 		public System.Data.Linq.Table<tarjetas> tarjetas
 		{
 			get
 			{
 				return this.GetTable<tarjetas>();
-			}
-		}
-		
-		public System.Data.Linq.Table<tipo_juez> tipo_juez
-		{
-			get
-			{
-				return this.GetTable<tipo_juez>();
-			}
-		}
-		
-		public System.Data.Linq.Table<titular_benef> titular_benef
-		{
-			get
-			{
-				return this.GetTable<titular_benef>();
 			}
 		}
 		
@@ -524,14 +581,6 @@ namespace entrega_cupones
 			get
 			{
 				return this.GetTable<fotos>();
-			}
-		}
-		
-		public System.Data.Linq.Table<maeemp> maeemp
-		{
-			get
-			{
-				return this.GetTable<maeemp>();
 			}
 		}
 		
@@ -575,11 +624,27 @@ namespace entrega_cupones
 			}
 		}
 		
+		public System.Data.Linq.Table<maeemp> maeemp
+		{
+			get
+			{
+				return this.GetTable<maeemp>();
+			}
+		}
+		
 		public System.Data.Linq.Table<impresion_comprobante> impresion_comprobante
 		{
 			get
 			{
 				return this.GetTable<impresion_comprobante>();
+			}
+		}
+		
+		public System.Data.Linq.Table<impresion_actas> impresion_actas
+		{
+			get
+			{
+				return this.GetTable<impresion_actas>();
 			}
 		}
 		
@@ -592,8 +657,12 @@ namespace entrega_cupones
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.acta_inspector")]
-	public partial class acta_inspector
+	public partial class acta_inspector : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
 		
 		private System.Nullable<int> _IDACTA_INSPECTOR;
 		
@@ -601,8 +670,43 @@ namespace entrega_cupones
 		
 		private System.Nullable<int> _INSPECTOR;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnIDACTA_INSPECTORChanging(System.Nullable<int> value);
+    partial void OnIDACTA_INSPECTORChanged();
+    partial void OnACTAChanging(System.Nullable<int> value);
+    partial void OnACTAChanged();
+    partial void OnINSPECTORChanging(System.Nullable<int> value);
+    partial void OnINSPECTORChanged();
+    #endregion
+		
 		public acta_inspector()
 		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
 		}
 		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IDACTA_INSPECTOR", DbType="Int")]
@@ -616,7 +720,11 @@ namespace entrega_cupones
 			{
 				if ((this._IDACTA_INSPECTOR != value))
 				{
+					this.OnIDACTA_INSPECTORChanging(value);
+					this.SendPropertyChanging();
 					this._IDACTA_INSPECTOR = value;
+					this.SendPropertyChanged("IDACTA_INSPECTOR");
+					this.OnIDACTA_INSPECTORChanged();
 				}
 			}
 		}
@@ -632,7 +740,11 @@ namespace entrega_cupones
 			{
 				if ((this._ACTA != value))
 				{
+					this.OnACTAChanging(value);
+					this.SendPropertyChanging();
 					this._ACTA = value;
+					this.SendPropertyChanged("ACTA");
+					this.OnACTAChanged();
 				}
 			}
 		}
@@ -648,21 +760,47 @@ namespace entrega_cupones
 			{
 				if ((this._INSPECTOR != value))
 				{
+					this.OnINSPECTORChanging(value);
+					this.SendPropertyChanging();
 					this._INSPECTOR = value;
+					this.SendPropertyChanged("INSPECTOR");
+					this.OnINSPECTORChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.ACTAS")]
-	public partial class ACTAS
+	public partial class ACTAS : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private int _ID_ACTA;
 		
 		private System.Nullable<System.DateTime> _FECHA;
 		
-		private System.Nullable<int> _ACTA;
+		private System.Nullable<double> _ACTA;
 		
 		private string _EMPRESA;
 		
@@ -688,7 +826,7 @@ namespace entrega_cupones
 		
 		private string _INSPECTOR;
 		
-		private string _OBSERVACIONES;
+		private System.Nullable<double> _OBSERVACIONES;
 		
 		private System.Nullable<double> _IMPORTECOBRADO;
 		
@@ -696,7 +834,7 @@ namespace entrega_cupones
 		
 		private System.Nullable<double> _AÑO;
 		
-		private string _EJERCICIO;
+		private System.Nullable<double> _EJERCICIO;
 		
 		private System.Nullable<double> _CANTIDADCUOTAS;
 		
@@ -708,11 +846,116 @@ namespace entrega_cupones
 		
 		private string _TOTAL;
 		
+		private System.Nullable<System.DateTime> _FECHA_VENC_ACTA;
+		
+		private System.Nullable<System.DateTime> _FECHA_ASIG;
+		
+		private System.Nullable<System.DateTime> _ASIG_DESDE;
+		
+		private System.Nullable<System.DateTime> _ASIG_HASTA;
+		
+		private System.Nullable<decimal> _ASIG_DEUDA_APROX;
+		
+		private System.Nullable<int> _ESTADO;
+		
+		private System.Nullable<int> _DIAS;
+		
+		private System.Nullable<int> _FINANCIACION;
+		
+		private System.Nullable<decimal> _ANTICIPO;
+		
+		private System.Nullable<decimal> _TASA;
+		
+		private string _COEFICIENTE;
+		
+		private System.Nullable<decimal> _IMPORTE_CUOTA;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnID_ACTAChanging(int value);
+    partial void OnID_ACTAChanged();
+    partial void OnFECHAChanging(System.Nullable<System.DateTime> value);
+    partial void OnFECHAChanged();
+    partial void OnACTAChanging(System.Nullable<double> value);
+    partial void OnACTAChanged();
+    partial void OnEMPRESAChanging(string value);
+    partial void OnEMPRESAChanged();
+    partial void OnCUITChanging(System.Nullable<double> value);
+    partial void OnCUITChanged();
+    partial void OnDOMICILIOChanging(string value);
+    partial void OnDOMICILIOChanged();
+    partial void OnDESDEChanging(System.Nullable<System.DateTime> value);
+    partial void OnDESDEChanged();
+    partial void OnHASTAChanging(System.Nullable<System.DateTime> value);
+    partial void OnHASTAChanged();
+    partial void OnDEUDAHISTORICAChanging(System.Nullable<double> value);
+    partial void OnDEUDAHISTORICAChanged();
+    partial void OnINTERESESChanging(System.Nullable<double> value);
+    partial void OnINTERESESChanged();
+    partial void OnDEUDAACTUALIZADAChanging(System.Nullable<double> value);
+    partial void OnDEUDAACTUALIZADAChanged();
+    partial void OnINTERESFINANCChanging(System.Nullable<double> value);
+    partial void OnINTERESFINANCChanged();
+    partial void OnDEUDATOTALChanging(System.Nullable<double> value);
+    partial void OnDEUDATOTALChanged();
+    partial void OnCOBRADOTOTALMENTEChanging(string value);
+    partial void OnCOBRADOTOTALMENTEChanged();
+    partial void OnINSPECTORChanging(string value);
+    partial void OnINSPECTORChanged();
+    partial void OnOBSERVACIONESChanging(System.Nullable<double> value);
+    partial void OnOBSERVACIONESChanged();
+    partial void OnIMPORTECOBRADOChanging(System.Nullable<double> value);
+    partial void OnIMPORTECOBRADOChanged();
+    partial void OnDIFERENCIAChanging(System.Nullable<double> value);
+    partial void OnDIFERENCIAChanged();
+    partial void OnAÑOChanging(System.Nullable<double> value);
+    partial void OnAÑOChanged();
+    partial void OnEJERCICIOChanging(System.Nullable<double> value);
+    partial void OnEJERCICIOChanged();
+    partial void OnCANTIDADCUOTASChanging(System.Nullable<double> value);
+    partial void OnCANTIDADCUOTASChanged();
+    partial void OnCUOTASDEVENGADASChanging(System.Nullable<double> value);
+    partial void OnCUOTASDEVENGADASChanged();
+    partial void OnADEVENGARChanging(string value);
+    partial void OnADEVENGARChanged();
+    partial void OnDEVENGADOChanging(string value);
+    partial void OnDEVENGADOChanged();
+    partial void OnTOTALChanging(string value);
+    partial void OnTOTALChanged();
+    partial void OnFECHA_VENC_ACTAChanging(System.Nullable<System.DateTime> value);
+    partial void OnFECHA_VENC_ACTAChanged();
+    partial void OnFECHA_ASIGChanging(System.Nullable<System.DateTime> value);
+    partial void OnFECHA_ASIGChanged();
+    partial void OnASIG_DESDEChanging(System.Nullable<System.DateTime> value);
+    partial void OnASIG_DESDEChanged();
+    partial void OnASIG_HASTAChanging(System.Nullable<System.DateTime> value);
+    partial void OnASIG_HASTAChanged();
+    partial void OnASIG_DEUDA_APROXChanging(System.Nullable<decimal> value);
+    partial void OnASIG_DEUDA_APROXChanged();
+    partial void OnESTADOChanging(System.Nullable<int> value);
+    partial void OnESTADOChanged();
+    partial void OnDIASChanging(System.Nullable<int> value);
+    partial void OnDIASChanged();
+    partial void OnFINANCIACIONChanging(System.Nullable<int> value);
+    partial void OnFINANCIACIONChanged();
+    partial void OnANTICIPOChanging(System.Nullable<decimal> value);
+    partial void OnANTICIPOChanged();
+    partial void OnTASAChanging(System.Nullable<decimal> value);
+    partial void OnTASAChanged();
+    partial void OnCOEFICIENTEChanging(string value);
+    partial void OnCOEFICIENTEChanged();
+    partial void OnIMPORTE_CUOTAChanging(System.Nullable<decimal> value);
+    partial void OnIMPORTE_CUOTAChanged();
+    #endregion
+		
 		public ACTAS()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID_ACTA", DbType="Int NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID_ACTA", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
 		public int ID_ACTA
 		{
 			get
@@ -723,7 +966,11 @@ namespace entrega_cupones
 			{
 				if ((this._ID_ACTA != value))
 				{
+					this.OnID_ACTAChanging(value);
+					this.SendPropertyChanging();
 					this._ID_ACTA = value;
+					this.SendPropertyChanged("ID_ACTA");
+					this.OnID_ACTAChanged();
 				}
 			}
 		}
@@ -739,13 +986,17 @@ namespace entrega_cupones
 			{
 				if ((this._FECHA != value))
 				{
+					this.OnFECHAChanging(value);
+					this.SendPropertyChanging();
 					this._FECHA = value;
+					this.SendPropertyChanged("FECHA");
+					this.OnFECHAChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ACTA", DbType="Int")]
-		public System.Nullable<int> ACTA
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ACTA", DbType="Float")]
+		public System.Nullable<double> ACTA
 		{
 			get
 			{
@@ -755,7 +1006,11 @@ namespace entrega_cupones
 			{
 				if ((this._ACTA != value))
 				{
+					this.OnACTAChanging(value);
+					this.SendPropertyChanging();
 					this._ACTA = value;
+					this.SendPropertyChanged("ACTA");
+					this.OnACTAChanged();
 				}
 			}
 		}
@@ -771,7 +1026,11 @@ namespace entrega_cupones
 			{
 				if ((this._EMPRESA != value))
 				{
+					this.OnEMPRESAChanging(value);
+					this.SendPropertyChanging();
 					this._EMPRESA = value;
+					this.SendPropertyChanged("EMPRESA");
+					this.OnEMPRESAChanged();
 				}
 			}
 		}
@@ -787,7 +1046,11 @@ namespace entrega_cupones
 			{
 				if ((this._CUIT != value))
 				{
+					this.OnCUITChanging(value);
+					this.SendPropertyChanging();
 					this._CUIT = value;
+					this.SendPropertyChanged("CUIT");
+					this.OnCUITChanged();
 				}
 			}
 		}
@@ -803,7 +1066,11 @@ namespace entrega_cupones
 			{
 				if ((this._DOMICILIO != value))
 				{
+					this.OnDOMICILIOChanging(value);
+					this.SendPropertyChanging();
 					this._DOMICILIO = value;
+					this.SendPropertyChanged("DOMICILIO");
+					this.OnDOMICILIOChanged();
 				}
 			}
 		}
@@ -819,7 +1086,11 @@ namespace entrega_cupones
 			{
 				if ((this._DESDE != value))
 				{
+					this.OnDESDEChanging(value);
+					this.SendPropertyChanging();
 					this._DESDE = value;
+					this.SendPropertyChanged("DESDE");
+					this.OnDESDEChanged();
 				}
 			}
 		}
@@ -835,7 +1106,11 @@ namespace entrega_cupones
 			{
 				if ((this._HASTA != value))
 				{
+					this.OnHASTAChanging(value);
+					this.SendPropertyChanging();
 					this._HASTA = value;
+					this.SendPropertyChanged("HASTA");
+					this.OnHASTAChanged();
 				}
 			}
 		}
@@ -851,7 +1126,11 @@ namespace entrega_cupones
 			{
 				if ((this._DEUDAHISTORICA != value))
 				{
+					this.OnDEUDAHISTORICAChanging(value);
+					this.SendPropertyChanging();
 					this._DEUDAHISTORICA = value;
+					this.SendPropertyChanged("DEUDAHISTORICA");
+					this.OnDEUDAHISTORICAChanged();
 				}
 			}
 		}
@@ -867,7 +1146,11 @@ namespace entrega_cupones
 			{
 				if ((this._INTERESES != value))
 				{
+					this.OnINTERESESChanging(value);
+					this.SendPropertyChanging();
 					this._INTERESES = value;
+					this.SendPropertyChanged("INTERESES");
+					this.OnINTERESESChanged();
 				}
 			}
 		}
@@ -883,7 +1166,11 @@ namespace entrega_cupones
 			{
 				if ((this._DEUDAACTUALIZADA != value))
 				{
+					this.OnDEUDAACTUALIZADAChanging(value);
+					this.SendPropertyChanging();
 					this._DEUDAACTUALIZADA = value;
+					this.SendPropertyChanged("DEUDAACTUALIZADA");
+					this.OnDEUDAACTUALIZADAChanged();
 				}
 			}
 		}
@@ -899,7 +1186,11 @@ namespace entrega_cupones
 			{
 				if ((this._INTERESFINANC != value))
 				{
+					this.OnINTERESFINANCChanging(value);
+					this.SendPropertyChanging();
 					this._INTERESFINANC = value;
+					this.SendPropertyChanged("INTERESFINANC");
+					this.OnINTERESFINANCChanged();
 				}
 			}
 		}
@@ -915,7 +1206,11 @@ namespace entrega_cupones
 			{
 				if ((this._DEUDATOTAL != value))
 				{
+					this.OnDEUDATOTALChanging(value);
+					this.SendPropertyChanging();
 					this._DEUDATOTAL = value;
+					this.SendPropertyChanged("DEUDATOTAL");
+					this.OnDEUDATOTALChanged();
 				}
 			}
 		}
@@ -931,7 +1226,11 @@ namespace entrega_cupones
 			{
 				if ((this._COBRADOTOTALMENTE != value))
 				{
+					this.OnCOBRADOTOTALMENTEChanging(value);
+					this.SendPropertyChanging();
 					this._COBRADOTOTALMENTE = value;
+					this.SendPropertyChanged("COBRADOTOTALMENTE");
+					this.OnCOBRADOTOTALMENTEChanged();
 				}
 			}
 		}
@@ -947,13 +1246,17 @@ namespace entrega_cupones
 			{
 				if ((this._INSPECTOR != value))
 				{
+					this.OnINSPECTORChanging(value);
+					this.SendPropertyChanging();
 					this._INSPECTOR = value;
+					this.SendPropertyChanged("INSPECTOR");
+					this.OnINSPECTORChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_OBSERVACIONES", DbType="NVarChar(255)")]
-		public string OBSERVACIONES
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_OBSERVACIONES", DbType="Float")]
+		public System.Nullable<double> OBSERVACIONES
 		{
 			get
 			{
@@ -963,7 +1266,11 @@ namespace entrega_cupones
 			{
 				if ((this._OBSERVACIONES != value))
 				{
+					this.OnOBSERVACIONESChanging(value);
+					this.SendPropertyChanging();
 					this._OBSERVACIONES = value;
+					this.SendPropertyChanged("OBSERVACIONES");
+					this.OnOBSERVACIONESChanged();
 				}
 			}
 		}
@@ -979,7 +1286,11 @@ namespace entrega_cupones
 			{
 				if ((this._IMPORTECOBRADO != value))
 				{
+					this.OnIMPORTECOBRADOChanging(value);
+					this.SendPropertyChanging();
 					this._IMPORTECOBRADO = value;
+					this.SendPropertyChanged("IMPORTECOBRADO");
+					this.OnIMPORTECOBRADOChanged();
 				}
 			}
 		}
@@ -995,7 +1306,11 @@ namespace entrega_cupones
 			{
 				if ((this._DIFERENCIA != value))
 				{
+					this.OnDIFERENCIAChanging(value);
+					this.SendPropertyChanging();
 					this._DIFERENCIA = value;
+					this.SendPropertyChanged("DIFERENCIA");
+					this.OnDIFERENCIAChanged();
 				}
 			}
 		}
@@ -1011,13 +1326,17 @@ namespace entrega_cupones
 			{
 				if ((this._AÑO != value))
 				{
+					this.OnAÑOChanging(value);
+					this.SendPropertyChanging();
 					this._AÑO = value;
+					this.SendPropertyChanged("AÑO");
+					this.OnAÑOChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_EJERCICIO", DbType="NVarChar(255)")]
-		public string EJERCICIO
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_EJERCICIO", DbType="Float")]
+		public System.Nullable<double> EJERCICIO
 		{
 			get
 			{
@@ -1027,7 +1346,11 @@ namespace entrega_cupones
 			{
 				if ((this._EJERCICIO != value))
 				{
+					this.OnEJERCICIOChanging(value);
+					this.SendPropertyChanging();
 					this._EJERCICIO = value;
+					this.SendPropertyChanged("EJERCICIO");
+					this.OnEJERCICIOChanged();
 				}
 			}
 		}
@@ -1043,7 +1366,11 @@ namespace entrega_cupones
 			{
 				if ((this._CANTIDADCUOTAS != value))
 				{
+					this.OnCANTIDADCUOTASChanging(value);
+					this.SendPropertyChanging();
 					this._CANTIDADCUOTAS = value;
+					this.SendPropertyChanged("CANTIDADCUOTAS");
+					this.OnCANTIDADCUOTASChanged();
 				}
 			}
 		}
@@ -1059,7 +1386,11 @@ namespace entrega_cupones
 			{
 				if ((this._CUOTASDEVENGADAS != value))
 				{
+					this.OnCUOTASDEVENGADASChanging(value);
+					this.SendPropertyChanging();
 					this._CUOTASDEVENGADAS = value;
+					this.SendPropertyChanged("CUOTASDEVENGADAS");
+					this.OnCUOTASDEVENGADASChanged();
 				}
 			}
 		}
@@ -1075,7 +1406,11 @@ namespace entrega_cupones
 			{
 				if ((this._ADEVENGAR != value))
 				{
+					this.OnADEVENGARChanging(value);
+					this.SendPropertyChanging();
 					this._ADEVENGAR = value;
+					this.SendPropertyChanged("ADEVENGAR");
+					this.OnADEVENGARChanged();
 				}
 			}
 		}
@@ -1091,7 +1426,11 @@ namespace entrega_cupones
 			{
 				if ((this._DEVENGADO != value))
 				{
+					this.OnDEVENGADOChanging(value);
+					this.SendPropertyChanging();
 					this._DEVENGADO = value;
+					this.SendPropertyChanged("DEVENGADO");
+					this.OnDEVENGADOChanged();
 				}
 			}
 		}
@@ -1107,8 +1446,272 @@ namespace entrega_cupones
 			{
 				if ((this._TOTAL != value))
 				{
+					this.OnTOTALChanging(value);
+					this.SendPropertyChanging();
 					this._TOTAL = value;
+					this.SendPropertyChanged("TOTAL");
+					this.OnTOTALChanged();
 				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA_VENC_ACTA", DbType="DateTime")]
+		public System.Nullable<System.DateTime> FECHA_VENC_ACTA
+		{
+			get
+			{
+				return this._FECHA_VENC_ACTA;
+			}
+			set
+			{
+				if ((this._FECHA_VENC_ACTA != value))
+				{
+					this.OnFECHA_VENC_ACTAChanging(value);
+					this.SendPropertyChanging();
+					this._FECHA_VENC_ACTA = value;
+					this.SendPropertyChanged("FECHA_VENC_ACTA");
+					this.OnFECHA_VENC_ACTAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA_ASIG", DbType="DateTime")]
+		public System.Nullable<System.DateTime> FECHA_ASIG
+		{
+			get
+			{
+				return this._FECHA_ASIG;
+			}
+			set
+			{
+				if ((this._FECHA_ASIG != value))
+				{
+					this.OnFECHA_ASIGChanging(value);
+					this.SendPropertyChanging();
+					this._FECHA_ASIG = value;
+					this.SendPropertyChanged("FECHA_ASIG");
+					this.OnFECHA_ASIGChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ASIG_DESDE", DbType="DateTime")]
+		public System.Nullable<System.DateTime> ASIG_DESDE
+		{
+			get
+			{
+				return this._ASIG_DESDE;
+			}
+			set
+			{
+				if ((this._ASIG_DESDE != value))
+				{
+					this.OnASIG_DESDEChanging(value);
+					this.SendPropertyChanging();
+					this._ASIG_DESDE = value;
+					this.SendPropertyChanged("ASIG_DESDE");
+					this.OnASIG_DESDEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ASIG_HASTA", DbType="DateTime")]
+		public System.Nullable<System.DateTime> ASIG_HASTA
+		{
+			get
+			{
+				return this._ASIG_HASTA;
+			}
+			set
+			{
+				if ((this._ASIG_HASTA != value))
+				{
+					this.OnASIG_HASTAChanging(value);
+					this.SendPropertyChanging();
+					this._ASIG_HASTA = value;
+					this.SendPropertyChanged("ASIG_HASTA");
+					this.OnASIG_HASTAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ASIG_DEUDA_APROX", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> ASIG_DEUDA_APROX
+		{
+			get
+			{
+				return this._ASIG_DEUDA_APROX;
+			}
+			set
+			{
+				if ((this._ASIG_DEUDA_APROX != value))
+				{
+					this.OnASIG_DEUDA_APROXChanging(value);
+					this.SendPropertyChanging();
+					this._ASIG_DEUDA_APROX = value;
+					this.SendPropertyChanged("ASIG_DEUDA_APROX");
+					this.OnASIG_DEUDA_APROXChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ESTADO", DbType="Int")]
+		public System.Nullable<int> ESTADO
+		{
+			get
+			{
+				return this._ESTADO;
+			}
+			set
+			{
+				if ((this._ESTADO != value))
+				{
+					this.OnESTADOChanging(value);
+					this.SendPropertyChanging();
+					this._ESTADO = value;
+					this.SendPropertyChanged("ESTADO");
+					this.OnESTADOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DIAS", DbType="Int")]
+		public System.Nullable<int> DIAS
+		{
+			get
+			{
+				return this._DIAS;
+			}
+			set
+			{
+				if ((this._DIAS != value))
+				{
+					this.OnDIASChanging(value);
+					this.SendPropertyChanging();
+					this._DIAS = value;
+					this.SendPropertyChanged("DIAS");
+					this.OnDIASChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FINANCIACION", DbType="Int")]
+		public System.Nullable<int> FINANCIACION
+		{
+			get
+			{
+				return this._FINANCIACION;
+			}
+			set
+			{
+				if ((this._FINANCIACION != value))
+				{
+					this.OnFINANCIACIONChanging(value);
+					this.SendPropertyChanging();
+					this._FINANCIACION = value;
+					this.SendPropertyChanged("FINANCIACION");
+					this.OnFINANCIACIONChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ANTICIPO", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> ANTICIPO
+		{
+			get
+			{
+				return this._ANTICIPO;
+			}
+			set
+			{
+				if ((this._ANTICIPO != value))
+				{
+					this.OnANTICIPOChanging(value);
+					this.SendPropertyChanging();
+					this._ANTICIPO = value;
+					this.SendPropertyChanged("ANTICIPO");
+					this.OnANTICIPOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TASA", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> TASA
+		{
+			get
+			{
+				return this._TASA;
+			}
+			set
+			{
+				if ((this._TASA != value))
+				{
+					this.OnTASAChanging(value);
+					this.SendPropertyChanging();
+					this._TASA = value;
+					this.SendPropertyChanged("TASA");
+					this.OnTASAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_COEFICIENTE", DbType="NChar(10)")]
+		public string COEFICIENTE
+		{
+			get
+			{
+				return this._COEFICIENTE;
+			}
+			set
+			{
+				if ((this._COEFICIENTE != value))
+				{
+					this.OnCOEFICIENTEChanging(value);
+					this.SendPropertyChanging();
+					this._COEFICIENTE = value;
+					this.SendPropertyChanged("COEFICIENTE");
+					this.OnCOEFICIENTEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IMPORTE_CUOTA", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> IMPORTE_CUOTA
+		{
+			get
+			{
+				return this._IMPORTE_CUOTA;
+			}
+			set
+			{
+				if ((this._IMPORTE_CUOTA != value))
+				{
+					this.OnIMPORTE_CUOTAChanging(value);
+					this.SendPropertyChanging();
+					this._IMPORTE_CUOTA = value;
+					this.SendPropertyChanged("IMPORTE_CUOTA");
+					this.OnIMPORTE_CUOTAChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -1392,6 +1995,51 @@ namespace entrega_cupones
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.actividad")]
+	public partial class actividad
+	{
+		
+		private System.Nullable<int> _MAEACT_CODACT;
+		
+		private string _MAEACT_NOMACT;
+		
+		public actividad()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEACT_CODACT", DbType="Int")]
+		public System.Nullable<int> MAEACT_CODACT
+		{
+			get
+			{
+				return this._MAEACT_CODACT;
+			}
+			set
+			{
+				if ((this._MAEACT_CODACT != value))
+				{
+					this._MAEACT_CODACT = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEACT_NOMACT", DbType="NVarChar(255)")]
+		public string MAEACT_NOMACT
+		{
+			get
+			{
+				return this._MAEACT_NOMACT;
+			}
+			set
+			{
+				if ((this._MAEACT_NOMACT != value))
+				{
+					this._MAEACT_NOMACT = value;
+				}
+			}
+		}
+	}
+	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.avisos")]
 	public partial class avisos : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -1501,6 +2149,164 @@ namespace entrega_cupones
 					this._FECHA_GEN_AVISO = value;
 					this.SendPropertyChanged("FECHA_GEN_AVISO");
 					this.OnFECHA_GEN_AVISOChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.bancos")]
+	public partial class bancos : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private string _NOMBRE;
+		
+		private string _TELEFONO;
+		
+		private string _DOMICLIO;
+		
+		private System.Nullable<int> _NRO_SUCURSAL;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnNOMBREChanging(string value);
+    partial void OnNOMBREChanged();
+    partial void OnTELEFONOChanging(string value);
+    partial void OnTELEFONOChanged();
+    partial void OnDOMICLIOChanging(string value);
+    partial void OnDOMICLIOChanged();
+    partial void OnNRO_SUCURSALChanging(System.Nullable<int> value);
+    partial void OnNRO_SUCURSALChanged();
+    #endregion
+		
+		public bancos()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NOMBRE", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string NOMBRE
+		{
+			get
+			{
+				return this._NOMBRE;
+			}
+			set
+			{
+				if ((this._NOMBRE != value))
+				{
+					this.OnNOMBREChanging(value);
+					this.SendPropertyChanging();
+					this._NOMBRE = value;
+					this.SendPropertyChanged("NOMBRE");
+					this.OnNOMBREChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TELEFONO", DbType="VarChar(40)")]
+		public string TELEFONO
+		{
+			get
+			{
+				return this._TELEFONO;
+			}
+			set
+			{
+				if ((this._TELEFONO != value))
+				{
+					this.OnTELEFONOChanging(value);
+					this.SendPropertyChanging();
+					this._TELEFONO = value;
+					this.SendPropertyChanged("TELEFONO");
+					this.OnTELEFONOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DOMICLIO", DbType="VarChar(50)")]
+		public string DOMICLIO
+		{
+			get
+			{
+				return this._DOMICLIO;
+			}
+			set
+			{
+				if ((this._DOMICLIO != value))
+				{
+					this.OnDOMICLIOChanging(value);
+					this.SendPropertyChanging();
+					this._DOMICLIO = value;
+					this.SendPropertyChanged("DOMICLIO");
+					this.OnDOMICLIOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NRO_SUCURSAL", DbType="Int")]
+		public System.Nullable<int> NRO_SUCURSAL
+		{
+			get
+			{
+				return this._NRO_SUCURSAL;
+			}
+			set
+			{
+				if ((this._NRO_SUCURSAL != value))
+				{
+					this.OnNRO_SUCURSALChanging(value);
+					this.SendPropertyChanging();
+					this._NRO_SUCURSAL = value;
+					this.SendPropertyChanged("NRO_SUCURSAL");
+					this.OnNRO_SUCURSALChanged();
 				}
 			}
 		}
@@ -1714,6 +2520,8 @@ namespace entrega_cupones
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
+		private int _ID;
+		
 		private int _CAMPEQUIPOID;
 		
 		private int _CAMP_EQUIPOID;
@@ -1726,6 +2534,8 @@ namespace entrega_cupones
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
     partial void OnCAMPEQUIPOIDChanging(int value);
     partial void OnCAMPEQUIPOIDChanged();
     partial void OnCAMP_EQUIPOIDChanging(int value);
@@ -1741,7 +2551,27 @@ namespace entrega_cupones
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CAMPEQUIPOID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CAMPEQUIPOID", DbType="Int NOT NULL")]
 		public int CAMPEQUIPOID
 		{
 			get
@@ -1928,9 +2758,121 @@ namespace entrega_cupones
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.categorias")]
-	public partial class categorias
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.canjes")]
+	public partial class canjes : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private System.Nullable<int> _CANJE_ID_COBRO;
+		
+		private string _CMT;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnCANJE_ID_COBROChanging(System.Nullable<int> value);
+    partial void OnCANJE_ID_COBROChanged();
+    partial void OnCMTChanging(string value);
+    partial void OnCMTChanged();
+    #endregion
+		
+		public canjes()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CANJE_ID_COBRO", DbType="Int")]
+		public System.Nullable<int> CANJE_ID_COBRO
+		{
+			get
+			{
+				return this._CANJE_ID_COBRO;
+			}
+			set
+			{
+				if ((this._CANJE_ID_COBRO != value))
+				{
+					this.OnCANJE_ID_COBROChanging(value);
+					this.SendPropertyChanging();
+					this._CANJE_ID_COBRO = value;
+					this.SendPropertyChanged("CANJE_ID_COBRO");
+					this.OnCANJE_ID_COBROChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CMT", DbType="VarChar(200)")]
+		public string CMT
+		{
+			get
+			{
+				return this._CMT;
+			}
+			set
+			{
+				if ((this._CMT != value))
+				{
+					this.OnCMTChanging(value);
+					this.SendPropertyChanging();
+					this._CMT = value;
+					this.SendPropertyChanged("CMT");
+					this.OnCMTChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.categorias")]
+	public partial class categorias : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private int _CATID;
 		
@@ -1940,11 +2882,26 @@ namespace entrega_cupones
 		
 		private int _CATESTADO;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnCATIDChanging(int value);
+    partial void OnCATIDChanged();
+    partial void OnCATNOMBREChanging(string value);
+    partial void OnCATNOMBREChanged();
+    partial void OnCATEDADLIMITEChanging(int value);
+    partial void OnCATEDADLIMITEChanged();
+    partial void OnCATESTADOChanging(int value);
+    partial void OnCATESTADOChanged();
+    #endregion
+		
 		public categorias()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CATID", AutoSync=AutoSync.Always, DbType="Int NOT NULL IDENTITY", IsDbGenerated=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CATID", DbType="Int NOT NULL", IsPrimaryKey=true)]
 		public int CATID
 		{
 			get
@@ -1955,12 +2912,16 @@ namespace entrega_cupones
 			{
 				if ((this._CATID != value))
 				{
+					this.OnCATIDChanging(value);
+					this.SendPropertyChanging();
 					this._CATID = value;
+					this.SendPropertyChanged("CATID");
+					this.OnCATIDChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CATNOMBRE", DbType="VarChar(200) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CATNOMBRE", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
 		public string CATNOMBRE
 		{
 			get
@@ -1971,7 +2932,11 @@ namespace entrega_cupones
 			{
 				if ((this._CATNOMBRE != value))
 				{
+					this.OnCATNOMBREChanging(value);
+					this.SendPropertyChanging();
 					this._CATNOMBRE = value;
+					this.SendPropertyChanged("CATNOMBRE");
+					this.OnCATNOMBREChanged();
 				}
 			}
 		}
@@ -1987,7 +2952,11 @@ namespace entrega_cupones
 			{
 				if ((this._CATEDADLIMITE != value))
 				{
+					this.OnCATEDADLIMITEChanging(value);
+					this.SendPropertyChanging();
 					this._CATEDADLIMITE = value;
+					this.SendPropertyChanged("CATEDADLIMITE");
+					this.OnCATEDADLIMITEChanged();
 				}
 			}
 		}
@@ -2003,8 +2972,235 @@ namespace entrega_cupones
 			{
 				if ((this._CATESTADO != value))
 				{
+					this.OnCATESTADOChanging(value);
+					this.SendPropertyChanging();
 					this._CATESTADO = value;
+					this.SendPropertyChanged("CATESTADO");
+					this.OnCATESTADOChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.categorias_empleado")]
+	public partial class categorias_empleado
+	{
+		
+		private System.Nullable<int> _MAECAT_CODCAT;
+		
+		private string _MAECAT_NOMCAT;
+		
+		public categorias_empleado()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAECAT_CODCAT", DbType="Int")]
+		public System.Nullable<int> MAECAT_CODCAT
+		{
+			get
+			{
+				return this._MAECAT_CODCAT;
+			}
+			set
+			{
+				if ((this._MAECAT_CODCAT != value))
+				{
+					this._MAECAT_CODCAT = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAECAT_NOMCAT", DbType="NVarChar(255)")]
+		public string MAECAT_NOMCAT
+		{
+			get
+			{
+				return this._MAECAT_NOMCAT;
+			}
+			set
+			{
+				if ((this._MAECAT_NOMCAT != value))
+				{
+					this._MAECAT_NOMCAT = value;
+				}
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.cheques")]
+	public partial class cheques : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private System.Nullable<int> _ID_COBRO;
+		
+		private System.Nullable<int> _NRO_CHEQUE;
+		
+		private System.Nullable<int> _ID_BANCO;
+		
+		private System.Nullable<System.DateTime> _FECHA_COBRO_CHEQUE;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnID_COBROChanging(System.Nullable<int> value);
+    partial void OnID_COBROChanged();
+    partial void OnNRO_CHEQUEChanging(System.Nullable<int> value);
+    partial void OnNRO_CHEQUEChanged();
+    partial void OnID_BANCOChanging(System.Nullable<int> value);
+    partial void OnID_BANCOChanged();
+    partial void OnFECHA_COBRO_CHEQUEChanging(System.Nullable<System.DateTime> value);
+    partial void OnFECHA_COBRO_CHEQUEChanged();
+    #endregion
+		
+		public cheques()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID_COBRO", DbType="Int")]
+		public System.Nullable<int> ID_COBRO
+		{
+			get
+			{
+				return this._ID_COBRO;
+			}
+			set
+			{
+				if ((this._ID_COBRO != value))
+				{
+					this.OnID_COBROChanging(value);
+					this.SendPropertyChanging();
+					this._ID_COBRO = value;
+					this.SendPropertyChanged("ID_COBRO");
+					this.OnID_COBROChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NRO_CHEQUE", DbType="Int")]
+		public System.Nullable<int> NRO_CHEQUE
+		{
+			get
+			{
+				return this._NRO_CHEQUE;
+			}
+			set
+			{
+				if ((this._NRO_CHEQUE != value))
+				{
+					this.OnNRO_CHEQUEChanging(value);
+					this.SendPropertyChanging();
+					this._NRO_CHEQUE = value;
+					this.SendPropertyChanged("NRO_CHEQUE");
+					this.OnNRO_CHEQUEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID_BANCO", DbType="Int")]
+		public System.Nullable<int> ID_BANCO
+		{
+			get
+			{
+				return this._ID_BANCO;
+			}
+			set
+			{
+				if ((this._ID_BANCO != value))
+				{
+					this.OnID_BANCOChanging(value);
+					this.SendPropertyChanging();
+					this._ID_BANCO = value;
+					this.SendPropertyChanged("ID_BANCO");
+					this.OnID_BANCOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA_COBRO_CHEQUE", DbType="Date")]
+		public System.Nullable<System.DateTime> FECHA_COBRO_CHEQUE
+		{
+			get
+			{
+				return this._FECHA_COBRO_CHEQUE;
+			}
+			set
+			{
+				if ((this._FECHA_COBRO_CHEQUE != value))
+				{
+					this.OnFECHA_COBRO_CHEQUEChanging(value);
+					this.SendPropertyChanging();
+					this._FECHA_COBRO_CHEQUE = value;
+					this.SendPropertyChanged("FECHA_COBRO_CHEQUE");
+					this.OnFECHA_COBRO_CHEQUEChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -2013,7 +3209,7 @@ namespace entrega_cupones
 	public partial class COBROS
 	{
 		
-		private int _ID;
+		private int _Id;
 		
 		private System.Nullable<System.DateTime> _MES;
 		
@@ -2029,9 +3225,9 @@ namespace entrega_cupones
 		
 		private System.Nullable<double> _RECIBO;
 		
-		private string _CHEQUE;
+		private System.Nullable<double> _CHEQUE;
 		
-		private string _IMPORTECHEQUE;
+		private System.Nullable<double> _IMPORTECHEQUE;
 		
 		private string _DESCONOCIDO;
 		
@@ -2039,28 +3235,40 @@ namespace entrega_cupones
 		
 		private System.Nullable<double> _IMPORTE;
 		
-		private string _MERCADERIAS;
+		private System.Nullable<double> _MERCADERIAS;
 		
-		private string _IMPORTEMERCADERIA;
+		private System.Nullable<double> _IMPORTEMERCADERIA;
 		
 		private System.Nullable<double> _TOTAL;
+		
+		private string _CONCEPTO;
+		
+		private string _INTERES;
+		
+		private string _DIAS_ATRASO;
+		
+		private string _FECHA_VENC;
+		
+		private string _CUOTAX;
+		
+		private string _CANTIDAD_CUOTAS;
 		
 		public COBROS()
 		{
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", DbType="Int NOT NULL")]
-		public int ID
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", AutoSync=AutoSync.Always, DbType="Int NOT NULL IDENTITY", IsDbGenerated=true)]
+		public int Id
 		{
 			get
 			{
-				return this._ID;
+				return this._Id;
 			}
 			set
 			{
-				if ((this._ID != value))
+				if ((this._Id != value))
 				{
-					this._ID = value;
+					this._Id = value;
 				}
 			}
 		}
@@ -2177,8 +3385,8 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CHEQUE", DbType="NVarChar(255)")]
-		public string CHEQUE
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CHEQUE", DbType="Float")]
+		public System.Nullable<double> CHEQUE
 		{
 			get
 			{
@@ -2193,8 +3401,8 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IMPORTECHEQUE", DbType="NVarChar(255)")]
-		public string IMPORTECHEQUE
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IMPORTECHEQUE", DbType="Float")]
+		public System.Nullable<double> IMPORTECHEQUE
 		{
 			get
 			{
@@ -2257,8 +3465,8 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MERCADERIAS", DbType="NVarChar(255)")]
-		public string MERCADERIAS
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MERCADERIAS", DbType="Float")]
+		public System.Nullable<double> MERCADERIAS
 		{
 			get
 			{
@@ -2273,8 +3481,8 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IMPORTEMERCADERIA", DbType="NVarChar(255)")]
-		public string IMPORTEMERCADERIA
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IMPORTEMERCADERIA", DbType="Float")]
+		public System.Nullable<double> IMPORTEMERCADERIA
 		{
 			get
 			{
@@ -2302,6 +3510,236 @@ namespace entrega_cupones
 				{
 					this._TOTAL = value;
 				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CONCEPTO", DbType="NVarChar(255)")]
+		public string CONCEPTO
+		{
+			get
+			{
+				return this._CONCEPTO;
+			}
+			set
+			{
+				if ((this._CONCEPTO != value))
+				{
+					this._CONCEPTO = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_INTERES", DbType="NVarChar(255)")]
+		public string INTERES
+		{
+			get
+			{
+				return this._INTERES;
+			}
+			set
+			{
+				if ((this._INTERES != value))
+				{
+					this._INTERES = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DIAS_ATRASO", DbType="NVarChar(255)")]
+		public string DIAS_ATRASO
+		{
+			get
+			{
+				return this._DIAS_ATRASO;
+			}
+			set
+			{
+				if ((this._DIAS_ATRASO != value))
+				{
+					this._DIAS_ATRASO = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA_VENC", DbType="NVarChar(255)")]
+		public string FECHA_VENC
+		{
+			get
+			{
+				return this._FECHA_VENC;
+			}
+			set
+			{
+				if ((this._FECHA_VENC != value))
+				{
+					this._FECHA_VENC = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CUOTAX", DbType="NVarChar(255)")]
+		public string CUOTAX
+		{
+			get
+			{
+				return this._CUOTAX;
+			}
+			set
+			{
+				if ((this._CUOTAX != value))
+				{
+					this._CUOTAX = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CANTIDAD_CUOTAS", DbType="NVarChar(255)")]
+		public string CANTIDAD_CUOTAS
+		{
+			get
+			{
+				return this._CANTIDAD_CUOTAS;
+			}
+			set
+			{
+				if ((this._CANTIDAD_CUOTAS != value))
+				{
+					this._CANTIDAD_CUOTAS = value;
+				}
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.comentarios")]
+	public partial class comentarios : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private System.Nullable<int> _ID_USUARIO;
+		
+		private System.Nullable<System.DateTime> _FECHA;
+		
+		private string _COMENTARIO;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnID_USUARIOChanging(System.Nullable<int> value);
+    partial void OnID_USUARIOChanged();
+    partial void OnFECHAChanging(System.Nullable<System.DateTime> value);
+    partial void OnFECHAChanged();
+    partial void OnCOMENTARIOChanging(string value);
+    partial void OnCOMENTARIOChanged();
+    #endregion
+		
+		public comentarios()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID_USUARIO", DbType="Int")]
+		public System.Nullable<int> ID_USUARIO
+		{
+			get
+			{
+				return this._ID_USUARIO;
+			}
+			set
+			{
+				if ((this._ID_USUARIO != value))
+				{
+					this.OnID_USUARIOChanging(value);
+					this.SendPropertyChanging();
+					this._ID_USUARIO = value;
+					this.SendPropertyChanged("ID_USUARIO");
+					this.OnID_USUARIOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA", DbType="DateTime")]
+		public System.Nullable<System.DateTime> FECHA
+		{
+			get
+			{
+				return this._FECHA;
+			}
+			set
+			{
+				if ((this._FECHA != value))
+				{
+					this.OnFECHAChanging(value);
+					this.SendPropertyChanging();
+					this._FECHA = value;
+					this.SendPropertyChanged("FECHA");
+					this.OnFECHAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_COMENTARIO", DbType="NChar(10)")]
+		public string COMENTARIO
+		{
+			get
+			{
+				return this._COMENTARIO;
+			}
+			set
+			{
+				if ((this._COMENTARIO != value))
+				{
+					this.OnCOMENTARIOChanging(value);
+					this.SendPropertyChanging();
+					this._COMENTARIO = value;
+					this.SendPropertyChanged("COMENTARIO");
+					this.OnCOMENTARIOChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -3206,15 +4644,151 @@ namespace entrega_cupones
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.empresas")]
-	public partial class empresas : INotifyPropertyChanging, INotifyPropertyChanged
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.detalle_canje")]
+	public partial class detalle_canje : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
+		private int _ID;
+		
+		private System.Nullable<int> _ID_CANJE;
+		
+		private System.Nullable<int> _CANTIDAD;
+		
+		private string _DESCRIPCION;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnID_CANJEChanging(System.Nullable<int> value);
+    partial void OnID_CANJEChanged();
+    partial void OnCANTIDADChanging(System.Nullable<int> value);
+    partial void OnCANTIDADChanged();
+    partial void OnDESCRIPCIONChanging(string value);
+    partial void OnDESCRIPCIONChanged();
+    #endregion
+		
+		public detalle_canje()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID_CANJE", DbType="Int")]
+		public System.Nullable<int> ID_CANJE
+		{
+			get
+			{
+				return this._ID_CANJE;
+			}
+			set
+			{
+				if ((this._ID_CANJE != value))
+				{
+					this.OnID_CANJEChanging(value);
+					this.SendPropertyChanging();
+					this._ID_CANJE = value;
+					this.SendPropertyChanged("ID_CANJE");
+					this.OnID_CANJEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CANTIDAD", DbType="Int")]
+		public System.Nullable<int> CANTIDAD
+		{
+			get
+			{
+				return this._CANTIDAD;
+			}
+			set
+			{
+				if ((this._CANTIDAD != value))
+				{
+					this.OnCANTIDADChanging(value);
+					this.SendPropertyChanging();
+					this._CANTIDAD = value;
+					this.SendPropertyChanged("CANTIDAD");
+					this.OnCANTIDADChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DESCRIPCION", DbType="VarChar(200)")]
+		public string DESCRIPCION
+		{
+			get
+			{
+				return this._DESCRIPCION;
+			}
+			set
+			{
+				if ((this._DESCRIPCION != value))
+				{
+					this.OnDESCRIPCIONChanging(value);
+					this.SendPropertyChanging();
+					this._DESCRIPCION = value;
+					this.SendPropertyChanged("DESCRIPCION");
+					this.OnDESCRIPCIONChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.empresas_")]
+	public partial class empresas_ : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _Id;
+		
 		private double _cuit;
 		
-		private bool _persj;
+		private System.Nullable<bool> _persj;
 		
 		private System.Nullable<System.DateTime> _fechaaltasa;
 		
@@ -3258,13 +4832,17 @@ namespace entrega_cupones
 		
 		private System.Nullable<double> _actualiza;
 		
+		private string _cuitstr;
+		
     #region Definiciones de métodos de extensibilidad
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
+    partial void OnIdChanging(int value);
+    partial void OnIdChanged();
     partial void OncuitChanging(double value);
     partial void OncuitChanged();
-    partial void OnpersjChanging(bool value);
+    partial void OnpersjChanging(System.Nullable<bool> value);
     partial void OnpersjChanged();
     partial void OnfechaaltasaChanging(System.Nullable<System.DateTime> value);
     partial void OnfechaaltasaChanged();
@@ -3308,14 +4886,36 @@ namespace entrega_cupones
     partial void OnestudioChanged();
     partial void OnactualizaChanging(System.Nullable<double> value);
     partial void OnactualizaChanged();
+    partial void OncuitstrChanging(string value);
+    partial void OncuitstrChanged();
     #endregion
 		
-		public empresas()
+		public empresas_()
 		{
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cuit", DbType="Float NOT NULL", IsPrimaryKey=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Id", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int Id
+		{
+			get
+			{
+				return this._Id;
+			}
+			set
+			{
+				if ((this._Id != value))
+				{
+					this.OnIdChanging(value);
+					this.SendPropertyChanging();
+					this._Id = value;
+					this.SendPropertyChanged("Id");
+					this.OnIdChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cuit", DbType="Float NOT NULL")]
 		public double cuit
 		{
 			get
@@ -3335,8 +4935,8 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_persj", DbType="Bit NOT NULL")]
-		public bool persj
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_persj", DbType="Bit")]
+		public System.Nullable<bool> persj
 		{
 			get
 			{
@@ -3775,6 +5375,26 @@ namespace entrega_cupones
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cuitstr", DbType="VarChar(50)")]
+		public string cuitstr
+		{
+			get
+			{
+				return this._cuitstr;
+			}
+			set
+			{
+				if ((this._cuitstr != value))
+				{
+					this.OncuitstrChanging(value);
+					this.SendPropertyChanging();
+					this._cuitstr = value;
+					this.SendPropertyChanged("cuitstr");
+					this.OncuitstrChanged();
+				}
+			}
+		}
+		
 		public event PropertyChangingEventHandler PropertyChanging;
 		
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -3797,10 +5417,8 @@ namespace entrega_cupones
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.entregas_mochilas")]
-	public partial class entregas_mochilas : INotifyPropertyChanging, INotifyPropertyChanged
+	public partial class entregas_mochilas
 	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private int _id_entrega;
 		
@@ -3832,48 +5450,11 @@ namespace entrega_cupones
 		
 		private System.Nullable<int> _fondo_desempleo;
 		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void Onid_entregaChanging(int value);
-    partial void Onid_entregaChanged();
-    partial void Oncod_fliarChanging(System.Nullable<int> value);
-    partial void Oncod_fliarChanged();
-    partial void Onnro_doc_fliarChanging(System.Nullable<int> value);
-    partial void Onnro_doc_fliarChanged();
-    partial void Onrecibe_documChanging(System.Nullable<bool> value);
-    partial void Onrecibe_documChanged();
-    partial void Onfecha_recepcion_documChanging(System.Nullable<System.DateTime> value);
-    partial void Onfecha_recepcion_documChanged();
-    partial void Ontipo_mochilaChanging(System.Nullable<int> value);
-    partial void Ontipo_mochilaChanged();
-    partial void Oncodigo_usuario_recepcionChanging(System.Nullable<int> value);
-    partial void Oncodigo_usuario_recepcionChanged();
-    partial void Onentrega_mochilaChanging(System.Nullable<bool> value);
-    partial void Onentrega_mochilaChanged();
-    partial void Onfecha_entrega_mochilaChanging(System.Nullable<System.DateTime> value);
-    partial void Onfecha_entrega_mochilaChanged();
-    partial void Oncodigo_usuario_entregaChanging(System.Nullable<int> value);
-    partial void Oncodigo_usuario_entregaChanged();
-    partial void Onnumero_entregaChanging(System.Nullable<int> value);
-    partial void Onnumero_entregaChanged();
-    partial void OnexepcionChanging(System.Nullable<bool> value);
-    partial void OnexepcionChanged();
-    partial void OncomentarioChanging(string value);
-    partial void OncomentarioChanged();
-    partial void OnlegajoChanging(string value);
-    partial void OnlegajoChanged();
-    partial void Onfondo_desempleoChanging(System.Nullable<int> value);
-    partial void Onfondo_desempleoChanged();
-    #endregion
-		
 		public entregas_mochilas()
 		{
-			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id_entrega", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id_entrega", DbType="Int NOT NULL")]
 		public int id_entrega
 		{
 			get
@@ -3884,11 +5465,7 @@ namespace entrega_cupones
 			{
 				if ((this._id_entrega != value))
 				{
-					this.Onid_entregaChanging(value);
-					this.SendPropertyChanging();
 					this._id_entrega = value;
-					this.SendPropertyChanged("id_entrega");
-					this.Onid_entregaChanged();
 				}
 			}
 		}
@@ -3904,11 +5481,7 @@ namespace entrega_cupones
 			{
 				if ((this._cod_fliar != value))
 				{
-					this.Oncod_fliarChanging(value);
-					this.SendPropertyChanging();
 					this._cod_fliar = value;
-					this.SendPropertyChanged("cod_fliar");
-					this.Oncod_fliarChanged();
 				}
 			}
 		}
@@ -3924,11 +5497,7 @@ namespace entrega_cupones
 			{
 				if ((this._nro_doc_fliar != value))
 				{
-					this.Onnro_doc_fliarChanging(value);
-					this.SendPropertyChanging();
 					this._nro_doc_fliar = value;
-					this.SendPropertyChanged("nro_doc_fliar");
-					this.Onnro_doc_fliarChanged();
 				}
 			}
 		}
@@ -3944,11 +5513,7 @@ namespace entrega_cupones
 			{
 				if ((this._recibe_docum != value))
 				{
-					this.Onrecibe_documChanging(value);
-					this.SendPropertyChanging();
 					this._recibe_docum = value;
-					this.SendPropertyChanged("recibe_docum");
-					this.Onrecibe_documChanged();
 				}
 			}
 		}
@@ -3964,11 +5529,7 @@ namespace entrega_cupones
 			{
 				if ((this._fecha_recepcion_docum != value))
 				{
-					this.Onfecha_recepcion_documChanging(value);
-					this.SendPropertyChanging();
 					this._fecha_recepcion_docum = value;
-					this.SendPropertyChanged("fecha_recepcion_docum");
-					this.Onfecha_recepcion_documChanged();
 				}
 			}
 		}
@@ -3984,11 +5545,7 @@ namespace entrega_cupones
 			{
 				if ((this._tipo_mochila != value))
 				{
-					this.Ontipo_mochilaChanging(value);
-					this.SendPropertyChanging();
 					this._tipo_mochila = value;
-					this.SendPropertyChanged("tipo_mochila");
-					this.Ontipo_mochilaChanged();
 				}
 			}
 		}
@@ -4004,11 +5561,7 @@ namespace entrega_cupones
 			{
 				if ((this._codigo_usuario_recepcion != value))
 				{
-					this.Oncodigo_usuario_recepcionChanging(value);
-					this.SendPropertyChanging();
 					this._codigo_usuario_recepcion = value;
-					this.SendPropertyChanged("codigo_usuario_recepcion");
-					this.Oncodigo_usuario_recepcionChanged();
 				}
 			}
 		}
@@ -4024,11 +5577,7 @@ namespace entrega_cupones
 			{
 				if ((this._entrega_mochila != value))
 				{
-					this.Onentrega_mochilaChanging(value);
-					this.SendPropertyChanging();
 					this._entrega_mochila = value;
-					this.SendPropertyChanged("entrega_mochila");
-					this.Onentrega_mochilaChanged();
 				}
 			}
 		}
@@ -4044,11 +5593,7 @@ namespace entrega_cupones
 			{
 				if ((this._fecha_entrega_mochila != value))
 				{
-					this.Onfecha_entrega_mochilaChanging(value);
-					this.SendPropertyChanging();
 					this._fecha_entrega_mochila = value;
-					this.SendPropertyChanged("fecha_entrega_mochila");
-					this.Onfecha_entrega_mochilaChanged();
 				}
 			}
 		}
@@ -4064,11 +5609,7 @@ namespace entrega_cupones
 			{
 				if ((this._codigo_usuario_entrega != value))
 				{
-					this.Oncodigo_usuario_entregaChanging(value);
-					this.SendPropertyChanging();
 					this._codigo_usuario_entrega = value;
-					this.SendPropertyChanged("codigo_usuario_entrega");
-					this.Oncodigo_usuario_entregaChanged();
 				}
 			}
 		}
@@ -4084,11 +5625,7 @@ namespace entrega_cupones
 			{
 				if ((this._numero_entrega != value))
 				{
-					this.Onnumero_entregaChanging(value);
-					this.SendPropertyChanging();
 					this._numero_entrega = value;
-					this.SendPropertyChanged("numero_entrega");
-					this.Onnumero_entregaChanged();
 				}
 			}
 		}
@@ -4104,11 +5641,7 @@ namespace entrega_cupones
 			{
 				if ((this._exepcion != value))
 				{
-					this.OnexepcionChanging(value);
-					this.SendPropertyChanging();
 					this._exepcion = value;
-					this.SendPropertyChanged("exepcion");
-					this.OnexepcionChanged();
 				}
 			}
 		}
@@ -4124,11 +5657,7 @@ namespace entrega_cupones
 			{
 				if ((this._comentario != value))
 				{
-					this.OncomentarioChanging(value);
-					this.SendPropertyChanging();
 					this._comentario = value;
-					this.SendPropertyChanged("comentario");
-					this.OncomentarioChanged();
 				}
 			}
 		}
@@ -4144,11 +5673,7 @@ namespace entrega_cupones
 			{
 				if ((this._legajo != value))
 				{
-					this.OnlegajoChanging(value);
-					this.SendPropertyChanging();
 					this._legajo = value;
-					this.SendPropertyChanged("legajo");
-					this.OnlegajoChanged();
 				}
 			}
 		}
@@ -4164,32 +5689,8 @@ namespace entrega_cupones
 			{
 				if ((this._fondo_desempleo != value))
 				{
-					this.Onfondo_desempleoChanging(value);
-					this.SendPropertyChanging();
 					this._fondo_desempleo = value;
-					this.SendPropertyChanged("fondo_desempleo");
-					this.Onfondo_desempleoChanged();
 				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -4680,7 +6181,7 @@ namespace entrega_cupones
 		
 		private decimal _DEUDA_APROXIMADA;
 		
-		private System.Nullable<System.DateTime> _FECHA_GENERACION_AVISO;
+		private System.Nullable<System.DateTime> _FECHA_GENERACION_ACTA;
 		
 		private System.Nullable<System.DateTime> _FECHA_ENTREGA_AVISO;
 		
@@ -4689,6 +6190,30 @@ namespace entrega_cupones
 		private System.Nullable<int> _ESTADO;
 		
 		private System.Nullable<int> _DIAS;
+		
+		private System.Nullable<decimal> _DEUDA_DETERMINADA;
+		
+		private System.Nullable<System.DateTime> _PERIODO_DESDE;
+		
+		private System.Nullable<System.DateTime> _PERIODO_HASTA;
+		
+		private System.Nullable<decimal> _CAPITAL;
+		
+		private System.Nullable<decimal> _INT_RESARC;
+		
+		private System.Nullable<int> _FINANCIACION;
+		
+		private System.Nullable<decimal> _ANTICIPO;
+		
+		private System.Nullable<decimal> _TASA;
+		
+		private System.Nullable<decimal> _INTERES_FINANCIACION;
+		
+		private string _COEFICIENTE;
+		
+		private System.Nullable<int> _CUOTAS;
+		
+		private System.Nullable<decimal> _IMPORTE_CUOTA;
 		
     #region Definiciones de métodos de extensibilidad
     partial void OnLoaded();
@@ -4710,8 +6235,8 @@ namespace entrega_cupones
     partial void OnHASTAChanged();
     partial void OnDEUDA_APROXIMADAChanging(decimal value);
     partial void OnDEUDA_APROXIMADAChanged();
-    partial void OnFECHA_GENERACION_AVISOChanging(System.Nullable<System.DateTime> value);
-    partial void OnFECHA_GENERACION_AVISOChanged();
+    partial void OnFECHA_GENERACION_ACTAChanging(System.Nullable<System.DateTime> value);
+    partial void OnFECHA_GENERACION_ACTAChanged();
     partial void OnFECHA_ENTREGA_AVISOChanging(System.Nullable<System.DateTime> value);
     partial void OnFECHA_ENTREGA_AVISOChanged();
     partial void OnNRO_AVISOChanging(System.Nullable<int> value);
@@ -4720,6 +6245,30 @@ namespace entrega_cupones
     partial void OnESTADOChanged();
     partial void OnDIASChanging(System.Nullable<int> value);
     partial void OnDIASChanged();
+    partial void OnDEUDA_DETERMINADAChanging(System.Nullable<decimal> value);
+    partial void OnDEUDA_DETERMINADAChanged();
+    partial void OnPERIODO_DESDEChanging(System.Nullable<System.DateTime> value);
+    partial void OnPERIODO_DESDEChanged();
+    partial void OnPERIODO_HASTAChanging(System.Nullable<System.DateTime> value);
+    partial void OnPERIODO_HASTAChanged();
+    partial void OnCAPITALChanging(System.Nullable<decimal> value);
+    partial void OnCAPITALChanged();
+    partial void OnINT_RESARCChanging(System.Nullable<decimal> value);
+    partial void OnINT_RESARCChanged();
+    partial void OnFINANCIACIONChanging(System.Nullable<int> value);
+    partial void OnFINANCIACIONChanged();
+    partial void OnANTICIPOChanging(System.Nullable<decimal> value);
+    partial void OnANTICIPOChanged();
+    partial void OnTASAChanging(System.Nullable<decimal> value);
+    partial void OnTASAChanged();
+    partial void OnINTERES_FINANCIACIONChanging(System.Nullable<decimal> value);
+    partial void OnINTERES_FINANCIACIONChanged();
+    partial void OnCOEFICIENTEChanging(string value);
+    partial void OnCOEFICIENTEChanged();
+    partial void OnCUOTASChanging(System.Nullable<int> value);
+    partial void OnCUOTASChanged();
+    partial void OnIMPORTE_CUOTAChanging(System.Nullable<decimal> value);
+    partial void OnIMPORTE_CUOTAChanged();
     #endregion
 		
 		public inspectores_asignacion_empresa()
@@ -4887,22 +6436,22 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA_GENERACION_AVISO", DbType="DateTime")]
-		public System.Nullable<System.DateTime> FECHA_GENERACION_AVISO
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FECHA_GENERACION_ACTA", DbType="DateTime")]
+		public System.Nullable<System.DateTime> FECHA_GENERACION_ACTA
 		{
 			get
 			{
-				return this._FECHA_GENERACION_AVISO;
+				return this._FECHA_GENERACION_ACTA;
 			}
 			set
 			{
-				if ((this._FECHA_GENERACION_AVISO != value))
+				if ((this._FECHA_GENERACION_ACTA != value))
 				{
-					this.OnFECHA_GENERACION_AVISOChanging(value);
+					this.OnFECHA_GENERACION_ACTAChanging(value);
 					this.SendPropertyChanging();
-					this._FECHA_GENERACION_AVISO = value;
-					this.SendPropertyChanged("FECHA_GENERACION_AVISO");
-					this.OnFECHA_GENERACION_AVISOChanged();
+					this._FECHA_GENERACION_ACTA = value;
+					this.SendPropertyChanged("FECHA_GENERACION_ACTA");
+					this.OnFECHA_GENERACION_ACTAChanged();
 				}
 			}
 		}
@@ -4983,6 +6532,246 @@ namespace entrega_cupones
 					this._DIAS = value;
 					this.SendPropertyChanged("DIAS");
 					this.OnDIASChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DEUDA_DETERMINADA", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> DEUDA_DETERMINADA
+		{
+			get
+			{
+				return this._DEUDA_DETERMINADA;
+			}
+			set
+			{
+				if ((this._DEUDA_DETERMINADA != value))
+				{
+					this.OnDEUDA_DETERMINADAChanging(value);
+					this.SendPropertyChanging();
+					this._DEUDA_DETERMINADA = value;
+					this.SendPropertyChanged("DEUDA_DETERMINADA");
+					this.OnDEUDA_DETERMINADAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PERIODO_DESDE", DbType="Date")]
+		public System.Nullable<System.DateTime> PERIODO_DESDE
+		{
+			get
+			{
+				return this._PERIODO_DESDE;
+			}
+			set
+			{
+				if ((this._PERIODO_DESDE != value))
+				{
+					this.OnPERIODO_DESDEChanging(value);
+					this.SendPropertyChanging();
+					this._PERIODO_DESDE = value;
+					this.SendPropertyChanged("PERIODO_DESDE");
+					this.OnPERIODO_DESDEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PERIODO_HASTA", DbType="Date")]
+		public System.Nullable<System.DateTime> PERIODO_HASTA
+		{
+			get
+			{
+				return this._PERIODO_HASTA;
+			}
+			set
+			{
+				if ((this._PERIODO_HASTA != value))
+				{
+					this.OnPERIODO_HASTAChanging(value);
+					this.SendPropertyChanging();
+					this._PERIODO_HASTA = value;
+					this.SendPropertyChanged("PERIODO_HASTA");
+					this.OnPERIODO_HASTAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CAPITAL", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> CAPITAL
+		{
+			get
+			{
+				return this._CAPITAL;
+			}
+			set
+			{
+				if ((this._CAPITAL != value))
+				{
+					this.OnCAPITALChanging(value);
+					this.SendPropertyChanging();
+					this._CAPITAL = value;
+					this.SendPropertyChanged("CAPITAL");
+					this.OnCAPITALChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_INT_RESARC", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> INT_RESARC
+		{
+			get
+			{
+				return this._INT_RESARC;
+			}
+			set
+			{
+				if ((this._INT_RESARC != value))
+				{
+					this.OnINT_RESARCChanging(value);
+					this.SendPropertyChanging();
+					this._INT_RESARC = value;
+					this.SendPropertyChanged("INT_RESARC");
+					this.OnINT_RESARCChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FINANCIACION", DbType="Int")]
+		public System.Nullable<int> FINANCIACION
+		{
+			get
+			{
+				return this._FINANCIACION;
+			}
+			set
+			{
+				if ((this._FINANCIACION != value))
+				{
+					this.OnFINANCIACIONChanging(value);
+					this.SendPropertyChanging();
+					this._FINANCIACION = value;
+					this.SendPropertyChanged("FINANCIACION");
+					this.OnFINANCIACIONChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ANTICIPO", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> ANTICIPO
+		{
+			get
+			{
+				return this._ANTICIPO;
+			}
+			set
+			{
+				if ((this._ANTICIPO != value))
+				{
+					this.OnANTICIPOChanging(value);
+					this.SendPropertyChanging();
+					this._ANTICIPO = value;
+					this.SendPropertyChanged("ANTICIPO");
+					this.OnANTICIPOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TASA", DbType="Decimal(3,2)")]
+		public System.Nullable<decimal> TASA
+		{
+			get
+			{
+				return this._TASA;
+			}
+			set
+			{
+				if ((this._TASA != value))
+				{
+					this.OnTASAChanging(value);
+					this.SendPropertyChanging();
+					this._TASA = value;
+					this.SendPropertyChanged("TASA");
+					this.OnTASAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_INTERES_FINANCIACION", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> INTERES_FINANCIACION
+		{
+			get
+			{
+				return this._INTERES_FINANCIACION;
+			}
+			set
+			{
+				if ((this._INTERES_FINANCIACION != value))
+				{
+					this.OnINTERES_FINANCIACIONChanging(value);
+					this.SendPropertyChanging();
+					this._INTERES_FINANCIACION = value;
+					this.SendPropertyChanged("INTERES_FINANCIACION");
+					this.OnINTERES_FINANCIACIONChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_COEFICIENTE", DbType="VarChar(50)")]
+		public string COEFICIENTE
+		{
+			get
+			{
+				return this._COEFICIENTE;
+			}
+			set
+			{
+				if ((this._COEFICIENTE != value))
+				{
+					this.OnCOEFICIENTEChanging(value);
+					this.SendPropertyChanging();
+					this._COEFICIENTE = value;
+					this.SendPropertyChanged("COEFICIENTE");
+					this.OnCOEFICIENTEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CUOTAS", DbType="Int")]
+		public System.Nullable<int> CUOTAS
+		{
+			get
+			{
+				return this._CUOTAS;
+			}
+			set
+			{
+				if ((this._CUOTAS != value))
+				{
+					this.OnCUOTASChanging(value);
+					this.SendPropertyChanging();
+					this._CUOTAS = value;
+					this.SendPropertyChanged("CUOTAS");
+					this.OnCUOTASChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IMPORTE_CUOTA", DbType="Decimal(18,0)")]
+		public System.Nullable<decimal> IMPORTE_CUOTA
+		{
+			get
+			{
+				return this._IMPORTE_CUOTA;
+			}
+			set
+			{
+				if ((this._IMPORTE_CUOTA != value))
+				{
+					this.OnIMPORTE_CUOTAChanging(value);
+					this.SendPropertyChanging();
+					this._IMPORTE_CUOTA = value;
+					this.SendPropertyChanged("IMPORTE_CUOTA");
+					this.OnIMPORTE_CUOTAChanged();
 				}
 			}
 		}
@@ -5141,116 +6930,6 @@ namespace entrega_cupones
 					this._JUEZTELEFONO = value;
 					this.SendPropertyChanged("JUEZTELEFONO");
 					this.OnJUEZTELEFONOChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.juez_tipo")]
-	public partial class juez_tipo : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _JUEZTIPOID;
-		
-		private int _JUEZTIPO_JUEZID;
-		
-		private int _JUEZTIPO_TIPOJUEZID;
-		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnJUEZTIPOIDChanging(int value);
-    partial void OnJUEZTIPOIDChanged();
-    partial void OnJUEZTIPO_JUEZIDChanging(int value);
-    partial void OnJUEZTIPO_JUEZIDChanged();
-    partial void OnJUEZTIPO_TIPOJUEZIDChanging(int value);
-    partial void OnJUEZTIPO_TIPOJUEZIDChanged();
-    #endregion
-		
-		public juez_tipo()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_JUEZTIPOID", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int JUEZTIPOID
-		{
-			get
-			{
-				return this._JUEZTIPOID;
-			}
-			set
-			{
-				if ((this._JUEZTIPOID != value))
-				{
-					this.OnJUEZTIPOIDChanging(value);
-					this.SendPropertyChanging();
-					this._JUEZTIPOID = value;
-					this.SendPropertyChanged("JUEZTIPOID");
-					this.OnJUEZTIPOIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_JUEZTIPO_JUEZID", DbType="Int NOT NULL")]
-		public int JUEZTIPO_JUEZID
-		{
-			get
-			{
-				return this._JUEZTIPO_JUEZID;
-			}
-			set
-			{
-				if ((this._JUEZTIPO_JUEZID != value))
-				{
-					this.OnJUEZTIPO_JUEZIDChanging(value);
-					this.SendPropertyChanging();
-					this._JUEZTIPO_JUEZID = value;
-					this.SendPropertyChanged("JUEZTIPO_JUEZID");
-					this.OnJUEZTIPO_JUEZIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_JUEZTIPO_TIPOJUEZID", DbType="Int NOT NULL")]
-		public int JUEZTIPO_TIPOJUEZID
-		{
-			get
-			{
-				return this._JUEZTIPO_TIPOJUEZID;
-			}
-			set
-			{
-				if ((this._JUEZTIPO_TIPOJUEZID != value))
-				{
-					this.OnJUEZTIPO_TIPOJUEZIDChanging(value);
-					this.SendPropertyChanging();
-					this._JUEZTIPO_TIPOJUEZID = value;
-					this.SendPropertyChanged("JUEZTIPO_TIPOJUEZID");
-					this.OnJUEZTIPO_TIPOJUEZIDChanged();
 				}
 			}
 		}
@@ -5459,7 +7138,7 @@ namespace entrega_cupones
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LIGANOMBRE", DbType="VarChar(200) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LIGANOMBRE", DbType="VarChar(100) NOT NULL", CanBeNull=false)]
 		public string LIGANOMBRE
 		{
 			get
@@ -5520,11 +7199,76 @@ namespace entrega_cupones
 		}
 	}
 	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.localidad")]
+	public partial class localidad
+	{
+		
+		private System.Nullable<int> _MAELOC_CODLOC;
+		
+		private string _MAELOC_CODPROV;
+		
+		private string _MAELOC_NOMBRE;
+		
+		public localidad()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAELOC_CODLOC", DbType="Int")]
+		public System.Nullable<int> MAELOC_CODLOC
+		{
+			get
+			{
+				return this._MAELOC_CODLOC;
+			}
+			set
+			{
+				if ((this._MAELOC_CODLOC != value))
+				{
+					this._MAELOC_CODLOC = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAELOC_CODPROV", DbType="NVarChar(255)")]
+		public string MAELOC_CODPROV
+		{
+			get
+			{
+				return this._MAELOC_CODPROV;
+			}
+			set
+			{
+				if ((this._MAELOC_CODPROV != value))
+				{
+					this._MAELOC_CODPROV = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAELOC_NOMBRE", DbType="NVarChar(255)")]
+		public string MAELOC_NOMBRE
+		{
+			get
+			{
+				return this._MAELOC_NOMBRE;
+			}
+			set
+			{
+				if ((this._MAELOC_NOMBRE != value))
+				{
+					this._MAELOC_NOMBRE = value;
+				}
+			}
+		}
+	}
+	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.localidades")]
 	public partial class localidades : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
 		
 		private int _idlocalidades;
 		
@@ -5538,6 +7282,8 @@ namespace entrega_cupones
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
     partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
     partial void OnidlocalidadesChanging(int value);
     partial void OnidlocalidadesChanged();
     partial void OnidprovinciasChanging(System.Nullable<int> value);
@@ -5553,7 +7299,27 @@ namespace entrega_cupones
 			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_idlocalidades", DbType="Int NOT NULL", IsPrimaryKey=true)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_idlocalidades", DbType="Int NOT NULL")]
 		public int idlocalidades
 		{
 			get
@@ -5650,6 +7416,69 @@ namespace entrega_cupones
 			if ((this.PropertyChanged != null))
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.obrasocial")]
+	public partial class obrasocial
+	{
+		
+		private System.Nullable<int> _MAEOSM_CODOSM;
+		
+		private string _MAEOSM_DESCRI;
+		
+		private string _MAEOSM_SIGLA;
+		
+		public obrasocial()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEOSM_CODOSM", DbType="Int")]
+		public System.Nullable<int> MAEOSM_CODOSM
+		{
+			get
+			{
+				return this._MAEOSM_CODOSM;
+			}
+			set
+			{
+				if ((this._MAEOSM_CODOSM != value))
+				{
+					this._MAEOSM_CODOSM = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEOSM_DESCRI", DbType="NVarChar(255)")]
+		public string MAEOSM_DESCRI
+		{
+			get
+			{
+				return this._MAEOSM_DESCRI;
+			}
+			set
+			{
+				if ((this._MAEOSM_DESCRI != value))
+				{
+					this._MAEOSM_DESCRI = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEOSM_SIGLA", DbType="NVarChar(255)")]
+		public string MAEOSM_SIGLA
+		{
+			get
+			{
+				return this._MAEOSM_SIGLA;
+			}
+			set
+			{
+				if ((this._MAEOSM_SIGLA != value))
+				{
+					this._MAEOSM_SIGLA = value;
+				}
 			}
 		}
 	}
@@ -6320,164 +8149,6 @@ namespace entrega_cupones
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.partidos_goles")]
-	public partial class partidos_goles : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _PARTIGOLESID;
-		
-		private int _PARTIGOLES_PARTIDOID;
-		
-		private int _PARTIGOLES_PARJUGCAMIID;
-		
-		private int _PARTIGOLES_TIEMPO;
-		
-		private int _PARTIGOLES_MINUTO;
-		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnPARTIGOLESIDChanging(int value);
-    partial void OnPARTIGOLESIDChanged();
-    partial void OnPARTIGOLES_PARTIDOIDChanging(int value);
-    partial void OnPARTIGOLES_PARTIDOIDChanged();
-    partial void OnPARTIGOLES_PARJUGCAMIIDChanging(int value);
-    partial void OnPARTIGOLES_PARJUGCAMIIDChanged();
-    partial void OnPARTIGOLES_TIEMPOChanging(int value);
-    partial void OnPARTIGOLES_TIEMPOChanged();
-    partial void OnPARTIGOLES_MINUTOChanging(int value);
-    partial void OnPARTIGOLES_MINUTOChanged();
-    #endregion
-		
-		public partidos_goles()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PARTIGOLESID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int PARTIGOLESID
-		{
-			get
-			{
-				return this._PARTIGOLESID;
-			}
-			set
-			{
-				if ((this._PARTIGOLESID != value))
-				{
-					this.OnPARTIGOLESIDChanging(value);
-					this.SendPropertyChanging();
-					this._PARTIGOLESID = value;
-					this.SendPropertyChanged("PARTIGOLESID");
-					this.OnPARTIGOLESIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PARTIGOLES_PARTIDOID", DbType="Int NOT NULL")]
-		public int PARTIGOLES_PARTIDOID
-		{
-			get
-			{
-				return this._PARTIGOLES_PARTIDOID;
-			}
-			set
-			{
-				if ((this._PARTIGOLES_PARTIDOID != value))
-				{
-					this.OnPARTIGOLES_PARTIDOIDChanging(value);
-					this.SendPropertyChanging();
-					this._PARTIGOLES_PARTIDOID = value;
-					this.SendPropertyChanged("PARTIGOLES_PARTIDOID");
-					this.OnPARTIGOLES_PARTIDOIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PARTIGOLES_PARJUGCAMIID", DbType="Int NOT NULL")]
-		public int PARTIGOLES_PARJUGCAMIID
-		{
-			get
-			{
-				return this._PARTIGOLES_PARJUGCAMIID;
-			}
-			set
-			{
-				if ((this._PARTIGOLES_PARJUGCAMIID != value))
-				{
-					this.OnPARTIGOLES_PARJUGCAMIIDChanging(value);
-					this.SendPropertyChanging();
-					this._PARTIGOLES_PARJUGCAMIID = value;
-					this.SendPropertyChanged("PARTIGOLES_PARJUGCAMIID");
-					this.OnPARTIGOLES_PARJUGCAMIIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PARTIGOLES_TIEMPO", DbType="Int NOT NULL")]
-		public int PARTIGOLES_TIEMPO
-		{
-			get
-			{
-				return this._PARTIGOLES_TIEMPO;
-			}
-			set
-			{
-				if ((this._PARTIGOLES_TIEMPO != value))
-				{
-					this.OnPARTIGOLES_TIEMPOChanging(value);
-					this.SendPropertyChanging();
-					this._PARTIGOLES_TIEMPO = value;
-					this.SendPropertyChanged("PARTIGOLES_TIEMPO");
-					this.OnPARTIGOLES_TIEMPOChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PARTIGOLES_MINUTO", DbType="Int NOT NULL")]
-		public int PARTIGOLES_MINUTO
-		{
-			get
-			{
-				return this._PARTIGOLES_MINUTO;
-			}
-			set
-			{
-				if ((this._PARTIGOLES_MINUTO != value))
-				{
-					this.OnPARTIGOLES_MINUTOChanging(value);
-					this.SendPropertyChanging();
-					this._PARTIGOLES_MINUTO = value;
-					this.SendPropertyChanged("PARTIGOLES_MINUTO");
-					this.OnPARTIGOLES_MINUTOChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.partidos_jueces")]
 	public partial class partidos_jueces : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -6795,7 +8466,52 @@ namespace entrega_cupones
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.provincias")]
-	public partial class provincias : INotifyPropertyChanging, INotifyPropertyChanged
+	public partial class provincias
+	{
+		
+		private string _MAEPROV_CODPRO;
+		
+		private string _MAEPROV_NOMBRE;
+		
+		public provincias()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEPROV_CODPRO", DbType="NVarChar(255)")]
+		public string MAEPROV_CODPRO
+		{
+			get
+			{
+				return this._MAEPROV_CODPRO;
+			}
+			set
+			{
+				if ((this._MAEPROV_CODPRO != value))
+				{
+					this._MAEPROV_CODPRO = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEPROV_NOMBRE", DbType="NVarChar(255)")]
+		public string MAEPROV_NOMBRE
+		{
+			get
+			{
+				return this._MAEPROV_NOMBRE;
+			}
+			set
+			{
+				if ((this._MAEPROV_NOMBRE != value))
+				{
+					this._MAEPROV_NOMBRE = value;
+				}
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.provincias_")]
+	public partial class provincias_ : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -6818,7 +8534,7 @@ namespace entrega_cupones
     partial void Oncodigo31662Changed();
     #endregion
 		
-		public provincias()
+		public provincias_()
 		{
 			OnCreated();
 		}
@@ -7063,8 +8779,12 @@ namespace entrega_cupones
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.recibos")]
-	public partial class recibos
+	public partial class recibos : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
 		
 		private string _CUIL;
 		
@@ -7100,8 +8820,71 @@ namespace entrega_cupones
 		
 		private System.Nullable<double> _CANTIDAD;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OnCUILChanging(string value);
+    partial void OnCUILChanged();
+    partial void OndniChanging(string value);
+    partial void OndniChanged();
+    partial void OnNOMBREChanging(string value);
+    partial void OnNOMBREChanged();
+    partial void OnPEChanging(string value);
+    partial void OnPEChanged();
+    partial void OnPERIODOChanging(System.Nullable<System.DateTime> value);
+    partial void OnPERIODOChanged();
+    partial void OnCONCEPTOChanging(string value);
+    partial void OnCONCEPTOChanged();
+    partial void OnCOMPROBANTEChanging(System.Nullable<double> value);
+    partial void OnCOMPROBANTEChanged();
+    partial void OnTIPOChanging(string value);
+    partial void OnTIPOChanged();
+    partial void OnFECHA_DE_PAGOChanging(string value);
+    partial void OnFECHA_DE_PAGOChanged();
+    partial void OnIMPORTEChanging(System.Nullable<double> value);
+    partial void OnIMPORTEChanged();
+    partial void OnACChanging(string value);
+    partial void OnACChanged();
+    partial void OnCUIL_DNI_RETIRAChanging(System.Nullable<double> value);
+    partial void OnCUIL_DNI_RETIRAChanged();
+    partial void OnNOMBRE_RETIRAChanging(string value);
+    partial void OnNOMBRE_RETIRAChanged();
+    partial void OnMODO_PAGOChanging(string value);
+    partial void OnMODO_PAGOChanged();
+    partial void OnCODIGO_CONCEPTOChanging(System.Nullable<double> value);
+    partial void OnCODIGO_CONCEPTOChanged();
+    partial void OnID_PARA_CAJAChanging(System.Nullable<double> value);
+    partial void OnID_PARA_CAJAChanged();
+    partial void OnCANTIDADChanging(System.Nullable<double> value);
+    partial void OnCANTIDADChanged();
+    #endregion
+		
 		public recibos()
 		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
 		}
 		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CUIL", DbType="NVarChar(255)")]
@@ -7115,7 +8898,11 @@ namespace entrega_cupones
 			{
 				if ((this._CUIL != value))
 				{
+					this.OnCUILChanging(value);
+					this.SendPropertyChanging();
 					this._CUIL = value;
+					this.SendPropertyChanged("CUIL");
+					this.OnCUILChanged();
 				}
 			}
 		}
@@ -7131,7 +8918,11 @@ namespace entrega_cupones
 			{
 				if ((this._dni != value))
 				{
+					this.OndniChanging(value);
+					this.SendPropertyChanging();
 					this._dni = value;
+					this.SendPropertyChanged("dni");
+					this.OndniChanged();
 				}
 			}
 		}
@@ -7147,7 +8938,11 @@ namespace entrega_cupones
 			{
 				if ((this._NOMBRE != value))
 				{
+					this.OnNOMBREChanging(value);
+					this.SendPropertyChanging();
 					this._NOMBRE = value;
+					this.SendPropertyChanged("NOMBRE");
+					this.OnNOMBREChanged();
 				}
 			}
 		}
@@ -7163,7 +8958,11 @@ namespace entrega_cupones
 			{
 				if ((this._PE != value))
 				{
+					this.OnPEChanging(value);
+					this.SendPropertyChanging();
 					this._PE = value;
+					this.SendPropertyChanged("PE");
+					this.OnPEChanged();
 				}
 			}
 		}
@@ -7179,7 +8978,11 @@ namespace entrega_cupones
 			{
 				if ((this._PERIODO != value))
 				{
+					this.OnPERIODOChanging(value);
+					this.SendPropertyChanging();
 					this._PERIODO = value;
+					this.SendPropertyChanged("PERIODO");
+					this.OnPERIODOChanged();
 				}
 			}
 		}
@@ -7195,7 +8998,11 @@ namespace entrega_cupones
 			{
 				if ((this._CONCEPTO != value))
 				{
+					this.OnCONCEPTOChanging(value);
+					this.SendPropertyChanging();
 					this._CONCEPTO = value;
+					this.SendPropertyChanged("CONCEPTO");
+					this.OnCONCEPTOChanged();
 				}
 			}
 		}
@@ -7211,7 +9018,11 @@ namespace entrega_cupones
 			{
 				if ((this._COMPROBANTE != value))
 				{
+					this.OnCOMPROBANTEChanging(value);
+					this.SendPropertyChanging();
 					this._COMPROBANTE = value;
+					this.SendPropertyChanged("COMPROBANTE");
+					this.OnCOMPROBANTEChanged();
 				}
 			}
 		}
@@ -7227,7 +9038,11 @@ namespace entrega_cupones
 			{
 				if ((this._TIPO != value))
 				{
+					this.OnTIPOChanging(value);
+					this.SendPropertyChanging();
 					this._TIPO = value;
+					this.SendPropertyChanged("TIPO");
+					this.OnTIPOChanged();
 				}
 			}
 		}
@@ -7243,7 +9058,11 @@ namespace entrega_cupones
 			{
 				if ((this._FECHA_DE_PAGO != value))
 				{
+					this.OnFECHA_DE_PAGOChanging(value);
+					this.SendPropertyChanging();
 					this._FECHA_DE_PAGO = value;
+					this.SendPropertyChanged("FECHA_DE_PAGO");
+					this.OnFECHA_DE_PAGOChanged();
 				}
 			}
 		}
@@ -7259,7 +9078,11 @@ namespace entrega_cupones
 			{
 				if ((this._IMPORTE != value))
 				{
+					this.OnIMPORTEChanging(value);
+					this.SendPropertyChanging();
 					this._IMPORTE = value;
+					this.SendPropertyChanged("IMPORTE");
+					this.OnIMPORTEChanged();
 				}
 			}
 		}
@@ -7275,7 +9098,11 @@ namespace entrega_cupones
 			{
 				if ((this._AC != value))
 				{
+					this.OnACChanging(value);
+					this.SendPropertyChanging();
 					this._AC = value;
+					this.SendPropertyChanged("AC");
+					this.OnACChanged();
 				}
 			}
 		}
@@ -7291,7 +9118,11 @@ namespace entrega_cupones
 			{
 				if ((this._CUIL_DNI_RETIRA != value))
 				{
+					this.OnCUIL_DNI_RETIRAChanging(value);
+					this.SendPropertyChanging();
 					this._CUIL_DNI_RETIRA = value;
+					this.SendPropertyChanged("CUIL_DNI_RETIRA");
+					this.OnCUIL_DNI_RETIRAChanged();
 				}
 			}
 		}
@@ -7307,7 +9138,11 @@ namespace entrega_cupones
 			{
 				if ((this._NOMBRE_RETIRA != value))
 				{
+					this.OnNOMBRE_RETIRAChanging(value);
+					this.SendPropertyChanging();
 					this._NOMBRE_RETIRA = value;
+					this.SendPropertyChanged("NOMBRE_RETIRA");
+					this.OnNOMBRE_RETIRAChanged();
 				}
 			}
 		}
@@ -7323,7 +9158,11 @@ namespace entrega_cupones
 			{
 				if ((this._MODO_PAGO != value))
 				{
+					this.OnMODO_PAGOChanging(value);
+					this.SendPropertyChanging();
 					this._MODO_PAGO = value;
+					this.SendPropertyChanged("MODO_PAGO");
+					this.OnMODO_PAGOChanged();
 				}
 			}
 		}
@@ -7339,7 +9178,11 @@ namespace entrega_cupones
 			{
 				if ((this._CODIGO_CONCEPTO != value))
 				{
+					this.OnCODIGO_CONCEPTOChanging(value);
+					this.SendPropertyChanging();
 					this._CODIGO_CONCEPTO = value;
+					this.SendPropertyChanged("CODIGO_CONCEPTO");
+					this.OnCODIGO_CONCEPTOChanged();
 				}
 			}
 		}
@@ -7355,7 +9198,11 @@ namespace entrega_cupones
 			{
 				if ((this._ID_PARA_CAJA != value))
 				{
+					this.OnID_PARA_CAJAChanging(value);
+					this.SendPropertyChanging();
 					this._ID_PARA_CAJA = value;
+					this.SendPropertyChanged("ID_PARA_CAJA");
+					this.OnID_PARA_CAJAChanged();
 				}
 			}
 		}
@@ -7371,121 +9218,11 @@ namespace entrega_cupones
 			{
 				if ((this._CANTIDAD != value))
 				{
+					this.OnCANTIDADChanging(value);
+					this.SendPropertyChanging();
 					this._CANTIDAD = value;
-				}
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.reservas")]
-	public partial class reservas : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _reserva_id;
-		
-		private System.DateTime _reserva_fecha;
-		
-		private int _reserva_quincho_id;
-		
-		private string _reserva_evento;
-		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void Onreserva_idChanging(int value);
-    partial void Onreserva_idChanged();
-    partial void Onreserva_fechaChanging(System.DateTime value);
-    partial void Onreserva_fechaChanged();
-    partial void Onreserva_quincho_idChanging(int value);
-    partial void Onreserva_quincho_idChanged();
-    partial void Onreserva_eventoChanging(string value);
-    partial void Onreserva_eventoChanged();
-    #endregion
-		
-		public reservas()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_reserva_id", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int reserva_id
-		{
-			get
-			{
-				return this._reserva_id;
-			}
-			set
-			{
-				if ((this._reserva_id != value))
-				{
-					this.Onreserva_idChanging(value);
-					this.SendPropertyChanging();
-					this._reserva_id = value;
-					this.SendPropertyChanged("reserva_id");
-					this.Onreserva_idChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_reserva_fecha", DbType="Date NOT NULL")]
-		public System.DateTime reserva_fecha
-		{
-			get
-			{
-				return this._reserva_fecha;
-			}
-			set
-			{
-				if ((this._reserva_fecha != value))
-				{
-					this.Onreserva_fechaChanging(value);
-					this.SendPropertyChanging();
-					this._reserva_fecha = value;
-					this.SendPropertyChanged("reserva_fecha");
-					this.Onreserva_fechaChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_reserva_quincho_id", DbType="Int NOT NULL")]
-		public int reserva_quincho_id
-		{
-			get
-			{
-				return this._reserva_quincho_id;
-			}
-			set
-			{
-				if ((this._reserva_quincho_id != value))
-				{
-					this.Onreserva_quincho_idChanging(value);
-					this.SendPropertyChanging();
-					this._reserva_quincho_id = value;
-					this.SendPropertyChanged("reserva_quincho_id");
-					this.Onreserva_quincho_idChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_reserva_evento", DbType="VarChar(200) NOT NULL", CanBeNull=false)]
-		public string reserva_evento
-		{
-			get
-			{
-				return this._reserva_evento;
-			}
-			set
-			{
-				if ((this._reserva_evento != value))
-				{
-					this.Onreserva_eventoChanging(value);
-					this.SendPropertyChanging();
-					this._reserva_evento = value;
-					this.SendPropertyChanged("reserva_evento");
-					this.Onreserva_eventoChanged();
+					this.SendPropertyChanged("CANTIDAD");
+					this.OnCANTIDADChanged();
 				}
 			}
 		}
@@ -7814,19 +9551,56 @@ namespace entrega_cupones
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.rubros")]
-	public partial class rubros
+	public partial class rubros : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
-		private System.Nullable<int> _codrub;
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _ID;
+		
+		private int _codrub;
 		
 		private string _descrubro;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnIDChanging(int value);
+    partial void OnIDChanged();
+    partial void OncodrubChanging(int value);
+    partial void OncodrubChanged();
+    partial void OndescrubroChanging(string value);
+    partial void OndescrubroChanged();
+    #endregion
+		
 		public rubros()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_codrub", DbType="Int")]
-		public System.Nullable<int> codrub
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int ID
+		{
+			get
+			{
+				return this._ID;
+			}
+			set
+			{
+				if ((this._ID != value))
+				{
+					this.OnIDChanging(value);
+					this.SendPropertyChanging();
+					this._ID = value;
+					this.SendPropertyChanged("ID");
+					this.OnIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_codrub", DbType="Int NOT NULL")]
+		public int codrub
 		{
 			get
 			{
@@ -7836,7 +9610,11 @@ namespace entrega_cupones
 			{
 				if ((this._codrub != value))
 				{
+					this.OncodrubChanging(value);
+					this.SendPropertyChanging();
 					this._codrub = value;
+					this.SendPropertyChanged("codrub");
+					this.OncodrubChanged();
 				}
 			}
 		}
@@ -7852,8 +9630,32 @@ namespace entrega_cupones
 			{
 				if ((this._descrubro != value))
 				{
+					this.OndescrubroChanging(value);
+					this.SendPropertyChanging();
 					this._descrubro = value;
+					this.SendPropertyChanged("descrubro");
+					this.OndescrubroChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -8284,394 +10086,6 @@ namespace entrega_cupones
 		}
 	}
 	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.socios_servicios")]
-	public partial class socios_servicios : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _id_servicio_socio;
-		
-		private int _id_servicio;
-		
-		private string _cuil_socio;
-		
-		private int _periodo;
-		
-		private System.Nullable<decimal> _precio;
-		
-		private System.Nullable<System.DateTime> _fecha_servicio;
-		
-		private System.Nullable<int> _comprobante;
-		
-		private System.Nullable<int> _articulo;
-		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void Onid_servicio_socioChanging(int value);
-    partial void Onid_servicio_socioChanged();
-    partial void Onid_servicioChanging(int value);
-    partial void Onid_servicioChanged();
-    partial void Oncuil_socioChanging(string value);
-    partial void Oncuil_socioChanged();
-    partial void OnperiodoChanging(int value);
-    partial void OnperiodoChanged();
-    partial void OnprecioChanging(System.Nullable<decimal> value);
-    partial void OnprecioChanged();
-    partial void Onfecha_servicioChanging(System.Nullable<System.DateTime> value);
-    partial void Onfecha_servicioChanged();
-    partial void OncomprobanteChanging(System.Nullable<int> value);
-    partial void OncomprobanteChanged();
-    partial void OnarticuloChanging(System.Nullable<int> value);
-    partial void OnarticuloChanged();
-    #endregion
-		
-		public socios_servicios()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id_servicio_socio", AutoSync=AutoSync.Always, DbType="Int NOT NULL IDENTITY", IsDbGenerated=true)]
-		public int id_servicio_socio
-		{
-			get
-			{
-				return this._id_servicio_socio;
-			}
-			set
-			{
-				if ((this._id_servicio_socio != value))
-				{
-					this.Onid_servicio_socioChanging(value);
-					this.SendPropertyChanging();
-					this._id_servicio_socio = value;
-					this.SendPropertyChanged("id_servicio_socio");
-					this.Onid_servicio_socioChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id_servicio", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int id_servicio
-		{
-			get
-			{
-				return this._id_servicio;
-			}
-			set
-			{
-				if ((this._id_servicio != value))
-				{
-					this.Onid_servicioChanging(value);
-					this.SendPropertyChanging();
-					this._id_servicio = value;
-					this.SendPropertyChanged("id_servicio");
-					this.Onid_servicioChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cuil_socio", DbType="NVarChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string cuil_socio
-		{
-			get
-			{
-				return this._cuil_socio;
-			}
-			set
-			{
-				if ((this._cuil_socio != value))
-				{
-					this.Oncuil_socioChanging(value);
-					this.SendPropertyChanging();
-					this._cuil_socio = value;
-					this.SendPropertyChanged("cuil_socio");
-					this.Oncuil_socioChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_periodo", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int periodo
-		{
-			get
-			{
-				return this._periodo;
-			}
-			set
-			{
-				if ((this._periodo != value))
-				{
-					this.OnperiodoChanging(value);
-					this.SendPropertyChanging();
-					this._periodo = value;
-					this.SendPropertyChanged("periodo");
-					this.OnperiodoChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_precio", DbType="Decimal(18,0)")]
-		public System.Nullable<decimal> precio
-		{
-			get
-			{
-				return this._precio;
-			}
-			set
-			{
-				if ((this._precio != value))
-				{
-					this.OnprecioChanging(value);
-					this.SendPropertyChanging();
-					this._precio = value;
-					this.SendPropertyChanged("precio");
-					this.OnprecioChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha_servicio", DbType="DateTime")]
-		public System.Nullable<System.DateTime> fecha_servicio
-		{
-			get
-			{
-				return this._fecha_servicio;
-			}
-			set
-			{
-				if ((this._fecha_servicio != value))
-				{
-					this.Onfecha_servicioChanging(value);
-					this.SendPropertyChanging();
-					this._fecha_servicio = value;
-					this.SendPropertyChanged("fecha_servicio");
-					this.Onfecha_servicioChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_comprobante", DbType="Int")]
-		public System.Nullable<int> comprobante
-		{
-			get
-			{
-				return this._comprobante;
-			}
-			set
-			{
-				if ((this._comprobante != value))
-				{
-					this.OncomprobanteChanging(value);
-					this.SendPropertyChanging();
-					this._comprobante = value;
-					this.SendPropertyChanged("comprobante");
-					this.OncomprobanteChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_articulo", DbType="Int")]
-		public System.Nullable<int> articulo
-		{
-			get
-			{
-				return this._articulo;
-			}
-			set
-			{
-				if ((this._articulo != value))
-				{
-					this.OnarticuloChanging(value);
-					this.SendPropertyChanging();
-					this._articulo = value;
-					this.SendPropertyChanged("articulo");
-					this.OnarticuloChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.sorteo")]
-	public partial class sorteo : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _SORTEOID;
-		
-		private int _SORTEOCANTEQUIPO;
-		
-		private int _SORTEOFECHA;
-		
-		private int _SORTEOEQUIPO1;
-		
-		private int _SORTEOEQUIPO2;
-		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnSORTEOIDChanging(int value);
-    partial void OnSORTEOIDChanged();
-    partial void OnSORTEOCANTEQUIPOChanging(int value);
-    partial void OnSORTEOCANTEQUIPOChanged();
-    partial void OnSORTEOFECHAChanging(int value);
-    partial void OnSORTEOFECHAChanged();
-    partial void OnSORTEOEQUIPO1Changing(int value);
-    partial void OnSORTEOEQUIPO1Changed();
-    partial void OnSORTEOEQUIPO2Changing(int value);
-    partial void OnSORTEOEQUIPO2Changed();
-    #endregion
-		
-		public sorteo()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SORTEOID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int SORTEOID
-		{
-			get
-			{
-				return this._SORTEOID;
-			}
-			set
-			{
-				if ((this._SORTEOID != value))
-				{
-					this.OnSORTEOIDChanging(value);
-					this.SendPropertyChanging();
-					this._SORTEOID = value;
-					this.SendPropertyChanged("SORTEOID");
-					this.OnSORTEOIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SORTEOCANTEQUIPO", DbType="Int NOT NULL")]
-		public int SORTEOCANTEQUIPO
-		{
-			get
-			{
-				return this._SORTEOCANTEQUIPO;
-			}
-			set
-			{
-				if ((this._SORTEOCANTEQUIPO != value))
-				{
-					this.OnSORTEOCANTEQUIPOChanging(value);
-					this.SendPropertyChanging();
-					this._SORTEOCANTEQUIPO = value;
-					this.SendPropertyChanged("SORTEOCANTEQUIPO");
-					this.OnSORTEOCANTEQUIPOChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SORTEOFECHA", DbType="Int NOT NULL")]
-		public int SORTEOFECHA
-		{
-			get
-			{
-				return this._SORTEOFECHA;
-			}
-			set
-			{
-				if ((this._SORTEOFECHA != value))
-				{
-					this.OnSORTEOFECHAChanging(value);
-					this.SendPropertyChanging();
-					this._SORTEOFECHA = value;
-					this.SendPropertyChanged("SORTEOFECHA");
-					this.OnSORTEOFECHAChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SORTEOEQUIPO1", DbType="Int NOT NULL")]
-		public int SORTEOEQUIPO1
-		{
-			get
-			{
-				return this._SORTEOEQUIPO1;
-			}
-			set
-			{
-				if ((this._SORTEOEQUIPO1 != value))
-				{
-					this.OnSORTEOEQUIPO1Changing(value);
-					this.SendPropertyChanging();
-					this._SORTEOEQUIPO1 = value;
-					this.SendPropertyChanged("SORTEOEQUIPO1");
-					this.OnSORTEOEQUIPO1Changed();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SORTEOEQUIPO2", DbType="Int NOT NULL")]
-		public int SORTEOEQUIPO2
-		{
-			get
-			{
-				return this._SORTEOEQUIPO2;
-			}
-			set
-			{
-				if ((this._SORTEOEQUIPO2 != value))
-				{
-					this.OnSORTEOEQUIPO2Changing(value);
-					this.SendPropertyChanging();
-					this._SORTEOEQUIPO2 = value;
-					this.SendPropertyChanged("SORTEOEQUIPO2");
-					this.OnSORTEOEQUIPO2Changed();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tarjetas")]
 	public partial class tarjetas : INotifyPropertyChanging, INotifyPropertyChanged
 	{
@@ -8733,137 +10147,6 @@ namespace entrega_cupones
 					this._TARJETANOMRE = value;
 					this.SendPropertyChanged("TARJETANOMRE");
 					this.OnTARJETANOMREChanged();
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.tipo_juez")]
-	public partial class tipo_juez
-	{
-		
-		private int _TIPOJUEZID;
-		
-		private string _TIPOJUEZDESCRIPCION;
-		
-		public tipo_juez()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TIPOJUEZID", DbType="Int NOT NULL")]
-		public int TIPOJUEZID
-		{
-			get
-			{
-				return this._TIPOJUEZID;
-			}
-			set
-			{
-				if ((this._TIPOJUEZID != value))
-				{
-					this._TIPOJUEZID = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TIPOJUEZDESCRIPCION", DbType="VarChar(100) NOT NULL", CanBeNull=false)]
-		public string TIPOJUEZDESCRIPCION
-		{
-			get
-			{
-				return this._TIPOJUEZDESCRIPCION;
-			}
-			set
-			{
-				if ((this._TIPOJUEZDESCRIPCION != value))
-				{
-					this._TIPOJUEZDESCRIPCION = value;
-				}
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.titular_benef")]
-	public partial class titular_benef : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _id_beneficiario;
-		
-		private string _cuil_titular;
-		
-    #region Definiciones de métodos de extensibilidad
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void Onid_beneficiarioChanging(int value);
-    partial void Onid_beneficiarioChanged();
-    partial void Oncuil_titularChanging(string value);
-    partial void Oncuil_titularChanged();
-    #endregion
-		
-		public titular_benef()
-		{
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id_beneficiario", DbType="Int NOT NULL", IsPrimaryKey=true)]
-		public int id_beneficiario
-		{
-			get
-			{
-				return this._id_beneficiario;
-			}
-			set
-			{
-				if ((this._id_beneficiario != value))
-				{
-					this.Onid_beneficiarioChanging(value);
-					this.SendPropertyChanging();
-					this._id_beneficiario = value;
-					this.SendPropertyChanged("id_beneficiario");
-					this.Onid_beneficiarioChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cuil_titular", DbType="NVarChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string cuil_titular
-		{
-			get
-			{
-				return this._cuil_titular;
-			}
-			set
-			{
-				if ((this._cuil_titular != value))
-				{
-					this.Oncuil_titularChanging(value);
-					this.SendPropertyChanging();
-					this._cuil_titular = value;
-					this.SendPropertyChanged("cuil_titular");
-					this.Oncuil_titularChanged();
 				}
 			}
 		}
@@ -9000,8 +10283,10 @@ namespace entrega_cupones
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.fotos")]
-	public partial class fotos
+	public partial class fotos : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private double _FOTOS_CUIL;
 		
@@ -9011,11 +10296,26 @@ namespace entrega_cupones
 		
 		private System.DateTime _FOTOS_FECHA;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnFOTOS_CUILChanging(double value);
+    partial void OnFOTOS_CUILChanged();
+    partial void OnFOTOS_CODFLIARChanging(double value);
+    partial void OnFOTOS_CODFLIARChanged();
+    partial void OnFOTOS_FOTOChanging(System.Data.Linq.Binary value);
+    partial void OnFOTOS_FOTOChanged();
+    partial void OnFOTOS_FECHAChanging(System.DateTime value);
+    partial void OnFOTOS_FECHAChanged();
+    #endregion
+		
 		public fotos()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FOTOS_CUIL", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FOTOS_CUIL", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double FOTOS_CUIL
 		{
 			get
@@ -9026,12 +10326,16 @@ namespace entrega_cupones
 			{
 				if ((this._FOTOS_CUIL != value))
 				{
+					this.OnFOTOS_CUILChanging(value);
+					this.SendPropertyChanging();
 					this._FOTOS_CUIL = value;
+					this.SendPropertyChanged("FOTOS_CUIL");
+					this.OnFOTOS_CUILChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FOTOS_CODFLIAR", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FOTOS_CODFLIAR", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double FOTOS_CODFLIAR
 		{
 			get
@@ -9042,7 +10346,11 @@ namespace entrega_cupones
 			{
 				if ((this._FOTOS_CODFLIAR != value))
 				{
+					this.OnFOTOS_CODFLIARChanging(value);
+					this.SendPropertyChanging();
 					this._FOTOS_CODFLIAR = value;
+					this.SendPropertyChanged("FOTOS_CODFLIAR");
+					this.OnFOTOS_CODFLIARChanged();
 				}
 			}
 		}
@@ -9058,7 +10366,11 @@ namespace entrega_cupones
 			{
 				if ((this._FOTOS_FOTO != value))
 				{
+					this.OnFOTOS_FOTOChanging(value);
+					this.SendPropertyChanging();
 					this._FOTOS_FOTO = value;
+					this.SendPropertyChanged("FOTOS_FOTO");
+					this.OnFOTOS_FOTOChanged();
 				}
 			}
 		}
@@ -9074,312 +10386,41 @@ namespace entrega_cupones
 			{
 				if ((this._FOTOS_FECHA != value))
 				{
+					this.OnFOTOS_FECHAChanging(value);
+					this.SendPropertyChanging();
 					this._FOTOS_FECHA = value;
-				}
-			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.maeemp")]
-	public partial class maeemp
-	{
-		
-		private double _MAEEMP_CUIT;
-		
-		private string _MAEEMP_NOMFAN;
-		
-		private string _MAEEMP_RAZSOC;
-		
-		private string _MAEEMP_CALLE;
-		
-		private string _MAEEMP_NRO;
-		
-		private System.Nullable<char> _MAEEMP_CODPROV;
-		
-		private System.Nullable<long> _MAEEMP_CODLOC;
-		
-		private string _MAEEMP_CODPOS;
-		
-		private string _MAEEMP_TEL;
-		
-		private string _MAEEMP_EMAIL;
-		
-		private System.Nullable<long> _MAEEMP_CREDMAX;
-		
-		private System.Nullable<char> _MAEEMP_CONDCRED;
-		
-		private System.Nullable<byte> _MAEEMP_ACTUALIZA;
-		
-		private string _MAEEMP_ESTUDIO_CONTACTO;
-		
-		private string _MAEEMP_ESTUDIO_TEL;
-		
-		private string _MAEEMP_ESTUDIO_EMAIL;
-		
-		public maeemp()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CUIT", DbType="Float NOT NULL")]
-		public double MAEEMP_CUIT
-		{
-			get
-			{
-				return this._MAEEMP_CUIT;
-			}
-			set
-			{
-				if ((this._MAEEMP_CUIT != value))
-				{
-					this._MAEEMP_CUIT = value;
+					this.SendPropertyChanged("FOTOS_FECHA");
+					this.OnFOTOS_FECHAChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_NOMFAN", DbType="Char(50) NOT NULL", CanBeNull=false)]
-		public string MAEEMP_NOMFAN
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
 		{
-			get
+			if ((this.PropertyChanging != null))
 			{
-				return this._MAEEMP_NOMFAN;
-			}
-			set
-			{
-				if ((this._MAEEMP_NOMFAN != value))
-				{
-					this._MAEEMP_NOMFAN = value;
-				}
+				this.PropertyChanging(this, emptyChangingEventArgs);
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_RAZSOC", DbType="Char(50) NOT NULL", CanBeNull=false)]
-		public string MAEEMP_RAZSOC
+		protected virtual void SendPropertyChanged(String propertyName)
 		{
-			get
+			if ((this.PropertyChanged != null))
 			{
-				return this._MAEEMP_RAZSOC;
-			}
-			set
-			{
-				if ((this._MAEEMP_RAZSOC != value))
-				{
-					this._MAEEMP_RAZSOC = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CALLE", DbType="Char(50) NOT NULL", CanBeNull=false)]
-		public string MAEEMP_CALLE
-		{
-			get
-			{
-				return this._MAEEMP_CALLE;
-			}
-			set
-			{
-				if ((this._MAEEMP_CALLE != value))
-				{
-					this._MAEEMP_CALLE = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_NRO", DbType="Char(6) NOT NULL", CanBeNull=false)]
-		public string MAEEMP_NRO
-		{
-			get
-			{
-				return this._MAEEMP_NRO;
-			}
-			set
-			{
-				if ((this._MAEEMP_NRO != value))
-				{
-					this._MAEEMP_NRO = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CODPROV", DbType="Char(1)")]
-		public System.Nullable<char> MAEEMP_CODPROV
-		{
-			get
-			{
-				return this._MAEEMP_CODPROV;
-			}
-			set
-			{
-				if ((this._MAEEMP_CODPROV != value))
-				{
-					this._MAEEMP_CODPROV = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CODLOC", DbType="BigInt")]
-		public System.Nullable<long> MAEEMP_CODLOC
-		{
-			get
-			{
-				return this._MAEEMP_CODLOC;
-			}
-			set
-			{
-				if ((this._MAEEMP_CODLOC != value))
-				{
-					this._MAEEMP_CODLOC = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CODPOS", DbType="Char(10)")]
-		public string MAEEMP_CODPOS
-		{
-			get
-			{
-				return this._MAEEMP_CODPOS;
-			}
-			set
-			{
-				if ((this._MAEEMP_CODPOS != value))
-				{
-					this._MAEEMP_CODPOS = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_TEL", DbType="Char(20)")]
-		public string MAEEMP_TEL
-		{
-			get
-			{
-				return this._MAEEMP_TEL;
-			}
-			set
-			{
-				if ((this._MAEEMP_TEL != value))
-				{
-					this._MAEEMP_TEL = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_EMAIL", DbType="Char(40)")]
-		public string MAEEMP_EMAIL
-		{
-			get
-			{
-				return this._MAEEMP_EMAIL;
-			}
-			set
-			{
-				if ((this._MAEEMP_EMAIL != value))
-				{
-					this._MAEEMP_EMAIL = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CREDMAX", DbType="BigInt")]
-		public System.Nullable<long> MAEEMP_CREDMAX
-		{
-			get
-			{
-				return this._MAEEMP_CREDMAX;
-			}
-			set
-			{
-				if ((this._MAEEMP_CREDMAX != value))
-				{
-					this._MAEEMP_CREDMAX = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CONDCRED", DbType="Char(1)")]
-		public System.Nullable<char> MAEEMP_CONDCRED
-		{
-			get
-			{
-				return this._MAEEMP_CONDCRED;
-			}
-			set
-			{
-				if ((this._MAEEMP_CONDCRED != value))
-				{
-					this._MAEEMP_CONDCRED = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ACTUALIZA", DbType="TinyInt")]
-		public System.Nullable<byte> MAEEMP_ACTUALIZA
-		{
-			get
-			{
-				return this._MAEEMP_ACTUALIZA;
-			}
-			set
-			{
-				if ((this._MAEEMP_ACTUALIZA != value))
-				{
-					this._MAEEMP_ACTUALIZA = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ESTUDIO_CONTACTO", DbType="Char(40)")]
-		public string MAEEMP_ESTUDIO_CONTACTO
-		{
-			get
-			{
-				return this._MAEEMP_ESTUDIO_CONTACTO;
-			}
-			set
-			{
-				if ((this._MAEEMP_ESTUDIO_CONTACTO != value))
-				{
-					this._MAEEMP_ESTUDIO_CONTACTO = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ESTUDIO_TEL", DbType="Char(20)")]
-		public string MAEEMP_ESTUDIO_TEL
-		{
-			get
-			{
-				return this._MAEEMP_ESTUDIO_TEL;
-			}
-			set
-			{
-				if ((this._MAEEMP_ESTUDIO_TEL != value))
-				{
-					this._MAEEMP_ESTUDIO_TEL = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ESTUDIO_EMAIL", DbType="Char(40)")]
-		public string MAEEMP_ESTUDIO_EMAIL
-		{
-			get
-			{
-				return this._MAEEMP_ESTUDIO_EMAIL;
-			}
-			set
-			{
-				if ((this._MAEEMP_ESTUDIO_EMAIL != value))
-				{
-					this._MAEEMP_ESTUDIO_EMAIL = value;
-				}
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.maeflia")]
-	public partial class maeflia
+	public partial class maeflia : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private long _MAEFLIA_CODFLIAR;
 		
@@ -9423,11 +10464,60 @@ namespace entrega_cupones
 		
 		private string _MAEFLIA_NROCARNET;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMAEFLIA_CODFLIARChanging(long value);
+    partial void OnMAEFLIA_CODFLIARChanged();
+    partial void OnMAEFLIA_NRODOCChanging(long value);
+    partial void OnMAEFLIA_NRODOCChanged();
+    partial void OnMAEFLIA_TIPODOCChanging(int value);
+    partial void OnMAEFLIA_TIPODOCChanged();
+    partial void OnMAEFLIA_APELLIDOChanging(string value);
+    partial void OnMAEFLIA_APELLIDOChanged();
+    partial void OnMAEFLIA_NOMBREChanging(string value);
+    partial void OnMAEFLIA_NOMBREChanged();
+    partial void OnMAEFLIA_FECNACChanging(System.DateTime value);
+    partial void OnMAEFLIA_FECNACChanged();
+    partial void OnMAEFLIA_FECINGChanging(System.DateTime value);
+    partial void OnMAEFLIA_FECINGChanged();
+    partial void OnMAEFLIA_GRUSANChanging(int value);
+    partial void OnMAEFLIA_GRUSANChanged();
+    partial void OnMAEFLIA_RECFARChanging(byte value);
+    partial void OnMAEFLIA_RECFARChanged();
+    partial void OnMAEFLIA_RECCENChanging(byte value);
+    partial void OnMAEFLIA_RECCENChanged();
+    partial void OnMAEFLIA_RECFOCChanging(byte value);
+    partial void OnMAEFLIA_RECFOCChanged();
+    partial void OnMAEFLIA_RECFAMChanging(byte value);
+    partial void OnMAEFLIA_RECFAMChanged();
+    partial void OnMAEFLIA_RECBIBChanging(byte value);
+    partial void OnMAEFLIA_RECBIBChanged();
+    partial void OnMAEFLIA_SEXOChanging(char value);
+    partial void OnMAEFLIA_SEXOChanged();
+    partial void OnMAEFLIA_ESTCIVILChanging(char value);
+    partial void OnMAEFLIA_ESTCIVILChanged();
+    partial void OnMAEFLIA_DISCAPACChanging(byte value);
+    partial void OnMAEFLIA_DISCAPACChanged();
+    partial void OnMAEFLIA_ESTUDIAChanging(byte value);
+    partial void OnMAEFLIA_ESTUDIAChanged();
+    partial void OnMAEFLIA_ESTABLECChanging(string value);
+    partial void OnMAEFLIA_ESTABLECChanged();
+    partial void OnMAEFLIA_AÑOESTABLECChanging(string value);
+    partial void OnMAEFLIA_AÑOESTABLECChanged();
+    partial void OnMAEFLIA_TALLEChanging(string value);
+    partial void OnMAEFLIA_TALLEChanged();
+    partial void OnMAEFLIA_NROCARNETChanging(string value);
+    partial void OnMAEFLIA_NROCARNETChanged();
+    #endregion
+		
 		public maeflia()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEFLIA_CODFLIAR", DbType="BigInt NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEFLIA_CODFLIAR", DbType="BigInt NOT NULL", IsPrimaryKey=true)]
 		public long MAEFLIA_CODFLIAR
 		{
 			get
@@ -9438,7 +10528,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_CODFLIAR != value))
 				{
+					this.OnMAEFLIA_CODFLIARChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_CODFLIAR = value;
+					this.SendPropertyChanged("MAEFLIA_CODFLIAR");
+					this.OnMAEFLIA_CODFLIARChanged();
 				}
 			}
 		}
@@ -9454,7 +10548,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_NRODOC != value))
 				{
+					this.OnMAEFLIA_NRODOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_NRODOC = value;
+					this.SendPropertyChanged("MAEFLIA_NRODOC");
+					this.OnMAEFLIA_NRODOCChanged();
 				}
 			}
 		}
@@ -9470,7 +10568,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_TIPODOC != value))
 				{
+					this.OnMAEFLIA_TIPODOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_TIPODOC = value;
+					this.SendPropertyChanged("MAEFLIA_TIPODOC");
+					this.OnMAEFLIA_TIPODOCChanged();
 				}
 			}
 		}
@@ -9486,7 +10588,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_APELLIDO != value))
 				{
+					this.OnMAEFLIA_APELLIDOChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_APELLIDO = value;
+					this.SendPropertyChanged("MAEFLIA_APELLIDO");
+					this.OnMAEFLIA_APELLIDOChanged();
 				}
 			}
 		}
@@ -9502,7 +10608,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_NOMBRE != value))
 				{
+					this.OnMAEFLIA_NOMBREChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_NOMBRE = value;
+					this.SendPropertyChanged("MAEFLIA_NOMBRE");
+					this.OnMAEFLIA_NOMBREChanged();
 				}
 			}
 		}
@@ -9518,7 +10628,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_FECNAC != value))
 				{
+					this.OnMAEFLIA_FECNACChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_FECNAC = value;
+					this.SendPropertyChanged("MAEFLIA_FECNAC");
+					this.OnMAEFLIA_FECNACChanged();
 				}
 			}
 		}
@@ -9534,7 +10648,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_FECING != value))
 				{
+					this.OnMAEFLIA_FECINGChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_FECING = value;
+					this.SendPropertyChanged("MAEFLIA_FECING");
+					this.OnMAEFLIA_FECINGChanged();
 				}
 			}
 		}
@@ -9550,7 +10668,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_GRUSAN != value))
 				{
+					this.OnMAEFLIA_GRUSANChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_GRUSAN = value;
+					this.SendPropertyChanged("MAEFLIA_GRUSAN");
+					this.OnMAEFLIA_GRUSANChanged();
 				}
 			}
 		}
@@ -9566,7 +10688,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_RECFAR != value))
 				{
+					this.OnMAEFLIA_RECFARChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_RECFAR = value;
+					this.SendPropertyChanged("MAEFLIA_RECFAR");
+					this.OnMAEFLIA_RECFARChanged();
 				}
 			}
 		}
@@ -9582,7 +10708,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_RECCEN != value))
 				{
+					this.OnMAEFLIA_RECCENChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_RECCEN = value;
+					this.SendPropertyChanged("MAEFLIA_RECCEN");
+					this.OnMAEFLIA_RECCENChanged();
 				}
 			}
 		}
@@ -9598,7 +10728,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_RECFOC != value))
 				{
+					this.OnMAEFLIA_RECFOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_RECFOC = value;
+					this.SendPropertyChanged("MAEFLIA_RECFOC");
+					this.OnMAEFLIA_RECFOCChanged();
 				}
 			}
 		}
@@ -9614,7 +10748,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_RECFAM != value))
 				{
+					this.OnMAEFLIA_RECFAMChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_RECFAM = value;
+					this.SendPropertyChanged("MAEFLIA_RECFAM");
+					this.OnMAEFLIA_RECFAMChanged();
 				}
 			}
 		}
@@ -9630,7 +10768,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_RECBIB != value))
 				{
+					this.OnMAEFLIA_RECBIBChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_RECBIB = value;
+					this.SendPropertyChanged("MAEFLIA_RECBIB");
+					this.OnMAEFLIA_RECBIBChanged();
 				}
 			}
 		}
@@ -9646,7 +10788,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_SEXO != value))
 				{
+					this.OnMAEFLIA_SEXOChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_SEXO = value;
+					this.SendPropertyChanged("MAEFLIA_SEXO");
+					this.OnMAEFLIA_SEXOChanged();
 				}
 			}
 		}
@@ -9662,7 +10808,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_ESTCIVIL != value))
 				{
+					this.OnMAEFLIA_ESTCIVILChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_ESTCIVIL = value;
+					this.SendPropertyChanged("MAEFLIA_ESTCIVIL");
+					this.OnMAEFLIA_ESTCIVILChanged();
 				}
 			}
 		}
@@ -9678,7 +10828,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_DISCAPAC != value))
 				{
+					this.OnMAEFLIA_DISCAPACChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_DISCAPAC = value;
+					this.SendPropertyChanged("MAEFLIA_DISCAPAC");
+					this.OnMAEFLIA_DISCAPACChanged();
 				}
 			}
 		}
@@ -9694,7 +10848,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_ESTUDIA != value))
 				{
+					this.OnMAEFLIA_ESTUDIAChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_ESTUDIA = value;
+					this.SendPropertyChanged("MAEFLIA_ESTUDIA");
+					this.OnMAEFLIA_ESTUDIAChanged();
 				}
 			}
 		}
@@ -9710,7 +10868,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_ESTABLEC != value))
 				{
+					this.OnMAEFLIA_ESTABLECChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_ESTABLEC = value;
+					this.SendPropertyChanged("MAEFLIA_ESTABLEC");
+					this.OnMAEFLIA_ESTABLECChanged();
 				}
 			}
 		}
@@ -9726,7 +10888,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_AÑOESTABLEC != value))
 				{
+					this.OnMAEFLIA_AÑOESTABLECChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_AÑOESTABLEC = value;
+					this.SendPropertyChanged("MAEFLIA_AÑOESTABLEC");
+					this.OnMAEFLIA_AÑOESTABLECChanged();
 				}
 			}
 		}
@@ -9742,7 +10908,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_TALLE != value))
 				{
+					this.OnMAEFLIA_TALLEChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_TALLE = value;
+					this.SendPropertyChanged("MAEFLIA_TALLE");
+					this.OnMAEFLIA_TALLEChanged();
 				}
 			}
 		}
@@ -9758,15 +10928,41 @@ namespace entrega_cupones
 			{
 				if ((this._MAEFLIA_NROCARNET != value))
 				{
+					this.OnMAEFLIA_NROCARNETChanging(value);
+					this.SendPropertyChanging();
 					this._MAEFLIA_NROCARNET = value;
+					this.SendPropertyChanged("MAEFLIA_NROCARNET");
+					this.OnMAEFLIA_NROCARNETChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.maesoc")]
-	public partial class maesoc
+	public partial class maesoc : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private double _MAESOC_CUIL;
 		
@@ -9858,11 +11054,108 @@ namespace entrega_cupones
 		
 		private string _MAESOC_USUMOD;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMAESOC_CUILChanging(double value);
+    partial void OnMAESOC_CUILChanged();
+    partial void OnMAESOC_APELLIDOChanging(string value);
+    partial void OnMAESOC_APELLIDOChanged();
+    partial void OnMAESOC_NOMBREChanging(string value);
+    partial void OnMAESOC_NOMBREChanged();
+    partial void OnMAESOC_TELChanging(string value);
+    partial void OnMAESOC_TELChanged();
+    partial void OnMAESOC_TELCELChanging(string value);
+    partial void OnMAESOC_TELCELChanged();
+    partial void OnMAESOC_FECHANACChanging(System.DateTime value);
+    partial void OnMAESOC_FECHANACChanged();
+    partial void OnMAESOC_CARGAFLIAChanging(short value);
+    partial void OnMAESOC_CARGAFLIAChanged();
+    partial void OnMAESOC_JUBILChanging(int value);
+    partial void OnMAESOC_JUBILChanged();
+    partial void OnMAESOC_PREDOCChanging(System.Nullable<byte> value);
+    partial void OnMAESOC_PREDOCChanged();
+    partial void OnMAESOC_FECHADOCChanging(System.DateTime value);
+    partial void OnMAESOC_FECHADOCChanged();
+    partial void OnMAESOC_CODCATChanging(short value);
+    partial void OnMAESOC_CODCATChanged();
+    partial void OnMAESOC_CODACTChanging(short value);
+    partial void OnMAESOC_CODACTChanged();
+    partial void OnMAESOC_TIPODOCChanging(int value);
+    partial void OnMAESOC_TIPODOCChanged();
+    partial void OnMAESOC_NRODOCChanging(string value);
+    partial void OnMAESOC_NRODOCChanged();
+    partial void OnMAESOC_GRUPOSANGChanging(int value);
+    partial void OnMAESOC_GRUPOSANGChanged();
+    partial void OnMAESOC_SEXOChanging(char value);
+    partial void OnMAESOC_SEXOChanged();
+    partial void OnMAESOC_ESTCIVChanging(char value);
+    partial void OnMAESOC_ESTCIVChanged();
+    partial void OnMAESOC_CODPROVChanging(char value);
+    partial void OnMAESOC_CODPROVChanged();
+    partial void OnMAESOC_CODLOCChanging(int value);
+    partial void OnMAESOC_CODLOCChanged();
+    partial void OnMAESOC_CODPOSChanging(string value);
+    partial void OnMAESOC_CODPOSChanged();
+    partial void OnMAESOC_BARRIOChanging(string value);
+    partial void OnMAESOC_BARRIOChanged();
+    partial void OnMAESOC_NACIONALIDADChanging(string value);
+    partial void OnMAESOC_NACIONALIDADChanged();
+    partial void OnMAESOC_CALLEChanging(string value);
+    partial void OnMAESOC_CALLEChanged();
+    partial void OnMAESOC_NROCALLEChanging(string value);
+    partial void OnMAESOC_NROCALLEChanged();
+    partial void OnMAESOC_PISOChanging(string value);
+    partial void OnMAESOC_PISOChanged();
+    partial void OnMAESOC_DTOChanging(string value);
+    partial void OnMAESOC_DTOChanged();
+    partial void OnMAESOC_CODOSMChanging(int value);
+    partial void OnMAESOC_CODOSMChanged();
+    partial void OnMAESOC_CODCONChanging(System.Nullable<int> value);
+    partial void OnMAESOC_CODCONChanged();
+    partial void OnMAESOC_NROAFILChanging(string value);
+    partial void OnMAESOC_NROAFILChanged();
+    partial void OnMAESOC_EMAILChanging(string value);
+    partial void OnMAESOC_EMAILChanged();
+    partial void OnMAESOC_EMAILLABChanging(string value);
+    partial void OnMAESOC_EMAILLABChanged();
+    partial void OnMAESOC_NROCARNETChanging(string value);
+    partial void OnMAESOC_NROCARNETChanged();
+    partial void OnMAESOC_IMPEST1Changing(string value);
+    partial void OnMAESOC_IMPEST1Changed();
+    partial void OnMAESOC_IMPEST2Changing(string value);
+    partial void OnMAESOC_IMPEST2Changed();
+    partial void OnMAESOC_IMPEST3Changing(string value);
+    partial void OnMAESOC_IMPEST3Changed();
+    partial void OnMAESOC_IMPEST4Changing(string value);
+    partial void OnMAESOC_IMPEST4Changed();
+    partial void OnMAESOC_IMPEST5Changing(string value);
+    partial void OnMAESOC_IMPEST5Changed();
+    partial void OnMAESOC_IMPEST6Changing(string value);
+    partial void OnMAESOC_IMPEST6Changed();
+    partial void OnMAESOC_DEBAUT_CBUChanging(string value);
+    partial void OnMAESOC_DEBAUT_CBUChanged();
+    partial void OnMAESOC_DEBAUT_MONTOChanging(double value);
+    partial void OnMAESOC_DEBAUT_MONTOChanged();
+    partial void OnMAESOC_ACTUALIZAChanging(System.Nullable<byte> value);
+    partial void OnMAESOC_ACTUALIZAChanged();
+    partial void OnMAESOC_DTOFARMACIAChanging(System.Nullable<int> value);
+    partial void OnMAESOC_DTOFARMACIAChanged();
+    partial void OnMAESOC_FECHAALTAChanging(System.DateTime value);
+    partial void OnMAESOC_FECHAALTAChanged();
+    partial void OnMAESOC_FECHAMODChanging(System.DateTime value);
+    partial void OnMAESOC_FECHAMODChanged();
+    partial void OnMAESOC_USUMODChanging(string value);
+    partial void OnMAESOC_USUMODChanged();
+    #endregion
+		
 		public maesoc()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAESOC_CUIL", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAESOC_CUIL", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double MAESOC_CUIL
 		{
 			get
@@ -9873,7 +11166,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CUIL != value))
 				{
+					this.OnMAESOC_CUILChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CUIL = value;
+					this.SendPropertyChanged("MAESOC_CUIL");
+					this.OnMAESOC_CUILChanged();
 				}
 			}
 		}
@@ -9889,7 +11186,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_APELLIDO != value))
 				{
+					this.OnMAESOC_APELLIDOChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_APELLIDO = value;
+					this.SendPropertyChanged("MAESOC_APELLIDO");
+					this.OnMAESOC_APELLIDOChanged();
 				}
 			}
 		}
@@ -9905,7 +11206,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_NOMBRE != value))
 				{
+					this.OnMAESOC_NOMBREChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_NOMBRE = value;
+					this.SendPropertyChanged("MAESOC_NOMBRE");
+					this.OnMAESOC_NOMBREChanged();
 				}
 			}
 		}
@@ -9921,7 +11226,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_TEL != value))
 				{
+					this.OnMAESOC_TELChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_TEL = value;
+					this.SendPropertyChanged("MAESOC_TEL");
+					this.OnMAESOC_TELChanged();
 				}
 			}
 		}
@@ -9937,7 +11246,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_TELCEL != value))
 				{
+					this.OnMAESOC_TELCELChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_TELCEL = value;
+					this.SendPropertyChanged("MAESOC_TELCEL");
+					this.OnMAESOC_TELCELChanged();
 				}
 			}
 		}
@@ -9953,7 +11266,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_FECHANAC != value))
 				{
+					this.OnMAESOC_FECHANACChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_FECHANAC = value;
+					this.SendPropertyChanged("MAESOC_FECHANAC");
+					this.OnMAESOC_FECHANACChanged();
 				}
 			}
 		}
@@ -9969,7 +11286,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CARGAFLIA != value))
 				{
+					this.OnMAESOC_CARGAFLIAChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CARGAFLIA = value;
+					this.SendPropertyChanged("MAESOC_CARGAFLIA");
+					this.OnMAESOC_CARGAFLIAChanged();
 				}
 			}
 		}
@@ -9985,7 +11306,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_JUBIL != value))
 				{
+					this.OnMAESOC_JUBILChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_JUBIL = value;
+					this.SendPropertyChanged("MAESOC_JUBIL");
+					this.OnMAESOC_JUBILChanged();
 				}
 			}
 		}
@@ -10001,7 +11326,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_PREDOC != value))
 				{
+					this.OnMAESOC_PREDOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_PREDOC = value;
+					this.SendPropertyChanged("MAESOC_PREDOC");
+					this.OnMAESOC_PREDOCChanged();
 				}
 			}
 		}
@@ -10017,7 +11346,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_FECHADOC != value))
 				{
+					this.OnMAESOC_FECHADOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_FECHADOC = value;
+					this.SendPropertyChanged("MAESOC_FECHADOC");
+					this.OnMAESOC_FECHADOCChanged();
 				}
 			}
 		}
@@ -10033,7 +11366,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODCAT != value))
 				{
+					this.OnMAESOC_CODCATChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODCAT = value;
+					this.SendPropertyChanged("MAESOC_CODCAT");
+					this.OnMAESOC_CODCATChanged();
 				}
 			}
 		}
@@ -10049,7 +11386,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODACT != value))
 				{
+					this.OnMAESOC_CODACTChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODACT = value;
+					this.SendPropertyChanged("MAESOC_CODACT");
+					this.OnMAESOC_CODACTChanged();
 				}
 			}
 		}
@@ -10065,7 +11406,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_TIPODOC != value))
 				{
+					this.OnMAESOC_TIPODOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_TIPODOC = value;
+					this.SendPropertyChanged("MAESOC_TIPODOC");
+					this.OnMAESOC_TIPODOCChanged();
 				}
 			}
 		}
@@ -10081,7 +11426,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_NRODOC != value))
 				{
+					this.OnMAESOC_NRODOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_NRODOC = value;
+					this.SendPropertyChanged("MAESOC_NRODOC");
+					this.OnMAESOC_NRODOCChanged();
 				}
 			}
 		}
@@ -10097,7 +11446,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_GRUPOSANG != value))
 				{
+					this.OnMAESOC_GRUPOSANGChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_GRUPOSANG = value;
+					this.SendPropertyChanged("MAESOC_GRUPOSANG");
+					this.OnMAESOC_GRUPOSANGChanged();
 				}
 			}
 		}
@@ -10113,7 +11466,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_SEXO != value))
 				{
+					this.OnMAESOC_SEXOChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_SEXO = value;
+					this.SendPropertyChanged("MAESOC_SEXO");
+					this.OnMAESOC_SEXOChanged();
 				}
 			}
 		}
@@ -10129,7 +11486,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_ESTCIV != value))
 				{
+					this.OnMAESOC_ESTCIVChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_ESTCIV = value;
+					this.SendPropertyChanged("MAESOC_ESTCIV");
+					this.OnMAESOC_ESTCIVChanged();
 				}
 			}
 		}
@@ -10145,7 +11506,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODPROV != value))
 				{
+					this.OnMAESOC_CODPROVChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODPROV = value;
+					this.SendPropertyChanged("MAESOC_CODPROV");
+					this.OnMAESOC_CODPROVChanged();
 				}
 			}
 		}
@@ -10161,7 +11526,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODLOC != value))
 				{
+					this.OnMAESOC_CODLOCChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODLOC = value;
+					this.SendPropertyChanged("MAESOC_CODLOC");
+					this.OnMAESOC_CODLOCChanged();
 				}
 			}
 		}
@@ -10177,7 +11546,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODPOS != value))
 				{
+					this.OnMAESOC_CODPOSChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODPOS = value;
+					this.SendPropertyChanged("MAESOC_CODPOS");
+					this.OnMAESOC_CODPOSChanged();
 				}
 			}
 		}
@@ -10193,7 +11566,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_BARRIO != value))
 				{
+					this.OnMAESOC_BARRIOChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_BARRIO = value;
+					this.SendPropertyChanged("MAESOC_BARRIO");
+					this.OnMAESOC_BARRIOChanged();
 				}
 			}
 		}
@@ -10209,7 +11586,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_NACIONALIDAD != value))
 				{
+					this.OnMAESOC_NACIONALIDADChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_NACIONALIDAD = value;
+					this.SendPropertyChanged("MAESOC_NACIONALIDAD");
+					this.OnMAESOC_NACIONALIDADChanged();
 				}
 			}
 		}
@@ -10225,7 +11606,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CALLE != value))
 				{
+					this.OnMAESOC_CALLEChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CALLE = value;
+					this.SendPropertyChanged("MAESOC_CALLE");
+					this.OnMAESOC_CALLEChanged();
 				}
 			}
 		}
@@ -10241,7 +11626,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_NROCALLE != value))
 				{
+					this.OnMAESOC_NROCALLEChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_NROCALLE = value;
+					this.SendPropertyChanged("MAESOC_NROCALLE");
+					this.OnMAESOC_NROCALLEChanged();
 				}
 			}
 		}
@@ -10257,7 +11646,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_PISO != value))
 				{
+					this.OnMAESOC_PISOChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_PISO = value;
+					this.SendPropertyChanged("MAESOC_PISO");
+					this.OnMAESOC_PISOChanged();
 				}
 			}
 		}
@@ -10273,7 +11666,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_DTO != value))
 				{
+					this.OnMAESOC_DTOChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_DTO = value;
+					this.SendPropertyChanged("MAESOC_DTO");
+					this.OnMAESOC_DTOChanged();
 				}
 			}
 		}
@@ -10289,7 +11686,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODOSM != value))
 				{
+					this.OnMAESOC_CODOSMChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODOSM = value;
+					this.SendPropertyChanged("MAESOC_CODOSM");
+					this.OnMAESOC_CODOSMChanged();
 				}
 			}
 		}
@@ -10305,7 +11706,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_CODCON != value))
 				{
+					this.OnMAESOC_CODCONChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_CODCON = value;
+					this.SendPropertyChanged("MAESOC_CODCON");
+					this.OnMAESOC_CODCONChanged();
 				}
 			}
 		}
@@ -10321,7 +11726,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_NROAFIL != value))
 				{
+					this.OnMAESOC_NROAFILChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_NROAFIL = value;
+					this.SendPropertyChanged("MAESOC_NROAFIL");
+					this.OnMAESOC_NROAFILChanged();
 				}
 			}
 		}
@@ -10337,7 +11746,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_EMAIL != value))
 				{
+					this.OnMAESOC_EMAILChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_EMAIL = value;
+					this.SendPropertyChanged("MAESOC_EMAIL");
+					this.OnMAESOC_EMAILChanged();
 				}
 			}
 		}
@@ -10353,7 +11766,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_EMAILLAB != value))
 				{
+					this.OnMAESOC_EMAILLABChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_EMAILLAB = value;
+					this.SendPropertyChanged("MAESOC_EMAILLAB");
+					this.OnMAESOC_EMAILLABChanged();
 				}
 			}
 		}
@@ -10369,7 +11786,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_NROCARNET != value))
 				{
+					this.OnMAESOC_NROCARNETChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_NROCARNET = value;
+					this.SendPropertyChanged("MAESOC_NROCARNET");
+					this.OnMAESOC_NROCARNETChanged();
 				}
 			}
 		}
@@ -10385,7 +11806,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_IMPEST1 != value))
 				{
+					this.OnMAESOC_IMPEST1Changing(value);
+					this.SendPropertyChanging();
 					this._MAESOC_IMPEST1 = value;
+					this.SendPropertyChanged("MAESOC_IMPEST1");
+					this.OnMAESOC_IMPEST1Changed();
 				}
 			}
 		}
@@ -10401,7 +11826,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_IMPEST2 != value))
 				{
+					this.OnMAESOC_IMPEST2Changing(value);
+					this.SendPropertyChanging();
 					this._MAESOC_IMPEST2 = value;
+					this.SendPropertyChanged("MAESOC_IMPEST2");
+					this.OnMAESOC_IMPEST2Changed();
 				}
 			}
 		}
@@ -10417,7 +11846,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_IMPEST3 != value))
 				{
+					this.OnMAESOC_IMPEST3Changing(value);
+					this.SendPropertyChanging();
 					this._MAESOC_IMPEST3 = value;
+					this.SendPropertyChanged("MAESOC_IMPEST3");
+					this.OnMAESOC_IMPEST3Changed();
 				}
 			}
 		}
@@ -10433,7 +11866,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_IMPEST4 != value))
 				{
+					this.OnMAESOC_IMPEST4Changing(value);
+					this.SendPropertyChanging();
 					this._MAESOC_IMPEST4 = value;
+					this.SendPropertyChanged("MAESOC_IMPEST4");
+					this.OnMAESOC_IMPEST4Changed();
 				}
 			}
 		}
@@ -10449,7 +11886,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_IMPEST5 != value))
 				{
+					this.OnMAESOC_IMPEST5Changing(value);
+					this.SendPropertyChanging();
 					this._MAESOC_IMPEST5 = value;
+					this.SendPropertyChanged("MAESOC_IMPEST5");
+					this.OnMAESOC_IMPEST5Changed();
 				}
 			}
 		}
@@ -10465,7 +11906,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_IMPEST6 != value))
 				{
+					this.OnMAESOC_IMPEST6Changing(value);
+					this.SendPropertyChanging();
 					this._MAESOC_IMPEST6 = value;
+					this.SendPropertyChanged("MAESOC_IMPEST6");
+					this.OnMAESOC_IMPEST6Changed();
 				}
 			}
 		}
@@ -10481,7 +11926,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_DEBAUT_CBU != value))
 				{
+					this.OnMAESOC_DEBAUT_CBUChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_DEBAUT_CBU = value;
+					this.SendPropertyChanged("MAESOC_DEBAUT_CBU");
+					this.OnMAESOC_DEBAUT_CBUChanged();
 				}
 			}
 		}
@@ -10497,7 +11946,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_DEBAUT_MONTO != value))
 				{
+					this.OnMAESOC_DEBAUT_MONTOChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_DEBAUT_MONTO = value;
+					this.SendPropertyChanged("MAESOC_DEBAUT_MONTO");
+					this.OnMAESOC_DEBAUT_MONTOChanged();
 				}
 			}
 		}
@@ -10513,7 +11966,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_ACTUALIZA != value))
 				{
+					this.OnMAESOC_ACTUALIZAChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_ACTUALIZA = value;
+					this.SendPropertyChanged("MAESOC_ACTUALIZA");
+					this.OnMAESOC_ACTUALIZAChanged();
 				}
 			}
 		}
@@ -10529,7 +11986,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_DTOFARMACIA != value))
 				{
+					this.OnMAESOC_DTOFARMACIAChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_DTOFARMACIA = value;
+					this.SendPropertyChanged("MAESOC_DTOFARMACIA");
+					this.OnMAESOC_DTOFARMACIAChanged();
 				}
 			}
 		}
@@ -10545,7 +12006,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_FECHAALTA != value))
 				{
+					this.OnMAESOC_FECHAALTAChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_FECHAALTA = value;
+					this.SendPropertyChanged("MAESOC_FECHAALTA");
+					this.OnMAESOC_FECHAALTAChanged();
 				}
 			}
 		}
@@ -10561,7 +12026,11 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_FECHAMOD != value))
 				{
+					this.OnMAESOC_FECHAMODChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_FECHAMOD = value;
+					this.SendPropertyChanged("MAESOC_FECHAMOD");
+					this.OnMAESOC_FECHAMODChanged();
 				}
 			}
 		}
@@ -10577,15 +12046,41 @@ namespace entrega_cupones
 			{
 				if ((this._MAESOC_USUMOD != value))
 				{
+					this.OnMAESOC_USUMODChanging(value);
+					this.SendPropertyChanging();
 					this._MAESOC_USUMOD = value;
+					this.SendPropertyChanged("MAESOC_USUMOD");
+					this.OnMAESOC_USUMODChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.soccen")]
-	public partial class soccen
+	public partial class soccen : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private double _SOCCEN_CUIL;
 		
@@ -10609,11 +12104,40 @@ namespace entrega_cupones
 		
 		private System.Nullable<byte> _SOCCEN_ACTUALIZA;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnSOCCEN_CUILChanging(double value);
+    partial void OnSOCCEN_CUILChanged();
+    partial void OnSOCCEN_ESTADOChanging(byte value);
+    partial void OnSOCCEN_ESTADOChanged();
+    partial void OnSOCCEN_CODIVAChanging(int value);
+    partial void OnSOCCEN_CODIVAChanged();
+    partial void OnSOCCEN_FEINGChanging(System.Nullable<System.DateTime> value);
+    partial void OnSOCCEN_FEINGChanged();
+    partial void OnSOCCEN_FEBAJAChanging(System.Nullable<System.DateTime> value);
+    partial void OnSOCCEN_FEBAJAChanged();
+    partial void OnSOCCEN_NRORESCOMDIRChanging(int value);
+    partial void OnSOCCEN_NRORESCOMDIRChanged();
+    partial void OnSOCCEN_CREDMAXChanging(long value);
+    partial void OnSOCCEN_CREDMAXChanged();
+    partial void OnSOCCEN_CONDCREDChanging(char value);
+    partial void OnSOCCEN_CONDCREDChanged();
+    partial void OnSOCCEN_SOCDIRChanging(byte value);
+    partial void OnSOCCEN_SOCDIRChanged();
+    partial void OnSOCCEN_DESPEDIDOChanging(byte value);
+    partial void OnSOCCEN_DESPEDIDOChanged();
+    partial void OnSOCCEN_ACTUALIZAChanging(System.Nullable<byte> value);
+    partial void OnSOCCEN_ACTUALIZAChanged();
+    #endregion
+		
 		public soccen()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCCEN_CUIL", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCCEN_CUIL", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double SOCCEN_CUIL
 		{
 			get
@@ -10624,7 +12148,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_CUIL != value))
 				{
+					this.OnSOCCEN_CUILChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_CUIL = value;
+					this.SendPropertyChanged("SOCCEN_CUIL");
+					this.OnSOCCEN_CUILChanged();
 				}
 			}
 		}
@@ -10640,7 +12168,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_ESTADO != value))
 				{
+					this.OnSOCCEN_ESTADOChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_ESTADO = value;
+					this.SendPropertyChanged("SOCCEN_ESTADO");
+					this.OnSOCCEN_ESTADOChanged();
 				}
 			}
 		}
@@ -10656,7 +12188,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_CODIVA != value))
 				{
+					this.OnSOCCEN_CODIVAChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_CODIVA = value;
+					this.SendPropertyChanged("SOCCEN_CODIVA");
+					this.OnSOCCEN_CODIVAChanged();
 				}
 			}
 		}
@@ -10672,7 +12208,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_FEING != value))
 				{
+					this.OnSOCCEN_FEINGChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_FEING = value;
+					this.SendPropertyChanged("SOCCEN_FEING");
+					this.OnSOCCEN_FEINGChanged();
 				}
 			}
 		}
@@ -10688,7 +12228,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_FEBAJA != value))
 				{
+					this.OnSOCCEN_FEBAJAChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_FEBAJA = value;
+					this.SendPropertyChanged("SOCCEN_FEBAJA");
+					this.OnSOCCEN_FEBAJAChanged();
 				}
 			}
 		}
@@ -10704,7 +12248,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_NRORESCOMDIR != value))
 				{
+					this.OnSOCCEN_NRORESCOMDIRChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_NRORESCOMDIR = value;
+					this.SendPropertyChanged("SOCCEN_NRORESCOMDIR");
+					this.OnSOCCEN_NRORESCOMDIRChanged();
 				}
 			}
 		}
@@ -10720,7 +12268,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_CREDMAX != value))
 				{
+					this.OnSOCCEN_CREDMAXChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_CREDMAX = value;
+					this.SendPropertyChanged("SOCCEN_CREDMAX");
+					this.OnSOCCEN_CREDMAXChanged();
 				}
 			}
 		}
@@ -10736,7 +12288,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_CONDCRED != value))
 				{
+					this.OnSOCCEN_CONDCREDChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_CONDCRED = value;
+					this.SendPropertyChanged("SOCCEN_CONDCRED");
+					this.OnSOCCEN_CONDCREDChanged();
 				}
 			}
 		}
@@ -10752,7 +12308,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_SOCDIR != value))
 				{
+					this.OnSOCCEN_SOCDIRChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_SOCDIR = value;
+					this.SendPropertyChanged("SOCCEN_SOCDIR");
+					this.OnSOCCEN_SOCDIRChanged();
 				}
 			}
 		}
@@ -10768,7 +12328,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_DESPEDIDO != value))
 				{
+					this.OnSOCCEN_DESPEDIDOChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_DESPEDIDO = value;
+					this.SendPropertyChanged("SOCCEN_DESPEDIDO");
+					this.OnSOCCEN_DESPEDIDOChanged();
 				}
 			}
 		}
@@ -10784,15 +12348,41 @@ namespace entrega_cupones
 			{
 				if ((this._SOCCEN_ACTUALIZA != value))
 				{
+					this.OnSOCCEN_ACTUALIZAChanging(value);
+					this.SendPropertyChanging();
 					this._SOCCEN_ACTUALIZA = value;
+					this.SendPropertyChanged("SOCCEN_ACTUALIZA");
+					this.OnSOCCEN_ACTUALIZAChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.socemp")]
-	public partial class socemp
+	public partial class socemp : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private double _SOCEMP_CUIL;
 		
@@ -10812,11 +12402,36 @@ namespace entrega_cupones
 		
 		private char _SOCEMP_ULT_EMPRESA;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnSOCEMP_CUILChanging(double value);
+    partial void OnSOCEMP_CUILChanged();
+    partial void OnSOCEMP_CUITEChanging(double value);
+    partial void OnSOCEMP_CUITEChanged();
+    partial void OnSOCEMP_ESTADOChanging(byte value);
+    partial void OnSOCEMP_ESTADOChanged();
+    partial void OnSOCEMP_FECHAINGChanging(System.DateTime value);
+    partial void OnSOCEMP_FECHAINGChanged();
+    partial void OnSOCEMP_FECHABAJAChanging(System.DateTime value);
+    partial void OnSOCEMP_FECHABAJAChanged();
+    partial void OnSOCEMP_CAUSABAJAChanging(char value);
+    partial void OnSOCEMP_CAUSABAJAChanged();
+    partial void OnSOCEMP_NROLEGChanging(string value);
+    partial void OnSOCEMP_NROLEGChanged();
+    partial void OnSOCEMP_SOCIOCENTROChanging(byte value);
+    partial void OnSOCEMP_SOCIOCENTROChanged();
+    partial void OnSOCEMP_ULT_EMPRESAChanging(char value);
+    partial void OnSOCEMP_ULT_EMPRESAChanged();
+    #endregion
+		
 		public socemp()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCEMP_CUIL", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCEMP_CUIL", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double SOCEMP_CUIL
 		{
 			get
@@ -10827,12 +12442,16 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_CUIL != value))
 				{
+					this.OnSOCEMP_CUILChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_CUIL = value;
+					this.SendPropertyChanged("SOCEMP_CUIL");
+					this.OnSOCEMP_CUILChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCEMP_CUITE", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCEMP_CUITE", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double SOCEMP_CUITE
 		{
 			get
@@ -10843,7 +12462,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_CUITE != value))
 				{
+					this.OnSOCEMP_CUITEChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_CUITE = value;
+					this.SendPropertyChanged("SOCEMP_CUITE");
+					this.OnSOCEMP_CUITEChanged();
 				}
 			}
 		}
@@ -10859,7 +12482,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_ESTADO != value))
 				{
+					this.OnSOCEMP_ESTADOChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_ESTADO = value;
+					this.SendPropertyChanged("SOCEMP_ESTADO");
+					this.OnSOCEMP_ESTADOChanged();
 				}
 			}
 		}
@@ -10875,7 +12502,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_FECHAING != value))
 				{
+					this.OnSOCEMP_FECHAINGChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_FECHAING = value;
+					this.SendPropertyChanged("SOCEMP_FECHAING");
+					this.OnSOCEMP_FECHAINGChanged();
 				}
 			}
 		}
@@ -10891,7 +12522,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_FECHABAJA != value))
 				{
+					this.OnSOCEMP_FECHABAJAChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_FECHABAJA = value;
+					this.SendPropertyChanged("SOCEMP_FECHABAJA");
+					this.OnSOCEMP_FECHABAJAChanged();
 				}
 			}
 		}
@@ -10907,7 +12542,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_CAUSABAJA != value))
 				{
+					this.OnSOCEMP_CAUSABAJAChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_CAUSABAJA = value;
+					this.SendPropertyChanged("SOCEMP_CAUSABAJA");
+					this.OnSOCEMP_CAUSABAJAChanged();
 				}
 			}
 		}
@@ -10923,7 +12562,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_NROLEG != value))
 				{
+					this.OnSOCEMP_NROLEGChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_NROLEG = value;
+					this.SendPropertyChanged("SOCEMP_NROLEG");
+					this.OnSOCEMP_NROLEGChanged();
 				}
 			}
 		}
@@ -10939,7 +12582,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_SOCIOCENTRO != value))
 				{
+					this.OnSOCEMP_SOCIOCENTROChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_SOCIOCENTRO = value;
+					this.SendPropertyChanged("SOCEMP_SOCIOCENTRO");
+					this.OnSOCEMP_SOCIOCENTROChanged();
 				}
 			}
 		}
@@ -10955,15 +12602,41 @@ namespace entrega_cupones
 			{
 				if ((this._SOCEMP_ULT_EMPRESA != value))
 				{
+					this.OnSOCEMP_ULT_EMPRESAChanging(value);
+					this.SendPropertyChanging();
 					this._SOCEMP_ULT_EMPRESA = value;
+					this.SendPropertyChanged("SOCEMP_ULT_EMPRESA");
+					this.OnSOCEMP_ULT_EMPRESAChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.socflia")]
-	public partial class socflia
+	public partial class socflia : INotifyPropertyChanging, INotifyPropertyChanged
 	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
 		
 		private double _SOCFLIA_CUIL;
 		
@@ -10973,11 +12646,26 @@ namespace entrega_cupones
 		
 		private int _SOCFLIA_PARENT;
 		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnSOCFLIA_CUILChanging(double value);
+    partial void OnSOCFLIA_CUILChanged();
+    partial void OnSOCFLIA_CODFLIARChanging(long value);
+    partial void OnSOCFLIA_CODFLIARChanged();
+    partial void OnSOCFLIA_ESTADOChanging(byte value);
+    partial void OnSOCFLIA_ESTADOChanged();
+    partial void OnSOCFLIA_PARENTChanging(int value);
+    partial void OnSOCFLIA_PARENTChanged();
+    #endregion
+		
 		public socflia()
 		{
+			OnCreated();
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCFLIA_CUIL", DbType="Float NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCFLIA_CUIL", DbType="Float NOT NULL", IsPrimaryKey=true)]
 		public double SOCFLIA_CUIL
 		{
 			get
@@ -10988,12 +12676,16 @@ namespace entrega_cupones
 			{
 				if ((this._SOCFLIA_CUIL != value))
 				{
+					this.OnSOCFLIA_CUILChanging(value);
+					this.SendPropertyChanging();
 					this._SOCFLIA_CUIL = value;
+					this.SendPropertyChanged("SOCFLIA_CUIL");
+					this.OnSOCFLIA_CUILChanged();
 				}
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCFLIA_CODFLIAR", DbType="BigInt NOT NULL")]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SOCFLIA_CODFLIAR", DbType="BigInt NOT NULL", IsPrimaryKey=true)]
 		public long SOCFLIA_CODFLIAR
 		{
 			get
@@ -11004,7 +12696,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCFLIA_CODFLIAR != value))
 				{
+					this.OnSOCFLIA_CODFLIARChanging(value);
+					this.SendPropertyChanging();
 					this._SOCFLIA_CODFLIAR = value;
+					this.SendPropertyChanged("SOCFLIA_CODFLIAR");
+					this.OnSOCFLIA_CODFLIARChanged();
 				}
 			}
 		}
@@ -11020,7 +12716,11 @@ namespace entrega_cupones
 			{
 				if ((this._SOCFLIA_ESTADO != value))
 				{
+					this.OnSOCFLIA_ESTADOChanging(value);
+					this.SendPropertyChanging();
 					this._SOCFLIA_ESTADO = value;
+					this.SendPropertyChanged("SOCFLIA_ESTADO");
+					this.OnSOCFLIA_ESTADOChanged();
 				}
 			}
 		}
@@ -11036,8 +12736,478 @@ namespace entrega_cupones
 			{
 				if ((this._SOCFLIA_PARENT != value))
 				{
+					this.OnSOCFLIA_PARENTChanging(value);
+					this.SendPropertyChanging();
 					this._SOCFLIA_PARENT = value;
+					this.SendPropertyChanged("SOCFLIA_PARENT");
+					this.OnSOCFLIA_PARENTChanged();
 				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="fotos_.maeemp")]
+	public partial class maeemp : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private double _MAEEMP_CUIT;
+		
+		private string _MAEEMP_NOMFAN;
+		
+		private string _MAEEMP_RAZSOC;
+		
+		private string _MAEEMP_CALLE;
+		
+		private string _MAEEMP_NRO;
+		
+		private System.Nullable<char> _MAEEMP_CODPROV;
+		
+		private System.Nullable<int> _MAEEMP_CODLOC;
+		
+		private string _MAEEMP_CODPOS;
+		
+		private string _MAEEMP_TEL;
+		
+		private string _MAEEMP_EMAIL;
+		
+		private System.Nullable<long> _MAEEMP_CREDMAX;
+		
+		private System.Nullable<char> _MAEEMP_CONDCRED;
+		
+		private System.Nullable<byte> _MAEEMP_ACTUALIZA;
+		
+		private string _MAEEMP_ESTUDIO_CONTACTO;
+		
+		private string _MAEEMP_ESTUDIO_TEL;
+		
+		private string _MAEEMP_ESTUDIO_EMAIL;
+		
+		private string _MEEMP_CUIT_STR;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMAEEMP_CUITChanging(double value);
+    partial void OnMAEEMP_CUITChanged();
+    partial void OnMAEEMP_NOMFANChanging(string value);
+    partial void OnMAEEMP_NOMFANChanged();
+    partial void OnMAEEMP_RAZSOCChanging(string value);
+    partial void OnMAEEMP_RAZSOCChanged();
+    partial void OnMAEEMP_CALLEChanging(string value);
+    partial void OnMAEEMP_CALLEChanged();
+    partial void OnMAEEMP_NROChanging(string value);
+    partial void OnMAEEMP_NROChanged();
+    partial void OnMAEEMP_CODPROVChanging(System.Nullable<char> value);
+    partial void OnMAEEMP_CODPROVChanged();
+    partial void OnMAEEMP_CODLOCChanging(System.Nullable<int> value);
+    partial void OnMAEEMP_CODLOCChanged();
+    partial void OnMAEEMP_CODPOSChanging(string value);
+    partial void OnMAEEMP_CODPOSChanged();
+    partial void OnMAEEMP_TELChanging(string value);
+    partial void OnMAEEMP_TELChanged();
+    partial void OnMAEEMP_EMAILChanging(string value);
+    partial void OnMAEEMP_EMAILChanged();
+    partial void OnMAEEMP_CREDMAXChanging(System.Nullable<long> value);
+    partial void OnMAEEMP_CREDMAXChanged();
+    partial void OnMAEEMP_CONDCREDChanging(System.Nullable<char> value);
+    partial void OnMAEEMP_CONDCREDChanged();
+    partial void OnMAEEMP_ACTUALIZAChanging(System.Nullable<byte> value);
+    partial void OnMAEEMP_ACTUALIZAChanged();
+    partial void OnMAEEMP_ESTUDIO_CONTACTOChanging(string value);
+    partial void OnMAEEMP_ESTUDIO_CONTACTOChanged();
+    partial void OnMAEEMP_ESTUDIO_TELChanging(string value);
+    partial void OnMAEEMP_ESTUDIO_TELChanged();
+    partial void OnMAEEMP_ESTUDIO_EMAILChanging(string value);
+    partial void OnMAEEMP_ESTUDIO_EMAILChanged();
+    partial void OnMEEMP_CUIT_STRChanging(string value);
+    partial void OnMEEMP_CUIT_STRChanged();
+    #endregion
+		
+		public maeemp()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CUIT", DbType="Float NOT NULL", IsPrimaryKey=true)]
+		public double MAEEMP_CUIT
+		{
+			get
+			{
+				return this._MAEEMP_CUIT;
+			}
+			set
+			{
+				if ((this._MAEEMP_CUIT != value))
+				{
+					this.OnMAEEMP_CUITChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CUIT = value;
+					this.SendPropertyChanged("MAEEMP_CUIT");
+					this.OnMAEEMP_CUITChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_NOMFAN", DbType="Char(50) NOT NULL", CanBeNull=false)]
+		public string MAEEMP_NOMFAN
+		{
+			get
+			{
+				return this._MAEEMP_NOMFAN;
+			}
+			set
+			{
+				if ((this._MAEEMP_NOMFAN != value))
+				{
+					this.OnMAEEMP_NOMFANChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_NOMFAN = value;
+					this.SendPropertyChanged("MAEEMP_NOMFAN");
+					this.OnMAEEMP_NOMFANChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_RAZSOC", DbType="Char(50) NOT NULL", CanBeNull=false)]
+		public string MAEEMP_RAZSOC
+		{
+			get
+			{
+				return this._MAEEMP_RAZSOC;
+			}
+			set
+			{
+				if ((this._MAEEMP_RAZSOC != value))
+				{
+					this.OnMAEEMP_RAZSOCChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_RAZSOC = value;
+					this.SendPropertyChanged("MAEEMP_RAZSOC");
+					this.OnMAEEMP_RAZSOCChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CALLE", DbType="Char(50) NOT NULL", CanBeNull=false)]
+		public string MAEEMP_CALLE
+		{
+			get
+			{
+				return this._MAEEMP_CALLE;
+			}
+			set
+			{
+				if ((this._MAEEMP_CALLE != value))
+				{
+					this.OnMAEEMP_CALLEChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CALLE = value;
+					this.SendPropertyChanged("MAEEMP_CALLE");
+					this.OnMAEEMP_CALLEChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_NRO", DbType="Char(6) NOT NULL", CanBeNull=false)]
+		public string MAEEMP_NRO
+		{
+			get
+			{
+				return this._MAEEMP_NRO;
+			}
+			set
+			{
+				if ((this._MAEEMP_NRO != value))
+				{
+					this.OnMAEEMP_NROChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_NRO = value;
+					this.SendPropertyChanged("MAEEMP_NRO");
+					this.OnMAEEMP_NROChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CODPROV", DbType="Char(1)")]
+		public System.Nullable<char> MAEEMP_CODPROV
+		{
+			get
+			{
+				return this._MAEEMP_CODPROV;
+			}
+			set
+			{
+				if ((this._MAEEMP_CODPROV != value))
+				{
+					this.OnMAEEMP_CODPROVChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CODPROV = value;
+					this.SendPropertyChanged("MAEEMP_CODPROV");
+					this.OnMAEEMP_CODPROVChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CODLOC", DbType="Int")]
+		public System.Nullable<int> MAEEMP_CODLOC
+		{
+			get
+			{
+				return this._MAEEMP_CODLOC;
+			}
+			set
+			{
+				if ((this._MAEEMP_CODLOC != value))
+				{
+					this.OnMAEEMP_CODLOCChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CODLOC = value;
+					this.SendPropertyChanged("MAEEMP_CODLOC");
+					this.OnMAEEMP_CODLOCChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CODPOS", DbType="Char(10)")]
+		public string MAEEMP_CODPOS
+		{
+			get
+			{
+				return this._MAEEMP_CODPOS;
+			}
+			set
+			{
+				if ((this._MAEEMP_CODPOS != value))
+				{
+					this.OnMAEEMP_CODPOSChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CODPOS = value;
+					this.SendPropertyChanged("MAEEMP_CODPOS");
+					this.OnMAEEMP_CODPOSChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_TEL", DbType="Char(20)")]
+		public string MAEEMP_TEL
+		{
+			get
+			{
+				return this._MAEEMP_TEL;
+			}
+			set
+			{
+				if ((this._MAEEMP_TEL != value))
+				{
+					this.OnMAEEMP_TELChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_TEL = value;
+					this.SendPropertyChanged("MAEEMP_TEL");
+					this.OnMAEEMP_TELChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_EMAIL", DbType="Char(40)")]
+		public string MAEEMP_EMAIL
+		{
+			get
+			{
+				return this._MAEEMP_EMAIL;
+			}
+			set
+			{
+				if ((this._MAEEMP_EMAIL != value))
+				{
+					this.OnMAEEMP_EMAILChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_EMAIL = value;
+					this.SendPropertyChanged("MAEEMP_EMAIL");
+					this.OnMAEEMP_EMAILChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CREDMAX", DbType="BigInt")]
+		public System.Nullable<long> MAEEMP_CREDMAX
+		{
+			get
+			{
+				return this._MAEEMP_CREDMAX;
+			}
+			set
+			{
+				if ((this._MAEEMP_CREDMAX != value))
+				{
+					this.OnMAEEMP_CREDMAXChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CREDMAX = value;
+					this.SendPropertyChanged("MAEEMP_CREDMAX");
+					this.OnMAEEMP_CREDMAXChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_CONDCRED", DbType="Char(1)")]
+		public System.Nullable<char> MAEEMP_CONDCRED
+		{
+			get
+			{
+				return this._MAEEMP_CONDCRED;
+			}
+			set
+			{
+				if ((this._MAEEMP_CONDCRED != value))
+				{
+					this.OnMAEEMP_CONDCREDChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_CONDCRED = value;
+					this.SendPropertyChanged("MAEEMP_CONDCRED");
+					this.OnMAEEMP_CONDCREDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ACTUALIZA", DbType="TinyInt")]
+		public System.Nullable<byte> MAEEMP_ACTUALIZA
+		{
+			get
+			{
+				return this._MAEEMP_ACTUALIZA;
+			}
+			set
+			{
+				if ((this._MAEEMP_ACTUALIZA != value))
+				{
+					this.OnMAEEMP_ACTUALIZAChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_ACTUALIZA = value;
+					this.SendPropertyChanged("MAEEMP_ACTUALIZA");
+					this.OnMAEEMP_ACTUALIZAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ESTUDIO_CONTACTO", DbType="Char(40)")]
+		public string MAEEMP_ESTUDIO_CONTACTO
+		{
+			get
+			{
+				return this._MAEEMP_ESTUDIO_CONTACTO;
+			}
+			set
+			{
+				if ((this._MAEEMP_ESTUDIO_CONTACTO != value))
+				{
+					this.OnMAEEMP_ESTUDIO_CONTACTOChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_ESTUDIO_CONTACTO = value;
+					this.SendPropertyChanged("MAEEMP_ESTUDIO_CONTACTO");
+					this.OnMAEEMP_ESTUDIO_CONTACTOChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ESTUDIO_TEL", DbType="Char(20)")]
+		public string MAEEMP_ESTUDIO_TEL
+		{
+			get
+			{
+				return this._MAEEMP_ESTUDIO_TEL;
+			}
+			set
+			{
+				if ((this._MAEEMP_ESTUDIO_TEL != value))
+				{
+					this.OnMAEEMP_ESTUDIO_TELChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_ESTUDIO_TEL = value;
+					this.SendPropertyChanged("MAEEMP_ESTUDIO_TEL");
+					this.OnMAEEMP_ESTUDIO_TELChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MAEEMP_ESTUDIO_EMAIL", DbType="Char(40)")]
+		public string MAEEMP_ESTUDIO_EMAIL
+		{
+			get
+			{
+				return this._MAEEMP_ESTUDIO_EMAIL;
+			}
+			set
+			{
+				if ((this._MAEEMP_ESTUDIO_EMAIL != value))
+				{
+					this.OnMAEEMP_ESTUDIO_EMAILChanging(value);
+					this.SendPropertyChanging();
+					this._MAEEMP_ESTUDIO_EMAIL = value;
+					this.SendPropertyChanged("MAEEMP_ESTUDIO_EMAIL");
+					this.OnMAEEMP_ESTUDIO_EMAILChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MEEMP_CUIT_STR", DbType="VarChar(50)")]
+		public string MEEMP_CUIT_STR
+		{
+			get
+			{
+				return this._MEEMP_CUIT_STR;
+			}
+			set
+			{
+				if ((this._MEEMP_CUIT_STR != value))
+				{
+					this.OnMEEMP_CUIT_STRChanging(value);
+					this.SendPropertyChanging();
+					this._MEEMP_CUIT_STR = value;
+					this.SendPropertyChanged("MEEMP_CUIT_STR");
+					this.OnMEEMP_CUIT_STRChanged();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
 	}
@@ -11156,6 +13326,16 @@ namespace entrega_cupones
 		
 		private System.Nullable<decimal> _total;
 		
+		private System.Nullable<System.DateTime> _fecha1;
+		
+		private System.Nullable<System.DateTime> _fecha2;
+		
+		private System.Nullable<System.DateTime> _fecha3;
+		
+		private System.Nullable<System.DateTime> _fecha4;
+		
+		private System.Nullable<System.DateTime> _fecha5;
+		
     #region Definiciones de métodos de extensibilidad
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -11268,6 +13448,16 @@ namespace entrega_cupones
     partial void OninteresChanged();
     partial void OntotalChanging(System.Nullable<decimal> value);
     partial void OntotalChanged();
+    partial void Onfecha1Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha1Changed();
+    partial void Onfecha2Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha2Changed();
+    partial void Onfecha3Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha3Changed();
+    partial void Onfecha4Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha4Changed();
+    partial void Onfecha5Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha5Changed();
     #endregion
 		
 		public impresion_comprobante()
@@ -12351,6 +14541,456 @@ namespace entrega_cupones
 					this._total = value;
 					this.SendPropertyChanged("total");
 					this.OntotalChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha1", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha1
+		{
+			get
+			{
+				return this._fecha1;
+			}
+			set
+			{
+				if ((this._fecha1 != value))
+				{
+					this.Onfecha1Changing(value);
+					this.SendPropertyChanging();
+					this._fecha1 = value;
+					this.SendPropertyChanged("fecha1");
+					this.Onfecha1Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha2", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha2
+		{
+			get
+			{
+				return this._fecha2;
+			}
+			set
+			{
+				if ((this._fecha2 != value))
+				{
+					this.Onfecha2Changing(value);
+					this.SendPropertyChanging();
+					this._fecha2 = value;
+					this.SendPropertyChanged("fecha2");
+					this.Onfecha2Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha3", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha3
+		{
+			get
+			{
+				return this._fecha3;
+			}
+			set
+			{
+				if ((this._fecha3 != value))
+				{
+					this.Onfecha3Changing(value);
+					this.SendPropertyChanging();
+					this._fecha3 = value;
+					this.SendPropertyChanged("fecha3");
+					this.Onfecha3Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha4", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha4
+		{
+			get
+			{
+				return this._fecha4;
+			}
+			set
+			{
+				if ((this._fecha4 != value))
+				{
+					this.Onfecha4Changing(value);
+					this.SendPropertyChanging();
+					this._fecha4 = value;
+					this.SendPropertyChanged("fecha4");
+					this.Onfecha4Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha5", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha5
+		{
+			get
+			{
+				return this._fecha5;
+			}
+			set
+			{
+				if ((this._fecha5 != value))
+				{
+					this.Onfecha5Changing(value);
+					this.SendPropertyChanging();
+					this._fecha5 = value;
+					this.SendPropertyChanged("fecha5");
+					this.Onfecha5Changed();
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.impresion_actas")]
+	public partial class impresion_actas : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _id_impresion_actas;
+		
+		private string _acta;
+		
+		private System.Nullable<decimal> _importe;
+		
+		private string _desde;
+		
+		private string _hasta;
+		
+		private string _inspector;
+		
+		private string _cobrado;
+		
+		private System.Nullable<System.DateTime> _fecha1;
+		
+		private System.Nullable<System.DateTime> _fecha2;
+		
+		private System.Nullable<System.DateTime> _fecha3;
+		
+		private System.Nullable<decimal> _num1;
+		
+		private System.Nullable<decimal> _num2;
+		
+		private System.Nullable<decimal> _num3;
+		
+    #region Definiciones de métodos de extensibilidad
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void Onid_impresion_actasChanging(int value);
+    partial void Onid_impresion_actasChanged();
+    partial void OnactaChanging(string value);
+    partial void OnactaChanged();
+    partial void OnimporteChanging(System.Nullable<decimal> value);
+    partial void OnimporteChanged();
+    partial void OndesdeChanging(string value);
+    partial void OndesdeChanged();
+    partial void OnhastaChanging(string value);
+    partial void OnhastaChanged();
+    partial void OninspectorChanging(string value);
+    partial void OninspectorChanged();
+    partial void OncobradoChanging(string value);
+    partial void OncobradoChanged();
+    partial void Onfecha1Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha1Changed();
+    partial void Onfecha2Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha2Changed();
+    partial void Onfecha3Changing(System.Nullable<System.DateTime> value);
+    partial void Onfecha3Changed();
+    partial void Onnum1Changing(System.Nullable<decimal> value);
+    partial void Onnum1Changed();
+    partial void Onnum2Changing(System.Nullable<decimal> value);
+    partial void Onnum2Changed();
+    partial void Onnum3Changing(System.Nullable<decimal> value);
+    partial void Onnum3Changed();
+    #endregion
+		
+		public impresion_actas()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_id_impresion_actas", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int id_impresion_actas
+		{
+			get
+			{
+				return this._id_impresion_actas;
+			}
+			set
+			{
+				if ((this._id_impresion_actas != value))
+				{
+					this.Onid_impresion_actasChanging(value);
+					this.SendPropertyChanging();
+					this._id_impresion_actas = value;
+					this.SendPropertyChanged("id_impresion_actas");
+					this.Onid_impresion_actasChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_acta", DbType="VarChar(5)")]
+		public string acta
+		{
+			get
+			{
+				return this._acta;
+			}
+			set
+			{
+				if ((this._acta != value))
+				{
+					this.OnactaChanging(value);
+					this.SendPropertyChanging();
+					this._acta = value;
+					this.SendPropertyChanged("acta");
+					this.OnactaChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_importe", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> importe
+		{
+			get
+			{
+				return this._importe;
+			}
+			set
+			{
+				if ((this._importe != value))
+				{
+					this.OnimporteChanging(value);
+					this.SendPropertyChanging();
+					this._importe = value;
+					this.SendPropertyChanged("importe");
+					this.OnimporteChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_desde", DbType="VarChar(20)")]
+		public string desde
+		{
+			get
+			{
+				return this._desde;
+			}
+			set
+			{
+				if ((this._desde != value))
+				{
+					this.OndesdeChanging(value);
+					this.SendPropertyChanging();
+					this._desde = value;
+					this.SendPropertyChanged("desde");
+					this.OndesdeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_hasta", DbType="VarChar(20)")]
+		public string hasta
+		{
+			get
+			{
+				return this._hasta;
+			}
+			set
+			{
+				if ((this._hasta != value))
+				{
+					this.OnhastaChanging(value);
+					this.SendPropertyChanging();
+					this._hasta = value;
+					this.SendPropertyChanged("hasta");
+					this.OnhastaChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_inspector", DbType="VarChar(30)")]
+		public string inspector
+		{
+			get
+			{
+				return this._inspector;
+			}
+			set
+			{
+				if ((this._inspector != value))
+				{
+					this.OninspectorChanging(value);
+					this.SendPropertyChanging();
+					this._inspector = value;
+					this.SendPropertyChanged("inspector");
+					this.OninspectorChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_cobrado", DbType="VarChar(2)")]
+		public string cobrado
+		{
+			get
+			{
+				return this._cobrado;
+			}
+			set
+			{
+				if ((this._cobrado != value))
+				{
+					this.OncobradoChanging(value);
+					this.SendPropertyChanging();
+					this._cobrado = value;
+					this.SendPropertyChanged("cobrado");
+					this.OncobradoChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha1", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha1
+		{
+			get
+			{
+				return this._fecha1;
+			}
+			set
+			{
+				if ((this._fecha1 != value))
+				{
+					this.Onfecha1Changing(value);
+					this.SendPropertyChanging();
+					this._fecha1 = value;
+					this.SendPropertyChanged("fecha1");
+					this.Onfecha1Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha2", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha2
+		{
+			get
+			{
+				return this._fecha2;
+			}
+			set
+			{
+				if ((this._fecha2 != value))
+				{
+					this.Onfecha2Changing(value);
+					this.SendPropertyChanging();
+					this._fecha2 = value;
+					this.SendPropertyChanged("fecha2");
+					this.Onfecha2Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fecha3", DbType="DateTime")]
+		public System.Nullable<System.DateTime> fecha3
+		{
+			get
+			{
+				return this._fecha3;
+			}
+			set
+			{
+				if ((this._fecha3 != value))
+				{
+					this.Onfecha3Changing(value);
+					this.SendPropertyChanging();
+					this._fecha3 = value;
+					this.SendPropertyChanged("fecha3");
+					this.Onfecha3Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_num1", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> num1
+		{
+			get
+			{
+				return this._num1;
+			}
+			set
+			{
+				if ((this._num1 != value))
+				{
+					this.Onnum1Changing(value);
+					this.SendPropertyChanging();
+					this._num1 = value;
+					this.SendPropertyChanged("num1");
+					this.Onnum1Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_num2", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> num2
+		{
+			get
+			{
+				return this._num2;
+			}
+			set
+			{
+				if ((this._num2 != value))
+				{
+					this.Onnum2Changing(value);
+					this.SendPropertyChanging();
+					this._num2 = value;
+					this.SendPropertyChanged("num2");
+					this.Onnum2Changed();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_num3", DbType="Decimal(18,2)")]
+		public System.Nullable<decimal> num3
+		{
+			get
+			{
+				return this._num3;
+			}
+			set
+			{
+				if ((this._num3 != value))
+				{
+					this.Onnum3Changing(value);
+					this.SendPropertyChanging();
+					this._num3 = value;
+					this.SendPropertyChanged("num3");
+					this.Onnum3Changed();
 				}
 			}
 		}
